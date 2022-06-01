@@ -1,0 +1,43 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="preface">
+
+<title>Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78763</md:content-id>
+  <md:title>Preface</md:title>
+  <md:abstract/>
+  <md:uuid>74965a7e-2630-4497-b4be-b1d3bdd6c614</md:uuid>
+</metadata>
+
+<content class="preface">
+  <para id="delete_me">This collection is intended for use with a Co-requisite course, pairing a concurrent MAT 1023 - College Algebra (TCCN MAT 1314) with an NCBO (Non-Course Based Option) support course.  This book is designed to supplement the MAT materials and provide a free, opensource option for students to reference in the NCB support course. 
+<newline/><newline/>
+The arrangement of materials within the modules is structured to support the Lessons covered in the MAT course. As a result the sequence may appear odd compared to a traditional developmental math textbook. 
+<newline/><newline/>
+This book utilizes topics from modules in  OpenStax PreAlgebra, Intermediate Algebra, and College Algebra collections. This collection is intended for developmental students taking a Co-requisite course in math intended for a stem degree pathway.</para><section id="fs-id1165926561504">
+<title>Coverage and Scope</title>
+<para id="fs-id1165926737424">By design, the support course in our Co-requisite model emphasizes "Just-in-time" support of topics discussed in the related math course. It is not meant to be a complete review of all topics from earlier developmental math courses like Elementary or Intermediate Algebra. As a result, each chapter is arranged to review only those topics needed to understand concepts discussed in the specific math course chapter it supports. The material is presented as a sequence of modules tied to Lesson chapters of the MAT 1023 course. I.e. Module 1 supports section 1.1 of MAT 1023. The order of topics was carefully planned to support progression throughout the course (by providing foundational concepts related to the Lesson Topics, and/or previewing material for Lessons), and to facilitate a thorough understanding of each concept. </para><list id="fs-id1165926710568" list-type="bulleted" bullet-style="none"><item><emphasis effect="bold">Chapter 1: Pre-knowledge Concepts</emphasis><newline/>
+Chapter 1 reviews arithmetic operations with fractions, decimals and real numbers, and concepts of exponents, radicals, polynomials, and rational expresssions to give the student a solid base that will support their study of algebra.</item>
+<item><emphasis effect="bold">Chapter 2: Equations and Inequalities</emphasis><newline/>
+In Chapter 2, students will review topics related to graphing basics, linear equations, complex numbers and other types of equations.  </item>
+<item><emphasis effect="bold">Chapter 3: Functions and Graphs </emphasis><newline/>
+Chapter 3 covers the basics of Functions, slope, and transformations/composition of functions. </item>
+<item><emphasis effect="bold">Chapter 4: Polynomial Functions </emphasis><newline/>
+Chapter 4 covers Quadratic and Polynomial functions, as well as introduces polynomial division.</item>
+<item><emphasis effect="bold">Chapter 5: Exponential and Logarithmic Functions</emphasis><newline/>
+In Chapter 5, students learn concepts related to working with logs and exponential functions. </item>
+<item><emphasis effect="bold">Chapter 6: Systems of Equations</emphasis><newline/>
+In Chapter 6, students learn about the basics of systems of linear equations and inequalities. </item>
+
+
+
+</list><para id="fs-id1165926770079">All chapters incorporate multiple topics, the titles of which can be viewed in the <emphasis effect="bold">Topics Covered</emphasis> box at the start of each module.</para></section>
+<section id="fs-id1165924264981">
+<title>About the Authors</title>
+<section id="fs-id1166401048777" class="sr-contrib-auth">
+<title>Contributing Authors</title>
+<para id="fs-id1165926653414"><emphasis effect="bold">Elizabeth Pople, University of Texas San Antonio</emphasis></para>
+<para id="eip-021">Elizabeth Pople is the Program Coordinator for Non-Course Based Instruction at the University of Texas at San Antonio. At UTSA, she has worked with the NCB Program for over eight years. She is a member of the Developmental Education Task Force.</para><para id="eip-023"><emphasis effect="bold">Amanda Towry, University of Texas San antonio</emphasis></para>
+<para id="eip-024">Amanda Towry has a Master's in Education, and has worked with the NCB Program providing class facilitation and tutoring. </para></section></section>
+
+</content>
+</document>

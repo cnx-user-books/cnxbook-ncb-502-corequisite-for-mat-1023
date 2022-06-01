@@ -1,0 +1,2414 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Polynomials (P4)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78773</md:content-id>
+  <md:title>Polynomials (P4)</md:title>
+  <md:abstract>In this section students will:
+<list>
+<item>Identify the degree and leading coefficient of polynomials.</item>
+<item>Add and subtract polynomials.</item>
+<item>Multiply polynomials.</item>
+<item>Use FOIL to multiply binomials.</item>
+<item>Perform operations with polynomials of several variables.</item>
+</list></md:abstract>
+  <md:uuid>e2c5a928-a617-40f1-b88a-c3c980f5cef4</md:uuid>
+</metadata>
+
+<content>
+
+<note id="eip-715"><para id="fs-id1169147087020">This Module supports section <emphasis> P4 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Identify Degree and Leading Coefficient of Polynomials <link target-id="fs-id1167339226748" document=""/></item>
+<item>Add, Subtract Polynomials <link target-id="fs-id1167339243781" document=""/></item>
+<item>Multiply Polynomials<link target-id="fs-id1167339214258" document=""/></item>
+<item>Multiply Polynomials, Distributive Property<link target-id="fs-id1167339198311" document=""/></item>
+<item>Use FOIL for Multiply Binomials <link target-id="fs-id1167339243382" document=""/></item>
+<item>Binomial Squares <link target-id="fs-id1167339428910" document=""/></item>
+<item>Polynomials of Several Variables <link target-id="fs-id1167339138125" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167339242305" document=""/></item></list></note><section id="fs-id1167339226748">
+<title>Identifying the Degree and Leading Coefficient of Polynomials</title>
+<para id="eip-64">We have learned that a <emphasis effect="italics">term</emphasis> is a constant or the product of a constant and one or more variables. A <term>monomial</term> is an algebraic expression with one term. When it is of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number, it is called a monomial in one variable. Some examples of monomial in one variable are. Monomials can also have more than one variable such as and <m:math><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para><note id="eip-369"><para id="fs-id1167836481441"><emphasis effect="bold">polynomial</emphasis>—A monomial, or two or more algebraic terms combined by addition or subtraction is a polynomial.</para>
+<para id="fs-id1167829628029"><emphasis effect="bold">monomial</emphasis>—A polynomial with exactly one term is called a monomial.</para>
+<para id="fs-id1167829720442"><emphasis effect="bold">binomial</emphasis>—A polynomial with exactly two terms is called a binomial.</para>
+<para id="fs-id1167836510464"><emphasis effect="bold">trinomial</emphasis>—A polynomial with exactly three terms is called a trinomial.</para>
+</note><para id="eip-439">Here are some examples of polynomials.
+<table id="fs-id1167829661616" class="unnumbered" summary="This table has five columns and four rows. The first row is for polynomials and lists three examples: y plus 1, 4 a squared minus 7 a b plus 2 b squared, 4 x to the fourth power plus x cubed plus 8 x squared minus 9 x plus 1. The second row is for monomials and lists four examples: 14, 8 y squared, minus 9 x cubed y to the fifth power, and negative 12 a cubed b squared c. The third row is for binomials and lists four examples: a plus 7 b, 4 x square minus y squared, y squared minus 16, and 3 p cubed q minus 9 p squared q. The fourth row is for trinomials and list four examples: x squared minus 7 x plus 12, 9 m squared plus 2 mn minus 8 n squared, 6 k to the fourth power minus k cubed plus 8 k, and z to the fourth power plus 3z squared minus 1.">
+<label/>
+<tgroup cols="5">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<colspec colname="c5" colnum="5"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Polynomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Monomial</entry>
+<entry valign="top" align="left">14</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−9</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−13</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>c</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Binomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trinomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>k</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para><para id="eip-598">The <term>degree of a polynomial</term> and the degree of its terms are determined by the exponents of the variable.
+A monomial that has no variable, just a <term>constant</term>, is a special case. The <term>degree of a constant</term> is then 0. In the table above, the example of monomial "14" would have a degree of 0. </para><note id="eip-11"><para id="fs-id1167832951084">The <emphasis effect="bold">degree of a term</emphasis> is the sum of the exponents of its variables.</para>
+<para id="fs-id1167833021780">The <emphasis effect="bold">degree of a constant</emphasis> is 0.</para>
+<para id="fs-id1167836553112">The <emphasis effect="bold">degree of a polynomial</emphasis> is the highest degree of all its terms.</para>
+</note><para id="eip-842">Let's start by looking at a monomial. The monomial <m:math><m:mrow><m:mn>8</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> has two variables <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>. To find the degree we need to find the sum of the exponents. The variable a doesn't have an exponent written, but remember that means the exponent is 1. The exponent of <emphasis effect="italics">b</emphasis> is 2. The sum of the exponents, <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> is 3 so the degree is 3.</para><example id="eip-706"><exercise id="fs-id1167836529152">
+<problem id="fs-id1167829694957">
+<para id="fs-id1167836546580">Determine whether each polynomial is a monomial, binomial, trinomial, or other polynomial. Then, find the degree of each polynomial.</para>
+<para id="fs-id1167836456244"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓔ</span> 15</para>
+</problem>
+<solution id="fs-id1167836635375">
+<table id="fs-id1167836357312" class="unnumbered" summary="This table has five columns. The first is labeled polynomials, the second is number of terms, the third is type, the fourth is degree of terms, and the fifth is degree of polynomial. The first row shows 7 y squared minus 5y plus 3 has 3 terms, trinomial, the degree of terms are 2, 1, 0, and the degree of the polynomial is 2. The second row shows minus 2 a to the fourth b squared has 1 term, monomial, degree of terms and degree of polynomial are both 4. The third row shows 3 x to the fifth power minus 4 x cubed minus 6 x squared plus x minus 8 has 5 terms, is a polynomial, and the degree of terms are 5, 3, 2, 0, and 1, so the degree of the polynomial is 5. The fourth row shows 2y minus 8 x y cubed has 2 terms, is a binomial, has degree of terms 1 and 5, and the degree of the polynomial is 4. The fifth row shows 14 which has 1 term and is a monomial with degree of terms and degree of polynomial 0.">
+<label/>
+<tgroup cols="6">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<colspec colname="c5" colnum="5"/>
+<colspec colname="c6" colnum="6"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Polynomial</entry>
+<entry valign="top" align="left">Number of terms</entry>
+<entry valign="top" align="left">Type</entry>
+<entry valign="top" align="left">Degree of terms</entry>
+<entry valign="top" align="left">Degree of polynomial</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓐ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="left">Trinomial</entry>
+<entry valign="middle" align="center">2, 1, 0</entry>
+<entry valign="middle" align="center">2</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓑ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>−2</m:mn><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="left">Monomial</entry>
+<entry valign="middle" align="center">4, 2</entry>
+<entry valign="middle" align="center">6</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓒ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="left">Polynomial</entry>
+<entry valign="middle" align="center">5, 3, 2, 1, 0</entry>
+<entry valign="middle" align="center">5</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓓ</span></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="left">Binomial</entry>
+<entry valign="middle" align="center">1, 4</entry>
+<entry valign="middle" align="center">4</entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><span class="token">ⓔ</span></entry>
+<entry valign="middle" align="left">15</entry>
+<entry valign="middle" align="center">1</entry>
+<entry valign="middle" align="left">Monomial</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">0</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example><para id="fs-id1167339185162">A <term>polynomial</term>, which is a sum of or difference of terms, each consist of a variable raised to a nonnegative integer power. A number multiplied by a variable raised to an exponent, such as the 384 in <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>384</m:mn><m:mi>x</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>is known as a <term>coefficient</term>. Coefficients can be positive, negative, or zero, and can be whole numbers, decimals, or fractions. Each product<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>i</m:mi>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>384</m:mn><m:mi>x</m:mi><m:mi>w</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>is a <term>term of a polynomial</term>. If a term does not contain a variable, it is called a <emphasis effect="italics">constant</emphasis>.</para><para id="fs-id1167339222212">The term with the highest degree is called the <term>leading term</term> because it is usually written first. The coefficient of the leading term is called the <term>leading coefficient</term>. When a polynomial is written so that the powers are descending, we say that it is in standard form.</para><media id="fs-id1167339243309" alt="A polynomial reading: a sub n times x to the nth power plus and so on plus a sub 2 times x squared plus a sub one times x plus a subzero is shown. The a in the term a sub n is labeled: leading coefficient. The n in the term x to the nth power is labeled: degree. Finally, the entire term is labeled as: Leading term.">
+<image mime-type="image/jpg" src="../../media/CNX_CAT_Figure_01_04_002.jpg"/>
+</media>
+
+<note id="fs-id1167339137964">
+<label>A General Note</label>
+<title>Polynomials</title>
+<para id="fs-id1167339155557">A <term>polynomial</term> is an expression that can be written in the form</para>
+<equation id="fs-id1167339177022" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1167339220598">Each real number <emphasis effect="italics">a<sub>i</sub> </emphasis>is called a <term>coefficient</term>. The number<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>that is not multiplied by a variable is called a <emphasis effect="italics">constant</emphasis>. Each product<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>i</m:mi>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is a <term>term of a polynomial</term>. The highest power of the variable that occurs in the polynomial is called the <term>degree</term> of a polynomial. The <term>leading term</term> is the term with the highest power, and its coefficient is called the <term>leading coefficient</term>.</para>
+</note>
+
+<note id="fs-id1167339231820" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1167339212575"><emphasis>Given a polynomial expression, identify the degree and leading coefficient</emphasis>.</para>
+<list id="fs-id1167339329242" list-type="enumerated" number-style="arabic">
+<item>Find the highest power of <emphasis effect="italics">x</emphasis> to determine the degree.</item>
+<item>Identify the term containing the highest power of <emphasis effect="italics">x</emphasis> to find the leading term.</item>
+<item>Identify the coefficient of the leading term.</item>
+</list>
+</note>
+
+<example id="Example_01_04_01">
+<exercise id="fs-id1167339145967">
+<problem id="fs-id1167339145969">
+<title>Identifying the Degree and Leading Coefficient of a Polynomial </title>
+<para id="fs-id1167339329112">For the following polynomials, identify the degree, the leading term, and the leading coefficient.</para>
+<list id="fs-id1167339329115" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>7</m:mn><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mi>p</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>
+
+
+</item>
+</list></problem>
+<solution id="fs-id1167339276093">
+<list id="fs-id1167339184064" list-type="enumerated" number-style="lower-alpha"><item>The highest power of <emphasis effect="italics">x</emphasis> is 3, so the degree is 3. The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−4.</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+<item>The highest power of <emphasis effect="italics">t</emphasis> is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>so the degree is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5.</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+<item>The highest power of <emphasis effect="italics">p</emphasis> is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>so the degree is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:msup>
+   <m:mi>p</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−1.</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+</list></solution>
+</exercise>
+</example>
+
+</section>
+
+<section id="fs-id1167339243781">
+<title>Adding and Subtracting Polynomials</title>
+<para id="fs-id1167339223237">We can add and subtract polynomials by combining like terms, which are terms that contain the same variables raised to the same exponents. For example,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>are like terms, and can be added to get<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>but<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>are not like terms, and therefore cannot be added.</para>
+
+<example id="eip-524"><exercise id="fs-id1167829589861">
+<problem id="fs-id1167836526514">
+<para id="fs-id1167836295565">Add or subtract: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>16</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836282025">
+<para id="fs-id1167836341558"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>40</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836362982"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>16</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mn>23</m:mn><m:mi>p</m:mi><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise></example><note id="fs-id1167339290474" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1167339199765"><emphasis>Given multiple polynomials, add or subtract them to simplify the expressions.
+</emphasis>
+We can think of adding and subtracting polynomials as just adding and subtracting a series of monomials. Look for the like terms—those with the same variables and the same exponent. The Commutative Property allows us to rearrange the terms to put like terms together.</para><list id="fs-id1167339199769" list-type="enumerated" number-style="arabic">
+<item>Combine like terms.</item>
+<item>Simplify and write in standard form.</item>
+</list>
+</note>
+
+<example id="eip-946"><exercise id="fs-id1167833139745">
+<problem id="fs-id1167833056480">
+<para id="fs-id1167833056483">Find the sum:<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829614243">
+<para id="fs-id1167829614246"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Identify like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite without the parentheses,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>rearranging to get the like terms together.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">_________</m:mo></m:munder><m:mo stretchy="true">_________</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true">_______</m:mo></m:munder><m:mo>+</m:mo><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>11</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="Example_01_04_02">
+<exercise id="fs-id1167339306483">
+<problem id="fs-id1167339306486">
+<title>Adding Polynomials</title>
+<para id="fs-id1167339226270">Find the sum.</para>
+ <para id="fs-id1167339149553"><m:math>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>12</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>4</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>
+     </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:math>
+
+</para></problem>
+<solution id="fs-id1167339300037">
+<para id="fs-id1317912"><m:math display="block">
+<m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mn>4</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>12</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−21</m:mn><m:mo>+</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mo> </m:mo>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+  <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+<m:mrow>
+<m:mn>4</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>20</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+  <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+
+</para></solution>
+<commentary id="fs-id1167339213779">
+<title>Analysis	</title>
+<para id="fs-id1167339259571">We can check our answers to these types of problems using a graphing calculator. To check, graph the problem as given along with the simplified answer. The two graphs should be equivalent. Be sure to use the same window to compare the graphs. Using different windows can make the expressions seem equivalent when they are not.
+</para>
+</commentary>
+</exercise>
+</example>
+
+<note id="eip-799" type="tip">Be careful with the signs as you distribute while subtracting the polynomials in the next example.</note><example id="eip-837"><exercise id="fs-id1167829749492">
+<problem id="fs-id1167836522315">
+<para id="fs-id1167836522317">Find the difference: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836731036">
+<para id="fs-id1167836756613"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute and identify like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:mi>w</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">____</m:mo></m:munder><m:mo stretchy="true">____</m:mo></m:munder><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rearrange the terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:munder accentunder="true"><m:munder accentunder="true"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo stretchy="true">__________</m:mo></m:munder><m:mo stretchy="true">__________</m:mo></m:munder><m:mo>−</m:mo><m:munder accentunder="true"><m:mrow><m:mn>7</m:mn><m:mi>w</m:mi></m:mrow><m:mo stretchy="true">___</m:mo></m:munder><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>7</m:mn><m:msup><m:mi>w</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="Example_01_04_03">
+<exercise id="fs-id1167339428763">
+<problem id="fs-id1167339240332">
+<title>Subtracting Polynomials</title>
+<para id="fs-id1167339240338">Find the difference.</para>
+ <para id="fs-id1167339432947"><m:math>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>7</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>5</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:math>
+
+</para></problem>
+<solution id="fs-id1167339158579">
+<para id="fs-id1167339158581"><m:math display="block">
+<m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mn>7</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>  </m:mtext>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+  <m:mrow><m:mspace width="1em"/>
+<m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+<m:mrow>
+<m:mn>7</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+  <m:mrow><m:mspace width="1em"/>
+<m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+
+
+
+</para></solution>
+<commentary id="fs-id1167339185145">
+<title>Analysis</title>
+<para id="fs-id1167339185150">Note that finding the difference between two polynomials is the same as adding the opposite of the second polynomial to the first.</para>
+</commentary>
+</exercise>
+</example>
+
+</section>
+<section id="fs-id1167339214258">
+<title>Multiplying Polynomials</title>
+<para id="eip-373">Since monomials are algebraic expressions, we can use the properties of exponents to multiply monomials. Review Module 2 if you need to review exponent rules.</para><example id="eip-204"><exercise id="fs-id1167836525743">
+<problem id="fs-id1167833387010">
+<para id="fs-id1167833022571">Multiply: <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836520121">
+<para id="fs-id1167836300221"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Commutative Property to rearrange the terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>3</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="1em"/><m:mn>−12</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836689313"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Commutative Property to rearrange the terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>12</m:mn><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>·</m:mo><m:mi>y</m:mi><m:mo>·</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="eip-516">Multiplying a polynomial by a monomial is really just applying the <emphasis>Distributive Property.</emphasis></para><para id="eip-632">Notice that before combining like terms, you have four terms. You multiply the two terms of the first binomial by the two terms of the second binomial—four multiplications.
+<table id="eip-id1172186695524" class="unnumbered unstyled" summary="This figure has two columns. In the first row, the right column contains the expression x plus 3, in parentheses, times p. Two red arrows extend from the p, terminating at x and 3. In the second row, the text in the left column says “We distributed the p to get”. The right column contains xp plus 3p. In the third row, the text in the left column says “What if we have x plus 7 instead of p?” In the right column is the product of two binomials, x plus 3 and x plus 7. Two red arrows extend from x plus 7, terminating at the x and the 3 in the first binomial. In the fourth row, the text in the left column says “Think of the x plus 7 as the p above.” In the right column is x times x plus 7 plus 3 times x plus 7, where x plus 7 is in parentheses twice. In the fifth row, the text in the left column says “Distribute x plus 7.” In the right column is x squared plus 7x plus 3x plus 21. In the sixth row, the text in the left column says “Combine like terms.” In the right column is x squared plus 10x plus 21.">
+<label/><tgroup cols="2">
+<tbody>
+<row>
+<entry/>
+<entry><media id="eip-id1172186695544" alt="x plus 3, in parentheses, times p. Two arrows extend from the p, terminating at x and 3."><image src="../../media/CNX_ElemAlg_Figure_06_03_007a_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>We distributed the <emphasis effect="italics">p</emphasis> to get:</entry>
+<entry><media id="eip-id1172186695561" alt="x p plus 3 p."><image src="../../media/CNX_ElemAlg_Figure_06_03_007b_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>What if we have (<emphasis effect="italics">x</emphasis> + 7) instead of <emphasis effect="italics">p</emphasis>?</entry>
+<entry><media id="eip-id1172186695577" alt="x plus 3 multiplied by x plus 7. Two arrows extend from x plus 7, terminating at the x and the 3 in the first binomial."><image src="../../media/CNX_ElemAlg_Figure_06_03_007c_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>Distribute (<emphasis effect="italics">x</emphasis> + 7).</entry>
+<entry><media id="eip-id1172182437009" alt="The sum of two products. The product of x and x plus 7, plus the product of 3 and x plus 7."><image src="../../media/CNX_ElemAlg_Figure_06_03_007d_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>Distribute again.</entry>
+<entry><media id="eip-id1172182437026" alt="x squared plus 7 x plus 3 x plus 21."><image src="../../media/CNX_ElemAlg_Figure_06_03_007e_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>Combine like terms.</entry>
+<entry><media id="eip-id1172182437043" alt="x squared plus 10 x plus 21."><image src="../../media/CNX_ElemAlg_Figure_06_03_007f_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para><example id="eip-779"><exercise id="fs-id1167836699941">
+<problem id="fs-id1167836448130">
+<para id="fs-id1167836665188">Multiply: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−2</m:mn><m:mi>y</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836293422">
+<para id="fs-id1167836576202"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167836568423" class="unnumbered unstyled" summary="This figure shows how to distribute the multiplication of negative 2 y with the polynomial 4 y squared plus 3 y minus 5 in parentheses. Three arrows are drawn from the negative 2y pointing to each term in the polynomial in parentheses indicating the three multiplications. The next line shows the result when the negative 2 y is distributed: negative 2 y times 4 y squared plus negative 2 y times 3 y minus negative 2 y times 5. The simplified form is then negative 8 y to power of 3 minus 6 y to the power of 2 plus 10 y.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row><entry/>
+<entry align="right" valign="top">
+<media id="fs-id1167829807325" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_001a_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Distribute.<m:math><m:mrow><m:mspace width="2.5em"/></m:mrow></m:math></entry>
+<entry align="center" valign="top"><media id="fs-id1167836515792" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_001b_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Multiply.</entry>
+<entry align="right" valign="top"><media id="fs-id1167836543231" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_001c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836663108"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="1.5em"/><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="1.5em"/><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi><m:mo>·</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="1.5em"/><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167339139443">Multiplying polynomials is a bit more challenging than adding and subtracting polynomials. We must use the distributive property to multiply each term in the first polynomial by each term in the second polynomial. We then combine like terms. We can also use a shortcut called the <term>FOIL</term> method when multiplying binomials. Certain special products follow patterns that we can memorize and use instead of multiplying the polynomials by hand each time. We will look at a variety of ways to multiply polynomials.</para><section id="fs-id1167339198311">
+<title>Multiplying Polynomials Using the Distributive Property</title>
+<para id="fs-id1167339198316">To multiply a number by a polynomial, we use the distributive property. The number must be distributed to each term of the polynomial. We can distribute the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>to obtain the equivalent expression<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>When multiplying polynomials, the distributive property allows us to multiply each term of the first polynomial by each term of the second. We then add the products together and combine like terms to simplify.</para>
+
+<note id="fs-id1167339260622" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1167339170371"><emphasis>Given the multiplication of two polynomials, use the distributive property to simplify the expression.</emphasis></para>
+<list id="fs-id1167339170375" list-type="enumerated" number-style="arabic">
+<item>Multiply each term of the first polynomial by each term of the second.</item>
+<item>Combine like terms.</item>
+<item>Simplify.</item>
+</list>
+</note>
+
+<example id="Example_01_04_04">
+<exercise id="fs-id1167339239993">
+<problem id="fs-id1167339239995">
+<title>Multiplying Polynomials Using the Distributive Property</title>
+<para id="fs-id1167339158245">Find the product.</para>
+<para id="fs-id1167339158248"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1167339306275">
+<para id="fs-id1167339306277"><m:math display="block">
+<m:mrow>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo> </m:mo>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+ <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Use the distributive property</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>6</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+ <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Multiply</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+<m:mrow>
+<m:mn>6</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+ <m:mn>−2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+ <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+<m:mrow>
+<m:mn>6</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo> </m:mo>
+</m:mrow>
+</m:mtd>
+ <m:mtd columnalign="left">
+ <m:mrow><m:mspace width="2em"/>
+<m:mtext>  </m:mtext><m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+
+
+</para></solution>
+<commentary id="fs-id1167339344747">
+<title>Analysis </title>
+<para id="fs-id1167339158177">We can use a table to keep track of our work, as shown in <link target-id="Table_01_04_01"/>. Write one polynomial across the top and the other down the side. For each box in the table, multiply the term for that row by the term for that column. Then add all of the terms together, combine like terms, and simplify.</para>
+
+<table id="Table_01_04_01" summary="A table with 3 rows and 4 columns. The first entry of the first row is empty, the others are labeled: three times x squared, negative x, and positive four. The first entry of the second row is labeled: two times x. The second entry reads: six times x cubed. The third entry reads: negative two times x squared. The fourth entry reads: eight times x. The first entry of the third row reads: positive one. The second entry reads: three times x squared. The third entry reads: negative x. The fourth entry reads: four.">
+<title/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row>
+<entry/>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+
+
+<row>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>−2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+<row>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mn>4</m:mn>
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</commentary>
+</exercise>
+</example><example id="eip-89"><exercise id="fs-id1167829738325">
+<problem id="fs-id1167829590511">
+<para id="fs-id1167836528267">Multiply <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> using <span class="token">ⓐ</span> the Distributive Property and <span class="token">ⓑ</span> the Vertical Method.</para>
+</problem>
+<solution id="fs-id1167829597387">
+<para id="fs-id1167833349853"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167824781546" class="unnumbered unstyled" summary="This figure shows how to distribute the multiplication of b plus 3 in parentheses with 2 b squared minus 5 b plus 8 in parentheses. After distributing the trinomial the result is b times the quantity 2 b squared minus 5 b plus 8 in parentheses plus 3 times the quantity 2 b squared minus 5 b plus 8 in parentheses 2 y minus 5 in parentheses. Then we distribute the b to the trinomial to get 2 b to the power of 3 minus 5 b squared plus 8 b and distribute the 3 to the trinomial to get 6 b squared minus 15 b plus 24. Combining like terms results in the simplified form 2 b to power of 3 plus b squared minus 7 b plus 24.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="left" valign="top">
+<media id="fs-id1167829711887" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_009a_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Distribute.</entry>
+<entry align="left" valign="top"><media id="fs-id1167829690938" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_009b_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Multiply.</entry>
+<entry align="left" valign="top"><media id="fs-id1167836550571" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_009c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Combine like terms.      </entry>
+<entry align="left" valign="top"><media id="fs-id1167833022850" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_009d_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167833346816"><span class="token">ⓑ</span> It is easier to put the polynomial with fewer terms on the bottom because we get fewer partial products this way.<newline/>
+<table id="fs-id1167833377138" class="unnumbered unstyled" summary="This figure shows how to multiply the polynomials with the vertical method. The polynomial 2 b squared minus 5 b plus 8 is written directly over the polynomial b plus 3. The 8 is directly over the 3 and the negative 5 b is directly over the b. A horizontal line is drawn below the b plus 3. The result of multiplying 3 with the quantity 2 b squared minus 5 b plus 8 is written below the horizontal line. The result is get 6 b squared minus 15 b plus 24 with the 24 under the 3 and 8. The result of multiplying the b with the quantity 2 b squared minus 5 b plus 8 is written below the last calculation but shifted one term to the left. The result is 2 b to the power of 3 minus 5 b squared plus 8 b with the 8 b under the negative 15 b from the first multiplication. A second horizontal line is draw below the last result. The two multiplications are then added column by column. 24 is brought down since nothing is below it. Negative 15 b is added to 8 b to get negative 7 b. 6 b squared is added to negative 5 b squared to get b squared. 2 b to the power of 3 is brought down since nothing is above it. The final result is 2 b to power of 3 plus b squared minus 7 b plus 24.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry align="left" valign="top" nameend="c2" namest="c1">Multiply <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> by 3.<newline/>Multiply <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> by <m:math><m:mi>b</m:mi></m:math>.</entry>
+<entry align="left" valign="top"><media id="fs-id1167836544732" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_010a_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top" nameend="c2" namest="c1">Add like terms.</entry>
+<entry align="left" valign="top">  <media id="fs-id1167836309930" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_010b_img.jpg" mime-type="image/jpeg"/>
+</media><newline/>  <media id="fs-id1167836627519" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_010c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise></example>
+
+</section>
+<section id="fs-id1167339243382"><title>Using FOIL to Multiply Binomials</title><para id="fs-id1167339243388">A shortcut called FOIL is sometimes used to find the product of <emphasis>two binomials</emphasis>. It is called FOIL because we multiply the <emphasis>f</emphasis>irst terms, the <emphasis>o</emphasis>uter terms, the <emphasis>i</emphasis>nner terms, and then the <emphasis>l</emphasis>ast terms of each binomial.</para>
+
+<media id="fs-id1167339168201" alt="Two quantities in parentheses are being multiplied, the first being: a times x plus b and the second being: c times x plus d. This expression equals ac times x squared plus ad times x plus bc times x plus bd. The terms ax and cx are labeled: First Terms. The terms ax and d are labeled: Outer Terms. The terms b and cx are labeled: Inner Terms. The terms b and d are labeled: Last Terms.">
+<image src="../../media/CNX_CAT_Figure_01_04_003.jpg" mime-type="image/jpg"/>
+</media>
+
+<para id="fs-id1167339429089">The FOIL method arises out of the distributive property. We are simply multiplying each term of the first binomial by each term of the second binomial, and then combining like terms.</para>
+
+<note id="fs-id1167339429094" class="precalculus howto"><label>How To</label>
+<para id="fs-id1167339240108"><emphasis>Given two binomials, use FOIL to simplify the expression.</emphasis></para>
+
+<media id="fs-id1167836299260" alt="The figure shows how to use the FOIL method to multiply two binomials. The example is the quantity a plus b in parentheses times the quantity c plus d in parentheses. The numbers a and c are labeled first and the numbers b and d are labeled last. The numbers b and c are labeled inner and the numbers a and d are labeled outer. A note on the side of the expression tells you to Say it as you multiply! FOIL First Outer Inner Last. The directions are then given in numbered steps. Step 1. Multiply the First terms. Step 2. Multiply the Outer terms. Step 3. Multiply the Inner terms. Step 4. Multiply the Last Terms. Step 5. Combine like terms when possible.">
+<image src="../../media/CNX_IntAlg_Figure_05_03_021_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</note><example id="Example_01_04_05"><exercise id="fs-id1167339185701"><problem id="fs-id1167339185703">
+<title>Using FOIL to Multiply Binomials</title>
+<para id="fs-id1167339185708">Use FOIL to find the product.</para>
+<para id="eip-id6327005"><m:math>
+<m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>18</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo>
+</m:math></para></problem>
+<solution id="eip-id1167338039926">
+<para id="eip-id1673659">Find the product of the first terms.</para>
+<para id="eip-id1673663"><media id="eip-id1673664" alt="">
+<image src="../../media/CNX_CAT_Figure_01_04_004.jpg" mime-type="image/jpeg"/>
+</media></para>
+<para id="eip-id1673675">Find the product of the outer terms.</para>
+<para id="eip-id1673678"><media id="eip-id1673679" alt="">
+<image src="../../media/CNX_CAT_Figure_01_04_005.jpg" mime-type="image/jpeg"/>
+</media></para>
+<para id="eip-id1923767">Find the product of the inner terms.</para>
+<para id="eip-id1923770"><media id="eip-id1923771" alt="">
+<image src="../../media/CNX_CAT_Figure_01_04_006.jpg" mime-type="image/jpeg"/>
+</media></para>
+<para id="eip-id1923782">Find the product of the last terms.</para><para id="eip-id1923784"><media id="eip-id1923785" alt="">
+<image src="../../media/CNX_CAT_Figure_01_04_007.jpg" mime-type="image/jpeg"/>
+</media></para>
+
+<para id="eip-id1167336078703"><m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>6</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>54</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>54</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Add the products</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>6</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>54</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>54</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>6</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>48</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>54</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</para>
+</solution>
+</exercise></example><para id="eip-529">The FOIL method is usually the quickest method for multiplying two binomials, but it <emphasis effect="italics">only</emphasis> works for binomials. You can use the Distributive Property to find the product of any two polynomials. Another method that works for all polynomials is the Vertical Method. It is very much like the method you use to multiply whole numbers. Look carefully at this example of multiplying two-digit numbers.</para>
+<media id="fs-id1169596304009" alt="This figure shows the vertical multiplication of 23 and 46. The number 23 is above the number 46. Below this, there is the partial product 138 over the partial product 92. The final product is at the bottom and is 1058. Text on the right side of the image says “Start by multiplying 23 by 6 to get 138. Next, multiply 23 by 4, lining up the partial product in the correct columns. Last you add the partial products.”">
+<image src="../../media/CNX_ElemAlg_Figure_06_03_021_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<example id="fs-id1169596304021">
+<exercise id="fs-id1169596384705">
+<problem id="fs-id1169596384707">
+<para id="fs-id1169596384709">Multiply using the Vertical Method: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596303203">
+<title>Solution</title>
+<para id="fs-id1169596303208">It does not matter which binomial goes on the top.</para>
+<para id="fs-id1169596303211"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>by</m:mtext><m:mspace width="0.2em"/><m:mn>−6</m:mn><m:mo>.</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>by 2y.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Add like terms.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:munder accentunder="true"><m:mrow><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="true">________</m:mo></m:munder></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>−18</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:munder accentunder="true"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mo stretchy="true"> _____________</m:mo></m:munder></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>partial product</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>partial product</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>product</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1169596443566">Notice the partial products are the same as the terms in the FOIL method.<newline/>
+<media id="fs-id1169596443570" alt="This figure has two columns. In the left column is the product of two binomials, 3y minus 1 and 2y minus 6. Below this is 6y squared minus 2y minus 18y plus 6. Below this is 6y squared minus 20y plus 6. In the right column is the vertical multiplication of 3y minus 1 and 2y minus 6. Below this is the partial product negative 18y plus 6. Below this is the partial product 6y squared minus 2y. Below this is 6y squared minus 20y plus 6.">
+<image src="../../media/CNX_ElemAlg_Figure_06_03_023_img_new.jpg" mime-type="image/jpeg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+</section><section id="eip-841"><title>Sum or Difference (aka Difference of Squares or Conjugates)</title><para id="fs-id1167339188447">Another special product is called the <term>difference of squares</term>, or Sum and Difference of Two Terms (as its called in the Algebra book. 
+
+A pair of binomials that each have the same first term and the same last term, but one is a sum and one is a difference is called a <emphasis effect="bold">conjugate pair</emphasis> and is of the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="eip-41"><emphasis effect="italics">Notice how each pair has one sum and one difference.</emphasis>
+<media id="fs-id1169596405028" alt="This figure has three products. The first is x minus 9, in parentheses, times x plus 9, in parentheses. Below the x minus 9 is the word “difference”. Below x plus 9 is the word “sum”. The second is y minus 8, in parentheses, times y plus 8, in parentheses. Below y minus 8 is the word “difference”. Below y plus 8 is the word “sum”. The last is 2x minus 5, in parentheses, times 2x plus 5, in parentheses. Below the 2x minus 5 is the word “difference” and below 2x plus 5 is the word “sum”.">
+<image src="../../media/CNX_ElemAlg_Figure_06_04_010_img_new.jpg" mime-type="image/jpeg"/>
+</media></para>
+
+<media id="eip-12" alt="The figure shows two examples of multiplying a binomial with its conjugate. In the first example x plus 9 is multiplied with x minus 9 to get x squared minus 9 x plus 9 x minus 81 which simplifies to x squared minus 81. Colors show that x squared comes from the square of the x in the original binomial and 81 comes from the square of the 9 in the original binomial. In the secondexample 2 x minus 5 is multiplied with 2 x plus 5 to get 4 x squared plus 10 x minus 10 x minus 25 which simplifies to 4 x squared minus 25. Colors show that 4 x squared comes from the square of the 2 x in the original binomial and 25 comes from the square of the 5 in the original binomial.">
+<image src="../../media/alt difference sq.png" mime-type="image/jpeg"/>
+</media>
+
+<para id="fs-id1167339220812">Because the sign changes in the second binomial, the outer and inner terms cancel each other out, and we are left only with the square of the first term minus the square of the last term.</para>
+
+
+
+
+<note id="fs-id1167339199666"><label>A General Note</label><title>Difference of Squares or Sum and Difference</title>
+
+<para id="fs-id1167339199674">When a binomial is multiplied by a binomial with the same terms separated by the opposite sign, the result is the square of the first term minus the square of the last term.</para>
+<note id="eip-254"><media id="fs-id1169596367551" alt="This figure is divided into two sides. On the left side is the following formula: the product of a minus b and a plus b equals a squared minus b squared. On the right side is the same formula labeled: a minus b and a plus b are labeled “conjugates”, the a squared and b squared are labeled squares and the minus sign between the squares is labeled “difference”. Therefore, the product of two conjugates is called a difference of squares.">
+<image src="../../media/CNX_ElemAlg_Figure_06_04_020_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</note><equation id="Equation_01_04_02"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</equation>
+</note><example id="eip-883"><exercise id="fs-id1169596404706">
+<problem id="fs-id1169596404708">
+<para id="fs-id1169596404710">Multiply: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596403359">
+<title>Solution</title>
+<para id="fs-id1169596403364">First, recognize this as a product of conjugates. The binomials have the same first terms, and the same last terms, and one binomial is a sum and the other is a difference.</para>
+<para id="fs-id1169596403369"><table id="eip-id1172188052941" class="unnumbered unstyled" summary="This figure has two columns, with written instructions on the left and math on the right. At the top of the figure, the text in the left column says “It fits the pattern.” The right column contains the product of x minus 8, in parentheses, and x plus 8, in parentheses. Above this is the general form a minus b, in parentheses, times a plus b, in parentheses. In the second row, the left column says “Square the first term, x.” The right column contains x squared minus blank. Above this is the general form a squared minus b squared. In the third row, the text on the left says “Square the last term, 8.” The right column contains the expression x squared minus 8 squared. Above this is the general form a squared minus b squared. In the last row, the text in the left column says “The product is a difference of squares.” The right column contains the expression x squared minus 64. Above this is the general form a squared minus b squared."><label/>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>It fits the pattern.</entry>
+<entry><media id="eip-id1172188052961" alt="The product of x minus 8 and x plus 8. Above this is the general form a minus b, in parentheses, times a plus b, in parentheses."><image src="../../media/CNX_ElemAlg_Figure_06_04_013a_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>Square the first term, <emphasis effect="italics">x</emphasis>.</entry>
+<entry><media id="eip-id1172188052978" alt="x squared minus blank. Above this is the general form a squared minus b squared."><image src="../../media/CNX_ElemAlg_Figure_06_04_013b_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>Square the last term, 8.</entry>
+<entry><media id="eip-id1172188052994" alt="x squared minus 8 squared."><image src="../../media/CNX_ElemAlg_Figure_06_04_013c_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+<row>
+<entry>The product is a difference of squares.</entry>
+<entry><media id="eip-id1172188053011" alt="x squared minus 64."><image src="../../media/CNX_ElemAlg_Figure_06_04_013d_img_new.jpg" mime-type="image/png"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para></solution>
+</exercise>
+</example><example id="eip-140"><exercise id="ti_01_04_07">
+<problem id="fs-id1167339212421"><para id="fs-id1167339212422">Multiply<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</para></problem>
+<solution id="fs-id1167339318295"><para id="fs-id1167339318296"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−49</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise></example></section><section id="fs-id1167339428910"><title>Binomial (Perfect) Square Trinomials</title><para id="fs-id1167339432924">Certain binomial products have special forms. When a binomial is squared, the result is called a <term>perfect square trinomial</term>. We can find the square by multiplying the binomial by itself. However, there is a special form that each of these perfect square trinomials takes, and memorizing the form makes squaring binomials much easier and faster. Let’s look at a few perfect square trinomials to familiarize ourselves with the form.</para>
+<equation id="fs-id1167339433593" class="unnumbered"><label/><m:math display="block">
+    <m:mrow>
+        <m:mtable>
+            <m:mtr>
+                <m:mtd columnalign="right">
+                    <m:mrow>
+                        <m:mtext> </m:mtext><m:msup>
+                            <m:mrow>
+                                <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mrow>
+                        <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr>
+                <m:mtd columnalign="right">
+                    <m:mrow>
+                        <m:msup>
+                            <m:mrow>
+                                <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mrow>
+                        <m:mtext>  </m:mtext><m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr>
+                <m:mtd columnalign="right">
+                    <m:mrow>
+                        <m:msup>
+                            <m:mrow>
+                                <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mrow>
+                        <m:mn>16</m:mn><m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+
+        </m:mtable>
+    </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1167339224293">Notice that the first term of each trinomial is the square of the first term of the binomial and, similarly, the last term of each trinomial is the square of the last term of the binomial. The middle term is double the product of the two terms. Lastly, we see that the first sign of the trinomial is the same as the sign of the binomial.</para>
+
+<note id="fs-id1167339224300"><label>A General Note</label><title>Perfect Square Trinomials</title>
+
+<para id="fs-id1167339330148">When a binomial is squared, the result is the first term squared added to double the product of both terms and the last term squared.</para>
+<equation id="Equation_01_04_01"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</equation>
+
+
+<para id="fs-id1167826188116">Or</para><media id="fs-id1167829905170" alt="The figure shows the result of squaring two binomials. The first example is a plus b squared equals a squared plus 2 a b plus b squared. The equation is written out again with each part labeled. The quantity a plus b squared is labeled binomial squared. The terms a squared is labeled first term squared. The term 2 a b is labeled 2 times product of terms. The term b squared is labeled last term squared. The second example is a minus b squared equals a squared minus 2 a b plus b squared. The equation is written out again with each part labeled. The quantity a minus b squared is labeled binomial squared. The terms a squared is labeled first term squared. The term negative 2 a b is labeled 2 times product of terms. The term b squared is labeled last term squared.">
+<image src="../../media/CNX_IntAlg_Figure_05_03_012_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</note><note id="fs-id1167339220526" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1167339220533"><emphasis>Given a binomial, square it using the formula for perfect square trinomials.
+</emphasis></para>
+<list id="fs-id1167339231805" number-style="arabic" list-type="enumerated">
+<item>Square the first term of the binomial.</item>
+<item>Square the last term of the binomial.</item>
+<item>For the middle term of the trinomial, double the product of the two terms.</item>
+<item>Add and simplify.</item>
+</list>
+</note>
+
+<example id="Example_01_04_06"><exercise id="fs-id1167836300671">
+<problem id="fs-id1167829711970">
+<para id="fs-id1167836729154">Multiply: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836713911">
+<para id="fs-id1167829713617"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167833338740" class="unnumbered unstyled" summary="The example shows how to multiply x plus 5 squared using the formula a plus b squared equals a squared plus 2 a b plus b squared. Squaring the first term results in x squared which matches up with the term a squared in the formula. Squaring the last term results in 5 squared which matches up with the term b squared in the formula. Doubling the product results in 2 times x times 5 which matches up with 2 a b in the formula. The simplified version is x squared plus 10 x plus 25.">
+<label/><tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167836511568" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_013a_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Square the first term.</entry>
+<entry align="center" valign="top"><media id="fs-id1167829694664" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_013b_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Square the last term.</entry>
+<entry align="center" valign="top"><media id="fs-id1167829689053" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_013c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Double their product.      </entry>
+<entry align="center" valign="top"><media id="fs-id1167836534247" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_013d_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Simplify.</entry>
+<entry align="center" valign="top"><media id="fs-id1167836386651" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_013e_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836481274"><span class="token">ⓑ</span><newline/>
+<table id="fs-id1167829716811" class="unnumbered unstyled" summary="The example shows how to multiply 2 x minus 3 y squared using the formula a minus b squared equals a squared minus 2 a b plus b squared. Squaring the first term results in 2 x squared which matches up with the term a squared in the formula. Squaring the last term results in 3 y squared which matches up with the term b squared in the formula. Doubling the product results in 2 times 2 x times 3 y which matches up with 2 a b in the formula. The simplified version is 4 x squared minus 12 x y plus 9 y squared.">
+<label/><tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167836293412" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_014a_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Use the pattern.        </entry>
+<entry align="center" valign="top"><media id="fs-id1167836548512" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_014b_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry align="left" valign="top">Simplify.</entry>
+<entry align="center" valign="top"><media id="fs-id1167833057054" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_05_03_014c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para></solution>
+</exercise>
+</example><example id="eip-308"><exercise id="ti_01_04_06">
+<problem id="fs-id1167339328819"><para id="fs-id1167339328820">Expand <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339176899"><para id="fs-id1167339176900"><m:math>
+ <m:mrow>
+  <m:mn>16</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+</example></section></section>
+
+<section id="fs-id1167339138125">
+<title>Performing Operations with Polynomials of Several Variables</title>
+<para id="fs-id1167339138130">We have looked at polynomials containing only one variable. However, a polynomial can contain several variables. All of the same rules apply when working with polynomials containing several variables. Consider an example:</para><equation id="fs-id1167339429970" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Use the distributive property</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>4</m:mn><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Multiply</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>4</m:mn><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>4</m:mn><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><example id="eip-948"><exercise id="fs-id1167833412564">
+<problem id="fs-id1167833412566">
+<para id="fs-id1167836730201">Find the sum: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836558032">
+<para id="fs-id1167836558034"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Rearrange the terms to put like terms together.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mn>4</m:mn><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>u</m:mi><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="Example_01_04_08">
+<exercise id="fs-id1167339318091">
+<problem id="fs-id1167339318093">
+<title>Multiplying Polynomials Containing Several Variables</title>
+<para id="fs-id1167339315450">Multiply<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</para></problem>
+<solution id="fs-id1167339299948">
+<para id="fs-id1167339299950">Follow the same steps that we used to multiply polynomials containing only one variable.</para>
+<equation id="fs-id1167339299954" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo> </m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Use the distributive property</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Multiply</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Combine like terms</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo> </m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mspace width="2em"/>
+      <m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></solution>
+</exercise>
+</example>
+
+<example id="eip-257"><exercise id="ti_01_04_08">
+<problem id="fs-id1167339240144"><para id="fs-id1167339240145">Multiply <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339240262"><para id="fs-id1167339240263"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>6</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>21</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mn>−29</m:mn><m:mi>x</m:mi><m:mn>−7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise></example><note id="fs-id1167339315650" class="precalculus media">
+<label>Media</label>
+<para id="fs-id1167339219216">Access these online resources for additional instruction and practice with polynomials.</para>
+<list id="fs-id1167339219219" list-type="bulleted" bullet-style="bullet"><item><link url="http://openstax.org/l/addsubpoly">Adding and Subtracting Polynomials</link></item>
+<item><link url="http://openstax.org/l/multiplpoly">Multiplying Polynomials</link></item>
+<item><link url="http://openstax.org/l/specialpolyprod">Special Products of Polynomials</link></item>
+</list></note>
+</section>
+
+<section id="fs-id1167339242305" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167339242312" list-type="bulleted">
+<item>A polynomial is a sum of terms each consisting of a variable raised to a non-negative integer power. The degree is the highest power of the variable that occurs in the polynomial. The leading term is the term containing the highest degree, and the leading coefficient is the coefficient of that term. See <link target-id="Example_01_04_01"/>.</item>
+<item>We can add and subtract polynomials by combining like terms. See <link target-id="Example_01_04_02"/> and <link target-id="Example_01_04_03"/>.</item>
+<item>To multiply polynomials, use the distributive property to multiply each term in the first polynomial by each term in the second. Then add the products. See <link target-id="Example_01_04_04"/>.</item>
+<item>FOIL (First, Outer, Inner, Last) is a shortcut that can be used to multiply binomials. See <link target-id="Example_01_04_05"/>.</item>
+<item>Perfect square trinomials and difference of squares are special products. See <link target-id="Example_01_04_06"/> and <link target-id="Example_01_04_07"/>.</item>
+<item> Follow the same rules to work with polynomials containing several variables. See <link target-id="Example_01_04_08"/>.</item>
+</list><note id="eip-364"><table id="fs-id1167836399606" class="unnumbered" summary="Table has two columns. The left column lists binomial squares and shows two equations: a plus b in parentheses square equals a square plus 2 a b plus b squared and a minus b in parentheses squared equals a squared minus 2 ab plus b squared. Below the equations the text states squaring a binomial, product is a trinomial, inner and outer terms with foil are the same, and middle term is double the product of the terms. The right column lists product of conjugates with the equation a minus b times a plus b equals a squared minus b squared, Below the equation the test states multiplying conjugates, product is a binomial, inner and outer terms with foil are opposites, and there is no middle term."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry valign="top" align="center">Binomial Squares</entry>
+<entry valign="top" align="center">Sum or Difference (Product of Conjugates)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry/>
+</row>
+<row>
+<entry valign="top" align="left">•  Squaring a binomial</entry>
+<entry valign="top" align="left">•  Multiplying conjugates</entry>
+</row>
+<row>
+<entry valign="top" align="left">•  Product is a <emphasis effect="bold">trinomial</emphasis></entry>
+<entry valign="top" align="left">•  Product is a <emphasis effect="bold">binomial.</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">•  Inner and outer terms with FOIL are <emphasis effect="bold">the same.</emphasis></entry>
+<entry valign="top" align="left">•  Inner and outer terms with FOIL are <emphasis effect="bold">opposites.</emphasis></entry>
+</row>
+<row>
+<entry valign="top" align="left">•  Middle term is <emphasis effect="bold">double the product</emphasis> of the terms</entry>
+<entry valign="top" align="left">•  There is <emphasis effect="bold">no</emphasis> middle term.</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></note>
+</section>
+
+
+
+
+<section id="fs-id1167339184236" class="section-exercises">
+<title>Section Exercises</title>
+<section id="fs-id1167339216165">
+<title>Algebraic</title>
+<para id="fs-id1167339216170">For the following exercises, identify the degree of the polynomial.</para>
+<exercise id="fs-id1167339216173"><problem id="fs-id1167339216174"><para id="fs-id1167339216175"><m:math>
+ <m:mrow>
+  <m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>13</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339299770"><para id="fs-id1167339299771"> 2</para></solution></exercise>
+<exercise id="fs-id1167339299820"><problem id="fs-id1167339299821"><para id="fs-id1167339299822"><m:math>
+ <m:mrow>
+  <m:mn>−625</m:mn><m:msup>
+   <m:mi>a</m:mi>
+   <m:mn>8</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>16</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339268841"><para id="fs-id1167339268842"> 8</para></solution></exercise>
+<exercise id="fs-id1167339223145"><problem id="fs-id1167339223146"><para id="fs-id1167339223147"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339223177"><para id="fs-id1167339223178"> 2</para></solution></exercise>
+<para id="fs-id1167339432583">For the following exercises, find the sum or difference.</para>
+<exercise id="fs-id1167339432587"><problem id="fs-id1167339432588"><para id="fs-id1167339432589"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>12</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>8</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mn>−19</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339432656"><para id="fs-id1167339432657"><m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>19</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339306370"><problem id="fs-id1167339306371"><para id="fs-id1167339306372"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6</m:mn><m:msup>
+     <m:mi>w</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>24</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>24</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>w</m:mi><m:mmultiscripts>
+     <m:mo>−</m:mo>
+     <m:mprescripts/>
+     <m:none/>
+     <m:mn>2</m:mn>
+    </m:mmultiscripts>
+    <m:mn>6</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+ </para></problem>
+<solution id="fs-id1167339223800"><para id="fs-id1167339223801"><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:msup>
+   <m:mi>w</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>30</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>21</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339262640"><problem id="fs-id1167339262641"><para id="fs-id1167339262642"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>11</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>6</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>18</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>6</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339273678"><para id="fs-id1167339273679"> <m:math>
+ <m:mrow>
+  <m:mn>11</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mn>−9</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−7</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<para id="fs-id1167339196741">For the following exercises, find the product.</para>
+<exercise id="fs-id1167339196745"><problem id="fs-id1167339196746"><para id="fs-id1167339196747"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339259665"><para id="fs-id1167339259666"><m:math>
+ <m:mrow>
+  <m:mn>24</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−4</m:mn><m:mi>x</m:mi><m:mn>−8</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339223391"><problem id="fs-id1167339223392"><para id="fs-id1167339223394"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>6</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>b</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339223456"><para id="fs-id1167339223458"><m:math>
+ <m:mrow>
+  <m:mn>24</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mn>−48</m:mn><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>24</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339306553"><problem id="fs-id1167339306554"><para id="fs-id1167339306555"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339306603"><para id="fs-id1167339306604"><m:math>
+ <m:mrow>
+  <m:mn>99</m:mn><m:msup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−202</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>99</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339286513"><problem id="fs-id1167339286514"><para id="fs-id1167339286515"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>n</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>9</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339286568"><para id="fs-id1167339286569"><m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:msup>
+   <m:mi>n</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mn>−4</m:mn><m:msup>
+   <m:mi>n</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>72</m:mn><m:mi>n</m:mi><m:mn>−36</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<para id="fs-id1167339199464">For the following exercises, expand the binomial.</para>
+<exercise id="fs-id1167339199508"><problem id="fs-id1167339199509"><para id="fs-id1167339199510"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339199549"><para id="fs-id1167339199550"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:msup>
+   <m:mi>y</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−42</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>49</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339220271"><problem id="fs-id1167339220272"><para id="fs-id1167339220273"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339220312"><para id="fs-id1167339220313"><m:math>
+ <m:mrow>
+  <m:mn>16</m:mn><m:msup>
+   <m:mi>p</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>72</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>81</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339226325"><problem id="fs-id1167339226326"><para id="fs-id1167339226327"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339226366"><para id="fs-id1167339226367"><m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:msup>
+   <m:mi>y</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−36</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>36</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<para id="fs-id1167339196445">For the following exercises, multiply the binomials.</para>
+<exercise id="fs-id1167339196448"><problem id="fs-id1167339196449"><para id="fs-id1167339196450"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339196498"><para id="fs-id1167339196499"><m:math>
+ <m:mrow>
+  <m:mn>16</m:mn><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−1</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339260524"><problem id="fs-id1167339260525"><para id="fs-id1167339260526"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339239040"><para id="fs-id1167339239041"><m:math>
+ <m:mrow>
+  <m:mn>−16</m:mn><m:msup>
+   <m:mi>m</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>16</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339239119"><problem id="fs-id1167339239120"><para id="fs-id1167339239121"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339239169"><para id="fs-id1167339321332"><m:math>
+ <m:mrow>
+  <m:mn>121</m:mn><m:msup>
+   <m:mi>q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−100</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<para id="fs-id1167339321358">For the following exercises, multiply the polynomials.</para>
+<exercise id="fs-id1167339321425"><problem id="fs-id1167339321426"><para id="fs-id1167339321427"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:msup>
+     <m:mi>t</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339138777"><para id="fs-id1167339138778"><m:math>
+ <m:mrow>
+  <m:mn>16</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mn>−32</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339138896"><problem id="fs-id1167339138897"><para id="fs-id1167339138898"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339273787"><para id="fs-id1167339273788"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>y</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mn>−6</m:mn><m:msup>
+   <m:mi>y</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>18</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339214002"><problem id="fs-id1167339214003"><para id="fs-id1167339214004"><m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>u</m:mi><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339214045"><para id="fs-id1167339214046"><m:math>
+ <m:mrow>
+  <m:mn>16</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−40</m:mn><m:mi>t</m:mi><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:msup>
+   <m:mi>u</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1167339223053"><problem id="fs-id1167339223054"><para id="fs-id1167339223055"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mi>d</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>6</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>d</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1167339225614"><para id="fs-id1167339225615"><m:math>
+ <m:mrow>
+  <m:mn>24</m:mn><m:msup>
+   <m:mi>r</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>22</m:mn><m:mi>r</m:mi><m:mi>d</m:mi><m:mn>−7</m:mn><m:msup>
+   <m:mi>d</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+</section>
+<section id="fs-id1167339225725">
+<title>Real-World Applications</title>
+<exercise id="fs-id1167339225730"><problem id="fs-id1167339225731"><para id="fs-id1167339437824">A developer wants to purchase a plot of land to build a house. The area of the plot can be described by the following expression:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where <emphasis effect="italics">x</emphasis> is measured in meters. Multiply the binomials to find the area of the plot in standard form.</para></problem>
+<solution id="fs-id1167339225791"><para id="fs-id1167339225792"><m:math>
+ <m:mrow>
+  <m:mn>32</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mn>−4</m:mn><m:mi>x</m:mi><m:mn>−3</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>m<sup>2</sup></para></solution></exercise>
+<exercise id="fs-id1167339242981"><problem id="fs-id1167339242982"><para id="fs-id1167339242983">A prospective buyer wants to know how much grain a specific silo can hold. The area of the floor of the silo is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The height of the silo is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>where <emphasis effect="italics">x</emphasis> is measured in feet. Expand the square and multiply by the height to find the expression that shows how much grain the silo can hold.</para></problem></exercise>
+</section>
+</section>
+
+</content>
+<glossary>
+<definition id="fs-id1167339280889"><term>binomial	</term><meaning id="fs-id1167339280892">a polynomial containing two terms</meaning></definition>
+<definition id="fs-id1167339280895"><term>coefficient	</term><meaning id="fs-id1167339280898">any real number<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in a polynomial in the form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1167339281002"><term>degree	</term><meaning id="fs-id1167339281005">the highest power of the variable that occurs in a polynomial</meaning></definition>
+<definition id="fs-id1167339281008"><term>difference of squares	</term><meaning id="fs-id1167339281011">the binomial that results when a binomial is multiplied by a binomial with the same terms, but the opposite sign</meaning></definition>
+<definition id="fs-id1167339281016"><term>leading coefficient	</term><meaning id="fs-id1167339281019">the coefficient of the leading term</meaning></definition>
+<definition id="fs-id1167339281022"><term>leading term</term><meaning id="fs-id1167339281025">	the term containing the highest degree</meaning></definition>
+<definition id="fs-id1167339281028"><term>monomial	</term><meaning id="fs-id1167339281032">a polynomial containing one term</meaning></definition>
+<definition id="fs-id1167339281035"><term>perfect square trinomial</term><meaning id="fs-id1167339281038">	the trinomial that results when a binomial is squared</meaning></definition>
+<definition id="fs-id1167339281041"><term>polynomial	</term><meaning id="fs-id1167339281044">a sum of terms each consisting of a variable raised to a nonnegative integer power</meaning></definition>
+<definition id="fs-id1167339281048"><term>term of a polynomial	</term><meaning id="fs-id1167339281051">any<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>i</m:mi>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>of a polynomial in the form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</meaning></definition>
+<definition id="fs-id1167339317674"><term>trinomial</term><meaning id="fs-id1167339317677">	a polynomial containing three terms</meaning></definition>
+</glossary>
+
+</document>

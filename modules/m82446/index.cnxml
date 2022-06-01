@@ -1,0 +1,674 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>More on Functions (2.2)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m82446</md:content-id>
+  <md:title>More on Functions (2.2)</md:title>
+  <md:abstract>This module will look at even/odd functions, and introduce difference quotients as they identify slope.</md:abstract>
+  <md:uuid>007e7a33-eee6-474e-a03e-baf80d7af575</md:uuid>
+</metadata>
+
+<content>
+  <note id="eip-319"><para id="fs-id1169147087020">This Module supports section <emphasis> 2.2 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Determining Even and Odd Functions <link target-id="eip-636" document=""/></item>
+<item>Difference Quotient and Slope <link target-id="eip-414" document=""/></item>
+<item>Key Concepts  <link target-id="eip-585" document=""/></item></list></note><section id="eip-636"><title>Determining Even and Odd Functions</title><para id="fs-id1165135532474">Some functions exhibit symmetry so that reflections result in the original graph. For example, horizontally reflecting the toolkit functions <m:math>
+   <m:mrow>
+    <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:math> or <m:math>
+   <m:mrow>
+    <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow></m:mrow>
+  </m:math> will result in the original graph. We say that these types of graphs are symmetric about the <emphasis effect="italics">y</emphasis>-axis. A function whose graph is symmetric about the <emphasis effect="italics">y</emphasis>-axis is called an <emphasis>even function.</emphasis></para><para id="fs-id1165137939530">If the graphs of<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    <m:mtext> </m:mtext></m:mrow>
+  </m:math>or<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mtext> </m:mtext></m:mrow>
+  </m:math>were reflected over <emphasis effect="italics">both</emphasis> axes, the result would be the original graph, as shown in <link target-id="Figure_01_05_022"/>.</para>
+
+  <figure id="Figure_01_05_022">
+<media id="fs-id1165137676986" alt="Graph of x^3 and its reflections.">
+    <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_021abc.jpg"/>
+   </media>
+  <caption>(a) The cubic toolkit function (b) Horizontal reflection of the cubic toolkit function (c) Horizontal and vertical reflections reproduce the original cubic function. </caption>
+</figure>
+<para id="fs-id1165137406881">We say that these graphs are symmetric about the origin. A function with a graph that is symmetric about the origin is called an <emphasis>odd function</emphasis>.</para>
+  <para id="fs-id1165134573214">Note: A function can be neither even nor odd if it does not exhibit either symmetry. For example,<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+     <m:mn>2</m:mn>
+     <m:mi>x</m:mi>
+    </m:msup>
+    <m:mtext> </m:mtext></m:mrow>
+  </m:math>is neither even nor odd. Also, the only function that is both even and odd is the constant function<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn></m:mrow>
+  </m:math>
+  </para>
+
+  <note id="fs-id1165137619398">
+   <label>A General Note</label>
+   <title>Even and Odd Functions</title>
+   <para id="fs-id1165137407995">A function is called an <term>even function</term> if for every input<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow>
+   </m:math>
+   </para>
+   <equation id="fs-id1165135424702" class="unnumbered"><label/><m:math display="block">
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+   </m:math>
+   </equation>
+<para id="fs-id1165135552902">The graph of an even function is symmetric about the <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mtext>-</m:mtext></m:mrow></m:math>axis.</para>
+<para id="fs-id1165137501973">A function is called an <term>odd function</term> if for every input<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow>
+   </m:math>
+   </para>
+   <equation id="fs-id1165137762060" class="unnumbered"><label/><m:math display="block">
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+   </m:math>
+   </equation><para id="fs-id1165135503845">The graph of an odd function is symmetric about the origin.</para>
+  </note>
+
+  <note id="fs-id1165135503849" class="precalculus howto">
+   <label>How To</label>
+   <para id="fs-id1165133353947"><emphasis>Given the formula for a function, determine if the function is even, odd, or neither.
+   </emphasis></para>
+   <list id="fs-id1165137552979" list-type="enumerated" number-style="arabic"><item>Determine whether the function satisfies<m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+    </m:math>If it does, it is even.</item>
+    <item>Determine whether the function satisfies<m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+    </m:math>If it does, it is odd.</item>
+   <item>If the function does not satisfy either rule, it is neither even nor odd.</item>
+   </list></note>
+
+  <example id="Example_01_05_12"><exercise id="fs-id1165137415536"><problem id="fs-id1165137415539">
+     <title>Determining whether a Function Is Even, Odd, or Neither </title>
+     <para id="fs-id1165135252115">Is the function<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+     </m:math>even, odd, or neither?</para>
+    </problem>
+    <solution id="fs-id1165137784966">
+     <para id="fs-id1165137784968">Without looking at a graph, we can determine whether the function is even or odd by finding formulas for the reflections and determining if they return us to the original function. Let’s begin with the rule for even functions.</para>
+
+     <equation id="fs-id1165137401549" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+     </m:math>
+     </equation>
+    <para id="fs-id1165137771042">This does not return us to the original function, so this function is not even. We can now test the rule for odd functions.</para>
+     <equation id="fs-id1165137740781" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mo>−</m:mo><m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+         </m:msup>
+         <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>3</m:mn>
+        </m:msup>
+       <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+     </m:math>
+     </equation>
+     <para id="fs-id1165135667851">Because<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>this is an odd function.</para>
+     <para id="fs-id1165133050510"><title>Analysis </title>Consider the graph of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+     </m:math>in <link target-id="Figure_01_05_039"/>. Notice that the graph is symmetric about the origin. For every point<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+     </m:math>on the graph, the corresponding point<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mo>−</m:mo><m:mi>y</m:mi></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+     </m:math>is also on the graph. For example, (1, 3) is on the graph of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>and the corresponding point<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>is also on the graph.</para><figure id="Figure_01_05_039" class="medium">
+      <media id="fs-id1165135543459" alt="Graph of f(x) with labeled points at (1, 3) and (-1, -3).">
+       <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_039.jpg"/>
+      </media>
+     </figure>
+    </solution>
+   
+     
+
+   
+   </exercise></example><example id="eip-423"><exercise id="ti_01_05_05">
+    <problem id="fs-id1165137897939">
+     <para id="fs-id1165137897941">Is the function<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>s</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+        <m:mi>s</m:mi>
+        <m:mn>4</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+        <m:mi>s</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>7</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>even, odd, or neither?</para>
+    </problem>
+    <solution id="fs-id1165137757764">
+     <para id="fs-id1165137757766"> even</para>
+    </solution>
+   </exercise>
+  </example><example id="eip-509"><exercise id="eip-732"><problem id="fs-id1165132924971">
+  <para id="fs-id1165137812602"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135671506">
+ <para id="fs-id1165135671508">even</para>
+</solution>
+</exercise></example><example id="eip-835"><exercise id="eip-218"><problem id="fs-id1165137828010">
+   <para id="fs-id1165133408839"><m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>x</m:mi>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow>
+</m:math>
+</para></problem>
+  <solution id="fs-id1165137610991">
+   <para id="fs-id1165137610993">odd</para>
+  </solution>
+ </exercise></example></section><section id="eip-414"><title>Difference Quotient</title><para id="eip-96">While we will look more closely at slope in the next section, </para><note id="eip-899"><title>What is Slope?</title><para id="fs-id2512513">The slope of a line, <emphasis effect="italics">m</emphasis>, represents the veritcal change in <emphasis effect="italics">y</emphasis> over the horizontal change in <emphasis effect="italics">x.</emphasis> Given two points,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> the following formula determines the slope of a line containing these points:</para><equation id="fs-id1908930" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></equation><para id="eip-681">Slope also indicates the direction in which a line slants as well as its steepness. Slope is sometimes described as <emphasis>rise over run.</emphasis></para></note><para id="eip-383">We can use the slope of a line to a function at a point <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to estimate the rate of change, or the rate at which one variable changes in relation to another variable. We can obtain the slope  by choosing a value of <m:math><m:mi>x</m:mi></m:math> near <m:math><m:mi>a</m:mi></m:math> and drawing a line through the points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> as shown in <link target-id="CNX_Calc_Figure_03_01_002"/>. The slope of this line is given by an equation in the form of a difference quotient:
+</para><equation id="eip-278"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><para id="eip-410">We can also calculate the slope of a line to a function at a value <emphasis effect="italics">a</emphasis> by using this equation and replacing <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math> with <m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mi>h</m:mi></m:math> is a value close to 0. We can then calculate the slope of the line through the points <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math> In this case, we find the line has a slope given by the following difference quotient with increment <m:math><m:mi>h</m:mi><m:mtext>:</m:mtext></m:math></para><equation id="eip-152"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>h</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><note id="eip-338"><title>Difference Quotient</title><para id="fs-id1169738924962">Let <m:math><m:mi>f</m:mi></m:math> be a function defined on an interval <m:math><m:mi>I</m:mi></m:math> containing <m:math><m:mi>a</m:mi><m:mo>.</m:mo></m:math> If <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mi>a</m:mi></m:mrow></m:math> is in <m:math><m:mi>I</m:mi><m:mo>,</m:mo></m:math> then</para>
+<equation id="fs-id1169738850293"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1169738879993">is a <term>difference quotient</term>.</para>
+<para id="fs-id1169739195558">Also, if <m:math><m:mrow><m:mi>h</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> is chosen so that <m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow></m:math> is in <m:math><m:mrow><m:mi>I</m:mi><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1169739097936"><m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>h</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1169738913121">is a difference quotient with increment <m:math><m:mi>h</m:mi><m:mo>.</m:mo></m:math></para>
+</note><example id="eip-265"><exercise id="fs-id1165135579705">
+ <problem id="fs-id1165135579707">
+  <para id="fs-id1165135579709">Given the function<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>simplify<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow>
+    </m:mfrac>
+    <m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>≠</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+  </m:math></para></problem>
+<solution id="fs-id1165134284461">
+ <para id="fs-id1165134284463"><m:math>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>≠</m:mo><m:mi>a</m:mi></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise></example><example id="eip-801"><exercise id="fs-id1165137742220">
+      <problem id="fs-id1165137455592">
+       <title>Evaluating Functions at Specific Values</title>
+       <para id="fs-id1165134193005">Evaluate<m:math>
+        <m:mrow>
+         <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>x</m:mi>
+          <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+           <m:mi>x</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext></m:mrow>
+       </m:math>at</para>
+       <list id="fs-id1165137648008" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+         <m:mn>2</m:mn>
+        </m:math>
+        </item>
+        <item><m:math>
+         <m:mi>a</m:mi>
+        </m:math>
+        </item>
+        <item><m:math>
+         <m:mrow>
+          <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow>
+        </m:math>
+        </item>
+        <item><m:math>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+             <m:mrow>
+              <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow>
+             <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>)</m:mo></m:mrow></m:mrow>
+           <m:mi>h</m:mi>
+          </m:mfrac>
+         </m:mrow>
+        </m:math>
+        </item>
+       </list></problem>
+      <solution id="fs-id1165135397244">
+       <para id="fs-id1165137936905">Replace the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+in the function with each specified value.</para><list id="fs-id1165137778273" list-type="enumerated" number-style="lower-alpha"><item>Because the input value is a number, 2, we can use simple algebra to simplify.
+        <equation id="fs-id1165135160774" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="l" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mn>2</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>4</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mn>6</m:mn>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></item>
+
+       <item>In this case, the input value is a letter so we cannot simplify the answer any further.
+        <equation id="fs-id1165137638318" class="unnumbered"><label/>
+        <m:math display="block">
+        <m:mrow>
+         <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mi>a</m:mi>
+          <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+           <m:mi>a</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+        </m:math>
+         </equation>
+       </item>
+
+       <item>With an input value of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>we must use the distributive property.
+<equation id="fs-id1165137911654" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>h</m:mi><m:mo>+</m:mo><m:msup>
+       <m:mi>h</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></item>
+
+       <item>In this case, we apply the input values to the function more than once, and then perform algebraic operations on the result. We already found that
+<equation id="fs-id1165135154122" class="unnumbered"><label/><m:math display="block">
+        <m:mrow>
+         <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow>
+          <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+           <m:mi>a</m:mi>
+           <m:mn>2</m:mn>
+          </m:msup>
+         <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>h</m:mi><m:mo>+</m:mo><m:msup>
+          <m:mi>h</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+       </m:math>
+       </equation>
+<para id="fs-id1165135632109">and we know that</para>
+<equation id="fs-id1165137471110" class="unnumbered"><label/><m:math display="block">
+       <m:mrow>
+        <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mi>a</m:mi>
+         <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+        <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+      </m:math></equation>
+
+<para id="fs-id1165137767461">Now we combine the results and simplify.</para>
+       <equation id="fs-id1165137573884" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mi>h</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo>(</m:mo><m:msup>
+         <m:mi>a</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>h</m:mi><m:mo>+</m:mo><m:msup>
+         <m:mi>h</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>−</m:mo><m:mo>(</m:mo><m:msup>
+         <m:mi>a</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>)</m:mo>
+       </m:mrow>
+       <m:mi>h</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mi>a</m:mi><m:mi>h</m:mi><m:mo>+</m:mo><m:msup>
+         <m:mi>h</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>h</m:mi>
+       </m:mrow>
+       <m:mi>h</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mi>h</m:mi>
+      </m:mfrac><m:mspace width="2em"/>
+      <m:mtext>Factor out </m:mtext><m:mi>h</m:mi><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="3.3em"/><m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></item>
+        </list></solution>
+     </exercise>
+    </example></section><section id="eip-585"><title>Key Concepts</title><list id="eip-448"><item>Even functions are symmetric about the <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mtext>-</m:mtext></m:mrow>
+</m:math>axis, whereas odd functions are symmetric about the origin.</item>
+    <item>Even functions satisfy the condition<m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+    </m:math>
+ </item>
+    <item>Odd functions satisfy the condition<m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+    </m:math>
+    </item>
+    <item>A function can be odd, even, or neither. See <link target-id="Example_01_05_12"/>.</item><item><emphasis effect="bold">Difference quotient</emphasis><newline/>
+<m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item><emphasis effect="bold">Difference quotient with increment</emphasis> <m:math><m:mi>h</m:mi></m:math><newline/>
+<m:math><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>h</m:mi></m:mfrac></m:mrow></m:math></item></list></section>
+<section id="eip-181" class="section-exercises"><section id="fs-id1167832055407" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167832055414"><emphasis effect="bold">Even / Odd</emphasis></para><para id="fs-id1167832059729">For the following exercises, determine whether the function is odd, even, or neither.</para><exercise id="eip-220"><problem id="eip-425">
+   <para id="eip-495"><m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>x</m:mi>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow>
+</m:math>
+</para></problem>
+  <solution id="eip-211">
+   <para id="eip-351">odd</para>
+  </solution>
+ </exercise><exercise id="eip-57"><problem id="fs-id1165134039319">
+   <para id="fs-id1165135238484"><m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para></problem>
+  <solution id="fs-id1165137679220">
+   <para id="fs-id1165137679222">even</para>
+  </solution>
+ </exercise></section>
+</section></content>
+
+</document>

@@ -1,0 +1,1330 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Expressions, Real Numbers (P1)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78766</md:content-id>
+  <md:title>Expressions, Real Numbers (P1)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Simplify expressions with absolute value</item>
+<item>Understand order of operations</item>
+<item>Identify liketerms</item>
+<item>Evaluate expressions with integers</item>
+<item>Understand real vs irrational numbers</item>
+<item>Understand Identity and Inverse</item>
+<item>Use properties of real numbers</item>
+</list></md:abstract>
+  <md:uuid>8470a5a3-64cd-4e5c-9ce2-289a2bf522c4</md:uuid>
+</metadata>
+
+<content>
+<note id="fs-id1167835364461" class="be-prepared">
+<para id="fs-id1167835343769">This Module supports section <emphasis> P1 of Mat 1023</emphasis>.
+<list id="fs-id2297272" mark-suffix=")" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Simplify Expressions with Absolute Value <link document="" target-id="fs-id1167832051980"/></item>
+<item>Expressions and Order of Operations <link document="" target-id="eip-854"/></item>
+<item>Evaluate Expressions with Integers <link document="" target-id="fs-id1167832053123"/></item>
+<item>Identify and Combine Like Terms <link document="" target-id="eip-429"/></item>
+<item>Properties of Real Numbers <link document="" target-id="eip-875"/></item>
+<item>Identity, Inverse, and Zero Properties <link document="" target-id="eip-881"/></item>
+<item>Distributive Property  <link document="" target-id="eip-728"/></item>
+<item>Key Concepts  <link document="" target-id="fs-id1167834535516"/></item></list></para></note>
+<section id="fs-id1167832051980">
+<title>Simplify Expressions with Absolute Value</title>
+<note id="eip-499" type="aside">For more on the number line, refer to the Pre-knowledge Module <link document="m63303" target-id="fs-id1167834536158"/>. </note><para id="fs-id1167835321040">A <term>negative number</term> is a number less than 0. The negative numbers are to the left of zero on the number line. See <link target-id="CNX_IntAlg_Figure_01_02_001"/>.</para><figure id="CNX_IntAlg_Figure_01_02_001">
+<media id="fs-id1167835325238" alt="Figure shows a horizontal line marked with numbers at equal distances. At the center of the line is 0. To the right of this, starting from the number closest to 0 are 1, 2, 3 and 4. These are labeled positive numbers. To the left of 0, starting from the number closest to 0 are minus 1, minus 2, minus 3 and minus 4. These are labeled negative numbers.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_01_02_001_img_new.jpg"/>
+</media>
+<caption>The number line shows the location of positive and negative numbers.</caption>
+</figure>
+<para id="fs-id1167834062128">You may have noticed that, on the number line, the negative numbers are a mirror image of the positive numbers, with zero in the middle. Because the numbers <m:math><m:mn>2</m:mn></m:math> and <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> are the same distance from zero, each one is called the <term>opposite</term> of the other. The opposite of <m:math><m:mn>2</m:mn></m:math> is <m:math><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the opposite of <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167835326232">
+<title>Opposite</title>
+<para id="fs-id1167834186346">The <emphasis effect="bold">opposite</emphasis> of a number is the number that is the same distance from zero on the number line but on the opposite side of zero.</para>
+</note>
+<para id="fs-id1167835368578"><link target-id="CNX_IntAlg_Figure_01_02_002"/> illustrates the definition.</para>
+<figure id="CNX_IntAlg_Figure_01_02_002">
+<media id="fs-id1167834195463" alt="Figure shows a number line with the numbers 3 and minus 3 highlighted. These are equidistant from 0, both being 3 numbers away from 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_01_02_002_img_new.jpg"/>
+</media>
+<caption>The opposite of 3 is <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math>.</caption>
+</figure>
+<note id="fs-id1167835596363">
+<title>Opposite Notation</title>
+<equation id="fs-id1167835347808" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>means the opposite of the number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>The notation</m:mtext><m:mspace width="0.2em"/><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>is read as “the opposite of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>.”</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></note>
+<para id="fs-id1167835307051">We saw that numbers such as 3 and <m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math> are opposites because they are the same distance from 0 on the number line. They are both three units from 0. The distance between 0 and any number on the number line is called the <term>absolute value</term> of that number.</para>
+<note id="fs-id1167831871666">
+<title>Absolute Value</title>
+<para id="fs-id1167835304200">The <emphasis effect="bold">absolute value</emphasis> of a number is its distance from 0 on the number line.</para>
+<para id="fs-id1167834138250">The absolute value of a number <m:math><m:mi>n</m:mi></m:math> is written as <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> for all numbers.</para>
+<para id="fs-id1167834345757">Absolute values are always greater than or equal to zero.</para>
+</note>
+<para id="fs-id1167835325056">For example,</para>
+<equation id="fs-id1167834063148" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>−5</m:mn><m:mspace width="0.2em"/><m:mtext>is 5 units away from 0, so</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>5 is 5 units away from 0, so</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mn>5</m:mn><m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167834464240"><link target-id="CNX_IntAlg_Figure_01_02_003"/> illustrates this idea.</para>
+<figure id="CNX_IntAlg_Figure_01_02_003">
+<media id="fs-id1167834439195" alt="Figure shows a number line showing the numbers 0, 5 and minus 5. 5 and minus 5 are equidistant from 0, both being 5 units away from 0.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_01_02_003_img_new.jpg"/>
+</media>
+<caption>The numbers 5 and <m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math> are 5 units away from 0.</caption>
+</figure>
+<para id="fs-id1167832031212">The absolute value of a number is never negative because distance cannot be negative. The only number with absolute value equal to zero is the number zero itself because the distance from 0 to 0 on the number line is zero units.</para>
+<para id="fs-id1167834063255">In the next example, we’ll order expressions with absolute values.</para>
+
+<example id="fs-id1167835595046">
+<exercise id="fs-id1167835362334">
+<problem id="fs-id1167834219221">
+<para id="fs-id1167835217963">Fill in <m:math><m:mrow><m:mo>&lt;</m:mo><m:mo>,</m:mo><m:mo>&gt;</m:mo><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mo>=</m:mo></m:math> for each of the following pairs of numbers:</para>
+<para id="fs-id1167831883212"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>__</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mo>__</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−9</m:mn><m:mo>__</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>__</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835301570">
+<para id="fs-id1167835380308"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.5em"/><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.5em"/><m:mn>5</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Order.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.5em"/><m:mn>5</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.5em"/><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd><m:mtd columnalign="center"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167835342749"><span class="token">ⓑ</span><newline/>
+<m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.4em"/><m:mn>8</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.4em"/><m:mn>8</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>8</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Order.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.4em"/><m:mn>8</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>8</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="3.4em"/><m:mn>8</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>&gt;</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1167831880002"><span class="token">ⓒ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.8em"/><m:mn>−9</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.8em"/><m:mn>−9</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−9</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Order.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.8em"/><m:mn>−9</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−9</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2.8em"/><m:mn>−9</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mtext>−</m:mtext><m:mo>|</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167835333080"><span class="token">ⓓ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1em"/><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1em"/><m:mn>16</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>__</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>16</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Order.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1em"/><m:mn>16</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>16</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="1em"/><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−16</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+
+<example id="eip-150"><exercise id="fs-id1167835370336">
+<problem id="fs-id1167834195431">
+<para id="fs-id1167831928877">Fill in <m:math><m:mrow><m:mo>&lt;</m:mo><m:mo>,</m:mo><m:mo>&gt;</m:mo><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mo>=</m:mo></m:math> for each of the following pairs of numbers:</para>
+<para id="fs-id1167832056480"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−9</m:mn><m:mo>__</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mo>__</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>−8</m:mn><m:mo>__</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>__</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835381034">
+<para id="fs-id1167832052135"><span class="token">ⓐ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓑ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓒ</span> <m:math><m:mo>&lt;</m:mo></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mo>=</m:mo></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1167832052677">We now add absolute value bars to our list of grouping symbols. When we use the order of operations, first we simplify inside the absolute value bars as much as possible, then we take the absolute value of the resulting number.</para>
+<note id="fs-id1167834433550">
+<title>Grouping Symbols</title>
+<equation id="fs-id1167835321488" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Parentheses</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mspace width="0.2em"/><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mtext>Braces</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mspace width="0.2em"/><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Brackets</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mtext>Absolute value</m:mtext></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>|</m:mo><m:mspace width="0.2em"/><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167835166543">In the next example, we simplify the expressions inside absolute value bars first just like we do with parentheses.</para>
+<example id="fs-id1167835319324">
+<exercise id="fs-id1167834180019">
+<problem id="fs-id1167834430895">
+<para id="fs-id1167832058609">Simplify: <m:math><m:mrow><m:mn>24</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>19</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835306143">
+<para id="fs-id1167832054257"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>24</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>19</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Work inside parentheses first:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>subtract 2 from 6.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>24</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>19</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply 3(4).</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>24</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>19</m:mn><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Subtract inside the absolute value bars.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>24</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mn>7</m:mn><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the absolute value.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>24</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Subtract.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>17</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-549"><exercise id="fs-id1167835180537">
+<problem id="fs-id1167832055359">
+<para id="fs-id1167834124820">Simplify:<m:math><m:mrow><m:mn>19</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>11</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835259043">
+<para id="fs-id1167835258413">16</para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="eip-854"><title>Simplify Expressions and Order of Operations</title><para id="eip-851">What is the difference in English between a phrase and a sentence? A phrase expresses a single thought that is incomplete by itself, but a sentence makes a complete statement. A sentence has a subject and a verb. In algebra, we have <emphasis effect="italics">expressions</emphasis> and <emphasis effect="italics">equations</emphasis>.</para><note id="eip-55"><para id="fs-id1167836530664">An <emphasis effect="bold">expression</emphasis> is a number, a variable, or a combination of numbers and variables using operation symbols.</para><equation id="eip-980"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Expression</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">Words</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">English Phrase</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>3 plus 5</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>the sum of three and five</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>minus one</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>the difference of</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>and one</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>6 times 7</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>the product of six and seven</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>divided by</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>the quotient of</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note><para id="eip-964">An <term>equation</term> is two expressions linked by an equal sign. When you read the words the symbols represent in an equation, you have a complete sentence in English. The equal sign gives the verb.</para><equation id="eip-551"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Equation</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext mathvariant="bold">English Sentence</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The sum of three and five is equal to eight.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>14</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>minus one equals fourteen.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mn>6</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>42</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The product of six and seven is equal to forty-two.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>53</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>is equal to fifty-three.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>plus nine is equal to two</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>minus three.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+
+<para id="fs-id1167836416290">To <term>simplify an expression</term> means to do all the math possible. For example, to simplify <m:math><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> we would first multiply <m:math><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow></m:math> to get 8 and then add the 1 to get 9. A good habit to develop is to work down the page, writing each step of the process below the previous step. The example just described would look like this:</para>
+<equation id="fs-id1167836507828" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167836534471">By not using an equal sign when you simplify an expression, you may avoid confusing expressions with equations.</para>
+<note id="fs-id1167836534475">
+<title>Simplify an Expression</title>
+<para id="fs-id1167836534481">To <emphasis effect="bold">simplify an expression</emphasis>, do all operations in the expression.</para>
+</note>
+<para id="fs-id1167836534490">We’ve introduced most of the symbols and notation used in algebra, but now we need to clarify the <term>order of operations</term>. Otherwise, expressions may have different meanings, and they may result in different values.</para>
+<para id="fs-id1167836525166">For example, consider the expression <m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn><m:mo>.</m:mo></m:mrow></m:math> Some students simplify this getting 49, by adding <m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and then multiplying that result by 7. Others get 25, by multiplying <m:math><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>7</m:mn></m:mrow></m:math> first and then adding 4.</para>
+<para id="fs-id1167836522816">The same expression should give the same result. So mathematicians established some guidelines that are called the order of operations.</para>
+<note id="fs-id1167836522820" class="howto">
+<title>Use the order of operations.</title>
+<list id="fs-id1167836522828" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Parentheses and Other Grouping Symbols
+<list id="fs-id1167829590631" list-type="bulleted" bullet-style="bullet">
+<item>Simplify all expressions inside the parentheses or other grouping symbols, working on the innermost parentheses first.</item>
+</list></item>
+<item>Exponents
+<list id="fs-id1167829590645" list-type="bulleted" bullet-style="bullet">
+<item>Simplify all expressions with exponents.</item>
+</list></item>
+<item>Multiplication and Division
+<list id="fs-id1167836375957" list-type="bulleted" bullet-style="bullet">
+<item>Perform all multiplication and division in order from left to right. These operations have equal priority.</item>
+</list></item>
+<item>Addition and Subtraction
+<list id="fs-id1167836375971" list-type="bulleted" bullet-style="bullet">
+<item>Perform all addition and subtraction in order from left to right. These operations have equal priority.</item>
+</list></item>
+</list>
+</note>
+<para id="fs-id1167836375984">Students often ask, “How will I remember the order?” Here is a way to help you remember: Take the first letter of each key word and substitute the silly phrase “Please Excuse My Dear Aunt Sally”.</para>
+<equation id="fs-id1166502309552" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">P</m:mtext><m:mtext>arentheses</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mtext mathvariant="bold">P</m:mtext><m:mtext>lease</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">E</m:mtext><m:mtext>xponents</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mtext mathvariant="bold">E</m:mtext><m:mtext>xcuse</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">M</m:mtext><m:mtext>ultiplication</m:mtext><m:mspace width="0.2em"/><m:mtext mathvariant="bold">D</m:mtext><m:mtext>ivision</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mtext mathvariant="bold">M</m:mtext><m:mtext>y</m:mtext><m:mspace width="0.2em"/><m:mtext mathvariant="bold">D</m:mtext><m:mtext>ear</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">A</m:mtext><m:mtext>ddition</m:mtext><m:mspace width="0.2em"/><m:mtext mathvariant="bold">S</m:mtext><m:mtext>ubtraction</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mtext mathvariant="bold">A</m:mtext><m:mtext>unt</m:mtext><m:mspace width="0.2em"/><m:mtext mathvariant="bold">S</m:mtext><m:mtext>ally</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836619914">It’s good that “<emphasis effect="bold">M</emphasis>y <emphasis effect="bold">D</emphasis>ear” goes together, as this reminds us that <emphasis effect="bold">m</emphasis>ultiplication and <emphasis effect="bold">d</emphasis>ivision have equal priority. We do not always do multiplication before division or always do division before multiplication. We do them in order from left to right.</para>
+<para id="fs-id1167829597218">Similarly, “<emphasis effect="bold">A</emphasis>unt <emphasis effect="bold">S</emphasis>ally” goes together and so reminds us that <emphasis effect="bold">a</emphasis>ddition and <emphasis effect="bold">s</emphasis>ubtraction also have equal priority and we do them in order from left to right.</para>
+<example id="fs-id1167836508031">
+<exercise id="fs-id1167836508033">
+<problem id="fs-id1167836508035">
+<para id="fs-id1167836508037">Simplify: <m:math><m:mrow><m:mn>18</m:mn><m:mo>÷</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829692917">
+<para id="fs-id1167829692919"><table id="fs-id1167829692920" class="unnumbered unstyled can-break" summary="The expression is 18 divided by 6 plus 4 open parentheses 5 minus 2 close parentheses. Since there are parentheses, we first open them by performing the subtraction 5 minus 2. The expression now is 18 divided by 6 plus 4 times 3. There are no exponents. Next we check for multiplication and division. Divide first because we multiply and divide left to right. We now have 3 plus 4 times 3. Next we multiply. We now have 3 plus 12. There is no other multiplication or division. Finally, we check for addition or subtraction. We add to get the number 15.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167829596519" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_009a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Parentheses? Yes, subtract first.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829596546" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_009b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Exponents? No.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiplication or division? Yes.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide first because we multiply and divide left to right.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836508078" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_009c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Any other multiplication or division? Yes.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829695213" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_009d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Any other multiplication of division? No.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Any addition or subtraction? Yes.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836531883" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_009e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-354"><exercise id="fs-id1167836627083">
+<problem id="fs-id1167836627085">
+<para id="fs-id1167836627088">Simplify: <m:math><m:mrow><m:mn>70</m:mn><m:mo>÷</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829586618">
+<para id="fs-id1167829586620">23</para>
+</solution>
+</exercise>
+
+</example><para id="fs-id1167829586626">When there are multiple grouping symbols, we simplify the innermost parentheses first and work outward.</para>
+<example id="fs-id1167829586631">
+<exercise id="fs-id1167829586633">
+<problem id="fs-id1167829586635">
+<para id="fs-id1167829586637">Simplify: <m:math><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833056784">
+<para id="fs-id1167833056786"><table id="fs-id1167833056787" class="unnumbered unstyled can-break" summary="The expression is 5 plus 2 to the power 3 plus 3 open bracket 6 minus 3 open parentheses 4 minus 2 close parentheses close bracket. Focus on the parentheses that are inside the brackets. Subtract to get 5 plus 2 to the power 3 plus 3 open bracket 6 minus 3 open parentheses 2 close parentheses close bracket. Continue inside the brackets and multiply to get 5 plus 2 to the power 3 plus 3 open bracket 6 minus 6 close bracket. Continue inside the brackets and subtract to get 5 plus 2 to the power 3 plus 3 open bracket 0 close bracket. The expression inside the brackets requires no further simplification. Now simplify exponents to get 5 plus 8 plus 3 open bracket 0 close bracket. Check for multiplication or division. Multiply to get 5 plus 8 plus 0. Check for addition or subtraction. Finally add to get 13.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167829694073" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Are there any parentheses (or other<newline/>grouping symbols)? Yes.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829694118" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Focus on the parentheses that are inside the<newline/>brackets. Subtract.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836418416" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Continue inside the brackets and multiply.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836418442" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Continue inside the brackets and subtract.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836533805" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The expression inside the brackets requires<newline/>no further simplification.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Are there any exponents? Yes. Simplify exponents.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836533832" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010g_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Is there any multiplication or division? Yes.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836627134" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010h_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Is there any addition of subtraction? Yes.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836627175" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010i_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829693866" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_010j_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-904"><exercise id="fs-id1167829693887">
+<problem id="fs-id1167829693889">
+<para id="fs-id1167829693891">Simplify: <m:math><m:mrow><m:mn>9</m:mn><m:mo>+</m:mo><m:msup><m:mn>5</m:mn><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836552370">
+<para id="fs-id1167836552372">86</para>
+</solution>
+</exercise>
+
+</example><example id="eip-5"><exercise id="fs-id1167834536160">
+<problem id="fs-id1167834536162">
+<para id="fs-id1167834536165">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832066494">
+<para id="fs-id1167832066496">Notice the difference in parts (a) and (b). In part (a), the exponent means to raise what is in the parentheses, the <m:math><m:mrow><m:mn>−2</m:mn></m:mrow></m:math> to the 4<sup>th</sup> power. In part (b), the exponent means to raise just the 2 to the 4<sup>th</sup> power and then take the opposite.</para>
+<para id="fs-id1167834062721"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Write in expanded form.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>−8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>16</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167831239202"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4.6em"/><m:mtext>−</m:mtext><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Write in expanded form.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4.6em"/><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>We are asked to find</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>the opposite of</m:mtext><m:mspace width="0.2em"/><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:mtext>.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4.6em"/><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4.6em"/><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4.6em"/><m:mn>−16</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="eip-305">The last example showed us the difference between <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> This distinction is important to prevent future errors. The next example reminds us to multiply and divide in order left to right.</para><example id="eip-243"><exercise id="fs-id1167834556094">
+<problem id="fs-id1167834183406">
+<para id="fs-id1167834183408">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−30</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835378126">
+<para id="fs-id1167835378128"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="8em"/><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Exponents first.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="8em"/><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="8em"/><m:mn>−72</m:mn><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Divide.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="8em"/><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167831880168"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>−30</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply and divide</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>left to right, so divide first.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>−15</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>−15</m:mn><m:mo>+</m:mo><m:mn>21</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise></example>
+</section><section id="eip-429"><title>Idetnify and Combine Like Terms</title><para id="fs-id1167836627849">Algebraic expressions are made up of terms.  What do you think <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> would simplify to? If you thought <m:math><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> you would be right!</para><para id="eip-447">We can see why this works by writing both terms as addition problems.
+<media id="fs-id2261867" alt="The image shows the expression 3 x plus 6 x. The 3 x represents x plus x plus x. The 6 x represents x plus x plus x plus x plus x plus x. The expression 3 x plus 6 x becomes x plus x plus x plus x plus x plus x plus x plus x plus x. This simplifies to a total of 9 x's or the term 9 x.">
+<image src="../../media/CNX_BMath_Figure_02_02_001_img.jpg" mime-type="image/jpeg"/>
+</media>
+Add the <term class="no-emphasis">coefficients</term> and keep the same variable. It doesn’t matter what <m:math><m:mi>x</m:mi></m:math> is. If you have <m:math><m:mn>3</m:mn></m:math> of something and add <m:math><m:mn>6</m:mn></m:math> more of the same thing, the result is <m:math><m:mn>9</m:mn></m:math> of them. For example, <m:math><m:mn>3</m:mn></m:math> oranges plus <m:math><m:mn>6</m:mn></m:math> oranges is <m:math><m:mn>9</m:mn></m:math> oranges. We will discuss the mathematical properties behind this later.</para><note id="fs-id1167836627856">
+<title>Term</title>
+<para id="fs-id1167836627861">A <emphasis effect="bold">term</emphasis> is a constant or the product of a constant and one or more variables.</para>
+</note>
+<para id="fs-id1167836448104">Examples of terms are <m:math><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math>
+
+</para><note id="fs-id1167836448151">
+<title>Coefficient</title>
+<para id="fs-id1167836448156">The <emphasis effect="bold">coefficient</emphasis> of a term is the constant that multiplies the variable in a term.</para>
+</note>
+<para id="fs-id1167836448165">Think of the coefficient as the number in front of the variable. The coefficient of the term <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> is 3. When we write <m:math><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> the coefficient is 1, since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836448199">Some terms share common traits. When two terms are constants or have the same variable and exponent, we say they are <term>like terms</term>.</para>
+<para id="fs-id1167836448207">Look at the following 6 terms. Which ones seem to have traits in common?</para>
+<equation id="fs-id1167836448210" class="unnumbered"><label/><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="1em"/><m:mn>7</m:mn><m:mspace width="1em"/><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="1em"/><m:mn>4</m:mn><m:mspace width="1em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mspace width="1em"/><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167836448258">We say,</para>
+<para id="fs-id1167836448262"><m:math><m:mspace width="1em"/><m:mn>7</m:mn></m:math> and <m:math><m:mn>4</m:mn></m:math> are like terms.</para>
+<para id="fs-id1167836652453"><m:math><m:mrow><m:mspace width="1em"/><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> are like terms.</para>
+<para id="fs-id1167836652473"><m:math><m:mrow><m:mspace width="1em"/><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are like terms.</para>
+<note id="fs-id1167836652497"><title>Combine Like Terms</title><para id="fs-id1167836652502">Terms that are either constants or have the same variables raised to the same powers are called <emphasis effect="bold">like terms.</emphasis></para><para id="eip-772"><list id="fs-id1167836792904" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Identify like terms.</item>
+<item>Rearrange the expression so like terms are together.</item>
+<item>Add or subtract the coefficients and keep the same variable for each group of like terms.</item>
+</list></para>
+</note><para id="fs-id1167836652512">If there are like terms in an expression, you can simplify the expression by combining the like terms. We add the coefficients and keep the same variable.</para>
+<equation id="fs-id1167836652516" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Add the coefficients.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>12</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<example id="fs-id1167836652573">
+<title>How To Combine Like Terms</title>
+<exercise id="fs-id1167836652578"><problem id="fs-id1167836652581">
+<para id="fs-id1167836652583">Simplify: <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836611286">
+<media id="fs-id1167836611288" alt="Step 1 is to identify the like terms in 2 x squared plus 3 x plus 7 plus x squared plus 4 x plus 5. The like terms are 2 x squared and x squared, then 3 x and 4 x, then 7 and 5.">
+<image src="../../media/CNX_IntAlg_Figure_01_01_014a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836611301" alt="Step 2 is to rearrange the expression so the like terms are together. Hence, we have 2 x squared plus x squared plus 3 x plus 4 x plus 7 plus 5.">
+<image src="../../media/CNX_IntAlg_Figure_01_01_014b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836611314" alt="Step 3 is to combine the like terms to get 3 x squared plus 7 x plus 12.">
+<image src="../../media/CNX_IntAlg_Figure_01_01_014c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise></example><example id="eip-694"><exercise id="fs-id1167836611332">
+<problem id="fs-id1167836611335">
+<para id="fs-id1167836611337">Simplify: <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836611384">
+<para id="fs-id1167836611386"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>17</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+</section><section id="fs-id1167832053123"><title>Evaluate Variable Expressions with Integers</title><para id="fs-id1167836530236">In the last few examples, we simplified expressions using the order of operations. Now we’ll evaluate some expressions—again following the order of operations. To <term>evaluate an expression</term> means to find the value of the expression when the variable is replaced by a given number.</para>
+<note id="fs-id1167836530245">
+<title>Evaluate an Expression</title>
+<para id="fs-id1167836530250">To <emphasis effect="bold">evaluate an expression</emphasis> means to find the value of the expression when the variable is replaced by a given number.</para>
+</note>
+<para id="fs-id1167836530261">To evaluate an expression, substitute that number for the variable in the expression and then simplify the expression.</para>
+<example id="fs-id1167836530265">
+<exercise id="fs-id1167836530267">
+<problem id="fs-id1167836530269">
+<para id="fs-id1167836530271">Evaluate when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>:</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836512101">
+<para id="fs-id1171791331671"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167836512118" class="unnumbered unstyled" summary="The expression is x squared. Replace x with 4 to get 4 squared. Use definition of exponent to get 4 times 4. Simplify to get 16.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836416388" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_011b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836416408" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_011a_img.jpg" mime-type="image/jpeg"/></media></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836416422" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_011c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use definition of exponent.</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836416449" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_011d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836416476" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_011e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167829595190" class="unnumbered unstyled" summary="The expression is 3 raised to the power x. Replace x with 4 to get 3 to the power 4. Use definition of exponent to get 3 times 3 times 3 times 3. Simplify to get 81.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167829595233" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_012b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829595253" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_012a_img.jpg" mime-type="image/jpeg"/></media></entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167829595267" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_012c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Use definition of exponent.</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836556778" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_012d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836556805" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_012e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<span class="token">ⓒ</span><newline/>
+<table id="fs-id1167836556826" class="unnumbered unstyled" summary="The expression is 2 x squared plus 3 x plus 8. Substitute x with 4 to get 2 open parentheses 4 close parentheses squared plus 3 open parentheses 4 close parentheses plus 8. Follow order of operations to first get 2 open parentheses 16 close parentheses plus 3 open parentheses 4 close parentheses plus 8. Then, 32 plus 12 plus 8. Then, 52.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836556871" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836556890" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013a_img.jpg" mime-type="image/jpeg"/></media></entry>
+<entry valign="top" align="center"><media id="fs-id1167836571162" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Follow the order of operations.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836571189" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836571214" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836571240" alt="."><image src="../../media/CNX_IntAlg_Figure_01_01_013f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-930"><exercise id="fs-id1167836571262">
+<problem id="fs-id1167836571264">
+<para id="fs-id1167836571266">Evaluate when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836627717">
+<para id="fs-id1167836627719"><span class="token">ⓐ</span> 9 <span class="token">ⓑ</span> 64 <span class="token">ⓒ</span>40</para>
+</solution>
+</exercise>
+
+</example><para id="fs-id1167832053128">Remember that to evaluate an expression means to substitute a number for the variable in the expression. Now we can use negative numbers as well as positive numbers.</para>
+<example id="fs-id1167832053133">
+<exercise id="fs-id1167832053135">
+<problem id="fs-id1167832053137">
+<para id="fs-id1167831880328">Evaluate <m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> when <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834238705">
+<table id="fs-id1167834238707" class="unnumbered unstyled" summary="The expression is 4 x squared minus 2 x y plus 3 y squared. Substitute x with 2 and y with minus 1. Using parentheses to show multiplication, we get 4 open parentheses 2 close parentheses squared minus 2 open parentheses 2 close parentheses open parentheses minus 1 close parentheses plus 3 open parentheses minus 1 close parentheses squared. Simplifying exponents, we get 4 times 4 minus open parentheses minus 4 close parentheses plus 3 times 1. We multiply to get 16 minus open parentheses minus 4 close parentheses plus 3. We subtract to get 20 plus 3. We add to get 23."><label/>
+<tgroup cols="3">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row valign="top">
+<entry/>
+<entry/>
+<entry align="center" valign="top">
+<media id="fs-id1167834539432" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015b_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry align="left" valign="top"><media id="fs-id1167834535493" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015a_img.jpg" mime-type="image/jpeg"/>
+</media></entry>
+<entry align="left" valign="top"><m:math><m:mspace width="4em"/></m:math></entry>
+<entry align="center" valign="top">
+<media id="fs-id1167831871648" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015c_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry align="left" valign="top">Simplify exponents.</entry>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167831880151" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015d_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry></row>
+<row valign="top">
+<entry align="left" valign="top">Multiply.</entry>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167831880503" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015e_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry align="left" valign="top">Subtract.</entry>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167832076130" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015f_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+<row valign="top">
+<entry align="left" valign="top">Add.</entry>
+<entry/>
+<entry align="center" valign="top"><media id="fs-id1167832053446" alt=".">
+<image src="../../media/CNX_IntAlg_Figure_01_02_015g_img.jpg" mime-type="image/jpeg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
+</exercise>
+</example>
+
+</section><section id="eip-875"><title>Properties of Real Numbers</title><para id="fs-id1167833049933">We have already described numbers as <emphasis effect="italics">counting number</emphasis><emphasis effect="italics">s</emphasis>, <emphasis effect="italics">whole number</emphasis><emphasis effect="italics">s</emphasis>, and <emphasis effect="italics">integers</emphasis>. What is the difference between these types of numbers? Difference could be confused with subtraction. How about asking how we distinguish between these types of numbers?</para>
+<equation id="fs-id1167836800466" class="unnumbered"><label/><m:math><m:mrow>
+<m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Counting numbers</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1em"/><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mn>.</m:mn><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Whole numbers</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1em"/><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Integers</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mtext>…</m:mtext><m:mo>.</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836553759">What type of numbers would we get if we started with all the integers and then included all the fractions? The numbers we would have form the set of rational numbers. A <term>rational number</term> is a number that can be written as a ratio of two integers.</para>
+<para id="fs-id1167829715480">In general, any decimal that ends after a number of digits (such as 7.3 or <m:math><m:mrow><m:mn>−1.2684</m:mn></m:mrow></m:math>) is a rational number. We can use the place value of the last digit as the denominator when writing the decimal as a fraction. The decimal for <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is the number <m:math><m:mrow><m:mn>0.</m:mn><m:mover><m:mn>3</m:mn><m:mo>–</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math> The bar over the 3 indicates that the number 3 repeats infinitely. Continuously has an important meaning in calculus. The number(s) under the bar is called the repeating block and it repeats continuously.</para>
+<para id="fs-id1167829717443"><emphasis>Since all integers can be written as a fraction whose denominator is 1, the integers (and so also the counting and whole numbers. are rational numbers.</emphasis></para><note id="fs-id1167836536548">
+<title>Rational Number</title>
+<para id="fs-id1167836536554">A <emphasis effect="bold">rational number</emphasis> is a number that can be written both as a ratio of integers<m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> <emphasis effect="italics">where p and q are integers and</emphasis> <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> <emphasis effect="italics">and as a decimal that stops or repeats.</emphasis></para><para id="fs-id1167836698900">Its decimal form stops or repeats.</para>
+</note>
+<para id="fs-id1167836698905">Are there any decimals that do not stop or repeat? Yes! The number <m:math><m:mi>π</m:mi></m:math> (the Greek letter <emphasis effect="italics">pi</emphasis>, pronounced “pie”), which is very important in describing circles, has a decimal form that does not stop or repeat. We use three dots (…) to indicate the decimal does not stop or repeat.</para>
+<equation id="fs-id1167829719570" class="unnumbered"><label/><m:math><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>3.141592654</m:mn><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167836579988">The square root of a number that is not a perfect square is a decimal that does not stop or repeat.</para>
+<note id="fs-id1167832981620">
+<title>Irrational Number</title>
+<para id="fs-id1167836607383">An <emphasis effect="bold">irrational number</emphasis> is a number that cannot be written as the ratio of two integers. I.e. A number whose decimal form does not stop or repeat cannot be written as a fraction of integers. We call this an <term>irrational number</term>.</para></note>
+<para id="fs-id1167836530057">Let’s summarize a method we can use to determine whether a number is rational or irrational.</para>
+<note id="fs-id1167829715600">
+<title>Rational or Irrational</title>
+<para id="fs-id1167836635411">If the decimal form of a number</para>
+<list id="fs-id1167836635415" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="italics">repeats or stops</emphasis>, the number is a <emphasis effect="bold">rational number</emphasis>.</item>
+<item><emphasis effect="italics">does not repeat and does not stop</emphasis>, the number is an <emphasis effect="bold">irrational number.</emphasis></item>
+</list>
+</note>
+<para id="fs-id1167833240081">We have seen that all counting numbers are whole numbers, all whole numbers are integers, and all integers are rational numbers. The irrational numbers are numbers whose decimal form does not stop and does not repeat. When we put together the rational numbers and the irrational numbers, we get the set of <term>real number</term><emphasis effect="bold">s</emphasis>.</para>
+<note id="fs-id1167829719876">
+<title>Real Number</title>
+<para id="fs-id1167829717421">A <emphasis effect="bold">real number</emphasis> is a number that is either rational or irrational.</para>
+</note>
+<para id="fs-id1167836698829">Later in this course we will introduce numbers beyond the real numbers. <link target-id="CNX_IntAlg_Figure_01_04_016"/> illustrates how the number sets we’ve used so far fit together.</para>
+<figure id="CNX_IntAlg_Figure_01_04_016"><media id="fs-id1167836447242" alt="A chart shows that counting numbers 1, 2, 3 are a part of whole numbers 0, 1, 2, 3. Whole numbers are a part of integers minus 2, minus 1, 0, 1, 2. Integers are a part of rational numbers. Rational numbers along with irrational numbers form the set of real numbers.">
+<image src="../../media/CNX_IntAlg_Figure_01_04_016_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+
+<caption>This chart shows the number sets that make up the set of real numbers.</caption></figure><para id="fs-id1167829624381">Does the term “real numbers” seem strange to you? Are there any numbers that are not “real,” and, if so, what could they be? Can we simplify <m:math><m:mrow><m:msqrt><m:mrow><m:mn>−25</m:mn></m:mrow></m:msqrt><m:mo>?</m:mo></m:mrow></m:math> Is there a number whose square is <m:math><m:mrow><m:mn>−25</m:mn><m:mo>?</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167832981655" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mspace width="0.2em"/><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>−25</m:mn><m:mo>?</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167833054419">None of the numbers that we have dealt with so far has a square that is <m:math><m:mrow><m:mn>−25</m:mn><m:mo>.</m:mo></m:mrow></m:math> Why? Any positive number squared is positive. Any negative number squared is positive. So we say there is no real number equal to <m:math><m:mrow><m:msqrt><m:mrow><m:mn>−25</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math> The square root of a negative number is not a real number.</para>
+<example id="fs-id1167836546317">
+<exercise id="fs-id1167836546320">
+<problem id="fs-id1167836526165">
+<para id="fs-id1167836526168">Given the numbers <m:math><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:msqrt><m:mn>5</m:mn></m:msqrt><m:mo>,</m:mo><m:mn>5.9</m:mn><m:mo>,</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo></m:mrow></m:math> list the <span class="token">ⓐ</span> whole numbers <span class="token">ⓑ</span> integers <span class="token">ⓒ</span> rational numbers <span class="token">ⓓ</span> irrational numbers <span class="token">ⓔ</span> real numbers.</para>
+</problem>
+<solution id="fs-id1167836580197">
+<para id="fs-id1167836580199"><span class="token">ⓐ</span> Remember, the whole numbers are <m:math><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext>…</m:mtext><m:mo>,</m:mo></m:mrow></m:math> so 8 is the only whole number given.</para>
+<para id="fs-id1167833018577"><span class="token">ⓑ</span> The integers are the whole numbers and their opposites (which includes 0). So the whole number 8 is an integer, and <m:math><m:mrow><m:mn>−7</m:mn></m:mrow></m:math> is the opposite of a whole number so it is an integer, too. Also, notice that 64 is the square of 8 so <m:math><m:mrow><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>−8</m:mn><m:mo>.</m:mo></m:mrow></m:math> So the integers are <m:math><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836700847"><span class="token">ⓒ</span> Since all integers are rational, then <m:math><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt></m:mrow></m:math> are rational. Rational numbers also include fractions and decimals that repeat or stop, so <m:math><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mn>5.9</m:mn></m:mrow></m:math> are rational. So the list of rational numbers is <m:math><m:mrow><m:mn>−7</m:mn><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>5.9</m:mn><m:mo>,</m:mo><m:mtext>​</m:mtext><m:mtext>​</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829721168"><span class="token">ⓓ</span> Remember that 5 is not a perfect square, so <m:math><m:mrow><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:math> is irrational.</para>
+<para id="fs-id1167829717682"><span class="token">ⓔ</span> All the numbers listed are real numbers.</para>
+</solution>
+</exercise>
+</example>
+<para id="eip-953"><title>Using Commutatitve and Associative Properties</title>The order we add two numbers doesn’t affect the result. If we add <m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>,</m:mo></m:mrow></m:math> the results are the same—they both equal 17. So, <m:math><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>.</m:mo></m:mrow></m:math> The order in which we add does not matter!</para><para id="fs-id1167829627776">Similarly, when multiplying two numbers, the order does not affect the result. If we multiply <m:math><m:mrow><m:mn>9</m:mn><m:mo>·</m:mo><m:mn>8</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mn>8</m:mn><m:mo>·</m:mo><m:mn>9</m:mn></m:mrow></m:math> the results are the same—they both equal 72. So, <m:math><m:mrow><m:mn>9</m:mn><m:mo>·</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>·</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math> The order in which we multiply does not matter!</para>
+<para id="fs-id1167833058130">These examples illustrate the <term class="no-emphasis">Commutative Property</term>.</para>
+<note id="fs-id1167833057231">
+<title>Commutative Property</title>
+
+<equation id="fs-id1167836525262" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Addition</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Multiplication</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829714256">When adding or multiplying, changing the <emphasis effect="italics">order</emphasis> gives the same result.</para>
+</note>
+<para id="fs-id1167833396862">The Commutative Property has to do with order. We subtract <m:math><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math>, and see that <m:math><m:mrow><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>≠</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>.</m:mo></m:mrow></m:math> Since changing the order of the subtraction does not give the same result, we know that <emphasis effect="italics">subtraction is not commutative</emphasis>.</para>
+<para id="fs-id1167829695451"><emphasis effect="italics">Division is not commutative either</emphasis>. Since <m:math><m:mrow><m:mn>12</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>≠</m:mo><m:mn>3</m:mn><m:mo>÷</m:mo><m:mn>12</m:mn><m:mo>,</m:mo></m:mrow></m:math> changing the order of the division did not give the same result. The commutative properties apply only to addition and multiplication! Subtraction and division are <emphasis effect="italics">not</emphasis> commutative.</para>
+
+
+
+<para id="fs-id1167836323236">When adding three numbers, changing the grouping of the numbers gives the same result. For example, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> since each side of the equation equals 17.</para>
+<para id="fs-id1167836527640">This is true for multiplication, too. For example, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> since each side of the equation equals 5.</para>
+<para id="fs-id1167836367516">These examples illustrate the <term class="no-emphasis">Associative Property</term>.</para>
+<note id="fs-id1167836515822">
+<title>Associative Property</title>
+<equation id="fs-id1167836624751" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Addition</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Multiplication</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836367137">When adding or multiplying, changing the <emphasis effect="italics">grouping</emphasis> gives the same result.</para>
+</note>
+<para id="fs-id1167836510426">The Associative Property has to do with grouping. If we change how the numbers are grouped, the result will be the same. Notice it is the same three numbers in the same order—the only difference is the grouping.</para>
+<para id="fs-id1167829691483">We saw that subtraction and division were not commutative. They are not associative either.</para>
+<equation id="fs-id1167836553739" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="center"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>24</m:mn><m:mo>÷</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>24</m:mn><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mspace width="0.5em"/><m:mrow><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="0.5em"/><m:mrow><m:mn>6</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>≠</m:mo><m:mn>24</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mspace width="0.1em"/><m:mrow><m:mn>5</m:mn><m:mo>≠</m:mo><m:mn>9</m:mn></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="0.6em"/><m:mrow><m:mn>3</m:mn><m:mo>≠</m:mo><m:mn>12</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836521654">When simplifying an expression, it is always a good idea to plan what the steps will be. In order to combine like terms in the next example, we will use the Commutative Property of addition to write the like terms together.</para>
+<example id="fs-id1167833022377">
+<exercise id="fs-id1167836329107">
+<problem id="fs-id1167836538840">
+<para id="fs-id1167836393421">Simplify: <m:math><m:mrow><m:mn>18</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>q</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836361171">
+<para id="fs-id1167836511224"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>18</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>q</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Commutative Property of addition to</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>18</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>q</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>reorder so that like terms are together.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>33</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>q</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-880"><exercise id="fs-id1167836579845">
+<problem id="fs-id1167836282262">
+<para id="fs-id1167836704433">Simplify: <m:math><m:mrow><m:mn>23</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>s</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836390512">
+<para id="fs-id1167836528300"><m:math><m:mrow><m:mn>32</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>29</m:mn><m:mi>s</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1167829594796">When we have to simplify algebraic expressions, we can often make the work easier by applying the Commutative Property or Associative Property first.</para>
+<example id="fs-id1167833066750">
+<exercise id="fs-id1167836321510">
+<problem id="fs-id1167836552387">
+<para id="fs-id1167836526280">Simplify: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836699189">
+<para id="fs-id1167836550235"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Notice that the last 2 terms have a common</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>denominator, so change the grouping.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add in parentheses first.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify the fraction.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>1</m:mn><m:mfrac><m:mn>5</m:mn><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Convert to an improper fraction.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<section id="eip-881"><title>Identity, Inverse, and Zero Properties</title><para id="fs-id1167833240415">What happens when we add 0 to any number? Adding 0 doesn’t change the value. For this reason, we call 0 the <term>additive identity</term>. The <term>Identity Property of Addition</term> that states that for any real number <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836379256">What happens when we multiply any number by one? Multiplying by 1 doesn’t change the value. So we call 1 the <term>multiplicative identity</term>. The <term>Identity Property of Multiplication</term> that states that for any real number <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mn>1</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836522074">
+<title>Identity Property</title>
+<equation id="fs-id1167836450689" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Addition</m:mtext></m:mstyle><m:mspace width="1em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>:</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mstyle mathvariant="bold"><m:mn>0</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive identity</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Multiplication</m:mtext></m:mstyle><m:mspace width="1em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>:</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mn>1</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mstyle mathvariant="bold"><m:mn>1</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative identity</m:mtext></m:mstyle></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></note>
+<para id="fs-id1167836508516">What number added to 5 gives the additive identity, 0? We know</para>
+<media id="fs-id1167836526175" alt="Figure shows the expression 5 plus open parentheses minus 5 close parentheses equals 0.">
+<image src="../../media/CNX_IntAlg_Figure_01_05_001_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1167836494025">We call <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow></m:math> the <term>additive inverse</term> of <m:math><m:mrow><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> <emphasis effect="italics">The opposite of a number is its additive inverse.</emphasis> A number and its opposite add to zero, which is the additive identity. This leads to the <term>Inverse Property of Addition</term> that states for any real number <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829683739">What number multiplied by <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> gives the multiplicative identity, 1? In other words, <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> times what results in 1? We know</para>
+<media id="fs-id1167832936412" alt="2 by 3 times 3 by 2 equals 1.">
+<image src="../../media/CNX_IntAlg_Figure_01_05_002_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1167836398962">We call <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow></m:math> the <term>multiplicative inverse </term>of <emphasis effect="italics">a</emphasis>. <emphasis effect="italics">The reciprocal of a number is its multiplicative inverse.</emphasis> This leads to the <term>Inverse Property of Multiplication</term> that states that for any real number <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836620504">
+<title>Inverse Property</title>
+<equation id="fs-id1167836546441" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Addition</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mspace width="2em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>o</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:mspace width="0.2em"/><m:mtext>add to zero.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mstyle mathvariant="bold"><m:mtext>of Multiplication</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mspace width="2em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>.</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>c</m:mi><m:mi>i</m:mi><m:mi>p</m:mi><m:mi>r</m:mi><m:mi>o</m:mi><m:mi>c</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>multiply to one.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836518783">The Identity Property of addition says that when we add 0 to any number, the result is that same number. What happens when we multiply a number by 0? Multiplying by 0 makes the product equal zero.</para>
+<para id="fs-id1167836418031">What about division involving zero? What is <m:math><m:mrow><m:mn>0</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>?</m:mo></m:mrow></m:math> Think about a real example: If there are no cookies in the cookie jar and 3 people are to share them, how many cookies does each person get? There are no cookies to share, so each person gets 0 cookies. So, <m:math><m:mrow><m:mn>0</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829790526">We can check division with the related multiplication fact. So we know <m:math><m:mrow><m:mn>0</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> because <m:math><m:mrow><m:mn>0</m:mn><m:mo>·</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836510545">Now think about dividing <emphasis effect="italics">by</emphasis> zero. What is the result of dividing 4 by <m:math><m:mrow><m:mn>0</m:mn><m:mo>?</m:mo></m:mrow></m:math> Think about the related multiplication fact:</para>
+<media id="fs-id1167829599708" alt="4 divided by 0 equals question mark means question mark times 0 equals 4.">
+<image src="../../media/CNX_IntAlg_Figure_01_05_003_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1167836551653">Is there a number that multiplied by 0 gives <m:math><m:mrow><m:mn>4</m:mn><m:mo>?</m:mo></m:mrow></m:math> Since any real number multiplied by 0 gives 0, there is no real number that can be multiplied by 0 to obtain 4. We conclude that there is no answer to <m:math><m:mrow><m:mn>4</m:mn><m:mo>÷</m:mo><m:mn>0</m:mn></m:mrow></m:math> and so we say that division by 0 is <emphasis effect="bold">undefined</emphasis>.</para>
+<note id="fs-id1167833412572">
+<title>Properties of Zero</title>
+<para id="fs-id1167836610695">Multiplication by Zero: For any real number <emphasis effect="italics">a</emphasis>,</para>
+<para id="fs-id1171791594122"><m:math><m:mrow><m:mspace width="6.5em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/><m:mn>0</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="2em"/><m:mtext>The product of any number and 0 is 0.</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1167836700136">Division by Zero: For any real number <emphasis effect="italics">a</emphasis>, <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+<equation id="fs-id1167829791619" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="center"><m:mfrac><m:mn>0</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mtext>Zero divided by any real number, except itself, is zero.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mfrac><m:mi>a</m:mi><m:mn>0</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mtext>Division by zero is undefined.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836477232">We will now practice using the properties of identities, inverses, and zero to simplify expressions.</para>
+<example id="fs-id1167836477236">
+<exercise id="fs-id1167836477238">
+<problem id="fs-id1167836477240">
+<para id="fs-id1167836477242">Simplify: <m:math><m:mrow><m:mn>−84</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−73</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>84</m:mn><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829690656">
+<para id="fs-id1167829690658"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−84</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−73</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>84</m:mn><m:mi>n</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Notice that the first and third terms are</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>opposites; use the Commutative Property of</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>addition to re-order the terms.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−84</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>84</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−73</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add left to right.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>0</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−73</m:mn><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−73</m:mn><m:mi>n</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-395"><exercise id="fs-id1167833053388">
+<problem id="fs-id1167833053390">
+<para id="fs-id1167833053392">Simplify: <m:math><m:mrow><m:mn>−27</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−48</m:mn><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>27</m:mn><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833053424">
+<para id="fs-id1167833053426"><m:math><m:mrow><m:mn>−48</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1167829787273">Now we will see how recognizing reciprocals is helpful. Before multiplying left to right, look for reciprocals—their product is 1.</para>
+<example id="fs-id1167829787278">
+<exercise id="fs-id1167829787280">
+<problem id="fs-id1167829787282">
+<para id="fs-id1167829787284">Simplify: <m:math><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829791678">
+<para id="fs-id1167829791680"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Notice the first and third terms</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>are reciprocals, so use the Commutative</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Property of multiplication to re-order the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>factors.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply left to right.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>1</m:mn><m:mo>·</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>23</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1171783972022">The next example makes us aware of the distinction between dividing 0 by some number or some number being divided by 0.</para>
+<example id="fs-id1167829790821">
+<exercise id="fs-id1167829790823">
+<problem id="fs-id1167829790825">
+<para id="fs-id1167829790827">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>0</m:mn><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>n</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>p</m:mi></m:mrow><m:mn>0</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>p</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836597120">
+<para id="fs-id1167836597122"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mfrac><m:mn>0</m:mn><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Zero divided by any real number except itself is 0.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</para>
+<para id="fs-id1167829624453"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="12em"/><m:mrow><m:mfrac><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>p</m:mi></m:mrow><m:mn>0</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Division by 0 is undefined.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="12em"/><m:mtext>undefined</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+</example><example id="eip-645"><exercise id="fs-id1167829624505">
+<problem id="fs-id1167829624508">
+<para id="fs-id1167829624510">Simplify: <span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mn>0</m:mn><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>m</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>7</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>c</m:mi></m:mrow><m:mn>0</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829717669">
+<para id="fs-id1167829717672"><span class="token">ⓐ</span> 0 <span class="token">ⓑ</span> undefined</para>
+</solution>
+</exercise></example>
+</section><section id="eip-728"><title>Distributive Property</title><para id="fs-id1167829614589">Suppose that three friends are going to the movies. They each need $9.25—that’s 9 dollars and 1 quarter—to pay for their tickets. How much money do they need all together?</para>
+<para id="fs-id1167829614596">You can think about the dollars separately from the quarters. They need 3 times $9 so $27 and 3 times 1 quarter, so 75 cents. In total, they need $27.75. If you think about doing the math in this way, you are using the Distributive Property.</para>
+<note id="fs-id1167829614601">
+<title>Distributive Property</title>
+<para id="fs-id1167829614606"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167829789056">In algebra, we use the Distributive Property to remove parentheses as we simplify expressions.</para>
+<example id="fs-id1167829789060">
+<exercise id="fs-id1167829789062">
+<problem id="fs-id1167829789064">
+<para id="fs-id1167829789066">Simplify: <m:math><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829789089">
+<para id="fs-id1167829789092"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>4</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-98"><exercise id="fs-id1167829791962">
+<problem id="fs-id1167829791964">
+<para id="fs-id1167829791966">Simplify: <m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829788339">
+<para id="fs-id1167829788341"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167829788406">Some students find it helpful to draw in arrows to remind them how to use the Distributive Property. Then the first step in <link target-id="fs-id1167829789060"/> would look like this:</para>
+<media id="fs-id1167829788411" alt="The expression is 3 open parentheses x plus 4 close parentheses. Two arrows originate from 3. One points to x, the other to 4.">
+<image src="../../media/CNX_IntAlg_Figure_01_05_004_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<example id="fs-id1167829788421">
+<exercise id="fs-id1167829788423">
+<problem id="fs-id1167829788425">
+<para id="fs-id1167829788427">Simplify: <m:math><m:mrow><m:mn>8</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829720500">
+<para id="fs-id1167829720502"><table id="fs-id1167829720503" class="unnumbered unstyled" summary="The expression is 8 open parentheses 3 by 8 x plus 1 by 4 close parentheses. There are arrows from 8 to 3 by 8 and 1 by 4. Distribute to get 8 into 3 by 8 x plus 8 into 1 by 4. Multiply to get 3x plus 2.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829720536" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_005a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute.    </entry>
+<entry valign="top" align="left"><media id="fs-id1167829720555" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_005b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829789543" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_005c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-509"><exercise id="fs-id1167829789560">
+<problem id="fs-id1167829789563">
+<para id="fs-id1167829789565">Simplify: <m:math><m:mrow><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829789597">
+<para id="fs-id1167829789599"><m:math><m:mrow><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1167829787353">Using the Distributive Property as shown in the next example will be very useful when we solve money applications in later chapters.</para>
+<example id="fs-id1167829787357">
+<exercise id="fs-id1167829787359">
+<problem id="fs-id1167829787362">
+<para id="fs-id1167829787364">Simplify: <m:math><m:mrow><m:mn>100</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.3</m:mn><m:mo>+</m:mo><m:mn>0.25</m:mn><m:mi>q</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829787389">
+<para id="fs-id1167829787391"><table id="fs-id1167829787392" class="unnumbered unstyled" summary="The expression is 100 open parentheses 0.3 plus 0.25q close parentheses. There are arrows from 100 to 0.3 and 0.25 q. Distribute to get 100 times 0.3 plus 100 times 0.25 q. Multiply to get 30 plus 25 q.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829789968" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_006a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute.    </entry>
+<entry valign="top" align="left"><media id="fs-id1167829789987" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_006b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="center"><media id="fs-id1167829790006" alt="."><image src="../../media/CNX_IntAlg_Figure_01_05_006c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167829741767">When we distribute a negative number, we need to be extra careful to get the signs correct!</para>
+<example id="fs-id1167829741770">
+<exercise id="fs-id1167829741772">
+<problem id="fs-id1167829741774">
+<para id="fs-id1167829741777">Simplify: <m:math><m:mrow><m:mn>−11</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829789808">
+<para id="fs-id1167829789810"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−11</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−11</m:mn><m:mo>·</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−11</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−44</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−33</m:mn><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−44</m:mn><m:mo>+</m:mo><m:mn>33</m:mn><m:mi>a</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</para>
+<para id="fs-id1167833350825">Notice that you could also write the result as <m:math><m:mrow><m:mn>33</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>44</m:mn><m:mo>.</m:mo></m:mrow></m:math> Do you know why?</para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167829752750">In the next example, we will show how to use the <term class="no-emphasis">Distributive Property</term> to find the opposite of an expression.</para>
+<example id="fs-id1167829752757">
+<exercise id="fs-id1167829752759">
+<problem id="fs-id1167829752761">
+<para id="fs-id1167829752763">Simplify: <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829752787">
+<para id="fs-id1167829752789"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiplying by</m:mtext><m:mspace width="0.2em"/><m:mn>−1</m:mn><m:mspace width="0.2em"/><m:mtext>results in the opposite.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mn>−1</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mn>−1</m:mn><m:mo>·</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mtext>−</m:mtext><m:mi>y</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mtext>−</m:mtext><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr>
+</m:mtable></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-143"><exercise id="fs-id1167836409560">
+<problem id="fs-id1167836409562">
+<para id="fs-id1167836409565">Simplify: <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836409588">
+<para id="fs-id1167836409590"><m:math><m:mrow><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836503079">There will be times when we’ll need to use the Distributive Property as part of the order of operations. Start by looking at the parentheses. If the expression inside the parentheses cannot be simplified, the next step would be multiply using the Distributive Property, which removes the parentheses. The next two examples will illustrate this.</para>
+<example id="fs-id1167836503089">
+<exercise id="fs-id1167836503091">
+<problem id="fs-id1167836503093">
+<para id="fs-id1167836503095">Simplify: <m:math><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836503121">
+<para id="fs-id1167836503123">We follow the order of operations. Multiplication comes before subtraction, so we will distribute the 2 first and then subtract.</para>
+<para id="fs-id1167836503128"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</para>
+</solution>
+</exercise>
+</example>
+<example id="fs-id1167829791835">
+<exercise id="fs-id1167829791837">
+<problem id="fs-id1167829791839">
+<para id="fs-id1167829791842">Simplify: <m:math><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829791880">
+<para id="fs-id1167829791882"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>32</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167829755816">All the properties of real numbers we have used in this chapter are summarized here.</para>
+<table id="fs-id1167829755821" class="unnumbered" summary="This table has six rows, each describing different properties. The first is Commutative Property. When adding or multiplying, changing the order gives the same result. While performing addition, if a and b are real numbers, then a plus b is equal to b plus a. While multiplying, if a and b are real numbers, then a times b is b times a. The second is Associative Property. When adding or multiplying, changing the grouping gives the same result. For addition, if a, b, c are real numbers, then open parentheses a plus b close parentheses plus c equals a plus open parentheses b plus c close parentheses. For multiplication, if a, b, c are real numbers, then open parentheses a times b close parentheses times c equals a times open parentheses b times c close parentheses. The third is Distributive Property. If a, b, c are real numbers, then a open parentheses b plus c close parentheses equals ab plus ac. Also, open parentheses b plus c close parentheses a equals ba plus ca. Also, a open parentheses b minus c close parentheses equals ab minus ac. Also open parentheses b minus c close parentheses a equals ba minus ca. The fourth is Identity Property. For addition of any real number a, a plus 0 is a and 0 plus a is a. 0 is the additive identity. For multiplication of any real number a, a times 1 is a and 1 times a is a. 1 is the multiplicative identity. The fifth is Inverse Property. For addition of any real number a, a plus minus a is 0. Minus a is the additive inverse of a. A number and its opposite add to zero. For multiplication, of any real number a, where a is not equal to 0, a times 1 by a is 1. 1 by a is the multiplicative inverse of a. A number and its reciprocal multiply to one. The last is Properties of Zero. For any real number a, a times 0 is 0 and 0 times a is a. For any real number a where a is not equal to 0, 0 by a is 0. For any real number a, a by 0 is undefined.">
+<tgroup cols="1">
+<colspec colname="c1" colnum="1"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Commutative Property</emphasis><newline/>When adding or multiplying, changing the <emphasis effect="italics">order</emphasis> gives the same result<newline/><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="9.1em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="9.1em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Associative Property</emphasis><newline/>When adding or multiplying, changing the <emphasis effect="italics">grouping</emphasis> gives the same result.<newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>c</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>c</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Distributive Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Identity Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.1em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mstyle mathvariant="bold"><m:mn>0</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive identity</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.1em"/><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.65em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mstyle mathvariant="bold"><m:mn>1</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative identity</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.65em"/><m:mn>1</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1171792849594" class="unnumbered" summary="This table has six rows, each describing different properties. The first is Commutative Property. When adding or multiplying, changing the order gives the same result. While performing addition, if a and b are real numbers, then a plus b is equal to b plus a. While multiplying, if a and b are real numbers, then a times b is b times a. The second is Associative Property. When adding or multiplying, changing the grouping gives the same result. For addition, if a, b, c are real numbers, then open parentheses a plus b close parentheses plus c equals a plus open parentheses b plus c close parentheses. For multiplication, if a, b, c are real numbers, then open parentheses a times b close parentheses times c equals a times open parentheses b times c close parentheses. The third is Distributive Property. If a, b, c are real numbers, then a open parentheses b plus c close parentheses equals ab plus ac. Also, open parentheses b plus c close parentheses a equals ba plus ca. Also, a open parentheses b minus c close parentheses equals ab minus ac. Also open parentheses b minus c close parentheses a equals ba minus ca. The fourth is Identity Property. For addition of any real number a, a plus 0 is a and 0 plus a is a. 0 is the additive identity. For multiplication of any real number a, a times 1 is a and 1 times a is a. 1 is the multiplicative identity. The fifth is Inverse Property. For addition of any real number a, a plus minus a is 0. Minus a is the additive inverse of a. A number and its opposite add to zero. For multiplication, of any real number a, where a is not equal to 0, a times 1 by a is 1. 1 by a is the multiplicative inverse of a. A number and its reciprocal multiply to one. The last is Properties of Zero. For any real number a, a times 0 is 0 and 0 times a is a. For any real number a where a is not equal to 0, 0 by a is 0. For any real number a, a by 0 is undefined.">
+<tgroup cols="1">
+<colspec colname="c1" colnum="1"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Inverse Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4.4em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>o</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:mspace width="0.2em"/><m:mtext>add to zero.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4.7em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>c</m:mi><m:mi>i</m:mi><m:mi>p</m:mi><m:mi>r</m:mi><m:mi>o</m:mi><m:mi>c</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>multiply to one.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Properties of Zero</emphasis><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="14em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="14em"/><m:mn>0</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="15em"/><m:mfrac><m:mn>0</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="13em"/><m:mfrac><m:mi>a</m:mi><m:mn>0</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section></section><section id="fs-id1167834535516" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836310060" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Opposite Notation</emphasis><newline/>
+<equation id="fs-id1167834535530" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>means the opposite of the number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>The notation</m:mtext><m:mspace width="0.2em"/><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>is read as “the opposite of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>.”</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Absolute Value</emphasis><newline/>
+The absolute value of a number is its distance from 0 on the number line.<newline/>
+The absolute value of a number <emphasis effect="italics">n</emphasis> is written as <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mi>n</m:mi><m:mo>|</m:mo></m:mrow><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> for all numbers.<newline/>
+Absolute values are always greater than or equal to zero.</item>
+<item><emphasis effect="bold">Grouping Symbols</emphasis><newline/>
+<equation id="fs-id1167834537897" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Parentheses</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mspace width="0.2em"/><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Braces</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mspace width="0.2em"/><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Brackets</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>[</m:mo><m:mspace width="0.2em"/><m:mo>]</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Absolute value</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.2em"/><m:mrow><m:mo>|</m:mo><m:mspace width="0.2em"/><m:mo>|</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Subtraction Property</emphasis><newline/>
+<m:math><m:mrow><m:mspace width="2em"/><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/>
+Subtracting a number is the same as adding its opposite.</item>
+<item><emphasis effect="bold">Multiplication and Division of Signed Numbers</emphasis><newline/>
+For multiplication and division of two signed numbers:<newline/>
+<table id="fs-id1167834533537" summary="." class="unnumbered"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold"><emphasis effect="underline">Same signs</emphasis></emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold"><emphasis effect="underline">Result</emphasis></emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">•  Two positives</entry>
+<entry valign="top" align="left">Positive</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">•  Two negatives</entry>
+<entry valign="top" align="left">Positive</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<m:math><m:mrow><m:mspace width="12.5em"/></m:mrow></m:math>If the signs are the same, the result is positive.<newline/>
+<table id="fs-id1167834526182" summary="." class="unnumbered"><label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold"><emphasis effect="underline">Different signs</emphasis></emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold"><emphasis effect="underline">Result</emphasis></emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">•  Positive and negative</entry>
+<entry valign="top" align="left">Negative</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">•  Negative and positive</entry>
+<entry valign="top" align="left">Negative</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<m:math><m:mrow><m:mspace width="12.2em"/></m:mrow></m:math>If the signs are different, the result is negative.</item>
+<item><emphasis effect="bold">Multiplication by</emphasis> <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mspace width="2em"/><m:mn>−1</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow></m:math><newline/>
+Multiplying a number by <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> gives its opposite.</item>
+<item><emphasis effect="bold">How to Use Integers in Applications.</emphasis><newline/>
+<list id="fs-id1167834539249" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood</item>
+<item><emphasis effect="bold">Identify</emphasis> what we are asked to find.</item>
+<item><emphasis effect="bold">Write a phrase</emphasis> that gives the information to find it.</item>
+<item><emphasis effect="bold">Translate</emphasis> the phrase to an expression.</item>
+<item><emphasis effect="bold">Simplify</emphasis> the expression.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list></item>
+</list><para id="eip-510"><table id="fs-id1171792496903" class="unnumbered unstyled can-break" summary="This table has six rows, each describing different properties. The first is Commutative Property. When adding or multiplying, changing the order gives the same result. While performing addition, if a and b are real numbers, then a plus b is equal to b plus a. While multiplying, if a and b are real numbers, then a times b is b times a. The second is Associative Property. When adding or multiplying, changing the grouping gives the same result. For addition, if a, b, c are real numbers, then open parentheses a plus b close parentheses plus c equals a plus open parentheses b plus c close parentheses. For multiplication, if a, b, c are real numbers, then open parentheses a times b close parentheses times c equals a times open parentheses b times c close parentheses. The third is Distributive Property. If a, b, c are real numbers, then a open parentheses b plus c close parentheses equals ab plus ac. Also, open parentheses b plus c close parentheses a equals ba plus ca. Also, a open parentheses b minus c close parentheses equals ab minus ac. Also open parentheses b minus c close parentheses a equals ba minus ca. The fourth is Identity Property. For addition of any real number a, a plus 0 is a and 0 plus a is a. 0 is the additive identity. For multiplication of any real number a, a times 1 is a and 1 times a is a. 1 is the multiplicative identity. The fifth is Inverse Property. For addition of any real number a, a plus minus a is 0. Minus a is the additive inverse of a. A number and its opposite add to zero. For multiplication, of any real number a, where a is not equal to 0, a times 1 by a is 1. 1 by a is the multiplicative inverse of a. A number and its reciprocal multiply to one. The last is Properties of Zero. For any real number a, a times 0 is 0 and 0 times a is a. For any real number a where a is not equal to 0, 0 by a is 0. For any real number a, a by 0 is undefined.">
+<tgroup cols="1">
+<colspec colname="c1" colnum="1"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Commutative Property</emphasis><newline/>When adding or multiplying, changing the <emphasis effect="italics">order</emphasis> gives the same result<newline/><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="9.1em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="9.1em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math>
+</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Associative Property</emphasis><newline/>When adding or multiplying, changing the <emphasis effect="italics">grouping</emphasis> gives the same result.<newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>c</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>c</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Distributive Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>If</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mspace width="0.2em"/><m:mtext>are real numbers, then</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="12.4em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>b</m:mi><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Identity Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.1em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mstyle mathvariant="bold"><m:mn>0</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive identity</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.1em"/><m:mn>0</m:mn><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.65em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mstyle mathvariant="bold"><m:mn>1</m:mn></m:mstyle><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative identity</m:mtext></m:mstyle></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="12.65em"/><m:mn>1</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>a</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Inverse Property</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of addition</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="7.1em"/><m:mi>a</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>additive inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>o</m:mi><m:mi>p</m:mi><m:mi>p</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:mspace width="0.2em"/><m:mtext>add to zero.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mstyle mathvariant="bold"><m:mtext>of multiplication</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="7.4em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mtd></m:mtr><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mspace width="0.2em"/><m:mtext>is the</m:mtext><m:mspace width="0.2em"/><m:mstyle mathvariant="bold"><m:mtext>multiplicative inverse</m:mtext></m:mstyle><m:mspace width="0.2em"/><m:mtext>of</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="4em"/><m:mtext>A number and its</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>c</m:mi><m:mi>i</m:mi><m:mi>p</m:mi><m:mi>r</m:mi><m:mi>o</m:mi><m:mi>c</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mspace width="0.2em"/><m:mtext>multiply to one.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Properties of Zero</emphasis><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="16.7em"/><m:mi>a</m:mi><m:mo>·</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="16.7em"/><m:mn>0</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="17.7em"/><m:mfrac><m:mn>0</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>For any real number</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>,</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="15.7em"/><m:mfrac><m:mi>a</m:mi><m:mn>0</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</section>
+<section id="fs-id1167831826351" class="section-exercises">
+<section id="fs-id1167831826355" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167831826362"><emphasis effect="bold">Simplify Expressions with Absolute Value</emphasis></para>
+<para id="fs-id1167831826368">In the following exercises, fill in <m:math><m:mrow><m:mo>&lt;</m:mo><m:mo>,</m:mo><m:mo>&gt;</m:mo><m:mo>,</m:mo></m:mrow></m:math> or <m:math><m:mo>=</m:mo></m:math> for each of the following pairs of numbers.</para>
+<exercise id="fs-id1167834238749">
+<problem id="fs-id1167834238751">
+<para id="fs-id1167834238753"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−7</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>6</m:mn><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−6</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−11</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−13</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−13</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831882179">
+<para id="fs-id1167831882181"><span class="token">ⓐ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓑ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓒ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓓ</span> <m:math><m:mo>&gt;</m:mo></m:math></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167826978155">
+<problem id="fs-id1167826978157">
+<para id="fs-id1167832086878"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>−</m:mtext><m:mrow><m:mo>|</m:mo><m:mn>2</m:mn><m:mo>|</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−12</m:mn><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−12</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>−19</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>___</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−19</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834538202">
+<para id="fs-id1167834538205"><span class="token">ⓐ</span> <m:math><m:mo>=</m:mo></m:math> <span class="token">ⓑ</span> <m:math><m:mo>=</m:mo></m:math> <span class="token">ⓒ</span> <m:math><m:mo>&gt;</m:mo></m:math> <span class="token">ⓓ</span> <m:math><m:mo>=</m:mo></m:math></para>
+</solution>
+</exercise>
+
+<para id="fs-id1167835511702">In the following exercises, simplify.</para>
+<exercise id="fs-id1167835511705">
+<problem id="fs-id1167835511707">
+<para id="fs-id1167835511709"><m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>14</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835511742">
+<para id="fs-id1167835511744">0</para>
+</solution>
+</exercise>
+
+
+<exercise id="fs-id1167835379691">
+<problem id="fs-id1167835379693">
+<para id="fs-id1167835379695"><m:math><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mn>12</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835510052">
+<para id="fs-id1167835510054">15</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167835575895">
+<problem id="fs-id1167835575897">
+<para id="fs-id1167835575900"><m:math><m:mrow><m:mn>25</m:mn><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167831912593">
+<para id="fs-id1167831912595">6</para>
+</solution>
+</exercise>
+<para id="fs-id1167826987831">In the following exercises, evaluate each expression.</para>
+<exercise id="fs-id1167826987834">
+<problem id="fs-id1167826987836">
+<para id="fs-id1167826987838"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−14</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> when<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−33</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835216331">
+<para id="fs-id1167835216333"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>−47</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835216437">
+<problem id="fs-id1167835216439">
+<para id="fs-id1167835216441"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> when<newline/><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835216482">
+<para id="fs-id1167835216484"><m:math><m:mrow><m:mn>121</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834534772">
+<problem id="fs-id1167834534774">
+<para id="fs-id1167834534776"><m:math><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> when<newline/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834534816">
+<para id="fs-id1167834534818"><m:math><m:mrow><m:mn>−56</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167834535123"><emphasis effect="bold">Use Integers in Applications</emphasis></para>
+<para id="fs-id1167834535130">In the following exercises, solve.</para>
+<exercise id="fs-id1167834535133" class="material-set-2">
+<problem id="fs-id1167834535135">
+<para id="fs-id1167834535137"><emphasis effect="bold">Temperature</emphasis> On January 15, the high temperature in Anaheim, California, was 84°. That same day, the high temperature in Embarrass, Minnesota, was <m:math><m:mrow><m:mtext>−</m:mtext><m:mn>12</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> What was the difference between the temperature in Anaheim and the temperature in Embarrass?</para>
+</problem>
+<solution id="fs-id1167834535162"><para id="fs-id1167834535163"><m:math><m:mrow><m:mn>96</m:mn><m:mtext>°</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834535230" class="material-set-2">
+<problem id="fs-id1167834535232">
+<para id="fs-id1167834535234"><emphasis effect="bold">Football</emphasis> On the first down, the Chargers had the ball on their 25-yard line. On the next three downs, they lost 6 yards, gained 10 yards, and lost 8 yards. What was the yard line at the end of the fourth down?</para>
+</problem>
+<solution id="fs-id1167834535244">
+<para id="fs-id1167834535246">21</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167834535281" class="material-set-2">
+<problem id="fs-id1167834535283">
+<para id="fs-id1167834535285"><emphasis effect="bold">Checking Account</emphasis> Mayra has $124 in her checking account. She writes a check for $152. What is the new balance in her checking account?</para>
+</problem>
+<solution id="fs-id1167834535295">
+<para id="fs-id1167834535297"><m:math><m:mrow><m:mtext>−</m:mtext><m:mtext>$</m:mtext><m:mn>28</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section></section>
+</content>
+<glossary>
+<definition id="fs-id1167834537656"><term>absolute value</term>
+<meaning id="fs-id1167834537661">The absolute value of a number is its distance from <m:math><m:mn>0</m:mn></m:math> on the number line.</meaning>
+</definition>
+<definition id="fs-id1167834537670"><term>integers</term>
+<meaning id="fs-id1167834537674">The whole numbers and their opposites are called the integers.</meaning>
+</definition>
+<definition id="fs-id1167834537678"><term>negative numbers</term>
+<meaning id="fs-id1167834537683">Numbers less than <m:math><m:mn>0</m:mn></m:math> are negative numbers.</meaning>
+</definition>
+<definition id="fs-id1167834537692"><term>opposite</term>
+<meaning id="fs-id1167834537696">The opposite of a number is the number that is the same distance from zero on the number line but on the opposite side of zero.</meaning>
+</definition>
+</glossary>
+</document>

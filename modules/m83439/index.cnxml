@@ -1,0 +1,3776 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Polynomial Functions (3.2)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m83439</md:content-id>
+  <md:title>Polynomial Functions (3.2)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Determine the degree of polynomials</item>
+<item>Add and subtract polynomials</item>
+<item>Evaluate a polynomial function for a given value</item>
+<item>Add and subtract polynomial functions</item>
+</list></md:abstract>
+  <md:uuid>325475f2-f0d9-4898-8a1b-afee2e228b52</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-1000"><para id="fs-id1169147087020">This Module supports section <emphasis> 3.2 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Polynomial Functions and Leading Coefficient <link target-id="eip-737" document=""/></item>
+<item>Turning Points, Zeros, and Intercepts of Polynomial Functions <link target-id="eip-803" document=""/></item>
+<item>Zeros and Multiplicities <link target-id="eip-608" document=""/></item>
+<item>Graphing Polynomial Functions <link target-id="eip-891" document=""/></item>
+<item>Intermediate Value Theorem <link target-id="eip-631" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167824584895" document=""/></item></list></note><section id="eip-737"><title>Polynomial Functions and Leading Coefficient</title><para id="fs-id1167836319331">Recall earlier we introduced Polynomials. Here is a brief review:</para>
+
+
+<para id="eip-777">A <term>polynomial</term> is a sum of or difference of terms, each consisting of a variable raised to a nonnegative integer power. A number multiplied by a variable raised to an exponent, such as 
+<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>384</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> is known as a <term>coefficient</term>. Coefficients can be positive, negative, or zero, and can be whole numbers, decimals, or fractions. Each product <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>i</m:mi>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>384</m:mn><m:mi>π</m:mi><m:mi>w</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> is a <term>term of a polynomial</term>. If a term does not contain a variable, it is called a <emphasis effect="italics">constant</emphasis>.</para><para id="eip-744">A polynomial containing only one term, such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> is called a <term>monomial</term>. A polynomial containing two terms, such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> is called a <term>binomial</term>. A polynomial containing three terms, such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> is called a <term>trinomial</term>.</para><para id="fs-id1167836349269">Here are some examples of polynomials. <table id="fs-id1167829661616" class="unnumbered" summary="This table has five columns and four rows. The first row is for polynomials and lists three examples: y plus 1, 4 a squared minus 7 a b plus 2 b squared, 4 x to the fourth power plus x cubed plus 8 x squared minus 9 x plus 1. The second row is for monomials and lists four examples: 14, 8 y squared, minus 9 x cubed y to the fifth power, and negative 12 a cubed b squared c. The third row is for binomials and lists four examples: a plus 7 b, 4 x square minus y squared, y squared minus 16, and 3 p cubed q minus 9 p squared q. The fourth row is for trinomials and list four examples: x squared minus 7 x plus 12, 9 m squared plus 2 mn minus 8 n squared, 6 k to the fourth power minus k cubed plus 8 k, and z to the fourth power plus 3z squared minus 1.">
+<label/>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Polynomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Monomial</entry>
+<entry valign="top" align="left">14</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−9</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>−13</m:mn><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>c</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Binomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3</m:mn><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mi>q</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mi>q</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Trinomial</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>k</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>k</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>k</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+
+
+
+
+<note id="fs-id1167836310024">
+<title>Degree of a Polynomial</title>
+<para id="fs-id1167832951084">The <emphasis effect="bold">degree of a term</emphasis> is the sum of the exponents of its variables.</para>
+<para id="fs-id1167833021780">The <emphasis effect="bold">degree of a constant</emphasis> is 0.</para>
+<para id="fs-id1167836553112">The <emphasis effect="bold">degree of a polynomial</emphasis> is the highest degree of all its terms.</para>
+</note>
+
+
+
+<para id="fs-id1167836508452">Here are some additional examples.</para>
+<media id="fs-id1167836282723" alt="Monomial examples: 14 has degree 0, 8 a b squared has degree 3, negative 9 x cubed y to the fifth power has degree 8, negative 13 a has degree 1. Binomial examples: The terms in h plus 7 have degree 1 and 0 so the degree of the whole polynomial is 1. The terms in 7 b squared minus 3 b have degree 2 and 1 so the degree of the whole polynomial is 2. The terms in z squared y squared minus 25 have degree 4 and 0 so the degree of the whole polynomial is 4. The terms in 4 n cubed minus 8 n squared have degree 3 and 2 so the degree of the whole polynomial is 3. Trinomial examples: The terms in x squared minus 12 x plus 27 have degree 2, 1 and 0 so the degree of the whole polynomial is 2. The terms in 9 a squared plus 6 a b plus b squared have degree 2, 2, and 2 so the degree of the whole polynomial is 2. The terms in 6 m to the fourth power minus m cubed n squared plus 8 m n to the fifth power have degree 4, 5, and 6 so the degree of the whole polynomial is 6. The terms in z to the fourth power plus 3 z squared minus 1 have degree 4, 2, and 0 so the degree of the whole polynomial is 4. Polynomial examples: The terms in y minus 1 have degree 1 and 0 so the degree of the whole polynomial is 1. The terms in 3 y squared minus 2 y minus 5 have degree 2, 1, 0 so the degree of the whole polynomial is 2. The terms in 4 x to the fourth power plus x cubed plus eight x squared minus 9 x plus 1 have degree 4, 3, 2, 1, and 0 so the degree of the whole polynomial is 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_05_01_002_img_new.jpg"/>
+</media>
+<para id="fs-id1167836523638">Working with polynomials is easier when you list the terms in descending order of degrees. When a polynomial is written this way, it is said to be in <term>standard form of a polynomial</term>. Get in the habit of writing the term with the highest degree first.</para>
+<para id="fs-id1167339222212">We can find the <term>degree</term> of a polynomial by identifying the highest power of the variable that occurs in the polynomial. The term with the highest degree is called the <term>leading term</term> because it is usually written first. The coefficient of the leading term is called the <term>leading coefficient</term>. When a polynomial is written so that the powers are descending, we say that it is in standard form.</para>
+
+<media id="fs-id1167339243309" alt="A polynomial reading: a sub n times x to the nth power plus and so on plus a sub 2 times x squared plus a sub one times x plus a subzero is shown. The a in the term a sub n is labeled: leading coefficient. The n in the term x to the nth power is labeled: degree. Finally, the entire term is labeled as: Leading term.">
+<image mime-type="image/jpg" src="../../media/CNX_CAT_Figure_01_04_002.jpg"/>
+</media>
+
+
+
+
+<para id="eip-455">The same process can be applied to polynomial functions.</para><para id="fs-id1165135205726">A <emphasis>polynomial function</emphasis> consists of either zero or the sum of a finite number of non-zero terms, each of which is a product of a number, called the coefficient of the term, and a variable raised to a non-negative integer power.</para><note id="eip-773"><title>Polynomial Functions</title><para id="fs-id1165137823247">Let<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+be a non-negative integer. A <term>polynomial function</term> is a function that can be written in the form</para>
+<equation id="fs-id1165131937978"><m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>+</m:mo>
+
+  <m:mn>...</m:mn>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+
+ </m:mrow>
+</m:math>
+</equation><para id="eip-id1165137832690">This is called the general form of a polynomial function. Each<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+is a <emphasis>coefficient </emphasis> and can be any real number, but
+<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>cannot = 0. Each expression<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>i</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>i</m:mi>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+is a <term>term of a polynomial function</term>.  The number<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>that is not multiplied by a variable is called a <emphasis>constant</emphasis>.</para></note><example id="Example_03_03_04">
+<exercise id="fs-id1165137817691"><problem id="fs-id1165137817693">
+<title>Identifying Polynomial Functions</title>
+<para id="fs-id1165135262000">Which of the following are polynomial functions?<newline count="1"/></para>
+<equation id="eip-id1165134474011" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>⋅</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5</m:mn><m:msqrt>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+      </m:msqrt>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</equation>
+</problem>
+<solution id="fs-id1165134221783">
+<para id="fs-id1165134094645">The first two functions are examples of polynomial functions because they can be written in the form<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>...</m:mn><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+where the powers are non-negative integers and the coefficients are real numbers.</para>
+<list id="fs-id1165137864157" list-type="bulleted"><item><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+can be written as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</item>
+<item><m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+can be written as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></item>
+<item><m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+cannot be written in this form and is therefore not a polynomial function.</item>
+</list></solution>
+</exercise></example><para id="eip-469">Remember, like we discussed above, although the order of the terms in the polynomial function is not important for performing operations, we typically arrange the terms in descending order of power, or in general form. The <term>degree</term> of the polynomial is the highest power of the variable that occurs in the polynomial; it is the power of the first variable if the function is in general form. The <term>leading term</term> is the term containing the highest power of the variable, or the term with the highest degree. The <term>leading coefficient</term> is the coefficient of the leading term.</para><note id="fs-id1165135193124"><title>Terminology of Polynomial Functions</title>
+
+<para id="fs-id1165137921667">We often rearrange polynomials so that the powers are descending.</para>
+
+<media id="fs-id1165137406148" display="block" alt="Diagram to show what the components of the leading term in a function are. The leading coefficient is a_n and the degree of the variable is the exponent in x^n. Both the leading coefficient and highest degree variable make up the leading term. So the function looks like f(x)=a_nx^n +…+a_2x^2+a_1x+a_0.">
+<image mime-type="image/png" src="../../media/CNX_Precalc_Figure_03_03_010n.jpg"/>
+</media>
+
+<para id="fs-id1165137482568">When a polynomial is written in this way, we say that it is in general form.</para>
+</note><note id="fs-id1165134031372" class="howto">
+<label>How To</label>
+<para id="fs-id1165137803898"><emphasis>Given a polynomial function, identify the degree and leading coefficient.</emphasis></para>
+<list id="fs-id1165135587816" list-type="enumerated" number-style="arabic">
+<item>Find the highest power of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+to determine the degree function.</item>
+<item>Identify the term containing the highest power of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+to find the leading term.</item>
+<item>Identify the coefficient of the leading term.</item>
+</list>
+</note>
+
+<example id="Example_03_03_05">
+<exercise id="fs-id1165137401820"><problem id="fs-id1165137862379">
+<title>Identifying the Degree and Leading Coefficient of a Polynomial Function</title>
+<para id="fs-id1165137435372">Identify the degree, leading term, and leading coefficient of the following polynomial functions.</para>
+<equation id="eip-id1165134242117" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>5</m:mn><m:msup>
+       <m:mi>t</m:mi>
+       <m:mn>5</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+       <m:mi>t</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>7</m:mn><m:mi>t</m:mi></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id1165135527012">
+<para id="fs-id1165137722510">For the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the highest power of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is 3, so the degree is 3. The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−4.</m:mn>
+ </m:mrow>
+</m:math></para><para id="fs-id1165135457771">For the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the highest power of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>t</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the degree is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:msup>
+   <m:mi>t</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5.</m:mn>
+ </m:mrow>
+</m:math></para><para id="fs-id1165135503949">For the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the highest power of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>p</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the degree is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>3.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading term is the term containing that degree,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>−</m:mi><m:msup><m:mi>p</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The leading coefficient is the coefficient of that term,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−1.</m:mn>
+ </m:mrow>
+</m:math></para></solution>
+</exercise></example>
+
+
+
+
+
+<para id="eip-62">Polynomial functions of degree 2 or more have graphs that do not have sharp corners; these types of graphs are called <emphasis>smooth </emphasis> curves. Polynomial functions also display graphs that have no breaks. Curves with no breaks are called <emphasis>continuous</emphasis>. <link target-id="Figure_03_04_001"/> shows a graph that represents a <term class="no-emphasis">polynomial function</term> and a graph that represents a function that is not a polynomial.</para><figure id="Figure_03_04_001">
+      <media id="fs-id1165135185916" alt="Graph of f(x)=x^3-0.01x.">
+        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_001.jpg"/>
+      </media>
+    </figure>
+    
+    <example id="Example_03_04_01">
+      <exercise id="fs-id1165137643218"><problem id="fs-id1165133360328">
+          <title>Recognizing Polynomial Functions</title>
+          <para id="fs-id1165137938673">Which of the graphs in <link target-id="Figure_03_04_002"/> represents a polynomial function?</para>
+          <figure id="Figure_03_04_002" class="medium">
+            <media id="fs-id1165135251463" alt="Two graphs in which one has a polynomial function and the other has a function closely resembling a polynomial but is not.">
+              <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_002.jpg"/>
+            </media>
+          </figure>
+        </problem>
+        <solution id="fs-id1165134118594">
+        
+        <para id="fs-id1165134129608">The graphs of<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>and<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>are graphs of polynomial functions. They are smooth and <term class="no-emphasis">continuous</term>.</para><para id="fs-id1165134188794">The graphs of<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>and<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>are graphs of functions that are not polynomials. The graph of function<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>has a sharp corner. The graph of function<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>is not continuous.</para></solution>      
+</exercise>
+    </example>
+<para id="eip-131">The behavior of the graph of a function as the input values get very small (<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>−</m:mi><m:mi>∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>) and get very large (<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>) is referred to as the <term>end behavior</term> of the function. We can use words or symbols to describe end behavior.To describe the behavior as numbers become larger and larger, we use the idea of infinity. We use the symbol<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>for positive infinity and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>−∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>for negative infinity. When we say that “<m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>approaches infinity,” which can be symbolically written as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>we are describing a behavior; we are saying that<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is increasing without bound.</para><para id="fs-id1165137601421">Knowing the degree of a polynomial function is useful in helping us predict its end behavior. To determine its end behavior, look at the leading term of the polynomial function. 
+Because the power of the leading term is the highest, that term will grow significantly faster than the other terms as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+gets very large or very small, so its behavior will dominate the graph. For any polynomial, the end behavior of the polynomial will match the end behavior of the leading term. 
+</para><table id="Table_03_03_04" summary=".."><title>Leading Coeffiient Test</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1" align="center"/>
+ <colspec colnum="2" colname="c2"/>
+ <colspec colnum="3" colname="c3"/>
+ <thead>
+  <row>
+   <entry align="center">Polynomial Function</entry>
+   <entry align="center">Leading Term</entry>
+   <entry align="center">Graph of Polynomial Function</entry>
+  </row>
+ </thead>
+ <tbody>
+  <row>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mn>5</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center">
+    <media id="fs-id1165137768814" alt="Graph of f(x)=5x^4+2x^3-x-4.">
+     <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_011.jpg"/>
+    </media>
+</entry>
+  </row>
+  <row>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center">
+    <media id="fs-id1165137714206" alt="Graph of f(x)=-2x^6-x^5+3x^4+x^3.">
+     <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_012.jpg"/>
+    </media>
+</entry>
+  </row>
+  <row>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center">
+    <media id="fs-id1165137540879" alt="Graph of f(x)=3x^5-4x^4+2x^2+1.">
+     <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_013.jpg"/>
+    </media>
+</entry>
+  </row>
+  <row>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>7</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center"><m:math>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>6</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+
+    </m:mrow>
+   </m:math>
+   </entry>
+   <entry align="center">
+    <media id="fs-id1165137600670" alt="Graph of f(x)=-6x^3+7x^2+3x+1.">
+     <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_014.jpg"/>
+    </media>
+</entry>
+  </row>
+ </tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="eip-5">As we pointed out when discussing quadratic equations, when the leading term of a polynomial function,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:msub>
+   <m:mi>a</m:mi>
+   <m:mi>n</m:mi>
+  </m:msub>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mi>n</m:mi>
+  </m:msup>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is an even power function, as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>increases or decreases without bound,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>increases without bound. When the leading term is an odd power function, as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>decreases without bound,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>also decreases without bound; as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>increases without bound,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>also increases without bound. If the leading term is negative, it will change the direction of the end behavior. <link target-id="Figure_03_04_011abcd"/> summarizes all four cases.</para>
+     
+<figure id="Figure_03_04_011abcd"><media id="eip-id1165135341244" alt="Graph of a polynomial function with degree 5.">
+        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_011abcdn.jpg"/>
+      </media>
+</figure><example id="Example_03_03_06">
+<exercise id="fs-id1165137452413"><problem id="fs-id1165137452415">
+<title>Identifying End Behavior and Degree of a Polynomial Function</title>
+<para id="fs-id1165137831279">Describe the end behavior and determine a possible degree of the polynomial function in <link target-id="Figure_03_03_015"/>.</para>
+
+<figure id="Figure_03_03_015" class="small">
+<media id="fs-id1165137566318" alt="Graph of an odd-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_015.jpg"/>
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165135251309">
+<para id="fs-id1165135251312">As the input values<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+get very large, the output values<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>increase without bound. As the input values<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+get very small, the output values<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>decrease without bound. We can describe the end behavior symbolically by writing </para>
+<equation id="eip-id1165137778911" class="unnumbered"><label/><m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>as</m:mtext><m:mo> </m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>−</m:mi><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>−</m:mi><m:mi>∞</m:mi><m:mo> </m:mo>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>as</m:mtext><m:mo> </m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation><para id="fs-id1165137454991">In words, we could say that as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>values approach infinity, the function values approach infinity, and as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>values approach negative infinity, the function values approach negative infinity.</para><para id="fs-id1165134113949">We can tell this graph has the shape of an odd degree power function that has not been reflected, so the degree of the polynomial creating this graph must be odd and the leading coefficient must be positive.</para>
+</solution>
+</exercise></example>
+
+<example id="eip-338"><label>Try It</label>
+<exercise id="ti_03_03_04"><problem id="fs-id1165137732301"><para id="fs-id1165135460938">Describe the end behavior, and determine a possible degree of the polynomial function in <link target-id="Figure_03_03_016"/>.</para>
+<figure id="Figure_03_03_016" class="small"><media id="fs-id1165134042593" alt="Graph of an even-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_016n.jpg"/>
+</media>
+</figure></problem>
+<solution id="fs-id1165134047710"><para id="fs-id1165134047711">As<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>;</m:mo><m:mo> </m:mo><m:mi>a</m:mi><m:mi>s</m:mi><m:mo> </m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>It has the shape of an even degree power function with a negative coefficient.</para></solution>
+</exercise></example><example id="Example_03_03_07">
+<exercise id="fs-id1165137470361"><problem id="fs-id1165137470363">
+<title>Identifying End Behavior and Degree of a Polynomial Function</title>
+<para id="fs-id1165132011287">Given the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>express the function as a polynomial in general form, and determine the leading term, degree, and end behavior of the function.</para></problem>
+<solution id="fs-id1165137401107">
+<para id="fs-id1165137401109">Obtain the general form by expanding the given expression for<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+
+<equation id="eip-id1165132051075" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>−3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>−3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>−3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>4</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>9</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math></equation><para id="fs-id1165137634030">The general form is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>9</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+The leading term is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>−3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>;</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+therefore, the degree of the polynomial is 4. The degree is even (4) and the leading coefficient is negative (–3), so the end behavior is</para><equation id="eip-id1165133007607" class="unnumbered"><label/><m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>as</m:mtext><m:mo> </m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo> </m:mo>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mtext>as</m:mtext><m:mo> </m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</equation></solution>
+</exercise></example><example id="eip-576"><label>Try It</label>
+<exercise id="ti_03_03_05">
+<problem id="fs-id1165137722131"><para id="fs-id1165137416652">Given the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>express the function as a polynomial in general form and determine the leading term, degree, and end behavior of the function. </para></problem>
+<solution id="fs-id1165135409431"><para id="fs-id1165137749856">The leading term is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>0.2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so it is a degree 3 polynomial. As<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>approaches positive infinity,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>increases without bound; as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>approaches negative infinity,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>decreases without bound. </para></solution>
+</exercise>
+</example></section><section id="eip-803"><title>Turning Points, Zeros, and Intercepts of Polynomial Functions</title><para id="eip-981">In addition to the end behavior of polynomial functions, we are also interested in what happens in the “middle” of the function. In particular, we are interested in locations where graph behavior changes. A <emphasis>turning point </emphasis>is a point at which the function values change from increasing to decreasing or decreasing to increasing.</para>
+<para id="fs-id1165137417044">We are also interested in the intercepts. As with all functions, the <emphasis effect="italics">y-</emphasis>intercept is the point at which the graph intersects the vertical axis. The point corresponds to the coordinate pair in which the input value is zero. Because a polynomial is a function, only one output value corresponds to each input value so there can be only one <emphasis effect="italics">y-</emphasis>intercept<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub>
+   <m:mi>a</m:mi>
+   <m:mn>0</m:mn>
+  </m:msub>
+  <m:mo>)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The <emphasis effect="italics">x-</emphasis>intercepts occur at the input values that correspond to an output value of zero. It is possible to have more than one <emphasis effect="italics">x-</emphasis>intercept. See <link target-id="Figure_03_03_017"/><emphasis>.</emphasis></para><figure id="Figure_03_03_017">
+<media id="fs-id1165135511323" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_017.jpg"/>
+</media>
+</figure>
+
+<para id="eip-398">The degree of a polynomial function helps us to determine the number of <emphasis effect="italics">x</emphasis>-intercepts and the number of turning points. A polynomial function of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext>th</m:mtext><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>degree is the product of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>factors, so it will have at most<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>roots or zeros, or <emphasis effect="italics">x</emphasis>-intercepts. The graph of the polynomial function of degree<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>must have at most<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>turning points. This means the graph has at most one fewer turning point than the degree of the polynomial or one fewer than the number of factors.</para><note id="fs-id1165135378843"><title>Turning Points of Polynomial Functions</title><para id="fs-id1165137638552">A <term>turning point</term> of a graph is a point at which the graph changes direction from increasing to decreasing (rising to falling) or decreasing to increasing (falling to rising). </para><para id="eip-721">A polynomial of degree<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>will have at most<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>turning points.</para></note>
+<para id="eip-302">Look at the graph of the polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in <link target-id="Figure_03_04_015"/>. The graph has three turning points.</para><figure id="Figure_03_04_015" class="small">
+      <media id="fs-id1165134155116" alt="Graph of an odd-degree polynomial with a negative leading coefficient. Note that as x goes to positive infinity, f(x) goes to negative infinity, and as x goes to negative infinity, f(x) goes to positive infinity.">
+        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_015.jpg"/>
+      </media>
+    </figure>
+<para id="eip-734">This function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+is a 4<sup>th</sup> degree polynomial function and has 3 turning points. The maximum number of turning points of a polynomial function is always one less than the degree of the function.</para><para id="eip-635">A <term>continuous function</term> has no breaks in its graph: the graph can be drawn without lifting the pen from the paper. A <term>smooth curve</term> is a graph that has no sharp corners. The turning points of a smooth graph must always occur at rounded curves. The graphs of polynomial functions are both continuous and smooth.</para><example id="eip-476"><exercise id="fs-id1165134374690"><problem id="fs-id1165134060420">
+          <title>Finding the Maximum Number of Turning Points Using the Degree of a Polynomial Function</title>
+          <para id="fs-id1165134060425">Find the maximum number of turning points of each polynomial function.</para>
+          <list id="fs-id1165134060428" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math></item>   
+          <item><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</item>
+          </list></problem>
+        <solution id="fs-id1165137784428">
+          <list id="fs-id1165137784430" list-type="enumerated" number-style="lower-alpha">
+        <item><para id="fs-id1165135335895">First, rewrite the polynomial function in descending order:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math></para>
+<para id="fs-id1165135453844">Identify the degree of the polynomial function. This polynomial function is of degree 5.</para> 
+        <para id="fs-id1165135341233">The maximum number of turning points is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para></item>
+        <item>
+
+        
+        <para id="fs-id1165133104532">First, identify the leading term of the polynomial function if the function were expanded.</para> 
+          <media id="fs-id1165134130071" alt="Graph of f(x)=x^4-x^3-4x^2+4x which denotes where the function increases and decreases and its turning points.">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_016.jpg"/>
+          </media>
+
+        <para id="fs-id1165135551181">Then, identify the degree of the polynomial function. This polynomial function is of degree 4.</para> 
+        <para id="fs-id1165135551185">The maximum number of turning points is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math>
+</para> 
+</item>
+        </list>
+</solution>      
+</exercise></example><para id="eip-779"><title>Finding Zeros (x-intercepts) </title>Recall that if<m:math>
+      <m:mrow>
+        <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>is a polynomial function, the values of<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>for which<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>are called <term class="no-emphasis">zeros</term> of<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>If the equation of the polynomial function can be factored, we can set each factor equal to zero and solve for the zeros<emphasis effect="bold">.</emphasis></para><para id="eip-379">We can use this method to find<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts because at the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts we find the input values when the output value is zero. For general polynomials, this can be a challenging prospect. While quadratics can be solved using the relatively simple quadratic formula, the corresponding formulas for cubic and fourth-degree polynomials are not simple enough to remember, and formulas do not exist for general higher-degree polynomials. Consequently, we will limit ourselves to three cases:</para><list id="eip-291" list-type="enumerated" number-style="arabic"><item>The polynomial can be factored using known methods: greatest common factor and trinomial factoring.</item> 
+      <item>The polynomial is given in factored form.</item>
+      <item>Technology is used to determine the intercepts.</item>
+    </list><note id="eip-22"><label>How To</label>
+      <para id="fs-id1165137563367"><emphasis>Given a polynomial function<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>find the <emphasis effect="italics">x</emphasis>-intercepts by factoring.</emphasis></para><list id="fs-id1165134104993" list-type="enumerated" number-style="arabic">
+        <item>Set<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>
+        </item> 
+        <item>If the polynomial function is not given in factored form:
+        <list id="fs-id1165137646354" list-type="enumerated" number-style="lower-alpha">
+        <item>Factor out any common monomial factors.</item>
+        <item>Factor any factorable binomials or trinomials.</item>
+          </list></item>
+        <item>Set each factor equal to zero and solve to find the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts.</item>
+      </list></note><example id="eip-251"><exercise id="fs-id1165135191903"><problem id="fs-id1165135179909">
+          <title>Finding the <emphasis effect="italics">x</emphasis>-Intercepts of a Polynomial Function by Factoring</title>
+          <para id="eip-25">Find the <emphasis effect="italics">x</emphasis>-intercepts of<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>6</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>.</m:mo>
+            </m:mrow>
+          </m:math>
+          </para></problem>
+        <solution id="fs-id1165137781596">
+          <para id="fs-id1165137535791">We can attempt to factor this polynomial to find solutions for <m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn>
+            </m:mrow>
+          </m:math><newline count="2"/>
+          </para>
+<equation id="eip-id1165132963011" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mspace width="2em"/>
+     <m:mtable>
+      <m:mtr>
+        <m:mtd columnalign="left"><m:mtext>Factor out the greatest</m:mtext></m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left"><m:mtext>common factor</m:mtext><m:mtext>.</m:mtext></m:mtd>
+      </m:mtr>
+     </m:mtable>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>(</m:mo><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>4</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mspace width="2em"/><m:mtext>Factor the trinomial</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>(</m:mo><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>Set each factor equal to zero</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math></equation><equation id="eip-id1165134166344" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd/>
+    <m:mtd/>
+    <m:mtd/>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mn>±1</m:mn></m:mrow></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mo>±</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165137932627">This gives us five <emphasis effect="italics">x</emphasis>-intercepts:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+  <m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+  <m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>See <link target-id="Figure_03_04_003"/>. We can see that this is an even function because it is symmetric about the <emphasis effect="italics">y</emphasis>-axis.</para><figure id="Figure_03_04_003" class="small">
+          <media id="fs-id1165134380378" alt="Four graphs where the first graph is of an even-degree polynomial, the second graph is of an absolute function, the third graph is an odd-degree polynomial, and the fourth graph is a disjoint function.">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_003.jpg"/>
+          </media>
+        </figure>
+</solution>      
+</exercise></example><example id="eip-626"><exercise id="fs-id1165137768835"><problem id="fs-id1165137768837">
+          <title>Finding the <emphasis effect="italics">x</emphasis>-Intercepts of a Polynomial Function by Factoring</title>
+          <para id="fs-id1165135254633">Find the <emphasis effect="italics">x</emphasis>-intercepts of<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5.</m:mn>
+            </m:mrow>
+          </m:math>
+          </para></problem>
+        <solution id="fs-id1165134557385">
+          <para id="fs-id1165137725387">Find solutions for<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>
+            by factoring.<newline count="1"/></para>
+<equation id="eip-id1165137937588" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mspace width="2em"/><m:mtext>Factor by grouping</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mspace width="2em"/><m:mtext>Factor out the common factor</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mspace width="2em"/><m:mtext>Factor the difference of squares</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mspace width="2em"/><m:mtext>Set each factor equal to zero</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math>
+</equation><equation id="eip-id1165135499778" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mn>−1</m:mn></m:mrow></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>1</m:mn></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math></equation><para id="fs-id1165134541162">There are three <emphasis effect="italics">x</emphasis>-intercepts:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+                </m:mrow>
+                <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>See <link target-id="Figure_03_04_004"/>.</para><figure id="Figure_03_04_004" class="small">
+          <media id="fs-id1165133344112" alt="Graph of f(x)=x^6-3x^4+2x^2 with its five intercepts, (-sqrt(2), 0), (-1, 0), (0, 0), (1, 0), and (sqrt(2), 0).">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_004.jpg"/>
+          </media>
+        </figure>
+</solution>      
+</exercise></example><para id="eip-157">Now that we know how to find the X-intercepts, lets combine finding both x- and y- intercepts. Remember:</para><note id="eip-975"><title>Intercepts of Polynomial Functions</title><para id="eip-75">The <emphasis effect="italics">y-</emphasis>intercept is the point at which the function has an input value of zero. The <emphasis effect="italics">x</emphasis>-intercepts are the points at which the output value is zero.</para>
+<list id="fs-id1165137571388" list-type="enumerated" number-style="arabic"><title><emphasis>Given a polynomial function, determine the intercepts.</emphasis></title><item>Determine the <emphasis effect="italics">y-</emphasis>intercept by setting <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math> and finding the corresponding output value.</item>
+<item>Determine the <emphasis effect="italics">x</emphasis>-intercepts by solving for the input values that yield an output value of zero.</item>
+</list></note>
+
+<example id="eip-198"><exercise id="fs-id1165135154515"><problem id="fs-id1165135154517">
+          <title>Finding the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">x</emphasis>-Intercepts of a Polynomial in Factored Form</title>
+          <para id="fs-id1165135528940">Find the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">x</emphasis>-intercepts of<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+            </m:mrow>
+          </m:math>
+          </para></problem>
+        <solution id="fs-id1165134223203">
+          <para id="fs-id1165135421555">The <emphasis effect="italics">y</emphasis>-intercept can be found by evaluating<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+            </m:mrow>
+          </m:math></para>
+<equation id="eip-id1165135554846" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd rowalign="center" columnalign="right"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left"><m:mrow><m:mn>12</m:mn></m:mrow></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math></equation>
+<para id="eip-id1165134130215">So the <emphasis effect="italics">y</emphasis>-intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para>
+<para id="fs-id1165137870836">The <emphasis effect="italics">x</emphasis>-intercepts can be found by solving<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn>
+            </m:mrow>
+          </m:math></para>
+<equation id="eip-id1165134527470" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math></equation>
+<equation id="eip-id1165134527526" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd/>
+    <m:mtd columnalign="right"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd>
+    <m:mtd><m:mrow/></m:mtd>
+    <m:mtd><m:mrow/></m:mtd>
+    <m:mtd><m:mrow/></m:mtd>
+    <m:mtd><m:mrow/></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="eip-id1165135518219">So the <emphasis effect="italics">x</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>      
+          </para></solution>
+        <commentary id="fs-id1165135692887">
+          <title>Analysis </title>
+          <para id="fs-id1165135692892">We can always check that our answers are reasonable by using a graphing calculator to graph the polynomial as shown in <link target-id="Figure_03_04_005"/>.</para><figure id="Figure_03_04_005" class="small">
+            <media id="fs-id1165135349148" alt="Graph of f(x)=x^3-5x^2-x+5 with its three intercepts (-1, 0), (1, 0), and (5, 0).">
+              <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_005.jpg" class="small"/>
+            </media>
+          </figure>
+</commentary>      
+</exercise></example><example id="Example_03_03_08">
+<exercise id="fs-id1165137435581"><problem id="fs-id1165137803210">
+<title>Determining the Intercepts of a Polynomial Function</title>
+<para id="fs-id1165137441767">Given the polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>written in factored form for your convenience, determine the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">x</emphasis>-intercepts.</para></problem>
+<solution id="fs-id1165135251466">
+<para id="fs-id1165135251468">The <emphasis effect="italics">y-</emphasis>intercept occurs when the input is zero so substitute 0 for<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="eip-id1165133032876" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>4</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>45</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow><m:mn>−45</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1165135689436">The <emphasis effect="italics">y-</emphasis>intercept is (0, 8).</para>
+<para id="fs-id1165137863224">The <emphasis effect="italics">x</emphasis>-intercepts occur when the output is zero.</para>
+<equation id="eip-id1165134380311" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<equation id="fs-id2036938" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mn>0</m:mn></m:mtd>
+    <m:mtd rowalign="center"><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd rowalign="center" columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mn>0</m:mn></m:mtd>
+    <m:mtd rowalign="center"><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right" rowalign="center"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd rowalign="center" columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mn>2</m:mn></m:mtd>
+    <m:mtd rowalign="center"><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right" rowalign="center"><m:mi>x</m:mi></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mrow><m:mn>−1</m:mn></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd rowalign="center" columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mn>4</m:mn></m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165135316178">The <emphasis effect="italics">x</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165134380385">We can see these intercepts on the graph of the function shown in <link target-id="Figure_03_03_018"/>.</para>
+
+<figure id="Figure_03_03_018" class="small">
+<media id="fs-id1165135155412" alt="Graph of f(x)=(x-2)(x+1)(x-4), which labels all the intercepts.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_018.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise></example>
+
+<example id="Example_03_03_09">
+<exercise id="fs-id1165137834894"><problem id="fs-id1165137834896">
+<title>Determining the Intercepts of a Polynomial Function with Factoring</title>
+<para id="fs-id1165137628033">Given the polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>45</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>determine the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">x</emphasis>-intercepts.</para></problem>
+<solution id="fs-id1165137634473">
+<para id="fs-id1165137634475">The <emphasis effect="italics">y-</emphasis>intercept occurs when the input is zero.</para>
+
+
+<equation id="eip-id1165132943488" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>4</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>45</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center"><m:mrow><m:mn>−45</m:mn></m:mrow></m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165135653967">The <emphasis effect="italics">y-</emphasis>intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−45</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165135152099">The <emphasis effect="italics">x</emphasis>-intercepts occur when the output is zero. To determine when the output is zero, we will need to factor the polynomial.</para>
+<equation id="eip-id1165135376171" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>4</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>45</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math></equation><equation id="eip-id1165135684199" class="unnumbered"><label/>
+<m:math display="block">
+<m:mspace width="2em"/>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math></equation><equation id="eip-id1165134383791" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0</m:mn>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0</m:mn>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>x</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>3</m:mn>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="right">
+     <m:mi>x</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mtext>no real solution)</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165135436471">The <emphasis effect="italics">x</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>–3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165137444727">We can see these intercepts on the graph of the function shown in <link target-id="Figure_03_03_019"/>. We can see that the function is even because<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para>
+
+
+<figure id="Figure_03_03_019" class="small">
+<media id="fs-id1165137803348" alt="Graph of f(x)=x^4-4x^2-45, which labels all the intercepts at (-3, 0), (3, 0), and (0, -45).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_019.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise></example>
+
+
+<example id="eip-859"><label>Try It</label>
+<exercise id="ti_03_03_06">
+<problem id="fs-id1165137405243"><para id="fs-id1165137405244">Given the polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>6</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>determine the <emphasis effect="italics">y</emphasis>- and <emphasis effect="italics">x</emphasis>-intercepts. </para></problem>
+<solution id="fs-id1165137762370"><para id="fs-id1165137762371"><emphasis effect="italics">y</emphasis>-intercept<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><emphasis effect="italics">x</emphasis>-intercepts<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</example>
+
+<note id="fs-id1165137847104" type="important"><title>Intercepts and Turning Points of Polynomials</title><para id="fs-id1165137405499">A polynomial of degree<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>will have, at most,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><emphasis effect="italics">x</emphasis>-intercepts and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>turning points.</para></note><example id="Example_03_03_10">
+<exercise id="fs-id1165135237034">
+<problem id="fs-id1165135237036">
+<title>Determining the Number of Intercepts and Turning Points of a Polynomial</title>
+<para id="fs-id1165134152759">Without graphing the function, determine the local behavior of the function by finding the maximum number of <emphasis effect="italics">x</emphasis>-intercepts and turning points for<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>7</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135414339">
+<para id="fs-id1165135414341">The polynomial has a degree of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so there are at most 10 <emphasis effect="italics">x</emphasis>-intercepts and at most 9 turning points.</para></solution>
+</exercise>
+</example>
+
+
+
+<example id="eip-665"><label>Try It</label>
+<exercise id="ti_03_03_07">
+<problem id="fs-id1165135188273"><para id="fs-id1165135188274">Without graphing the function, determine the maximum number of <emphasis effect="italics">x</emphasis>-intercepts and turning points for<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>108</m:mn><m:mo>−</m:mo><m:mn>13</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>9</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>8</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>14</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137660801"><para id="fs-id1165137660802">There are at most 12<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts and at most 11 turning points.</para></solution>
+</exercise></example><example id="Example_03_03_11"><exercise id="fs-id1165137435064">
+<problem id="fs-id1165137435066">
+<title>Drawing Conclusions about a Polynomial Function from the Graph</title>
+<para id="fs-id1165137843783">What can we conclude about the polynomial represented by the graph shown in <link target-id="Figure_03_03_020"/> based on its intercepts and turning points?</para>
+
+<figure id="Figure_03_03_020" class="small">
+<media id="fs-id1165137758217" alt="Graph of an even-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_020.jpg"/>
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165137737264">
+<para id="fs-id1165131926327">The end behavior of the graph tells us this is the graph of an even-degree polynomial. See <link target-id="Figure_03_03_021"/>.</para>
+
+<figure id="Figure_03_03_021" class="small">
+<media id="fs-id1165137883772" alt="Graph of an even-degree polynomial that denotes the turning points and intercepts.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_021.jpg"/>
+</media>
+</figure>
+<para id="fs-id1165135670389">The graph has 2 <emphasis effect="italics">x</emphasis>-intercepts, suggesting a degree of 2 or greater, and 3 turning points, suggesting a degree of 4 or greater. Based on this, it would be reasonable to conclude that the degree is even and at least 4.</para></solution>
+</exercise>
+</example>
+
+<example id="eip-331"><label>Try It</label>
+<exercise id="ti_03_03_08">
+<problem id="fs-id1165137834183"><para id="fs-id1165137454180">What can we conclude about the polynomial represented by the graph shown in <link target-id="Figure_03_03_022"/> based on its intercepts and turning points?</para>
+<figure id="Figure_03_03_022">
+<media id="fs-id1165137405825" alt="Graph of an odd-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_022.jpg"/>
+</media>
+</figure>
+</problem>
+<solution id="fs-id1165137666790"><para id="fs-id1165137666791">The end behavior indicates an odd-degree polynomial function; there are 3<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts and 2 turning points, so the degree is odd and at least 3. Because of the end behavior, we know that the lead coefficient must be negative.</para></solution>
+</exercise>
+</example><example id="Example_03_03_12">
+<exercise id="fs-id1165135184013"><problem id="fs-id1165137725458">
+<title>Drawing Conclusions about a Polynomial Function from the Factors</title>
+<para id="fs-id1165135435639">Given the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+determine the x- and y-intercepts, and the number of turning points.</para></problem>
+<solution id="fs-id1165135457721">
+<para id="fs-id1165135457723">The <emphasis effect="italics">y</emphasis>-intercept is found by evaluating<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><equation id="eip-id1165134587897" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math></equation><para id="fs-id1165135245749">The <emphasis effect="italics">y</emphasis>-intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165135203755">The <emphasis effect="italics">x</emphasis>-intercepts are found by determining the zeros of the function.</para>
+<equation id="eip-id1165135401630" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</equation>
+
+<equation id="fs-id1178321" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd><m:mn>0</m:mn></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd>
+    <m:mtd><m:mrow><m:mspace width="2em"/><m:mtext>or</m:mtext><m:mspace width="2em"/></m:mrow></m:mtd>
+    <m:mtd><m:mi>x</m:mi></m:mtd>
+    <m:mtd><m:mo>=</m:mo></m:mtd>
+    <m:mtd><m:mn>4</m:mn></m:mtd>
+   </m:mtr>
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165135431016">The <emphasis effect="italics">x</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>–3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165137472984">The degree is 3 so the graph has at most 2 turning points.</para>
+</solution>
+</exercise></example>
+
+
+
+</section><section id="eip-608"><title>Zeros and Multiplicities</title><para id="fs-id1165135581073">Graphs behave differently at various <emphasis effect="italics">x</emphasis>-intercepts. Sometimes, the graph will cross over the horizontal axis at an intercept. Other times, the graph will touch the horizontal axis and "bounce" off.
+
+</para><para id="fs-id1165133092720">Suppose, for example, we graph the function shown.</para><equation id="eip-840" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+        <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:math>
+    </equation><para id="fs-id1165134103043">Notice in <link target-id="Figure_03_04_007"/> that the behavior of the function at each of the <emphasis effect="italics">x</emphasis>-intercepts is different.</para><figure id="Figure_03_04_007" class="small"><media id="fs-id1165137933143" alt="Graph of h(x)=x^3+4x^2+x-6.">
+        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_007.jpg"/>
+      </media>
+    <caption>Identifying the behavior of the graph at an <emphasis effect="italics">x</emphasis>-intercept by examining the multiplicity of the zero.</caption></figure><para id="fs-id1165135407009">The <emphasis effect="italics">x</emphasis>-intercept<m:math>
+      <m:mrow>
+        <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>
+      is the solution of equation<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>The graph passes directly through the <emphasis effect="italics">x</emphasis>-intercept at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The factor is linear (has a degree of 1), so the behavior near the intercept is like that of a line—it passes directly through the intercept. We call this a single zero because the zero corresponds to a single factor of the function.</para><para id="fs-id1165137897788">The <emphasis effect="italics">x</emphasis>-intercept<m:math>
+      <m:mrow>
+        <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>is the repeated solution of equation<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:msup>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>The graph touches the axis at the intercept and changes direction. The factor is quadratic (degree 2), so the behavior near the intercept is like that of a quadratic—it bounces off of the horizontal axis at the intercept.</para><equation id="eip-609" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+    </m:math>
+    </equation><para id="fs-id1165137888924">The factor is repeated, that is, the factor<m:math>
+      <m:mrow>
+        <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+            <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+          </m:mrow>
+          <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>appears twice. The number of times a given factor appears in the factored form of the equation of a polynomial is called the <term>multiplicity</term>. The zero associated with this factor,<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>has multiplicity 2 because the factor<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+              <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+            </m:mrow>
+            <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>occurs twice.</para><para id="fs-id1165133402140">The <emphasis effect="italics">x</emphasis>-intercept<m:math>
+      <m:mrow>
+        <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+      </m:mrow>
+    </m:math>is the repeated solution of factor<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:msup>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+            <m:mn>3</m:mn>
+          </m:msup>
+          <m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>The graph passes through the axis at the intercept, but flattens out a bit first. This factor is cubic (degree 3), so the behavior near the intercept is like that of a cubic—with the same S-shape near the intercept as the toolkit function<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          <m:mo>.</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>We call this a triple zero, or a zero with multiplicity 3.</para><para id="fs-id1165137673357">For <term class="no-emphasis">zeros</term> with even multiplicities, the graphs <emphasis effect="italics">touch</emphasis> or are tangent to the <emphasis effect="italics">x</emphasis>-axis. For zeros with odd multiplicities, the graphs <emphasis effect="italics">cross</emphasis> or intersect the <emphasis effect="italics">x</emphasis>-axis. See <link target-id="Figure_03_04_008"/> for examples of graphs of polynomial functions with multiplicity 1, 2, and 3.</para><figure id="Figure_03_04_008"><media id="fs-id1165134589565" alt="Graph of f(x)=(x+3)(x-2)^2(x+1)^3.">
+        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_008.jpg" class="small"/>
+      </media>
+    </figure><para id="fs-id1165133078115">For higher even powers, such as 4, 6, and 8, the graph will still touch and bounce off of the horizontal axis but, for each increasing even power, the graph will appear flatter as it approaches and leaves the <emphasis effect="italics">x</emphasis>-axis.</para><para id="fs-id1165133447988">For higher odd powers, such as 5, 7, and 9, the graph will still cross through the horizontal axis, but for each increasing odd power, the graph will appear flatter as it approaches and leaves the <emphasis effect="italics">x</emphasis>-axis.</para><note id="fs-id1165135620829"><label/><title>Graphical Behavior of Polynomials at <emphasis effect="italics">x</emphasis>-Intercepts</title>
+      
+      <para id="fs-id1165134036762">If a polynomial contains a factor of the form<m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:msup>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+            <m:mi>p</m:mi>
+          </m:msup>
+          <m:mo>,</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math>the behavior near the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercept<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>is determined by the power<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>p</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>We say that<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>is a zero of <term>multiplicity</term><m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>p</m:mi><m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>      </para><para id="fs-id1165137647546">The graph of a polynomial function will touch the <emphasis effect="italics">x</emphasis>-axis at zeros with even multiplicities. The graph will cross the <emphasis effect="italics">x</emphasis>-axis at zeros with odd multiplicities.</para><para id="fs-id1165135195405">The sum of the multiplicities is the degree of the polynomial function.</para>
+    </note><note id="fs-id1165135195409" class="howto">
+      <label>How To</label>
+      <para id="fs-id1165135195416"><emphasis>Given a graph of a polynomial function of degree</emphasis><m:math>
+        <m:mrow>
+          <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+        </m:mrow>
+      </m:math><emphasis>identify the zeros and their multiplicities.</emphasis></para><list id="fs-id1165135547216" list-type="enumerated" number-style="arabic"><item>If the graph crosses the <emphasis effect="italics">x</emphasis>-axis and appears almost linear at the intercept, it is a single zero.</item> 
+      <item>If the graph touches the <emphasis effect="italics">x</emphasis>-axis and bounces off of the axis, it is a zero with even multiplicity.</item>
+      <item>If the graph crosses the <emphasis effect="italics">x</emphasis>-axis at a zero, it is a zero with odd multiplicity.</item>
+        <item>The sum of the multiplicities is<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+        </item>
+      </list></note>
+    <example id="Example_03_04_06">
+      <exercise id="fs-id1165137922408"><problem id="fs-id1165135409401">
+          <title>Identifying Zeros and Their Multiplicities</title>
+          <para id="fs-id1165135409406">Use the graph of the function of degree 6 in <link target-id="Figure_03_04_009"/> to identify the zeros of the function and their possible multiplicities.</para>
+          
+          <figure id="Figure_03_04_009" class="small">
+            <media id="fs-id1165134117221" alt="Three graphs showing three different polynomial functions with multiplicity 1, 2, and 3.">
+              <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_009.jpg"/>
+            </media>
+          </figure>
+        </problem>
+        <solution id="fs-id1165135533053">
+          <para id="fs-id1165135533055">The polynomial function is of degree 6. The sum of the multiplicities must be 6.
+          </para><para id="fs-id1165135641694">Starting from the left, the first zero occurs at<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3.</m:mn><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>The graph touches the <emphasis effect="italics">x</emphasis>-axis, so the multiplicity of the zero must be even. The zero of<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mn>−3</m:mn><m:mtext> </m:mtext>
+            </m:mrow>
+          </m:math>most likely has multiplicity<m:math>
+            <m:mrow>
+              <m:mtext> </m:mtext><m:mn>2.</m:mn>
+            </m:mrow>
+          </m:math></para><para id="fs-id1165135369539">The next zero occurs at<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−1.</m:mn><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>The graph looks almost linear at this point. This is a single zero of multiplicity 1.</para><para id="fs-id1165135329820">The last zero occurs at<m:math>
+          <m:mrow>
+            <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn><m:mtext> </m:mtext>
+          </m:mrow>
+        </m:math>The graph crosses the<emphasis effect="italics"> x</emphasis>-axis, so the multiplicity of the zero must be odd. We know that the multiplicity is likely 3 and that the sum of the multiplicities is 6.</para></solution>
+      </exercise></example><example id="eip-971"><label>Try It</label>
+      <exercise id="ti_03_04_02"><problem id="fs-id1165137932363"><para id="fs-id1165131968038">Use the graph of the function of degree 9 in <link target-id="Figure_03_04_010"/> to identify the zeros of the function and their multiplicities.</para><figure id="Figure_03_04_010" class="small">
+          <media id="fs-id1165131968050" alt="Graph of an even-degree polynomial with degree 6.">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_010.jpg" class="small"/>
+          </media>
+</figure>
+</problem>    
+    <solution id="fs-id1165135255999"><para id="fs-id1165135256000">The graph has a zero of –5 with multiplicity 3, a zero of -1 with multiplicity 2, and a zero of 3 with multiplicity 4.</para></solution>
+      </exercise></example>
+    
+    </section><section id="eip-891"><title>Graphing Polynomial Functions</title><para id="fs-id1165137843095">We can use what we have learned about multiplicities, end behavior, and turning points to sketch graphs of polynomial functions. Let us put this all together and look at the steps required to graph polynomial functions.</para>
+    
+    <note id="fs-id1165137843101" class="howto">
+      <label>How To</label>
+      <para id="fs-id1165135449677"><emphasis effect="bold">Given a polynomial function, sketch the graph.</emphasis></para>
+      
+      <list id="fs-id1165135449683" list-type="enumerated" number-style="arabic">
+        <item>Find the intercepts.</item> 
+      <item>Check for symmetry. If the function is an even function, its graph is symmetrical about the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis, that is,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+If a function is an odd function, its graph is symmetrical about the origin, that is,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</item> 
+      <item>Use the multiplicities of the zeros to determine the behavior of the polynomial at the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts.</item>
+      <item>Determine the end behavior by examining the leading term.</item>
+      <item>Use the end behavior and the behavior at the intercepts to sketch a graph.</item>
+      <item>Ensure that the number of turning points does not exceed one less than the degree of the polynomial.</item>
+      <item>Optionally, use technology to check the graph.</item>
+      </list>
+    </note>
+    <example id="Example_03_04_08">
+      <exercise id="fs-id1165135575951"><problem id="fs-id1165135575953">
+          <title>Sketching the Graph of a Polynomial Function</title>
+          <para id="fs-id1165135575958">Sketch a graph of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−2</m:mn><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para>
+  
+        </problem>
+        <solution id="fs-id1165135237926">
+          <para id="fs-id1165135237929">This graph has two <emphasis effect="italics">x</emphasis>-intercepts. At<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the factor is squared, indicating a multiplicity of 2. The graph will bounce at this <emphasis effect="italics">x</emphasis>-intercept. At<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function has a multiplicity of one, indicating the graph will cross through the axis at this intercept.</para>
+<para id="fs-id1165135171021">The <emphasis effect="italics">y</emphasis>-intercept is found by evaluating<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="eip-id1165135201724" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center" columnalign="right"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left">
+     <m:mrow>
+      <m:mn>−2</m:mn><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left"><m:mrow><m:mn>−2</m:mn><m:mo>⋅</m:mo><m:mn>9</m:mn><m:mo>⋅</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd rowalign="center" columnalign="left"><m:mrow><m:mn>90</m:mn></m:mrow></m:mtd>
+   </m:mtr>
+   
+  </m:mtable></m:mrow>
+</m:math>
+</equation><para id="fs-id1165134374772">The <emphasis effect="italics">y</emphasis>-intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>90</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165134381522">Additionally, we can see the leading term, if this polynomial were multiplied out, would be<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+so the end behavior is that of a vertically reflected cubic, with the outputs decreasing as the inputs approach infinity, and the outputs increasing as the inputs approach negative infinity. See <link target-id="Figure_03_04_017"/>.</para><figure id="Figure_03_04_017" class="small">
+          <media id="fs-id1165135646080" alt="Showing the distribution for the leading term.">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_017.jpg"/>
+          </media>
+        </figure>
+        <para id="fs-id1165134374738">To sketch this, we consider that:</para>
+        <list id="fs-id1165134374741" list-type="bulleted"><item>As<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so we know the graph starts in the second quadrant and is decreasing toward the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis.</item>
+        
+        <item>Since<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>5</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+is not equal to<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the graph does not display symmetry.</item>
+        <item>At<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the graph bounces off of the <emphasis effect="italics">x</emphasis>-axis, so the function must start increasing.<para id="fs-id1165135536183">At<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>90</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the graph crosses the <emphasis effect="italics">y</emphasis>-axis at the <emphasis effect="italics">y</emphasis>-intercept. See <link target-id="Figure_03_04_018"/>.</para></item>
+        </list><figure id="Figure_03_04_018" class="small">
+          <media id="fs-id1165135419795" alt="Graph of the end behavior and intercepts, (-3, 0) and (0, 90), for the function f(x)=-2(x+3)^2(x-5).">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_018.jpg"/>
+          </media>
+        </figure>
+        
+        <para id="fs-id1165135241000">Somewhere after this point, the graph must turn back down or start decreasing toward the horizontal axis because the graph passes through the next intercept at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>See <link target-id="Figure_03_04_019"/>.</para><figure id="Figure_03_04_019" class="small">
+          <media id="fs-id1165135241013" alt="Graph of the end behavior and intercepts, (-3, 0), (0, 90) and (5, 0), for the function f(x)=-2(x+3)^2(x-5).">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_019.jpg"/>
+          </media>
+        </figure>
+        <para id="fs-id1165135613608">As<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>−∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so we know the graph continues to decrease, and we can stop drawing the graph in the fourth quadrant.</para><para id="fs-id1165135574296">Using technology, we can create the graph for the polynomial function, shown in <link target-id="Figure_03_04_020"/>, and verify that the resulting graph looks like our sketch in <link target-id="Figure_03_04_019"/>.</para>
+        
+        <figure id="Figure_03_04_020" class="small"><media id="fs-id1165137766748" alt="Graph of f(x)=-2(x+3)^2(x-5).">
+            <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_020.jpg"/>
+          </media>
+        <caption>The complete graph of the polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></caption></figure></solution>      
+</exercise></example><example id="eip-145"><label>Try It</label>
+      <exercise id="ti_03_04_03"><problem id="fs-id1165133065139"><para id="fs-id1165133065140">Sketch a graph of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mi>x</m:mi><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+        <solution id="fs-id1165135264689"><para id="eip-id1454748"><media id="fs-id1165137843192" alt="Graph of f(x)=(1/4)x(x-1)^4(x+3)^3.">
+          <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_021.jpg"/>
+        </media></para>
+      </solution>
+      </exercise></example> 
+    
+    
+    </section><section id="eip-631"><title>Intermediate Value Theorem</title><para id="fs-id1165135205093">In some situations, we may know two points on a graph but not the zeros. If those two points are on opposite sides of the <emphasis effect="italics">x</emphasis>-axis, we can confirm that there is a zero between them. Consider a polynomial function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>whose graph is smooth and continuous. The <term>Intermediate Value Theorem</term> states that for two numbers<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in the domain of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>a</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>≠</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>b</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>then the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>takes on every value between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>a</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>b</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>(While the theorem is intuitive, the proof is actually quite complicated and requires higher mathematics.) We can apply this theorem to a special case that is useful in graphing polynomial functions. If a point on the graph of a continuous function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>lies above the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis and another point at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>lies below the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis, there must exist a third point between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where the graph crosses the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis. Call this point<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>c</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>c</m:mi>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>This means that we are assured there is a solution<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where <m:math>
+ <m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>c</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math></para><para id="fs-id1165133035927">In other words, the Intermediate Value Theorem tells us that when a polynomial function changes from a negative value to a positive value, the function must cross the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis. <link target-id="Figure_03_04_022"/> shows that there is a zero between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+</para> 
+
+<figure id="Figure_03_04_022" class="small"><media id="fs-id1165135347497" alt="Graph of an odd-degree polynomial function that shows a point f(a) that’s negative, f(b) that’s positive, and f(c) that’s 0.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_022.jpg"/>
+</media>
+<caption>Using the Intermediate Value Theorem to show there exists a zero.</caption></figure><note id="fs-id1165135347510">
+<label/>
+<title>Intermediate Value Theorem</title>
+<para id="fs-id1165135580347">Let<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+be a polynomial function. The <term>Intermediate Value Theorem</term> states that if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>a</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>b</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+have opposite signs, then there exists at least one value<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+for which<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>c</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math>
+</para> 
+</note>
+
+<example id="Example_03_04_09"><exercise id="fs-id1165133358799"><problem id="fs-id1165133358801">
+<title>Using the Intermediate Value Theorem</title>
+<para id="fs-id1165133358807">Show that the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+has at least two real zeros between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165135537347">
+  <para id="fs-id1165135537349">As a start, evaluate<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+at the integer values<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>and <m:math>
+ <m:mrow>
+  <m:mn>4.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>See <link target-id="Table_03_04_03"/>.</para><table id="Table_03_04_03" summary="..">
+<tgroup cols="5"><colspec colnum="1" colname="c1" align="center"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c4"/>
+<tbody>
+<row>
+<entry><emphasis><m:math>
+ <m:mi>x</m:mi>
+</m:math></emphasis></entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry>3</entry>
+<entry>4</entry>
+
+</row>
+
+
+<row>
+<entry><emphasis><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></emphasis></entry>
+<entry>5</entry>
+<entry>0</entry>
+<entry>–3</entry>
+<entry>2</entry>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table><para id="fs-id1165135536378">We see that one zero occurs at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Also, since<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is positive, by the Intermediate Value Theorem, there must be at least one real zero between 3 and 4.</para><para id="fs-id1165135575934">We have shown that there are at least two real zeros between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+</solution>
+  <commentary id="fs-id1165137887390">
+<title>Analysis </title>
+    <para id="fs-id1165137887396">We can also see on the graph of the function in <link target-id="Figure_03_04_023"/> that there are two real zeros between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para>
+<figure id="Figure_03_04_023" class="small"><media id="Figure_03_04_0223" alt="Graph of f(x)=x^3-5x^2+3x+6 and shows, by the Intermediate Value Theorem, that there exists two zeros since f(1)=5  and f(4)=2 are positive and f(3) = -3 is negative.">
+    <image mime-type="image/jpeg" src="../../media/CNX_Precalc_Figure_03_04_023.jpg"/>
+  </media>
+
+
+</figure>
+</commentary>
+</exercise>
+</example><example id="eip-232"><label>Try It</label>
+<exercise id="ti_03_04_04"><problem id="fs-id1165135551167"><para id="fs-id1165135551168">Show that the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>9</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>has at least one real zero between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165132947301"><para id="fs-id1165132947302">Because<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is a polynomial function and since<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is positive, there is at least one real zero between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math></para></solution></exercise></example><note id="eip-164"><label>Media</label>
+<para id="fs-id1165135456729">Access these online resources for additional instruction and practice with power and polynomial functions.</para><list id="fs-id1165137410802" list-type="bulleted">
+<item><link url="http://openstax.org/l/keyinfopoly">Find Key Information about a Given Polynomial Function</link></item>
+
+<item><link url="http://openstax.org/l/endbehavior">End Behavior of a Polynomial Function</link></item>
+
+<item><link url="http://openstax.org/l/turningpoints">Turning Points and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts of Polynomial Functions</link></item>
+
+<item><link url="http://openstax.org/l/leastposdegree">Least Possible Degree of a Polynomial Function</link></item>
+</list>
+</note>
+
+</section><section id="fs-id1167824584895" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167829828750" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Polynomials</emphasis>
+<list id="fs-id1167836625101" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Polynomial</emphasis>—A monomial, or two or more algebraic terms combined by addition or subtraction is a polynomial.</item>
+<item><emphasis effect="bold">monomial</emphasis> —A polynomial with exactly one term is called a monomial.</item>
+<item><emphasis effect="bold">binomial</emphasis> — A polynomial with exactly two terms is called a binomial.</item>
+<item><emphasis effect="bold">trinomial</emphasis> —A polynomial with exactly three terms is called a trinomial.</item>
+</list></item>
+<item><emphasis effect="bold">Degree of a Polynomial</emphasis>
+<list id="fs-id1167836756827" list-type="bulleted" bullet-style="bullet">
+<item>The <emphasis effect="bold">degree of a term</emphasis> is the sum of the exponents of its variables.</item>
+<item>The <emphasis effect="bold">degree of a constant</emphasis> is 0.</item>
+<item>The <emphasis effect="bold">degree of a polynomial</emphasis> is the highest degree of all its terms.</item></list>
+</item>
+<item>The behavior of a graph as the input decreases beyond bound and increases beyond bound is called the end behavior.</item>
+<item>The end behavior depends on whether the power is even or odd. See <link target-id="Example_03_03_02"/> and <link target-id="Example_03_03_03"/>.</item>
+<item>A polynomial function is the sum of terms, each of which consists of a transformed power function with positive whole number power. See <link target-id="Example_03_03_04"/>.</item>
+<item>The degree of a polynomial function is the highest power of the variable that occurs in a polynomial. The term containing the highest power of the variable is called the leading term. The coefficient of the leading term is called the leading coefficient. See <link target-id="Example_03_03_05"/>.</item>
+<item>The end behavior of a polynomial function is the same as the end behavior of the power function represented by the leading term of the function. See <link target-id="Example_03_03_06"/> and <link target-id="Example_03_03_07"/>.</item>
+<item>Polynomial functions of degree 2 or more are smooth, continuous functions. See <link target-id="Example_03_04_01"/>.</item>
+
+    <item>To find the zeros of a polynomial function, if it can be factored, factor the function and set each factor equal to zero. See <link target-id="Example_03_04_02"/><emphasis effect="bold">, </emphasis><link target-id="Example_03_04_03"/><emphasis effect="bold">, </emphasis>and <link target-id="Example_03_04_04"/>.</item>
+    <item>Another way to find the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts of a polynomial function is to graph the function and identify the points at which the graph crosses the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>axis. See <link target-id="Example_03_04_05"/><emphasis effect="bold">.</emphasis></item>
+    <item>The multiplicity of a zero determines how the graph behaves at the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts. See <link target-id="Example_03_04_06"/><emphasis effect="bold">.</emphasis></item>
+<item>The graph of a polynomial will cross the horizontal axis at a zero with odd multiplicity.</item>
+<item>The graph of a polynomial will touch the horizontal axis at a zero with even multiplicity.</item>
+<item>The end behavior of a polynomial function depends on the leading term.</item>
+<item>The graph of a polynomial function changes direction at its turning points.</item>
+    <item>A polynomial function of degree<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+has at most<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+turning points. See <link target-id="Example_03_04_07"/><emphasis effect="bold">.</emphasis></item>
+    <item>To graph polynomial functions, find the zeros and their multiplicities, determine the end behavior, and ensure that the final graph has at most<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+turning points. See <link target-id="Example_03_04_08"/> and <link target-id="Example_03_04_10"/><emphasis effect="bold">.</emphasis></item>
+   
+    <item>The Intermediate Value Theorem tells us that if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mtext>and</m:mtext><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+have opposite signs, then there exists at least one value<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+for which<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>c</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+See <link target-id="Example_03_04_09"/><emphasis effect="bold">.</emphasis></item></list></section>
+<section id="fs-id1167829713312" class="section-exercises">
+<section id="fs-id1167829713317" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167829713324"><emphasis effect="bold">Determine the Type of Polynomials</emphasis></para><para id="fs-id1167836408265">In the following exercises, determine if the polynomial is a monomial, binomial, trinomial, or other polynomial.</para>
+<exercise id="fs-id1167836408269">
+<problem id="fs-id1167836408272">
+<para id="fs-id1167836408274"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>47</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>17</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>c</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓓ</span> 4<newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>17</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829627905">
+<para id="fs-id1167829627907"><span class="token">ⓐ</span> trinomial, 5 <span class="token">ⓑ</span> polynomial, 3 <span class="token">ⓒ</span> binomial, 2 <span class="token">ⓓ</span> monomial, 0<newline/><span class="token">ⓔ</span> binomial, 1</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167832937207">
+<problem id="fs-id1167832937209">
+<para id="fs-id1167832937211"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:math><newline/><span class="token">ⓓ</span> <m:math><m:mrow><m:mn>81</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>24</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mn>−18</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836596290">
+<para id="fs-id1167836596292"><span class="token">ⓐ</span> binomial <span class="token">ⓑ</span> trinomial<newline/><span class="token">ⓒ</span> polynomial <span class="token">ⓓ</span> trinomial<newline/><span class="token">ⓔ</span> monomial </para>
+</solution>
+</exercise><para id="eip-902">For the following exercises, find the degree and leading coefficient for the given polynomial.</para><exercise id="eip-615"><problem id="fs-id1165134380914"><para id="fs-id1165134380915"><m:math>
+ <m:mrow>
+  <m:mn>7</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137424474"><para id="fs-id1165137424475">Degree = 2, Coefficient = –2</para></solution></exercise><exercise id="eip-652"><problem id="fs-id1165137742434"><para id="fs-id1165137742435"><m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mo>−</m:mo><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137842483"><para id="fs-id1165132943532">Degree =4, Coefficient = –2</para></solution></exercise><para id="eip-135">For the following exercises, determine the end behavior of the functions.</para><exercise id="eip-287"><problem id="fs-id1165133078101"><para id="fs-id1165133078102"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137445856"><para id="fs-id1165137445857"><m:math>
+ <m:mrow>
+  <m:mtext>As</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>as</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><exercise id="eip-451"><problem id="fs-id1165137526615"><para id="fs-id1165137526616"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>4</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo> </m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137656888"><para id="fs-id1165137656889"><m:math>
+ <m:mrow>
+  <m:mtext>As</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>as</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><exercise id="eip-996"><problem id="fs-id1165137627937"><para id="fs-id1165137806389"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137794123"><para id="fs-id1165135333271"><m:math>
+ <m:mrow>
+  <m:mtext>As</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>as</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">→</m:mo></m:mrow><m:mo>−</m:mo><m:mi>∞</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><para id="eip-539">For the following exercises, determine whether the graph of the function provided is a graph of a polynomial function. If so, determine the number of turning points and the least possible degree for the function.</para><exercise id="eip-322"><problem id="fs-id1165135332834">
+<media id="fs-id1165135678606" alt="Graph of an odd-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_209.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165137444866"><para id="fs-id1165137444867">Yes. Number of turning points is 2. Least possible degree is 3.</para></solution>
+</exercise><exercise id="eip-724"><problem id="fs-id1165137704868">
+<media id="fs-id1165134089461" alt="Graph of an even-degree polynomial.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_03_211.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165137570516"><para id="fs-id1165137570517">Yes. Number of turning points is 1. Least possible degree is 2.</para></solution></exercise><para id="eip-769">For the following exercises, find the<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math> or <emphasis effect="italics">t</emphasis>-intercepts (zeros) of the polynomial functions.</para><exercise id="eip-439"><problem id="fs-id1165133381482"><para id="fs-id1165133381483"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135347433"><para id="fs-id1165135347434"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para></solution></exercise><exercise id="eip-853"><problem id="fs-id1165134060407"><para id="fs-id1165134060408"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165132941732"><para id="fs-id1165132941733"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></para></solution></exercise><exercise id="eip-911"><problem id="fs-id1165137897821"><para id="fs-id1165137897822"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>20</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134331988"><para id="fs-id1165134331989"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><exercise id="eip-168"><problem id="fs-id1165132949927"><para id="fs-id1165132949928"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134478959"><para id="fs-id1165134478960"><m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><para id="eip-117">For the following exercises, find the intercepts of the functions.</para><exercise id="eip-702"><problem id="fs-id1165135650640"><para id="fs-id1165135436503"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135697918"><para id="fs-id1165135697919"><emphasis effect="italics">y</emphasis>-intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><emphasis effect="italics">t</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo><m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>;</m:mo><m:mtext>and </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><exercise id="eip-85"><problem id="fs-id1165137734444"><para id="fs-id1165137734445"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137896961"><para id="fs-id1165137896962"><emphasis effect="italics">y</emphasis>-intercept is<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><emphasis effect="italics">x</emphasis>-intercepts are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para></solution></exercise><para id="eip-74">For the following exercises, find the zeros and give the multiplicity of each.</para><exercise id="eip-938"><problem id="fs-id1165134155917"><para id="fs-id1165134155918"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134534140"><para id="fs-id1165134534141">0 with multiplicity 2,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+with multiplicity 5, 4 with multiplicity 2</para></solution>
+</exercise><exercise id="eip-129"><problem id="fs-id1165135525890"><para id="fs-id1165137898097"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+            <solution id="fs-id1165134357524"><para id="fs-id1165134357525">0 with multiplicity 2, –2 with multiplicity 2</para></solution></exercise><para id="eip-889">For the following exercises, graph the polynomial functions. Note<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math> and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercepts, multiplicity, and end behavior.</para><exercise id="eip-599"><problem id="fs-id1165134328241"><para id="fs-id1165134328242"><m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:msup>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137701835"><para id="fs-id1165137701836"><emphasis effect="italics">x</emphasis>-intercepts, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1, 0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> 
+with multiplicity 2, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+with multiplicity 1, <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercept <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>4</m:mn>
+   </m:mrow>
+  <m:mo>).</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+ As <m:math>
+ <m:mrow>
+  <m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>as</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+  <media id="fs-id1165135449706" alt="Graph of g(x)=(x+4)(x-1)^2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_202.jpg"/>
+</media>
+</solution></exercise><exercise id="eip-187"><problem id="fs-id1165135419775"><para id="fs-id1165135419776"><m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134547321"><para id="fs-id1165134547322"><emphasis effect="italics">x</emphasis>-intercepts<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>–</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+with multiplicity 1,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext>-</m:mtext>
+ </m:mrow>
+</m:math>intercept<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> As 
+<m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>as</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+</para>
+  <media id="fs-id1165134087603" alt="Graph of n(x)=-3x(x+2)(x-4).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_03_04_206.jpg"/>
+</media></solution></exercise><para id="eip-980">For the following exercises, use the Intermediate Value Theorem to confirm that the given polynomial has at least one zero within the given interval.</para><exercise id="eip-283"><problem id="fs-id1165135513621"><para id="fs-id1165135513622"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135621876"><para id="fs-id1165135621877"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mn>2</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>10</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mn>4</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>28.</m:mn>
+ </m:mrow>
+</m:math>
+Sign change confirms.</para></solution></exercise><exercise id="eip-329"><problem id="fs-id1165135363160"><para id="fs-id1165135363161"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mo>−</m:mo><m:mn>100</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+between<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.01</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem> 
+<solution id="fs-id1165135524657"><para id="fs-id1165135524658"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.01</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.000001</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>7.999.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+Sign change confirms.</para></solution></exercise><para id="eip-577">For the following exercises, use the given information about the polynomial graph to write the equation.</para><exercise id="eip-752"><problem id="fs-id1165134347506"><para id="fs-id1165134347507">Degree 3. Zeros at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>–2,</m:mn></m:mrow>
+</m:math>
+<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1,</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math><emphasis effect="italics">y</emphasis>-intercept at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>–4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137733543"><para id="fs-id1165137733544"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution></exercise><exercise id="eip-330"><problem id="fs-id1165134277225"><para id="fs-id1165134277226">Degree 5.  Double zero at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and triple zero at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math> Passes through the point<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para></problem> 
+<solution id="fs-id1165134277296"><para id="fs-id1165134277297"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−15</m:mn><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  
+ </m:mrow>
+</m:math>
+</para></solution></exercise></section></section>
+</content>
+<glossary>
+<definition id="fs-id1167836508735">
+<term>binomial</term>
+<meaning id="fs-id1167836508741">A binomial is a polynomial with exactly two terms.</meaning>
+</definition>
+<definition id="fs-id1167836508745">
+<term>degree of a constant</term>
+<meaning id="fs-id1167836508750">The degree of any constant is 0.</meaning>
+</definition>
+<definition id="fs-id1167836508755">
+<term>degree of a polynomial</term>
+<meaning id="fs-id1167836508760">The degree of a polynomial is the highest degree of all its terms.</meaning>
+</definition>
+<definition id="fs-id1167836508764">
+<term>degree of a term</term>
+<meaning id="fs-id1167833385664">The degree of a term is the sum of the exponents of its variables.</meaning>
+</definition>
+<definition id="fs-id1167833385668">
+<term>monomial</term>
+<meaning id="fs-id1167833385674">A monomial is an algebraic expression with one term. A monomial in one variable is a term of the form <m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mi>m</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</meaning>
+</definition>
+<definition id="fs-id1167829853744">
+<term>polynomial</term>
+<meaning id="fs-id1167829853749">A monomial or two or more monomials combined by addition or subtraction is a polynomial.</meaning>
+</definition>
+<definition id="fs-id1167829853754">
+<term>standard form of a polynomial</term>
+<meaning id="fs-id1167829853760">A polynomial is in standard form when the terms of a polynomial are written in descending order of degrees.</meaning>
+</definition>
+<definition id="fs-id1167833350539">
+<term>trinomial</term>
+<meaning id="fs-id1167833350544">A trinomial is a polynomial with exactly three terms.</meaning>
+</definition>
+<definition id="fs-id1167833350548">
+<term>polynomial function</term>
+<meaning id="fs-id1167833350554">A polynomial function is a function whose range values are defined by a polynomial.</meaning>
+</definition>
+</glossary>
+</document>

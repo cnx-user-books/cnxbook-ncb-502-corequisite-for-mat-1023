@@ -1,0 +1,254 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col30005</md:content-id>
+  <md:title>NCB 502 Corequisite for MAT 1023</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <md:language>en</md:language>
+
+  
+
+  
+  
+  <md:uuid>882077f7-b288-4b61-823f-df22913d93e1</md:uuid>
+<md:slug>ncb-502-corequisite-for-mat-1023</md:slug>
+</metadata>
+
+  <col:content>
+    
+      <col:module document="m78763"/>
+        
+      
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Foundations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m78807"/>
+        
+      
+    
+    
+      <col:module document="m78766"/>
+        
+      
+    
+    
+      <col:module document="m78767"/>
+        
+      
+    
+    
+      <col:module document="m78768"/>
+        
+      
+    
+    
+      <col:module document="m78773"/>
+        
+      
+    
+    
+      <col:module document="m78779"/>
+        
+      
+    
+    
+      <col:module document="m78775"/>
+        
+      
+    
+    
+      <col:module document="m78781"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Equations and Inequalities</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m78780"/>
+        
+      
+    
+    
+      <col:module document="m78782"/>
+        
+      
+    
+    
+      <col:module document="m78804"/>
+        
+      
+    
+    
+      <col:module document="m78783"/>
+        
+      
+    
+    
+      <col:module document="m78784"/>
+        
+      
+    
+    
+      <col:module document="m78786"/>
+        
+      
+    
+    
+      <col:module document="m78787"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Functions and Graphs</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m82439"/>
+        
+      
+    
+    
+      <col:module document="m82446"/>
+        
+      
+    
+    
+      <col:module document="m82447"/>
+        
+      
+    
+    
+      <col:module document="m82505"/>
+        
+      
+    
+    
+      <col:module document="m82567"/>
+        
+      
+    
+    
+      <col:module document="m82568"/>
+        
+      
+    
+    
+      <col:module document="m82569"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Polynomial Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m82631"/>
+        
+      
+    
+    
+      <col:module document="m83439"/>
+        
+      
+    
+    
+      <col:module document="m83501"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Exponential and Logarithmic Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m84354"/>
+        
+      
+    
+    
+      <col:module document="m84685"/>
+        
+      
+    
+    
+      <col:module document="m84686"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Systems of Equations and Inequalities</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m84324"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+  </col:content>
+</col:collection>

@@ -1,0 +1,1450 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Applications and Modeling (1.3)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78804</md:content-id>
+  <md:title>Applications and Modeling (1.3)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Use a problem solving strategy for word problems</item>
+<item>Solve number word problems</item>
+<item>Solve percent applications</item>
+<item>Solve simple interest applications</item>
+</list></md:abstract>
+  <md:uuid>3857b376-97da-4a30-bda2-815ca4040247</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-733"><para id="fs-id1169147087020">This Module supports section <emphasis> 1.3 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Use a Problem Solving Strategy <link document="" target-id="fs-id1167836607409"/></item>
+<item>Solve Percent Applications <link document="" target-id="fs-id1167829683894"/></item>
+<item>Solve Simple Interest Applications <link document="" target-id="fs-id1167836507859"/></item>
+<item>Geometry Applications <link document="" target-id="eip-144"/></item>
+<item>Solve Formulas for One Variable<link document="" target-id="eip-734"/></item>
+<item>Key Concepts  <link document="" target-id="fs-id1167836596031"/></item></list></note><para id="fs-id1167833223914">Have you ever had any negative experiences in the past with word problems? When we feel we have no control, and continue repeating negative thoughts, we set up barriers to success. Realize that your negative experiences with word problems are in your past. To move forward you need to calm your fears and change your negative feelings.</para>
+
+<section id="fs-id1167836607409"><title>Use a Problem Solving Strategy for Word Problems</title><para id="fs-id1167836688094">Now that we can solve equations, we are ready to apply our new skills to word problems. We will develop a strategy we can use to solve any word problem successfully.</para>
+<note id="fs-id1167836407180" class="howto">
+<title>Use a Problem Solving Strategy for word problems.</title>
+<list id="fs-id1167836287137" class="stepwise" number-style="arabic" list-type="enumerated">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what you are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what you are looking for. Choose a variable to represent that quantity.</item>
+<item><emphasis effect="bold">Translate</emphasis> into an equation. It may be helpful to restate the problem in one sentence with all the important information. Then, translate the English sentence into an algebra equation.</item>
+<item><emphasis effect="bold">Solve</emphasis> the equation using proper algebra techniques.</item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem to make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list>
+</note>
+<para id="eip-320">When dealing with real-world applications, there are certain expressions that we can translate directly into math. <link target-id="Table_02_03_01"/> lists some common verbal expressions and their equivalent mathematical expressions.
+<table id="Table_02_03_01" summary="A table with 8 rows and 2 columns. The entries in the first row are: Verbal and Translation to math operations. The entries in the second row are: One number exceeds another by a and x, x+a. The entries in the third row are: Twice a number and 2x. The entries in the fourth row are: One number is a more than another number and x, x plus a. The entries in the fifth row are: One number is a less than twice another number and x,2 times x minus a. The entries in the sixth row are: The product of a number and a, decreased by b and a times x minus b. The entries in the seventh row are: The quotient of a number and the number plus a is three times the number and x divided by the quantity x plus a equals three times x. The entries in the eighth row are: The product of three times a number and the number decreased by b is c and three times x times the quantity x minus b equals c.">
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<thead>
+<row>
+<entry align="center">Verbal</entry>
+<entry align="center">Translation to Math Operations</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>One number exceeds another by <emphasis effect="italics">a</emphasis></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Twice a number</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>One number is <emphasis effect="italics">a </emphasis>more than another number</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>One number is <emphasis effect="italics">a </emphasis>less than twice another number</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>The product of a number and <emphasis effect="italics">a</emphasis>, decreased by <emphasis effect="italics">b</emphasis></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>The quotient of a number and the number plus <emphasis effect="italics">a </emphasis>is three times the number</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>x</m:mi>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>The product of three times a number and the number decreased by <emphasis effect="italics">b </emphasis>is <emphasis effect="italics">c</emphasis></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>c</m:mi>
+ </m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para><example id="fs-id1167833053847">
+<exercise id="fs-id1167836528531">
+<problem id="fs-id1167836293464">
+<para id="fs-id1167836387267">Normal yearly snowfall at the local ski resort is 12 inches more than twice the amount it received last season. The normal yearly snowfall is 62 inches. What was the snowfall last season at the ski resort?</para>
+</problem>
+<solution id="fs-id1167833097195">
+<para id="fs-id1167836432749"><table id="fs-id1167829809695" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step 2 is to identify what you are looking for. What was the snowfall last season? Step 3 is to name what we are looking for and choose a variable to represent it. Let s be equal to the snowfall last season. Step 4 is to translate. Restate the problem in one sentence with all the important information. The normal snowfall is 62, was is the equals sign, and twelve more than twice the amount last year is 2 s plus 12. The equation is 62 is equal to 2 s plus 12. Step 5 is to solve the equation. Subtract 12 from each side. The result is 62 minus 12 is equal to 2 s plus 12 minus 12. Simplify. The result is 50 is equal to 2 s. Divide each side by 2. The result is 50 divided by 2 is equal to 2 s divided by 2. Simplify. The result is 25 is equal to s. Step 6 is to check the solution. First is our answer reasonable? Yes, having 25 inches of snow seems OK. The problem says the normal snowfall is twelve inches more than twice the number of last season. Twice 25 is 50 and 12 more than that is 62. Step 7 is to answer the question. The snowfall last season was 25 inches.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.</entry>
+<entry valign="top" align="left">What was the snowfall last season?</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name</emphasis> what we are looking for and<newline/>choose a variable to represent it.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo></m:mrow></m:math> the snowfall last season.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis><newline/>Restate the problem in one sentence with all the important information.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836700619" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into an equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836355755" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836448458" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract 12 from each side.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836448581" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833057954" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide each side by two.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836694120" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836596014" alt="."><image src="../../media/CNX_IntAlg_Figure_02_02_001g_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" nameend="c2" namest="c1"><emphasis effect="bold">Step 6. Check:</emphasis> First, is our answer reasonable?<newline/>Yes, having 25 inches of snow seems OK.<newline/>The problem says the normal snowfall is twelve<newline/>inches more than twice the number of last season.<newline/>Twice 25 is 50 and 12 more than that is 62.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The snowfall last season was 25 inches.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example><example id="eip-624"><exercise id="fs-id1167829695606">
+<problem id="fs-id1167829695609">
+<para id="fs-id1167829695611">A married couple together earns $110,000 a year. The wife earns $16,000 less than twice what her husband earns. What does the husband earn?</para>
+</problem>
+<solution id="fs-id1167829751395">
+<para id="fs-id1167829714064"><m:math>
+	<m:mrow>
+		<m:mtable>
+			<m:mtr>
+				<m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 1. Read</m:mtext><m:mspace width="0.2em"/><m:mtext>the problem.</m:mtext></m:mtd>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 2. Identify</m:mtext><m:mspace width="0.2em"/><m:mtext>what you are looking for.</m:mtext></m:mtd>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd columnalign="left"><m:mtext>How much does the husband earn?</m:mtext></m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 3. Name.</m:mtext></m:mtd>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+				<m:mtd/>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd columnalign="left"><m:mtext>Choose a variable to represent</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>h</m:mi><m:mo>=</m:mo><m:mtext>the amount the husband earns.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the amount the husband earns.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>The wife earns $16,000 less than twice that.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 4. Translate.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Restate the problem in one sentence</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>with all the important information.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Translate into an equation.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>16,000</m:mn><m:mo>=</m:mo><m:mtext>the amount the wife earns</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Together the husband and wife earn $110,000.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+				<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/>
+
+				<m:mtd columnalign="left">
+					<m:mtable>
+					<m:mtr>
+						<m:mtd columnalign="right"><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>16,000</m:mn></m:mtd>
+						<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd>
+						<m:mtd columnalign="left"><m:mn>110,000</m:mn></m:mtd>
+					</m:mtr></m:mtable></m:mtd></m:mtr>
+
+				<m:mtr><m:mtd columnalign="left"><m:mtable>
+
+				<m:mtr>
+					<m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 5. Solve</m:mtext><m:mspace width="0.2em"/><m:mtext>the equation.</m:mtext></m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd columnalign="left"><m:mtext>Add 16,000 to both sides and simplify.</m:mtext></m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd columnalign="left"><m:mtext>Divide each side by three.</m:mtext></m:mtd>
+				</m:mtr></m:mtable>
+			</m:mtd>
+			<m:mtd/>
+			<m:mtd/>
+			<m:mtd/>
+			<m:mtd/>
+			<m:mtd columnalign="left">
+				<m:mtable>
+					<m:mtr>
+						<m:mtd columnalign="right"><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>16,000</m:mn></m:mtd>
+						<m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd>
+						<m:mtd columnalign="left"><m:mn>110,000</m:mn></m:mtd>
+					</m:mtr>
+					<m:mtr>
+						<m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>16,000</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>110,000</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>3</m:mn><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>126,000</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>h</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>42,000</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mtable><m:mtr><m:mtd columnalign="center"><m:mtext>$42,000 amount husband earns</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mn>2</m:mn><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>16,000</m:mn><m:mspace width="0.2em"/><m:mtext>amount wife earns</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>42,000</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>16,000</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>84,000</m:mn><m:mo>−</m:mo><m:mn>16,000</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>68,000</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 6. Check:</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>If the wife earns $68,000 and the husband</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>earns $42,000, is that $110,000? Yes!</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext mathvariant="bold">Step 7. Answer</m:mtext><m:mspace width="0.2em"/><m:mtext>the question.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The husband earns $42,000 a year.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+</exercise>
+</example>
+<note id="fs-id1167829766743" class="media-2">
+<para id="fs-id1167829766746">Access this online resource for additional instruction and practice with using a problem solving strategy.</para>
+<list id="fs-id1167833056662" display="block">
+<item><link url="https://openstax.org/l/37begalgwordpro">Begining Arithmetic Problems</link></item>
+</list>
+</note>
+
+
+
+</section><section id="fs-id1167829683894">
+<title>Solve Percent Applications</title>
+<para id="eip-655">How many cents are in one dollar? There are <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> cents in a dollar. How many years are in a century? There are <m:math><m:mrow><m:mn>100</m:mn></m:mrow></m:math> years in a century. Does this give you a clue about what the word “percent” means? It is really two words, “per cent,” and means per one hundred. A <term>percent</term> is a ratio whose denominator is <m:math><m:mrow><m:mn>100</m:mn></m:mrow><m:mo>.</m:mo></m:math> We use the percent symbol <m:math><m:mtext>%,</m:mtext></m:math> to show percent.</para><note id="eip-65"><para id="fs-id1166491053840">A percent is a ratio whose denominator is <m:math><m:mrow><m:mn>100</m:mn></m:mrow><m:mo>.</m:mo></m:math></para>
+</note><para id="eip-8">Similarly, <m:math><m:mrow><m:mtext>25%</m:mtext></m:mrow></m:math> means a ratio of <m:math><m:mrow><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow><m:mrow><m:mtext>3%</m:mtext></m:mrow></m:math> means a ratio of <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mtext>100%</m:mtext></m:mrow></m:math> means a ratio of <m:math><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:math> In words, "one hundred percent" means the total <m:math><m:mrow><m:mtext>100%</m:mtext></m:mrow></m:math> is <m:math><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and since <m:math><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> we see that <m:math><m:mrow><m:mtext>100%</m:mtext></m:mrow></m:math> means <m:math><m:mn>1</m:mn></m:math> whole.</para><para id="fs-id1167829788846">There are several methods to solve percent equations. In algebra, it is easiest if we just translate English sentences into algebraic equations and then solve the equations. Be sure to change the given percent to a decimal before you use it in the equation.</para>
+<para id="eip-41">To Review: To convert a <term class="no-emphasis">percent</term> number to a decimal number, we move the decimal point two places to the left and remove the <m:math><m:mo>%</m:mo></m:math> sign. (Sometimes the decimal point does not appear in the percent number, but just like we can think of the integer <m:math><m:mn>6</m:mn></m:math> as <m:math><m:mrow><m:mn>6.0</m:mn><m:mo>,</m:mo></m:mrow></m:math> we can think of <m:math><m:mrow><m:mtext>6%</m:mtext></m:mrow></m:math> as <m:math><m:mrow><m:mtext>6.0%</m:mtext></m:mrow><m:mo>.</m:mo></m:math>) Notice that we may need to add zeros in front of the number when moving the decimal to the left.</para><para id="eip-376"><list id="eip-id1168468771396" class="stepwise" number-style="arabic" list-type="enumerated"><item>Write the percent as a ratio with the denominator <m:math><m:mrow><m:mn>100</m:mn></m:mrow><m:mo>.</m:mo></m:math></item>
+<item> Convert the fraction to a decimal by dividing the numerator by the denominator.</item></list></para><example id="eip-361"><exercise id="fs-id1166497278022"><problem id="fs-id1202009">
+<para id="fs-id1472577">Convert each percent to a decimal: 
+<list id="eip-id1168468499848" class="circled" number-style="arabic" list-type="enumerated"><item>
+<span class="token">ⓐ</span><m:math><m:mspace width="0.3em"/><m:mtext>135%</m:mtext><m:mspace width="0.3em"/></m:math></item>
+<item>
+<span class="token">ⓑ</span><m:math><m:mspace width="0.3em"/><m:mtext>12.5%</m:mtext></m:math></item>
+</list></para></problem>
+<solution id="fs-id1947174">
+<title>Solution</title>
+
+<table id="eip-id1168468416060" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓐ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mn>135%</m:mn></m:math></entry>
+</row>
+
+<row>
+<entry>Write as a ratio with denominator 100.</entry>
+<entry><m:math><m:mfrac><m:mn>135</m:mn><m:mn>100</m:mn></m:mfrac></m:math></entry>
+</row>
+
+<row> 
+<entry>Change the fraction to a decimal by dividing the numerator by the denominator.</entry>
+<entry><m:math><m:mn>1.35</m:mn></m:math></entry>
+</row>
+
+</tbody>
+
+
+
+</tgroup>
+</table><table id="eip-id1168466092208" class="unnumbered unstyled" summary="."><label/>
+<tgroup cols="2"><tbody>
+<row>
+<entry><span class="token">ⓑ</span></entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry><m:math><m:mn>12.5%</m:mn></m:math></entry>
+</row>
+
+<row>
+<entry>Write as a ratio with denominator 100.</entry>
+<entry><m:math><m:mfrac><m:mn>12.5</m:mn><m:mn>100</m:mn></m:mfrac></m:math></entry>
+</row>
+
+<row> 
+<entry>Change the fraction to a decimal by dividing the numerator by the denominator.</entry>
+<entry><m:math><m:mn>0.125</m:mn></m:math></entry>
+</row>
+
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise></example><example id="fs-id1167829788852">
+<exercise id="fs-id1167836300542">
+<problem id="fs-id1167836300544">
+<para id="fs-id1167836300546">Translate and solve:</para>
+<para id="fs-id1167836300549"><span class="token">ⓐ</span> What number is 45% of 84?<newline/><span class="token">ⓑ</span> 8.5% of what amount is $4.76?<newline/><span class="token">ⓒ</span> 168 is what percent of 112?</para>
+</problem>
+<solution id="fs-id1167836616212">
+<para id="fs-id1167836616214"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167833052126" class="unnumbered unstyled" summary="What number is 45% of 84? Translate into algebra. Let n be the number. Write is 45 percent of 84 as is equal to 0.45 times 84. Multiply. The result is n is equal 37.8. 37.8 is 45 percent of 84.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row valign="top">
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829807494" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_005a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into algebra. Let <emphasis effect="italics">n</emphasis> <emphasis effect="bold">=</emphasis> the number.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836492976" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_005b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829594470" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_005c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left">37.8 is 45% of 84.</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167829614288" class="unnumbered unstyled" summary="What number is 45% of 84? Translate into algebra. Let n be the number. Write is 45 percent of 84 as is equal to 0.45 times 84. Multiply. The result is n is equal 37.8. 37.8 is 45 percent of 84.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row valign="top">
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836530002" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_006a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate. Let <emphasis effect="italics">n</emphasis> <emphasis effect="bold">=</emphasis> the amount.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836545347" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_006b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836375560" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_006c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by 0.085 and simplify.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836699980" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_006d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left">8.5% of $56 is $4.76</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓒ</span><newline/>
+<table id="fs-id1167832925252" class="unnumbered unstyled" summary="168 is what percent of 112? We are asked to find the percent, so we must have our final result in percent form. Translate into algebra. Let p be equal to the percent. Write 168 is what percent of 112 as 168 is equal to p times 112. Multiply. The result is 168 is equal to 112 p. Divide both sides by 112 and simplify. The result is 1.5 is equal to p. Convert to a percent. The result is 150 percent is equal to p. 168 is 150 percent of 112.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">We are asked to find percent, so we must<newline/>have our result in percent form.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836629052" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_007a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into algebra. Let <emphasis effect="italics">p</emphasis> = the percent.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167833019737" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_007b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167833369020" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_007c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by 112 and simplify.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167829589453" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_007d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Convert to percent.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167836704270" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_007e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry/>
+<entry/>
+<entry valign="top" align="left">168 is 150% of 112.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167836366381">Now that we have a problem solving strategy to refer to, and have practiced solving basic percent equations, we are ready to solve percent applications. Be sure to ask yourself if your final answer makes sense—since many of the applications we will solve involve everyday situations, you can rely on your own experience.</para>
+<example id="fs-id1167836699133">
+<exercise id="fs-id1167829621049">
+<problem id="fs-id1167829621051">
+<para id="fs-id1167829621053">The label on Audrey’s yogurt said that one serving provided 12 grams of protein, which is 24% of the recommended daily amount. What is the total recommended daily amount of protein?</para>
+</problem>
+<solution id="fs-id1167829811256">
+<para id="fs-id1167829811258"><table id="fs-id1167829621055" class="unnumbered unstyled" summary="What are you asked to find? What total amount of protein is recommended? Choose a variable to represent it. Let a be equal to the total amount of protein. Write a sentence that gives the information to find it. 12 grams is 24 percent of the total amount. So, 12 grams is 24 percent of a. Translate into an equation. 12 is equal to 0.24 times a. Solve. The result is 50 is equal to a. Check. Does this make sense? Yes, 24 percent is about one-fourth if the total and 12 is about one-fourth of 50. Write a complete sentence to answer the question. The amount of protein that is recommended is 50 grams.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">What are you asked to find?</entry>
+<entry valign="top" align="left">What total amount of protein is recommended?</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Choose a variable to represent it.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo></m:mrow></m:math> total amount of protein.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a sentence that gives the<newline/>information to find it.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836627596" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_008a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into an equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836616307" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_008b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833340112" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_008c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Check: Does this make sense?<newline/>Yes, 24% is about <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of the total and<newline/>12 is about <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of 50.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a complete sentence to answer the question.</entry>
+<entry valign="top" align="left">The amount of protein that is recommended is 50 g.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<example id="fs-id1167833023048">
+<exercise id="fs-id1167833023050">
+<problem id="fs-id1167833023053">
+<para id="fs-id1167836558499">Veronica is planning to make muffins from a mix. The package says each muffin will be 240 calories and 60 calories will be from fat. What percent of the total calories is from fat?</para>
+</problem>
+<solution id="fs-id1167836558505">
+<para id="fs-id1167829645112"><table id="fs-id1167829645113" class="unnumbered unstyled" summary="What are you asked to find? What percent of the total calories is fat? Choose a variable to represent it. Let p be equal to the percent of fat. Write a sentence that gives the information to find it. What percent of 240 is 60? The percent is p, of 240 is times 240, and is 60 is equal to 60. Translate the sentence into an equation. The equation is p times 240 is equal to 60. Multiply. The result is 240 p is equal to 60. Divided both sides by 240. The result is p is equal to 0.25. Put it in percent form. The result is p is equal to 25 percent. Check. Does this make sense? Yes, 25 percent is one-fourth. 60 is one-fourth of 240. So 25 percent makes sense. Write a complete sentence to answer the question. Of the total calories in each muffin, 25 percent is fat.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">What are you asked to find?</entry>
+<entry valign="top" align="left">What percent of the total calories is fat?</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Choose a variable to represent it.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo></m:mrow></m:math> percent of fat.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a sentence that gives the<newline/>information to find it.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836492107" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_009a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate the sentence into an equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829595197" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_009b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829746767" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_009c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by 240.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836626155" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_009d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Put in percent form.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829597278" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_009e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Check: does this make sense?<newline/>Yes, <m:math><m:mrow><m:mn>25</m:mn><m:mi>%</m:mi></m:mrow></m:math> is one-fourth; 60 is one-fourth<newline/>of 240. So, <m:math><m:mrow><m:mn>25</m:mn><m:mi>%</m:mi></m:mrow></m:math> makes sense.</entry>
+<entry/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a complete sentence to answer the question.</entry>
+<entry valign="top" align="left">Of the total calories in each muffin, <m:math><m:mrow><m:mn>25</m:mn><m:mi>%</m:mi></m:mrow></m:math> is fat.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167826172005">When you buy an item on sale, the original price has been discounted by some dollar amount. The <term>discount rate</term>, usually given as a percent, is used to determine the amount of the discount. To determine the <term>amount of discount</term>, we multiply the discount rate by the original price.</para>
+<para id="fs-id1167836424195">The price a retailer pays for an item is called the <term>original cost</term>. The retailer then adds a <term>mark-up</term> to the original cost to get the <term>list price</term>, the price he sells the item for. The mark-up is usually calculated as a percent of the original cost. To determine the amount of mark-up, multiply the mark-up rate by the original cost.</para>
+<note id="fs-id1167829590762">
+<title>Discount</title>
+<equation id="fs-id1167829590767" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mtext>amount of discount</m:mtext><m:mo>=</m:mo><m:mtext>discount rate</m:mtext><m:mo>·</m:mo><m:mtext>original price</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mtext>sale price</m:mtext><m:mo>=</m:mo><m:mtext>original amount</m:mtext><m:mo>–</m:mo><m:mtext>discount price</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167833197288">The sale price should always be less than the original price.</para>
+</note>
+<note id="fs-id1167836375852">
+<title>Mark-up</title>
+<equation id="fs-id1167836375857" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mtext>amount of mark-up</m:mtext><m:mo>=</m:mo><m:mtext>mark-up rate</m:mtext><m:mo>·</m:mo><m:mtext>original price</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mtext>list price</m:mtext><m:mo>=</m:mo><m:mtext>original cost</m:mtext><m:mo>+</m:mo><m:mtext>mark-up</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836692588">The list price should always be more than the original cost.</para>
+</note>
+<example id="fs-id1167836692592">
+<exercise id="fs-id1167836692594">
+<problem id="fs-id1167829688721">
+<para id="fs-id1167829688723">Liam’s art gallery bought a painting at an original cost of $750. Liam marked the price up 40%. Find <span class="token">ⓐ</span> the amount of mark-up and <span class="token">ⓑ</span> the list price of the painting.</para>
+</problem>
+<solution id="fs-id1167836730607">
+<para id="fs-id1167836615159"><span class="token">ⓐ</span><newline/><newline/>
+<table id="fs-id1167836615167" class="unnumbered unstyled" summary="Identify what you are asked to find, and choose a variable to represent it. What is the amount of mark-up? Let m be equal to the amount of mark up. Write a sentence that gives the information to find it. The mark-up is 40 percent of the 750 dollar original cost. Translate into an equation. The mark-up is m, is 40 percent is 0.40, of is multiplication, and the $750 original cost is 750. The equation is m is equal to 0.40 times 750. Solve the equation. The result is m is equal to 300. Write a complete sentence. The mark-up on the painting was 300 dollars.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Identify what you are asked to find, and<newline/>choose a variable to represent it.</entry>
+<entry valign="top" align="left">What is the amount of mark-up?<newline/>Let <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo></m:mrow></m:math> the amount of mark-up.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a sentence that gives the<newline/>information to find it.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836731579" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_011a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into an equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829850925" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_011b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836620323" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_011c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a complete sentence.</entry>
+<entry valign="top" align="left">The mark-up on the painting was $300.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167836694316" class="unnumbered unstyled can-break" summary="Identify what you are asked to find, and choose a variable to represent it. What is the list price? Let p be equal to the list price. Write a sentence that gives the information to find it. The list price is original cost plus the mark-up. The list price is p, is original cost is equal to 750, plus is the addition sign, the mark-up is 300. Translate into an equation. The result is p is equal to 750 plus 300. Solve the equation. The result is p is equal to 1050. Check. Is this list price more than the original cost? Is 1050 dollars more than 750 dollars? Yes. Write a complete sentence. The list price of the painting was 1050 dollars.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Identify what you are asked to find, and<newline/>choose a variable to represent it.</entry>
+<entry valign="top" align="left">What is the list price?<newline/>Let <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo></m:mrow></m:math> the list price.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a sentence that gives the<newline/>information to find it.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833138766" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_012a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Translate into an equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829691960" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_012b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829748378" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_02_02_012c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Check.</entry>
+<entry valign="top" align="left">Is the list price more than the original cost?<newline/>Is $1,050 more than $750? Yes.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write a complete sentence.</entry>
+<entry valign="top" align="left">The list price of the painting was $1,050.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167836507859">
+<title>Solve Simple Interest Applications</title>
+<para id="fs-id1167836507865">Interest is a part of our daily lives. From the interest earned on our savings to the interest we pay on a car loan or credit card debt, we all have some experience with interest in our lives.</para>
+<para id="fs-id1167832927562">The amount of money you initially deposit into a bank is called the <term>principal</term>, <emphasis effect="italics">P</emphasis>, and the bank pays you <term>interest</term>, <emphasis effect="italics">I.</emphasis> When you take out a loan, you pay interest on the amount you borrow, also called the principal.</para>
+<para id="fs-id1167836707281">In either case, the interest is computed as a certain percent of the principal, called the <term>rate of interest</term>, <emphasis effect="italics">r</emphasis>. The rate of interest is usually expressed as a percent per year, and is calculated by using the decimal equivalent of the percent. The variable <emphasis effect="italics">t</emphasis>, (for time) represents the number of years the money is saved or borrowed.</para>
+<para id="fs-id1167836334286">Interest is calculated as simple interest or compound interest. Here we will use simple interest.</para>
+<note id="fs-id1167829753593">
+<title>Simple Interest</title>
+<para id="fs-id1167829753599">If an amount of money, <emphasis effect="italics">P</emphasis>, called the principal, is invested or borrowed for a period of <emphasis effect="italics">t</emphasis> years at an annual interest rate <emphasis effect="italics">r</emphasis>, the amount of interest, <emphasis effect="italics">I</emphasis>, earned or paid is</para>
+<equation id="fs-id1167836607407" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>interest</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>where</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>principal</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>rate</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>time</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829906930">Interest earned or paid according to this formula is called <term>simple interest</term>.</para>
+</note>
+<para id="fs-id1167832951047">The formula we use to calculate interest is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math> To use the formula we substitute in the values for variables that are given, and then solve for the unknown variable. It may be helpful to organize the information in a chart.</para>
+<example id="fs-id1167836518198">
+<exercise id="fs-id1167836518201">
+<problem id="fs-id1167836518203">
+<para id="fs-id1167836518205">Areli invested a principal of $950 in her bank account that earned simple interest at an interest rate of 3%. How much interest did she earn in five years?</para>
+</problem>
+<solution id="fs-id1167836545229">
+<para id="fs-id1167836545231"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$</m:mtext><m:mn>950</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mi>%</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1167833137580"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify what you are asked to find, and choose a</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>What is the simple interest?</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>variable to represent it.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>I</m:mi><m:mo>=</m:mo><m:mtext>interest.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the formula.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.5em"/><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the given information.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3.5em"/><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>950</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.03</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mspace width="3.5em"/><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>142.5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Is $142.50 a reasonable amount of interest on $950?</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Yes.</m:mtext></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write a complete sentence.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>The interest is $142.50.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167829859760">There may be times when we know the amount of interest earned on a given principal over a certain length of time, but we do not know the rate.</para>
+<example id="fs-id1167829790848">
+<exercise id="fs-id1167829790850">
+<problem id="fs-id1167829790852">
+<para id="fs-id1167829790855">Hang borrowed $7,500 from her parents to pay her tuition. In five years, she paid them $1,500 interest in addition to the $7,500 she borrowed. What was the rate of simple interest?</para>
+</problem>
+<solution id="fs-id1167836407124">
+<para id="fs-id1167836407127"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$</m:mtext><m:mn>1500</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$</m:mtext><m:mn>7500</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1167829627509"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify what you are asked to find, and choose</m:mtext><m:mspace width="2em"/></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>What is the rate of simple interest?</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>a variable to represent it.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the formula.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the given information.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Divide.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Change to percent form.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>rate of interest.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1,500</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mn>7,500</m:mn><m:mo stretchy="false">)</m:mo><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1,500</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>37,500</m:mn><m:mi>r</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0.04</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:mi>%</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>r</m:mi></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1,500</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mn>7,500</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.04</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1,500</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1,500</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write a complete sentence.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The rate of interest was 4%.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167832961265">In the next example, we are asked to find the principal—the amount borrowed.</para>
+<example id="fs-id1167836546286">
+<exercise id="fs-id1167836546288">
+<problem id="fs-id1167836546290">
+<para id="fs-id1167836546292">Sean’s new car loan statement said he would pay $4,866,25 in interest from a simple interest rate of 8.5% over five years. How much did he borrow to buy his new car?</para>
+</problem>
+<solution id="fs-id1167829879766">
+<para id="fs-id1167829879769"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4,866.25</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>8.5</m:mn><m:mi>%</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+<para id="fs-id1167836558133"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify what you are asked to find,</m:mtext><m:mspace width="2em"/></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>What is the amount borrowed (the principal)?</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>and choose a variable to represent it.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Write the formula.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute in the given information.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Divide.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>principal borrowed.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4,866.25</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.085</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4,866.25</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.425</m:mn><m:mi>P</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>11,450</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Check.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>I</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4,866.25</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mo stretchy="false">(</m:mo><m:mn>11,450</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.085</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4,866.25</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4,866.25</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Write a complete sentence.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>The principal was $11,450.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="eip-144"><title>Geometry applications</title><para id="fs-id1167834180019">In this objective we will use some common geometry formulas. We will adapt our problem solving strategy so that we can solve geometry applications. The geometry formula will name the variables and give us the equation to solve.</para>
+<para id="fs-id1167835190527">In addition, since these applications will all involve shapes of some sort, most people find it helpful to draw a figure and label it with the given information. We will include this in the first step of the problem solving strategy for geometry applications.</para>
+
+<para id="fs-id1167834191598">When we solve geometry applications, we often have to use some of the properties of the figures. We will review those properties as needed.</para>
+<para id="fs-id1167834537836">The next example involves the <term class="no-emphasis">area</term> of a triangle. The area of a triangle is one-half the base times the height. We can write this as <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mi>h</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">b</emphasis> = length of the base and <emphasis effect="italics">h</emphasis> = height.</para>
+<media id="fs-id1167835280765" alt="The figure is a triangle with its height shown. Its base is b and its height is h. The formula for the area of the triangle is A is equal to one-half times b times h.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_005_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<example id="fs-id1167832053508">
+<exercise id="fs-id1167835498231">
+<problem id="fs-id1167835324990">
+<para id="fs-id1167835310355">The area of a triangular painting is 126 square inches. The base is 18 inches. What is the height?</para>
+</problem>
+<solution id="fs-id1167834246972">
+<para id="fs-id1167835310078"><table id="fs-id1167832151328" class="unnumbered unstyled" summary="Step 1 is to read the problem. Step 2 is to identify what you are looking for. It is the height of a triangle. Step 3 is to name the height. Choose a variable to represent it. Let h be the height. Draw the figure and label it with the given information. The area is 126 square inches. The height is h and the base is 18 inches. Step 4 is to translate. Write the appropriate formula. It is A is equal to one-half times b times h. Substitute in the given information. 126 is equal to one-half times 18 times h. Step 5 is to solve the equation. 126 is equal to 9 h. Divide both sides by 9. 14 is equal h. Step 6 is to check using A is equal to one-half b times h. Is 126 equal to one-half times 18 times 14? 126 is equal to 126. The solution checks. Step 7 is to answer the question. The height of the triangle is 14 inches."><label/>
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.</entry>
+<entry valign="top" align="left">height of a triangle</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Choose a variable to represent it.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo></m:mrow></m:math> the height.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Draw the figure and label it with the given information.</entry>
+<entry valign="top" align="left">Area = 126 sq. in.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167835358741" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_006a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the appropriate formula.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mi>h</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the given information.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:mn>126</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>18</m:mn><m:mo>·</m:mo><m:mi>h</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1em"/><m:mn>126</m:mn><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>h</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by 9.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.5em"/><m:mn>14</m:mn><m:mo>=</m:mo><m:mi>h</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check</emphasis>.<newline/><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mi>h</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>126</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>·</m:mo><m:mn>18</m:mn><m:mo>·</m:mo><m:mn>14</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>126</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>126</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The height of the triangle is 14 inches.</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835333601" class="try">
+<exercise id="fs-id1167831872255">
+<problem id="fs-id1167834098416">
+<para id="fs-id1167828434993">The area of a triangular church window is 90 square meters. The base of the window is 15 meters. What is the window’s height?</para>
+</problem>
+<solution id="fs-id1167835339652">
+<para id="fs-id1167826994288">The window’s height is 12 meters.</para>
+</solution>
+</exercise>
+</note>
+
+<para id="fs-id1167831076560">In the next example, we will work with a <term class="no-emphasis">right triangle</term>. To solve for the measure of each angle, we need to use two triangle properties. In any triangle, the sum of the measures of the angles is <m:math><m:mrow><m:mn>180</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> We can write this as a formula: <m:math><m:mrow><m:mi>m</m:mi><m:mo>∠</m:mo><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mo>∠</m:mo><m:mi>B</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:mo>∠</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>180</m:mn><m:mo>.</m:mo></m:mrow></m:math> Also, since the triangle is a right triangle, we remember that a right triangle has one <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> angle.</para>
+<para id="fs-id1167834472483">Here, we will have to define one angle in terms of another. We will wait to draw the figure until we write expressions for all the angles we are looking for.</para>
+<example id="fs-id1167835349183">
+<exercise id="fs-id1167835514607">
+<problem id="fs-id1167832058290">
+<para id="fs-id1167835343222">The measure of one angle of a right triangle is 40 degrees more than the measure of the smallest angle. Find the measures of all three angles.</para>
+</problem>
+<solution id="fs-id1167835181009">
+<para id="fs-id1167835174157"><table id="fs-id1167828420750" class="unnumbered unstyled" summary="Step 1 is to read the problem. Step 2 is to identify what you are looking for. It is the measures of all three angles. Step 3 is to name the variable to represent it. Let a be equal to the first angle, a plus 40 be equal to the second angle, and 90 be equal to the third angle, or the right angle. Draw the figure and label it with the given information. The figure is the triangle A B C, with A measuring a plus 40, B measuring a, and C measuring 90. Step 4 is to translate. Write the appropriate formula. The measure of A plus the measure of B plus the measure of C is equal to 180. Substitute into the formula. The result is a plus the quantity a plus 40 plus 90 is equal to 180. Step 5 is to solve the equation. 2 a plus 130 is equal to 180. 2 a is equal to 50, which is the first angle. a plus 20 is the second angle. 25 plus 20 is 45. 90 is the third angle. Step 6 is to check the solutions. Is 25 plus 45 plus 90 is equal to 180? 180 is equal to 180. The solutions check. Step 7 is to answer the question. The three angles measure 25 degrees, 45 degrees, and 90 degrees."><label/>
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.</entry>
+<entry valign="top" align="left">the measures of all three angles</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name.</emphasis> Choose a variable to represent it.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mtext>st</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>angle.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>40</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:msup><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mtext>nd</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>angle</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>90</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mtext>rd</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>angle (the right angle)</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Draw the figure and label it with the given information.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835355270" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_007a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the appropriate formula.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831086842" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_007b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute into the formula.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835512003" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_007c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834309725" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_007d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check</emphasis>.<newline/><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>25</m:mn><m:mo>+</m:mo><m:mn>65</m:mn><m:mo>+</m:mo><m:mn>90</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>180</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>180</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>180</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The three angles measure <m:math><m:mrow><m:mn>25</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo><m:mn>65</m:mn><m:mtext>°</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+
+<para id="fs-id1167835337264">The next example uses another important geometry formula. The <term>Pythagorean Theorem</term> tells how the lengths of the three sides of a right triangle relate to each other. Writing the formula in every exercise and saying it aloud as you write it may help you memorize the Pythagorean Theorem.</para>
+<note id="fs-id1167834185486">
+<title>The Pythagorean Theorem</title>
+<para id="fs-id1167835238717">In any right triangle, where <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> are the lengths of the legs, and <emphasis effect="italics">c</emphasis> is the length of the hypotenuse, the sum of the squares of the lengths of the two legs equals the square of the length of the hypotenuse.</para>
+<media id="fs-id1167835328326" alt="The figure is a right triangle with sides a and b, and a hypotenuse c. a squared plus b squared is equal to c squared. In a right triangle, the sum of the squares of the lengths of the two legs equals the square of the length of the hypotenuse.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_008_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</note>
+
+<example id="fs-id1167832054640">
+<exercise id="fs-id1167835299766">
+<problem id="fs-id1167835356454">
+<para id="fs-id1167831117359">Use the Pythagorean Theorem to find the length of the other leg in</para>
+<media id="fs-id1167832074734" alt="This figure is a right triangle with one leg that is 12 units and a hypotenuse that is 13 units.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_009_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</problem>
+<solution id="fs-id1167835215305">
+<para id="fs-id1167835233075"><table id="fs-id1167835233076" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step 2 is to identify what you are looking for. We are looking for the leg of the triangle. Step is to name a variable to represent it. Let a be equal to the leg of the triangle. Label side a. Now the figure is a right triangle with one leg that is 12 units, one leg that is a, and a hypotenuse that is 13 units. Step 4 is to translate. Write the appropriate formula, a squared plus b squared is equal to c squared. Substitute, so a squared plus 12 squared is equal to 13 squared. Step 5 is to solve the equation, a squared plus 144 is equal to 169. Isolate the variable term. The result is a squared is equal to 25. Use the definition of the square root. The result is a is equal to the square root of 25. Simplify. The result is a is equal to 25. Step 6 is to check the answer. Is 5 squared plus 12 squared is equal to 13 squared? Is 25 plus 144 equal to 169? 169 is equal to 169. The solution checks. Step 7 is to answer the question. The length of the leg is 5 units."><label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what you are looking for.</entry>
+<entry valign="top" align="left">the length of the leg of the triangle</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Choose a variable to represent it.</entry>
+<entry valign="top" align="left">Let <emphasis effect="italics">a</emphasis> = the leg of the triangle.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Label side <emphasis effect="italics">a</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834448625" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_010b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the appropriate formula.<newline/>Substitute.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mn>12</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mn>13</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.<newline/>Isolate the variable term.<newline/>Use the definition of square root.<newline/>Simplify.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mn>144</m:mn></m:mrow><m:mrow/></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>169</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>25</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>25</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check.</emphasis><newline/><media id="fs-id1167835229462" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_010a_img.jpg" mime-type="image/jpeg"/></media></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The length of the leg is 5.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167835306569" class="try">
+<exercise id="fs-id1167826814080">
+<problem id="fs-id1167835341581">
+<para id="fs-id1167835348472">Use the Pythagorean Theorem to find the length of the leg in the figure.</para>
+<media id="fs-id1167834473441" alt="The figure is a right triangle with legs that are b units and 15 units, and a hypotenuse that is 17 units.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_011_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</problem>
+<solution id="fs-id1167835343025">
+<para id="fs-id1167835324947">The length of the leg is 8.</para>
+</solution>
+</exercise>
+</note>
+
+<para id="fs-id1167835305798">The next example is about the <term class="no-emphasis">perimeter</term> of a rectangle. Since the perimeter is just the distance around the rectangle, we find the sum of the lengths of its four sides—the sum of two lengths and two widths. We can write is as <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>L</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>W</m:mi></m:mrow></m:math> where <emphasis effect="italics">L</emphasis> is the length and <m:math><m:mi>W</m:mi></m:math> is the width. To solve the example, we will need to define the length in terms of the width.</para>
+<example id="fs-id1167834228085">
+<exercise id="fs-id1167828447182">
+<problem id="fs-id1167831116214">
+<para id="fs-id1167835363342">The length of a rectangle is six centimeters more than twice the width. The perimeter is 96 centimeters. Find the length and width.</para>
+</problem>
+<solution id="fs-id1167834396437">
+<para id="fs-id1167826857369"><table id="fs-id1167826857370" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step is to identify what we are looking for. We are looking for the length and width. Step 3 is to name the variable to represent the width, Let w be equal to the width. The length is six more than twice the width. So the expression 2 w plus 6 is equal to length. The figure is a rectangle with the width labeled w, a length labeled 2 w plus 6, and the perimeter labeled P is equal to 96 centimeters. Step 4 is to translate. Write the appropriate formula, P is equal to 2 L plus 2 W. Substitute in the given information. 96 is equal to the sum of 2 times the quantity 2 w plus 6 and 2 w. Step 5 is to solve the equation, 96 is equal to 4 w plus 12 plus 2 w. 96 is equal to 6 w plus 12. 84 is equal to 6 w. 14 is equal w, which is the width. 2 w plus 6 represents the length, so 2 times 14 plus 6 is 34. The length is 34 centimeters. Step 6 is to check the answers. The figure is a rectangle with its width labeled 14 centimeters and its length labeled 34 centimeters. The perimeter is given by P is equal to 2 L plus 2 W. Is 96 equal to 2 times 34 plus 2 times 14. 96 is equal to 96, so the answers check. Step 7 is to answer the question. The length is 34 centimeters and the width is 14 centimeters.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what we are looking for.</entry>
+<entry valign="top" align="left">the length and the width</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name</emphasis>. Choose a variable to represent the width.<newline/>
+The length is six more than twice the width.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mspace width="0.5em"/><m:mi>w</m:mi><m:mo>=</m:mo></m:mrow></m:math> width.<newline/><m:math><m:mrow><m:mn>2</m:mn><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo></m:mrow></m:math> length<newline/><newline/><media id="fs-id1167835262242" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_013b_img.jpg" mime-type="image/jpeg"/></media><newline/><newline/><m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>96</m:mn></m:mrow></m:math> cm</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the appropriate formula.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835361664" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_013c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute in the given information.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834300693" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_013d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve the equation.</emphasis></entry>
+<entry valign="top" align="left"><media id="fs-id1167834213903" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_013e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6.</emphasis> Check.<newline/><newline/><media id="fs-id1167835194800" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_013a_img.jpg" mime-type="image/jpeg"/></media><newline/><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>L</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>W</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>96</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>34</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mn>14</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>96</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>96</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer the question.</emphasis></entry>
+<entry valign="top" align="left">The length is 34 cm and the width is 14 cm.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+
+<para id="fs-id1167835343328">The next example is about the <term class="no-emphasis">perimeter</term> of a triangle. Since the perimeter is just the distance around the triangle, we find the sum of the lengths of its three sides. We can write this as <m:math><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> are the lengths of the sides.</para>
+<example id="fs-id1167835280638">
+<exercise id="fs-id1167835280640">
+<problem id="fs-id1167831895002">
+<para id="fs-id1167831895004">One side of a triangle is three inches more than the first side. The third side is two inches more than twice the first. The perimeter is 29 inches. Find the length of the three sides of the triangle.</para>
+</problem>
+<solution id="fs-id1167834190033">
+<para id="fs-id1167834190036"><table id="fs-id1167832043286" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step 2 is to identify what we are looking for. We are looking for the lengths of three sides of a triangle. Step is to name a variable to represent the length of the first side. Let x be equal to the length of the first side, x plus 3 be equal to the length of the second side, and 2 x plus 2 be equal to the length of the third side. The figure is a triangle with sides labeled x, x plus 3, and 2 x plus 2, and a perimeter shown to be 29 inches. Step 4 is to translate. Write the appropriate formula, which is P is equal to a plus b plus c. Substitute in the given information. The result is 29 is equal to x plus the quantity x plus 3 plus the quantity 2 x plus 2. Step 5 is to solve the equation, 29 is equal to 4 x plus 5. 24 is equal to 4 x. 6 is equal to x, which is the length of the first side. The expression, x plus 3, is the length of the second side. The second side is 6 plus 3, which is equal to 9. The expression, 2 x plus 2, is the length of the second side. The second side is 2 times 6 plus 2, which is equal to 14. Step 6 is to check the answers. The figure is a triangle with sides labeled, 6, 9, and 14. Is 29 equal to 6 plus 9 plus 14? 29 is equal to 29, so the answers check. Step 7 is to answer the question. The lengths of the sides of the triangle are 6 inches, 9 inches, and 14 inches."><label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what we are looking for.</entry>
+<entry valign="top" align="left">the lengths of the three sides of a triangle</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name</emphasis>. Choose a variable to<newline/>represent the length of the first side.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>length of</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mtext>st</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>side.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>length of</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mtext>nd</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>side</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>length of</m:mtext><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mtext>rd</m:mtext></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>side</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/><media id="fs-id1167831081604" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_014b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis><newline/>Write the appropriate formula.<newline/>Substitute in the given information.</entry>
+<entry valign="top" align="left"><media id="fs-id1167827987478" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_014c_img.jpg" mime-type="image/jpeg"/></media><newline/><media id="fs-id1167826849416" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_014d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831883329" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_014e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check.</emphasis><newline/><media id="fs-id1167835280400" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_014a_img.jpg" mime-type="image/jpeg"/></media><newline/><m:math><m:mrow><m:mspace width="2em"/><m:mn>29</m:mn><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow></m:math><newline/><m:math><m:mrow><m:mspace width="2em"/><m:mn>29</m:mn><m:mo>=</m:mo><m:mn>29</m:mn><m:mo>✓</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The lengths of the sides of the triangle<newline/>are 6, 9, and 14 inches.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+
+<example id="fs-id1167835395545">
+<exercise id="fs-id1167834422574">
+<problem id="fs-id1167834422576">
+<para id="fs-id1167834422579">The perimeter of a rectangular soccer field is 360 feet. The length is 40 feet more than the width. Find the length and width.</para>
+<media id="fs-id1167835479858" alt="The figure is an illustration of rectangular soccer field.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_015_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</problem>
+<solution id="fs-id1167835390424">
+<para id="fs-id1167835390426"><table id="fs-id1167835524248" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step 2 is to identify what we are looking for. We are looking for the length and width of the soccer field. Step 3 is to name a variable to represent it. Let w be equal to the width. The length is 40 feet more than the width, so let w plus 40 be equal to the length. Draw the figure and label it with the given information. The figure is an illustration of a rectangular soccer field, its length labeled w and its width labeled w plus 40, and its perimeter given as 360 feet. Step 4 is to translate. Write the appropriate formula and substitute. The formula is P is equal to 2 L plus 2 W. 360 is equal to the sum of 2 times the quantity w plus 40 and 2 w. Step 5 is to solve the equation. 360 is equal to 2 w plus 80 plus 2 w. 360 is equal to 4 w plus 80. 280 is equal to 4 w. 70 is equal to w, which is the width of the field. The expression, w plus 40, is the length of the field. It is 70 plus 40, which is equal to 110. Step 6 is to check the answers. The perimeter is given by the formula, P is equal to 2 L plus 2 W. Is 360 equal to 2 times 110 plus 2 times 70? 360 is equal to 360, so the answers check. Step 7 is to answer the question. The length of the soccer field is 110 feet and the width is 70 feet."><label/>
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what we are looking for.</entry>
+<entry valign="top" align="left">the length and width of the soccer field</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name.</emphasis> Choose a variable to represent it.<newline/>The length is 40 feet more than the width.<newline/>Draw the figure and label it with the<newline/>given information.</entry>
+<entry valign="top" align="left">Let <emphasis effect="italics">w</emphasis> = width.<newline/><m:math><m:mrow><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>40</m:mn><m:mo>=</m:mo></m:mrow></m:math> length<newline/><media id="fs-id1167826870028" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_016a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate</emphasis>.<newline/>Write the appropriate formula and<newline/>substitute.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835595458" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_016b_img.jpg" mime-type="image/jpeg"/></media><newline/><media id="fs-id1167834423262" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_016c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835199569" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_016d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check.</emphasis><newline/><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>L</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>W</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>360</m:mn></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>110</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>70</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>360</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>360</m:mn><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">The length of the soccer field is 110 feet<newline/>and the width is 70 feet.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+
+<para id="fs-id1166401363101">Applications of these geometric properties can be found in many everyday situations as shown in the next example.</para>
+<example id="fs-id1167834523812">
+<exercise id="fs-id1167834523814">
+<problem id="fs-id1167834523816">
+<para id="fs-id1167835238919">Kelvin is building a gazebo and wants to brace each corner by placing a 10” piece of wood diagonally as shown.</para>
+<media id="fs-id1167835238924" alt="The figure is an illustration of a gazebo whose corner forms a right triangle with a 10 inch piece of wood that is placed diagonally to brace it.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_017_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1167835511283">How far from the corner should he fasten the wood if wants the distances from the corner to be equal? Approximate to the nearest tenth of an inch.</para>
+</problem>
+<solution id="fs-id1167835511288">
+<para id="fs-id1167835511290"><table id="fs-id1167834079300" class="unnumbered unstyled can-break" summary="Step 1 is to read the problem. Step 2 is to identify what we are looking for. We are looking for the distance from the corner that the bracket should be attached. Step 3 is to name a variable to represent it. Let x be equal to the distance from the corner. Draw the figure and label it with the given information. The figure is right triangle with both sides labeled x and a hypotenuse labeled 10. Step 4 is to translate. Write the appropriate formula and substitute. The formula is a squared plus b squared is equal to c squared. By substituting, the result is x squared plus x squared is equal to 10 squared. Step 5 is to solve the equation, 2 x squared is equal to 100. Isolate the variable. The result is x squared is equal to 50. Use the definition of square root. x is equal to the square root of 50. Simplify. Approximate to the nearest tenth. The side, x, is approximately equal to 7.1. Step 6 is to check using the formula a squared plus b squared is equal to c squared. Is 7.1 squared plus 7.1 squared approximately equal to 10 squared. Yes. Step 7 is to answer the question. Kelvin should fasten each piece of wood approximately 7.1 inches from the corner."><label/>
+<tgroup cols="2"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 1. Read</emphasis> the problem.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 2. Identify</emphasis> what we are looking for.</entry>
+<entry valign="top" align="left">the distance from the corner that the<newline/>bracket should be attached</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 3. Name.</emphasis> Choose a variable to represent it.<newline/>Draw the figure and label it with the given<newline/>information.</entry>
+<entry valign="top" align="left">Let <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math> the distance from the corner.<newline/><media id="fs-id1167834189737" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_018a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 4. Translate.</emphasis><newline/>Write the appropriate formula and substitute.</entry>
+<entry valign="top" align="left"><newline/><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 5. Solve</emphasis> the equation.<newline/>Isolate the variable.<newline/>Use the definition of square root.<newline/>Simplify. Approximate to the nearest tenth.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>50</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>50</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>7.1</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 6. Check.</emphasis><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7.1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7.1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="1em"/><m:mtext>Yes.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Step 7. Answer</emphasis> the question.</entry>
+<entry valign="top" align="left">Kelvin should fasten each piece of wood<newline/>approximately 7.1” from the corner.</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1167827987488" class="try">
+<exercise id="fs-id1167827987491">
+<problem id="fs-id1167827987493">
+<para id="fs-id1167835287571">Randy wants to attach a 17-foot string of lights to the top of the 15 foot mast of his sailboat, as shown in the figure. How far from the base of the mast should he attach the end of the light string?</para>
+<media id="fs-id1167835287576" alt="The figure is an illustration of a sailboat that has a 15 foot mast. A string of lights that are 17 feet long are placed diagonally from the top of the mast.">
+<image src="../../media/CNX_IntAlg_Figure_02_03_020_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</problem>
+<solution id="fs-id1167835318900">
+<para id="fs-id1167834539690">He should attach the lights 8 feet from the base of the mast.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1167834539696" class="media-2">
+<para id="fs-id1167835513589">Access this online resource for additional instruction and practice with solving for a variable in literal equations.</para>
+<list id="fs-id1167835513593" display="block">
+<item><link url="https://openstax.org/l/37literalequat">Solving Literal Equations</link></item>
+</list>
+</note>
+</section><section id="eip-734"><title>Solve Formulas for One Variable</title><para id="fs-id1167835509982">We have all probably worked with some geometric formulas in our study of mathematics. Formulas are used in so many fields, it is important to recognize formulas and be able to manipulate them easily.</para>
+<para id="fs-id1167830866056">It is often helpful to solve a formula for a specific variable. If you need to put a formula in a spreadsheet, it is not unusual to have to solve it for a specific variable first. We isolate that variable on one side of the equals sign with a coefficient of one and all other variables and constants are on the other side of the equal sign.</para>
+<para id="fs-id1167834538150">Geometric formulas often need to be solved for another variable, too. The formula <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math> is used to find the <term class="no-emphasis">volume</term> of a right circular cone when given the radius of the base and height. In the next example, we will solve this formula for the height.</para>
+<example id="fs-id1167835351780">
+<exercise id="fs-id1167832015818">
+<problem id="fs-id1167831116495">
+<para id="fs-id1167834515411">Solve the formula <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math> for <emphasis effect="italics">h</emphasis>.</para>
+</problem>
+<solution id="fs-id1167831872111">
+<para id="fs-id1167835345282"><table id="fs-id1167828349231" class="unnumbered unstyled" summary="Write the formula. It is V is equal to one-third times pi times r squared times h. Clear the fractions by multiplying each side by 3. The result is 3 times V is equal to 3 times third times pi times r squared times h. Simplify. The result is 3 V is equal to pi times r squared times h. Divide both sides by pi times r squared. The result is 3 V divided by pi times r squared is equal to h.">
+<label/>
+<tgroup cols="4">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Write the formula.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167835595188" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_001a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Remove the fraction on the right.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167834423545" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_001b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167835325472" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_001c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Divide both sides by <m:math><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167831913473" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_001d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167835377710">We could now use this formula to find the height of a right circular cone when we know the volume and the radius of the base, by using the formula <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167835302021">In the sciences, we often need to change <term class="no-emphasis">temperature</term> from Fahrenheit to Celsius or vice versa. If you travel in a foreign country, you may want to change the Celsius temperature to the more familiar Fahrenheit temperature.</para>
+<example id="fs-id1167835303530">
+<exercise id="fs-id1167835358195">
+<problem id="fs-id1167834063520">
+<para id="fs-id1167831826403">Solve the formula <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo>−</m:mo><m:mn>32</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for <emphasis effect="italics">F</emphasis>.</para>
+</problem>
+<solution id="fs-id1167835284989">
+<para id="fs-id1167832128828"><table id="fs-id1167832054604" class="unnumbered unstyled" summary="Write the formula. It is C is equal to five-ninths times the quantity F minus 32. Clear the fractions by multiplying each side by nine-fifths C is equal to nine-fifths time s five-ninths times the quantity F minus 32. Simplify. The result is nine-fifths C is equal to F minus 32. Add 32 to both sides. The result is nine-fifths C plus 32 is equal to F. We can now use the formula F is equal to nine-fifths C plus 32 to find the Fahrenheit temperature when we know the Celsius.">
+<label/>
+<tgroup cols="4">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<colspec colname="c4" colnum="4"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Write the formula.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167834063097" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_002a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Remove the fraction on the right.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167835192392" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_002b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167834130526" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_002c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add 32 to both sides.</entry>
+<entry/>
+<entry/>
+<entry valign="top" align="left"><media id="fs-id1167835421279" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_002d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167831106790">We can now use the formula <m:math><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>C</m:mi><m:mo>+</m:mo><m:mn>32</m:mn></m:mrow></m:math> to find the Fahrenheit temperature when we know the Celsius temperature.</para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167835336973">The next example uses the formula for the <term class="no-emphasis">surface area</term> of a right cylinder.</para>
+<example id="fs-id1167835308479">
+<exercise id="fs-id1167835334948">
+<problem id="fs-id1167831107017">
+<para id="fs-id1167834185892">Solve the formula <m:math><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>h</m:mi></m:mrow></m:math> for <emphasis effect="italics">h</emphasis>.</para>
+</problem>
+<solution id="fs-id1167835326559">
+<para id="fs-id1167834474174"><table id="fs-id1167835609380" class="unnumbered unstyled" summary="Write the formula. It is S is equal to 2 times pi times r squared plus 2 times pi times r times h. Isolate the h term by subtracting 2 times pi times r squared from each side. Simplify. The result is S minus 2 times pi times r squared is equal to 2 times pi times r times h. Solve for h by dividing both sides by 2 times pi times r. The quotient of the quantity S minus 2 times pi times r squared and 2 times pi times r is equal to the quotient of 2 times pi times r times h and 2 times pi times r. Simplify. The result is the quotient of the quantity S minus 2 times pi times r squared and 2 times pi times r is equal to h.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Write the formula.</entry>
+<entry valign="top" align="left"><media id="fs-id1167834539276" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_003a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Isolate the <emphasis effect="italics">h</emphasis> term by subtracting <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> from each side.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835332492" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_003b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167831832980" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_003c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Solve for <emphasis effect="italics">h</emphasis> by dividing both sides by <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167835321840" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_003d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167835338667" alt="."><image src="../../media/CNX_IntAlg_Figure_02_03_003e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167836596031" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836596038" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">How To Use a Problem Solving Strategy for Word Problems</emphasis>
+<list id="fs-id1167833224418" list-type="enumerated" number-style="arabic" class="stepwise">
+<item><emphasis effect="bold">Read</emphasis> the problem. Make sure all the words and ideas are understood.</item>
+<item><emphasis effect="bold">Identify</emphasis> what you are looking for.</item>
+<item><emphasis effect="bold">Name</emphasis> what you are looking for. Choose a variable to represent that quantity.</item>
+<item><emphasis effect="bold">Translate</emphasis> into an equation. It may be helpful to restate the problem in one sentence with all the important information. Then, translate the English sentence into an algebra equation.</item>
+<item><emphasis effect="bold">Solve</emphasis> the equation using proper algebra techniques.<newline/><para id="fs-id1167833051048"><newline/><newline/></para></item>
+<item><emphasis effect="bold">Check</emphasis> the answer in the problem to make sure it makes sense.</item>
+<item><emphasis effect="bold">Answer</emphasis> the question with a complete sentence.</item>
+</list></item>
+<item><emphasis effect="bold">How To Find Percent Change</emphasis>
+<list id="fs-id1167836518346" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the amount of change<newline/><m:math><m:mrow><m:mtext>change</m:mtext><m:mo>=</m:mo><m:mtext>new amount</m:mtext><m:mo>−</m:mo><m:mtext>original amount</m:mtext></m:mrow></m:math></item>
+<item>Find what percent the amount of change is of the original amount.<newline/><m:math><m:mrow><m:mtext>change is what percent of the original amount?</m:mtext></m:mrow></m:math></item>
+</list></item>
+<item><emphasis effect="bold">Discount</emphasis><newline/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>amount of discount</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>discount rate</m:mtext><m:mo>·</m:mo><m:mtext>original price</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mtext>sale price</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>original amount</m:mtext><m:mo>−</m:mo><m:mtext>discount</m:mtext></m:mtd></m:mtr></m:mtable></m:math></item>
+<item><emphasis effect="bold">Mark-up</emphasis><newline/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>amount of mark-up</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>mark-up rate</m:mtext><m:mo>·</m:mo><m:mtext>original cost</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mtext>list price</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>original cost</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mtext>mark up</m:mtext></m:mtd></m:mtr></m:mtable></m:math></item>
+<item><emphasis effect="bold">Simple Interest</emphasis><newline/>
+If an amount of money, <emphasis effect="italics">P</emphasis>, called the principal, is invested or borrowed for a period of <emphasis effect="italics">t</emphasis> years at an annual interest rate <emphasis effect="italics">r</emphasis>, the amount of interest, <emphasis effect="italics">I</emphasis>, earned or paid is:<newline/>
+<equation id="fs-id1167835181891" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>I</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>interest</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="1em"/><m:mtext>where</m:mtext><m:mspace width="1em"/></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>P</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>principal</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>r</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>rate</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>t</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>time</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item></list>
+</section>
+<section id="fs-id1167836300510" class="section-exercises">
+<section id="fs-id1167836300514" class="practice-perfect"><title>Practice Makes Perfect</title><exercise id="fs-id1167833397290">
+<problem id="fs-id1167833397292">
+<para id="fs-id1167836492064">Philip pays $1,620 in rent every month. This amount is $120 more than twice what his brother Paul pays for rent. How much does Paul pay for rent?</para>
+</problem>
+<solution id="fs-id1167836492069">
+<para id="fs-id1167836492072">$750</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829853727">
+<problem id="fs-id1167829853729">
+<para id="fs-id1167829853731">Marc just bought an SUV for $54,000. This is $7,400 less than twice what his wife paid for her car last year. How much did his wife pay for her car?</para>
+</problem>
+</exercise>
+
+<para id="fs-id1167833020012"><emphasis effect="bold">Solve Percent Applications</emphasis></para>
+<para id="fs-id1167829919871">In the following exercises, solve.</para>
+<exercise id="fs-id1167829919874">
+<problem id="fs-id1167829919876">
+<para id="fs-id1167829919878">Geneva treated her parents to dinner at their favorite restaurant. The bill was $74.25. Geneva wants to leave 16% of the total bill as a tip. How much should the tip be?</para>
+</problem>
+<solution id="fs-id1167829693632">
+<para id="fs-id1167836611999"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>11.88</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833227165">
+<problem id="fs-id1167833227167">
+<para id="fs-id1167833227169">One serving of oatmeal has 8 grams of fiber, which is 33% of the recommended daily amount. What is the total recommended daily amount of fiber?</para>
+</problem>
+<solution id="fs-id1167836322669">
+<para id="fs-id1167836322671">24.2 g</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836319645">
+<problem id="fs-id1167836667015">
+<para id="fs-id1167836667017">Emma gets paid $3,000 per month. She pays $750 a month for rent. What percent of her monthly pay goes to rent?</para>
+</problem>
+<solution id="fs-id1167836667022">
+<para id="fs-id1167836667024">25%</para>
+</solution>
+</exercise>
+
+<para id="fs-id1167836554347">In the following exercises, solve.</para>
+<exercise id="fs-id1167836554350">
+<problem id="fs-id1167836554352">
+<para id="fs-id1167829893903">Tamanika received a raise in her hourly pay, from $15.50 to $17.36. Find the percent change.</para>
+</problem>
+<solution id="fs-id1167829624095">
+<para id="fs-id1167829595401">12%</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829695315">
+<problem id="fs-id1167829695317">
+<para id="fs-id1167829695319">Annual student fees at the University of California rose from about $4,000 in 2000 to about $12,000 in 2010. Find the percent change.</para>
+</problem>
+<solution id="fs-id1167829695325">
+<para id="fs-id1167836521072">200%</para>
+</solution>
+</exercise>
+<para id="fs-id1167829721247">In the following exercises, find <span class="token">ⓐ</span> the amount of discount and <span class="token">ⓑ</span> the sale price.</para>
+<exercise id="fs-id1167829740266" class="material-set-2">
+<problem id="fs-id1167829740268">
+<para id="fs-id1167836531586">Janelle bought a beach chair on sale at 60% off. The original price was $44.95.</para>
+</problem>
+<solution id="fs-id1167836541938">
+<para id="fs-id1167836541940"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>26.97</m:mn></m:mrow></m:math>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>17.98</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167829691157">In the following exercises, find <span class="token">ⓐ</span> the amount of discount and <span class="token">ⓑ</span> the discount rate (Round to the nearest tenth of a percent if needed.)</para>
+<exercise id="fs-id1167829595570" class="material-set-2">
+<problem id="fs-id1167829595572">
+<para id="fs-id1167836449693">Larry and Donna bought a sofa at the sale price of $1,344. The original price of the sofa was $1,920.</para>
+</problem>
+<solution id="fs-id1167836449697">
+<para id="fs-id1167836449700"><span class="token">ⓐ</span> $576 <span class="token">ⓑ</span> 30%</para>
+</solution>
+</exercise>
+<para id="fs-id1167832937184">In the following exercises, find <span class="token">ⓐ</span> the amount of the mark-up and <span class="token">ⓑ</span> the list price.</para>
+<exercise id="fs-id1167832999647">
+<problem id="fs-id1167832999649">
+<para id="fs-id1167832999651">Daria bought a bracelet at original cost $16 to sell in her handicraft store. She marked the price up 45%. What was the list price of the bracelet?</para>
+</problem>
+<solution id="fs-id1167836535896">
+<para id="fs-id1167836535898"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>7.20</m:mn></m:mrow></m:math>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>23.20</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833310740"><emphasis effect="bold">Solve Simple Interest Applications</emphasis><emphasis effect="italics"/></para>
+<para id="fs-id1167833310749">In the following exercises, solve.</para>
+<exercise id="fs-id1167829879268">
+<problem id="fs-id1167829879270">
+<para id="fs-id1167829879273">Casey deposited $1,450 in a bank account that earned simple interest at an interest rate of 4%. How much interest was earned in two years?</para>
+</problem>
+<solution id="fs-id1167829879278">
+<para id="fs-id1167829879280">$116</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836575190">
+<problem id="fs-id1167836575192">
+<para id="fs-id1167826206379">Hilaria borrowed $8,000 from her grandfather to pay for college. Five years later, she paid him back the $8,000, plus $1,200 interest. What was the rate of simple interest?</para>
+</problem>
+<solution id="fs-id1167826206384">
+<para id="fs-id1167826206387">3%</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826171978">
+<problem id="fs-id1167826146791">
+<para id="fs-id1167826146793">In 10 years, a bank account that paid 5.25% simple interest earned $18,375 interest. What was the principal of the account?</para>
+</problem>
+<solution id="fs-id1167836605943">
+<para id="fs-id1167836605946">$35,000</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832930332">
+<problem id="fs-id1167832930334">
+<para id="fs-id1167832930336">Joshua’s computer loan statement said he would pay $1,244.34 in simple interest for a three-year loan at 12.4%. How much did Joshua borrow to buy the computer?</para>
+</problem>
+<solution id="fs-id1167836580097">
+<para id="fs-id1167836580099">$3345</para>
+</solution>
+</exercise>
+</section></section>
+</content>
+</document>

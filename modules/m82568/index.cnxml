@@ -1,0 +1,3020 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Composite Functions and Domain (2.6)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m82568</md:content-id>
+  <md:title>Composite Functions and Domain (2.6)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Find and evaluate composite functions</item>
+<item>Combine functions using algebraic operations.</item>
+<item>Create a new function by composition of functions.</item>
+<item>Evaluate composite functions.</item>
+<item>Find the domain of a composite function.</item>
+<item>Decompose a composite function into its component functions.</item>
+</list></md:abstract>
+  <md:uuid>d9c85293-3600-4359-a561-9fb656fc4d51</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-773"><para id="fs-id1169147087020">This Module supports section <emphasis> 2.6 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Domain Review <link target-id="eip-158" document=""/></item>
+<item>Combine Composite Function <link target-id="eip-829" document=""/></item>
+<item>Find and Evaluate Composite Function <link target-id="fs-id1167829579930" document=""/></item>
+<item>Find Domain of a Composite Function <link target-id="eip-801" document=""/></item>
+<item>Decompose a Composite Function <link target-id="eip-918" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167829906171" document=""/></item></list></note><section id="eip-158"><title>Domain Review</title><para id="eip-idm727308320">In this section, we will practice determining domains and ranges for specific functions. We can write the <term class="no-emphasis">domain and range</term> in <term>interval notation</term>, which uses values within brackets to describe a set of numbers. In interval notation, we use a square bracket [ when the set includes the endpoint and a parenthesis ( to indicate that the endpoint is either not included or the interval is unbounded. For example, if a person has $100 to spend, he or she would need to express the interval that is more than 0 and less than or equal to 100 and write<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo> <m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>100</m:mn>
+</m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>We will discuss interval notation in greater detail later.</para><para id="eip-976">Let’s turn our attention to finding the domain of a function whose equation is provided.  Oftentimes, finding the domain of such functions involves remembering three different forms.  First, if the function has no denominator or an even root, consider whether the domain could be all real numbers.  Second, if there is a denominator in the function’s equation, exclude values in the domain that force the denominator to be zero.  Third, if there is an even root, consider excluding values that would make the radicand negative.</para><list id="eip-314"><title>Before we begin, let us review the conventions of interval notation:</title><item>The smallest number from the interval is written first.</item>
+<item>The largest number in the interval is written second, following a comma.</item>
+<item>Parentheses, ( or ), are used to signify that an endpoint value is not included, called exclusive. They represent solutions greater or less than the number.</item>
+<item>Brackets, [ or ], are used to indicate that an endpoint value is included, called inclusive. They also represent solutions that are greater than or equal to or less than or equal to the number</item>
+</list><table id="eip-995" summary="A table with 11 rows and 3 columns. The entries in the first row are: Set Indicated, Set-Builder Notation, Interval Notation. The entries in the second row are: All real numbers between a and b, but not including a and b; {x| a x b}; (a,b). The entries in the third row are: All real numbers greater than a, but not including a; {x| x a}; (a , infinity). The entries in the fourth row are: All real numbers less than b, but not including b; {x| x b}; (negative infinity, b). The entries in the fifth row are: All real numbers greater than a, including a; {x| x a}; [a, infinity). The entries in the sixth row are: All real numbers less than b, including b; {x| x b}; (negative infinity, b]. The entries in the seventh row are: All real numbers between a and b, including a; {x| a x b}; [a, b). The entries in the eighth row are: All real numbers between a and b, including b; {x| a x b}; (a, b]. The entries in the ninth row are: All real numbers between a and b, including a and b; {x| a x b}; [a, b]. The entries in the tenth row are: all real numbers less than a or greater than b; {x| x a or x b}; (negative infinity, a) union (b, infinity). The entries in the eleventh row are: All real numbers; {x| x is all real numbers}; (negative infinity, infinity).">
+<tgroup cols="3"><colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry align="center">Set Indicated</entry>
+<entry align="center">Set-Builder Notation</entry>
+<entry align="center">Interval Notation</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>All real numbers between <emphasis effect="italics">a </emphasis>and <emphasis effect="italics">b</emphasis>, but not including <emphasis effect="italics">a </emphasis>or <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers greater than <emphasis effect="italics">a</emphasis>, but not including <emphasis effect="italics">a</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers less than <emphasis effect="italics">b</emphasis>, but not including <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers greater than <emphasis effect="italics">a</emphasis>, including <emphasis effect="italics">a</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mi>a</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers less than <emphasis effect="italics">b</emphasis>, including <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers between <emphasis effect="italics">a </emphasis>and<emphasis effect="italics"> b</emphasis>, including <emphasis effect="italics">a</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>, including <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo> <m:mrow>
+   <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers between <emphasis effect="italics">a </emphasis>and <emphasis effect="italics">b</emphasis>, including <emphasis effect="italics">a </emphasis>and <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers less than <emphasis effect="italics">a</emphasis> or greater than <emphasis effect="italics">b</emphasis></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>a</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>b</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>All real numbers</entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>{</m:mo> <m:mrow>
+   <m:mi>x</m:mi><m:mo>|</m:mo><m:mi>x</m:mi><m:mtext> is a real number</m:mtext>
+  </m:mrow> <m:mo>}</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+<entry align="center"><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><para id="eip-677">This format <term>set-builder notation</term>: <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mi>x</m:mi><m:mo>|</m:mo><m:mn>10</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>30</m:mn>
+</m:mrow> <m:mo>}</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>describes the behavior of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>in set-builder notation. The braces<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>{</m:mo><m:mo>}</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>are read as “the set of,” and the vertical bar | is read as “such that,” so we would read<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mi>x</m:mi><m:mo>|</m:mo><m:mn>10</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>30</m:mn>
+</m:mrow> <m:mo>}</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as “the set of <emphasis effect="italics">x</emphasis>-values such that 10 is less than or equal to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is less than 30.”
+</para><example id="eip-481"><exercise id="fs-id1165137661548"><problem id="fs-id1165137772018"> 
+<title>Finding the Domain of a Function as a Set of Ordered Pairs </title>
+<para id="fs-id1165137920768">Find the <term class="no-emphasis">domain</term> of the following function:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>{</m:mo> <m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>20</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>30</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>40</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow> <m:mo>}</m:mo></m:mrow>
+</m:mrow>
+</m:math>.</para></problem>
+<solution id="fs-id1165135329797">
+<para id="fs-id1165135508343">First identify the input values. The input value is the first coordinate in an <term class="no-emphasis">ordered pair</term>. There are no restrictions, as the ordered pairs are simply listed. The domain is the set of the first coordinates of the ordered pairs.</para>
+
+<equation id="fs-id1165137451888" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mo>{</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>}</m:mo>
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise></example><para id="eip-568"><title>How To</title><emphasis>Given a function written in equation form, find the domain.</emphasis>
+<list id="fs-id1165134187286" list-type="enumerated" number-style="arabic"><item>Identify the input values.</item> 
+<item>Identify any restrictions on the input and exclude those values from the domain.</item> 
+<item>Write the domain in interval form, if possible.</item>
+</list></para><example id="eip-106"><exercise id="fs-id1165137767649">
+<problem id="fs-id1165137761307">
+<title>Finding the Domain of a Function</title>
+<para id="fs-id1165137645656">Find the domain of the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165135684349">
+<para id="fs-id1165137594433">The input value, shown by the variable<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>in the equation, is squared and then the result is lowered by one. Any real number may be squared and then be lowered by one, so there are no restrictions on the domain of this function. The domain is the set of real numbers.</para><para id="fs-id1165135309759">In interval form, the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+</example><note id="eip-366"><para id="fs-id1165137473617"><emphasis>Given a function written in an equation form that includes a fraction, find the domain.</emphasis></para>
+<list id="fs-id1165137463251" list-type="enumerated" number-style="arabic"><item>Identify the input values.</item> 
+<item>Identify any restrictions on the input. If there is a denominator in the function’s formula, set the denominator equal to zero and solve for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>. If the function’s formula contains an even root, set the radicand greater than or equal to 0, and then solve.</item>
+<item>Write the domain in interval form, making sure to exclude any restricted values from the domain.</item>
+</list></note><example id="eip-584"><exercise id="fs-id1165137722406">
+<problem id="fs-id1165135484119">
+<title>Finding the Domain of a Function Involving a Denominator </title>
+<para id="fs-id1165137647592">Find the <term class="no-emphasis">domain</term> of the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135641743">
+<para id="fs-id1165137565519">When there is a denominator, we want to include only values of the input that do not force the denominator to be zero. So, we will set the denominator equal to 0 and solve for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para>
+
+<equation id="fs-id1165137736620" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>x</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>−2</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>x</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>2</m:mn>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1165135192763">Now, we will exclude 2 from the domain. The answers are all real numbers where<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>or<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as shown in <link target-id="Image_01_02_028"/>. We can use a symbol known as the union,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>∪</m:mo><m:mo>,</m:mo>
+</m:mrow>
+</m:math>to combine the two sets. In interval notation, we write the solution:<m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>−∞</m:mi><m:mo>,</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para><figure id="Image_01_02_028" class="small"><media id="fs-id1165137434263" alt="Line graph of x=!2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_02_028n.jpg"/>
+</media>
+</figure></solution>
+</exercise>
+</example><note id="eip-388"><para id="fs-id1165137733733"><emphasis>Given a function written in equation form including an even root, find the domain.</emphasis></para>
+<list id="fs-id1165137820030" list-type="enumerated" number-style="arabic"><item>Identify the input values.</item> 
+<item>Since there is an even root, exclude any real numbers that result in a negative number in the radicand. Set the radicand greater than or equal to zero and solve for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</item> 
+<item>The solution(s) are the domain of the function. If possible, write the answer in interval form.</item>
+</list></note><example id="eip-799"><exercise id="fs-id1165135160109">
+<problem id="fs-id1165137735699">
+<title>Finding the Domain of a Function with an Even Root</title>
+<para id="fs-id1165137466144">Find the <term class="no-emphasis">domain</term> of the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>7</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msqrt>
+<m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137451129">
+<para id="fs-id1165137453224">When there is an even root in the formula, we exclude any real numbers that result in a negative number in the radicand.</para>
+
+<para id="fs-id1165137749755">Set the radicand greater than or equal to zero and solve for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para>
+<equation id="fs-id1165137727831" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mn>7</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>≥</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>0</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>x</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>≥</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>−7</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+     <m:mi>x</m:mi>
+    </m:mtd>
+    <m:mtd>
+     <m:mo>≤</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mn>7</m:mn>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+
+</equation>
+
+<para id="fs-id1165137422794">Now, we will exclude any number greater than 7 from the domain. The answers are all real numbers less than or equal to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>7</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>or<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</example><example id="eip-729"><exercise id="fs-id1165137933139"><problem id="fs-id1165137933140"><para id="fs-id1165137452448">Find the domain of the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+</m:mrow>
+</m:msqrt>
+<m:mo>.</m:mo>
+</m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137832331"><para id="fs-id1165137832332"><m:math>
+<m:mrow>
+<m:mrow><m:mo>[</m:mo> <m:mrow>
+<m:mo>−</m:mo><m:mfrac>
+<m:mn>5</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow> <m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math>
+</para></solution></exercise>
+</example>
+</section><section id="eip-829"><title>Combining Functions Using Algebraic Operations</title><para id="fs-id1165137446477">Function composition is only one way to combine existing functions. Another way is to carry out the usual algebraic operations on functions, such as addition, subtraction, multiplication and division. We do this by performing the operations with the function outputs, defining the result as the output of our new function.</para>
+<para id="fs-id1165135533159">Suppose we need to add two columns of numbers that represent a husband and wife’s separate annual incomes over a period of years, with the result being their total household income. We want to do this for every year, adding only that year’s incomes and then collecting all the data in a new column. If<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>w</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is the wife’s income and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is the husband’s income in year<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>and we want<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>T</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>to represent the total income, then we can define a new function.</para>
+<equation id="fs-id1165137641862" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>T</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>w</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165135347766">If this holds true for every year, then we can focus on the relation between the functions without reference to a year and write</para>
+<equation id="fs-id1165137665765" class="unnumbered"><label/>
+<m:math display="block">
+<m:mrow>
+<m:mi>T</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>w</m:mi></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165132957142">Just as for this sum of two functions, we can define difference, product, and ratio functions for any pair of functions that have the same kinds of inputs (not necessarily numbers) and also the same kinds of outputs (which do have to be numbers so that the usual operations of algebra can apply to them, and which also must have the same units or no units when we add and subtract). In this way, we can think of adding, subtracting, multiplying, and dividing functions.</para>
+<para id="fs-id1165137424116">For two functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>with real number outputs, we define new functions<m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mfrac>
+<m:mi>f</m:mi>
+<m:mi>g</m:mi>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>by the relations</para>
+<equation id="fs-id1352153" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+     <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Sum</m:mtext>
+     </m:mrow>
+    </m:mtd>
+<m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+ <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Difference</m:mtext>
+     </m:mrow>
+    </m:mtd>   
+ <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+ <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Product</m:mtext>
+     </m:mrow>
+    </m:mtd> 
+   <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo> </m:mo><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+<m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Quotient</m:mtext>
+     </m:mrow>
+    </m:mtd>   
+ <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>f</m:mi>
+         <m:mi>g</m:mi>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mtext>where</m:mtext><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>≠</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><example id="Example_01_04_01">
+<exercise id="fs-id1165137585443">
+<problem id="fs-id1165137573272">
+<title>Performing Algebraic Operations on Functions</title>
+<para id="fs-id1165135304963">Find and simplify the functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mo>−</m:mo><m:mi>f</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>g</m:mi>
+<m:mi>f</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>given<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>Are they the same function?</para>
+</problem>
+<solution id="fs-id1165137823858">
+<para id="fs-id1165137466263">Begin by writing the general form, and then substitute the given functions.</para>
+
+ <equation id="fs-id1165135701567" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mi>x</m:mi>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+<m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo> </m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>g</m:mi>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>g</m:mi>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+   <m:mtr rowalign="center">
+<m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo> </m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>g</m:mi>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mtext>where </m:mtext><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+<m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mo> </m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>g</m:mi>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>    <m:mtd>
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+
+</equation><para id="fs-id1165137553743">No, the functions are not the same.</para>
+<para id="fs-id1165135351612">Note: For<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>g</m:mi>
+<m:mi>f</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>the condition<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>is necessary because when<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>the denominator is equal to 0, which makes the function undefined.</para>
+</solution>
+</exercise>
+</example><example id="eip-591"><exercise id="ti_01_04_09">
+<problem id="fs-id1165137851458"><para id="fs-id1165135333576">Find and simplify the functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+<equation id="fs-id1165137434994" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext>  and  </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137434911">Are they the same function?</para>
+</problem>
+<solution id="fs-id1165137619426">
+<para id="fs-id1165135511603"><m:math>
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:math>
+</para>
+<para id="fs-id1165137424052">No, the functions are not the same.</para></solution>
+</exercise>
+</example>
+
+</section><section id="fs-id1167829579930"><title>Find and Evaluate Composite Functions</title><para id="fs-id1167829747783">Before we introduce the functions, we need to look at another operation on functions called <term class="no-emphasis">composition</term>. In composition, the output of one function is the input of a second function. For functions <m:math><m:mi>f</m:mi></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> the composition is written <m:math><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow></m:math> and is defined by:</para>
+<equation id="eip-566"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</equation><para id="fs-id1167829754438">We read the left-hand side as<m:math>
+ <m:mrow>
+  <m:mo>“</m:mo><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>composed with<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>at<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>,”</m:mo>
+ </m:mrow>
+</m:math> and the right-hand side as<m:math>
+ <m:mrow>
+  <m:mo>“</m:mo><m:mi>f</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo><m:mo>”</m:mo>
+ </m:mrow>
+</m:math>The two sides of the equation have the same mathematical meaning and are equal. The open circle symbol<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>∘</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is called the composition operator. We use this operator mainly when we wish to emphasize the relationship between the functions themselves without referring to any particular input value. Composition is a binary operation that takes two functions and forms a new function, much as addition or multiplication takes two numbers and gives a new number. However, it is important not to confuse function composition with multiplication because, as we learned above, in most cases <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>≠</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+
+<para id="fs-id1167833212955">To do a composition, the output of the first function, <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> becomes the input of the second function, <emphasis effect="italics">f</emphasis>, and so we must be sure that it is part of the domain of <emphasis effect="italics">f</emphasis>.</para>
+
+<para id="fs-id1165135161270">It is also important to understand the order of operations in evaluating a composite function. We follow the usual convention with parentheses by starting with the innermost parentheses first, and then working to the outside. In the equation above, the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>takes the input<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>first and yields an output<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Then the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>takes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>as an input and yields an output<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+
+
+<media id="fs-id1165135310687" alt="Explanation of the composite function." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_04_001.jpg"/>
+</media>
+
+
+<para id="fs-id1165137851405">In general,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>are different functions. In other words, in many cases<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>≠</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>for all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>We will also see that sometimes two functions can be composed only in one specific order.</para>
+<para id="fs-id1165135189964">For example, if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow>
+</m:math>then</para>
+<equation id="fs-id1165134047682" class="unnumbered"><label/>
+ <m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr rowalign="center">
+     <m:mtd columnalign="right" rowalign="center">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+
+</equation>
+<para id="fs-id1165137595004">but</para>
+<equation id="fs-id1165137461653" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo>(</m:mo><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>)</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation>
+<para id="fs-id1165137430833">These expressions are not equal for all values of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>so the two functions are not equal. It is irrelevant that the expressions happen to be equal for the single input value<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137531472">Note that the range of the inside function (the first function to be evaluated) needs to be within the domain of the outside function. Less formally, the composition has to make sense in terms of inputs and outputs.</para>
+
+<note id="fs-id1165134190746">
+
+<title>Composition of Functions</title>
+<para id="fs-id1165137783932">When the output of one function is used as the input of another, we call the entire operation a composition of functions. For any input<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>this action defines a <term>composite function</term>, which we write as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>such that</para>
+<equation id="fs-id1165137836657"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165135503928">The domain of the composite function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>such that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165135408440">It is important to realize that the product of functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is not the same as the function composition<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>because, in general,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>≠</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+</note>
+
+<para id="fs-id1167829851372">The next example will demonstrate that <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> usually result in different outputs.</para>
+<example id="fs-id1167829718921">
+<exercise id="fs-id1167836628343">
+<problem id="fs-id1167824781200">
+<para id="fs-id1167836409476">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> find: <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836685094">
+<para id="fs-id1167829860686"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167836449256" class="unnumbered unstyled" summary="In the first step, we use the definition of f of g of x to obtain that f of g of x equals f of g of x. In the second step, we substitute 2 x plus 3 for g of x. This means that f of g of x equals f of 2 x plus 3. In the third step, we find f of 2 x plus 3 where f of x equals 4 x minus 5. This means that f of g of x equals 4 times the quantity 2 x plus 3, minus 5. In the fourth step, we distribute. This means that f of g of x equals 8 x plus 12 minus 5. In the fifth step, we simplify. This means that f of g of x equals 8 x plus 7.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the definition of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829752395" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829850078" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836507880" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836714410" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167829713117" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829787748" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833369424" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_003g_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167836424078" class="unnumbered unstyled" summary="In the first step, we use the definition of g of f of x to obtain that g of f of x equals g of f of x. In the second step, we substitute 4 x minus 5 for f of x. This means that g of f of x equals g of 4 x minus 5. In the third step, we find g of 4 x minus 5 where g of x equals 2 x plus 3. This means that g of f of x equals 2 times the quantity 4 x minus 5, plus 3. In the fourth step, we distribute. This means that g of f of x equals 8 x minus 10 plus 3. In the fifth step, we simplify. This means that g of f of x equals 8 x minus 7.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the definition of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167832999727" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829907616" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167824763273" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836485988" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836417376" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829620750" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832940195" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_004g_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167833136344">Notice the difference in the result in part <span class="token">ⓐ</span> and part <span class="token">ⓑ</span>.</para>
+<para id="fs-id1167833008035"><span class="token">ⓒ</span> Notice that <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is different than <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> In part <span class="token">ⓐ</span> we did the composition of the functions. Now in part <span class="token">ⓒ</span> we are not composing them, we are multiplying them.<newline/><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the definition of</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>·</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-396"><exercise id="fs-id1167836576079">
+<problem id="fs-id1167829650480">
+<para id="fs-id1167824734030">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>·</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167836699034">
+<para id="fs-id1167833047859"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>15</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>15</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836287137">In the next example we will evaluate a composition for a specific value.</para>
+<example id="fs-id1167836507194">
+<exercise id="fs-id1167829748215">
+<problem id="fs-id1167833086943">
+<para id="fs-id1167836520875">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> find: <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo><m:mo>,</m:mo></m:mrow></m:math> and <span class="token">ⓒ</span> <m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829580345">
+<para id="fs-id1167836521713"><span class="token">ⓐ</span><newline/>
+<table id="fs-id1167829628226" class="unnumbered unstyled" summary="In the first step, we use the definition of f of g of negative 3 to obtain that f of g of negative 3 equals f evaluated at g of negative 3. In the second step, we find g of negative 3 where g of x equals 3 x plus 2. This means that f of g of negative 3 equals f evaluated at 3 times negative 3 plus 2. In the third step, we simplify to obtain that f of g of negative 3 equals f of negative 7. In the fourth step, we find f of negative 7 where f of x equals x squared minus 4. This means that f of g of negative 3 equals negative 7 squared minus 4. In the fifth step, we simplify to obtain that f of g of negative 3 equals 45.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the definition of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836614974" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836698636" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167833009341" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829807742" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836523426" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836493218" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829586206" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_005g_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓑ</span><newline/>
+<table id="fs-id1167836539753" class="unnumbered unstyled" summary="In the first step, we use the definition of g of f of negative 1 to obtain that g of f of negative 1 equals g evaluated at f of negative 1. In the second step, we find f of negative 1 where f of x equals x squared minus 4. This means that g of f of negative 1 equals g of negative 1 squared minus 4. In the third step, we simplify. This means that g of f of negative 1 equals g of negative 3. In the fourth step, we find g of negative 3 where g of x equals 3 x plus 2. This means that g of f of negative 1 equals 3 times negative 3 plus 2. In the fifth step, we simplify. This means that g of f of negative 1 equals negative 7.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the definition of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836623006" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836551928" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836319795" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829589897" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167830123199" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836386915" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836390473" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_006g_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/><newline/>
+<span class="token">ⓒ</span><newline/>
+<table id="fs-id1167829634197" class="unnumbered unstyled" summary="In the first step, we use the definition of f of f of 2 to obtain that f of f of 2 equals f evaluated at f of 2. In the second step, we find f of x where f of x equals x squared minus 4. This means that f of f of 2 equals f of 2 squared minus 4. In the third step, we simplify to obtain that f of f of 2 equals f of 0. In the fourth step, we find f of 0 where f of x equals x squared minus 4. This means that f of f of 2 equals 0 squared minus 4. In the fifth step, we simplify to obtain that f of f of 2 equals negative 4.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Use the definition of <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836319358" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167836730743" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836325800" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836620982" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829579755" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836418899" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833087107" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_007g_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example><example id="eip-436"><exercise id="fs-id1167829744245">
+<problem id="fs-id1167829908684">
+<para id="fs-id1167836329255">For functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> find <span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836376014">
+<para id="fs-id1167829595359"><span class="token">ⓐ</span> –8 <span class="token">ⓑ</span> 5 <span class="token">ⓒ</span> 40</para>
+</solution>
+</exercise>
+</example>
+
+
+</section><section id="eip-801"><title>Finding the Domain of a Composite Function</title><para id="fs-id1165135519324">As we discussed previously, the <term class="no-emphasis">domain of a composite function</term> such as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is dependent on the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>It is important to know when we can apply a composite function and when we cannot, that is, to know the domain of a function such as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Let us assume we know the domains of the functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>separately. If we write the composite function for an input<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>we can see right away that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>must be a member of the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in order for the expression to be meaningful, because otherwise we cannot complete the inner function evaluation. However, we also see that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>must be a member of the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>otherwise the second function evaluation in<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>cannot be completed, and the expression is still undefined. Thus the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>consists of only those inputs in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>that produce outputs from<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>belonging to the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Note that the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>composed with<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is the set of all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>such that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+<note id="fs-id1165135547254"><title>Domain of a Composite Function</title><para id="fs-id1165135426375">The domain of a composite function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is the set of those inputs<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for which<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para>
+
+<para id="fs-id1165135203267"><title>HOW TO</title><emphasis>Given a function composition<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>determine its domain.</emphasis></para><list id="fs-id1165137714200" list-type="enumerated" number-style="arabic"><item>Find the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math></item>
+<item>Find the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</item>
+<item>Find those inputs<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for which<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>That is, exclude those inputs<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>from the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for which<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is not in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>The resulting set is the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</item>
+</list></note><example id="Example_01_04_08">
+<exercise id="fs-id1165137646695">
+<problem id="fs-id1165137646697">
+<title>Finding the Domain of a Composite Function</title>
+<para id="fs-id1165135640630">Find the domain of</para>
+<equation id="fs-id1165135349196" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>    where</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>5</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mfrac>
+<m:mtext>  and </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id1165137627920">
+<para id="fs-id1165137627922">The domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>consists of all real numbers except<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>since that input value would cause us to divide by 0. Likewise, the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>consists of all real numbers except 1. So we need to exclude from the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>that value of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for which<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.</m:mn></m:mrow>
+</m:math>
+</para>
+
+ <equation id="fs-id1165137455472" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:mfrac>
+
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>1</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mn>4</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mn>6</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>3</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>2</m:mn>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+
+</equation>
+
+<para id="fs-id1165137891240">So the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is the set of all real numbers except<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>2.</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>This means that</para>
+
+<equation id="fs-id1165131959460" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>x</m:mi><m:mo>≠</m:mo><m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>2</m:mn></m:mrow>
+</m:math>
+</equation><para id="fs-id1165135152098">We can write this in interval notation as</para>
+<equation id="fs-id1165137638095" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+
+<example id="Example_01_04_09">
+<exercise id="fs-id1165135353057"><problem id="fs-id1165137444218">
+<title>Finding the Domain of a Composite Function Involving Radicals</title>
+<para id="fs-id1165135547426">Find the domain of</para>
+<equation id="fs-id1165137806037" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>  where</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+</m:msqrt>
+<m:mtext>  and  </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow>
+</m:msqrt></m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id1165137812351">
+<para id="fs-id1165137812353">Because we cannot take the square root of a negative number, the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo> <m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Now we check the domain of the composite function</para>
+
+<equation id="fs-id1165137874760" class="unnumbered"><label/><m:math display="block">
+<m:mrow><m:mo>(</m:mo>
+
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi>
+<m:mo>)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo>
+
+<m:msqrt><m:msqrt>
+
+<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>2</m:mn>
+</m:msqrt>
+
+</m:math>
+</equation><para id="fs-id1165137871761">For <m:math>
+<m:mrow><m:mo>(</m:mo>
+
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi>
+<m:mo>)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>=</m:mo>
+
+<m:msqrt><m:msqrt>
+
+<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>2</m:mn>
+</m:msqrt><m:mo>,</m:mo>
+
+<m:msqrt><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:msqrt><m:mo>+</m:mo><m:mn>2</m:mn>
+<m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+
+</m:math>
+since the radicand of a square root must be positive. Since square roots are positive, <m:math><m:mtext/>
+<m:mrow>
+<m:msqrt>
+<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:msqrt>
+<m:mo>≥</m:mo><m:mn>0</m:mn>
+<m:mo>,</m:mo>
+</m:mrow><m:mtext/>
+</m:math>or, <m:math>
+
+<m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+<m:mo>≥</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow><m:mtext/>
+
+</m:math>which gives a domain of <m:math>
+<m:mrow><m:mo>(</m:mo><m:mo>-∞</m:mo><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>]</m:mo>
+</m:mrow></m:math>.</para>
+<para id="fs-id1165135241313"><title>Analysis </title>This example shows that knowledge of the range of functions (specifically the inner function) can also be helpful in finding the domain of a composite function. It also shows that the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>can contain values that are not in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>though they must be in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para></solution>
+
+
+
+</exercise></example><example id="eip-727"><exercise id="ti_01_04_07">
+
+<problem id="fs-id1165137937116"><para id="fs-id1165137937117">Find the domain of</para>
+<equation id="fs-id1165135194427" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>  where</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+<m:mtext>  and  </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+</m:msqrt></m:mrow>
+</m:math></equation></problem>
+<solution id="fs-id1165137469124">
+<para id="fs-id1165137827717"><m:math>
+<m:mrow>
+<m:mrow><m:mo>[</m:mo> <m:mrow>
+<m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise></example>
+
+</section><section id="eip-918"><title>Decomposing a Composite Function into its Component Functions</title><para id="fs-id1165135185936">In some cases, it is necessary to decompose a complicated function. In other words, we can write it as a composition of two simpler functions. There may be more than one way to <term class="no-emphasis">decompose a composite function</term>, so we may choose the decomposition that appears to be most expedient.</para>
+
+<example id="Example_01_04_10">
+<exercise id="fs-id1165134319721">
+<problem id="fs-id1165134319723">
+<title>Decomposing a Function</title>
+<para id="fs-id1165137771903">Write<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:msqrt>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>as the composition of two functions.</para>
+</problem>
+<solution id="fs-id1165135194520">
+<para id="fs-id1165135194522">We are looking for two functions,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>so<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>To do this, we look for a function inside a function in the formula for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>As one possibility, we might notice that the expression<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>is the inside of the square root. We could then decompose the function as</para>
+
+<equation id="fs-id1165137413960" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mtext> and </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:math>
+</equation><para id="fs-id1165135250635">We can check our answer by recomposing the functions.</para>
+<equation id="fs-id1165137730234" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:math>
+</equation>
+</solution>
+</exercise>
+</example>
+
+<example id="eip-15"><exercise id="ti_01_04_08">
+<problem id="fs-id1165137501975"><para id="fs-id1165137501976">Write<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>+</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>as the composition of two functions.</para>
+</problem>
+<solution id="fs-id1165137411051">
+<para id="fs-id1165137411053">Possible answer:<newline/></para><para id="fs-id1165135333608"><m:math>
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>+</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:msqrt>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>f</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:math>
+</para></solution>
+</exercise></example><note id="fs-id1165135699157" class="media">
+<label>Media</label>
+<para id="fs-id1165137600228">Access these online resources for additional instruction and practice with composite functions.</para>
+<list id="fs-id1165137600231" list-type="bulleted">
+<item><link url="http://openstax.org/l/compfunction">Composite Functions</link></item>
+<item><link url="http://openstax.org/l/compfuncnot">Composite Function Notation Application</link></item>
+<item><link url="http://openstax.org/l/compfuncgraph">Composite Functions Using Graphs</link></item>
+<item><link url="http://openstax.org/l/decompfunction">Decompose Functions</link></item>
+<item><link url="http://openstax.org/l/compfuncvalue">Composite Function Values</link></item>
+</list>
+</note>
+</section><section id="fs-id1167829906171" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167829906177" list-type="bulleted" bullet-style="bullet"><item>The domain of a function includes all real input values that would not cause us to attempt an undefined mathematical operation, such as dividing by zero or taking the square root of a negative number.</item>
+<item>The domain of a function can be determined by listing the input values of a set of ordered pairs. See <link target-id="Example_01_02_01"/>.</item>
+<item>The domain of a function can also be determined by identifying the input values of a function written as an equation. See <link target-id="Example_01_02_02"/>, <link target-id="Example_01_02_03"/>, and <link target-id="Example_01_02_04"/>.</item>
+<item>Interval values represented on a number line can be described using inequality notation, set-builder notation, and interval notation. See <link target-id="Example_01_02_05"/>.</item>
+<item>For many functions, the domain and range can be determined from a graph. See <link target-id="Example_01_02_06"/> and <link target-id="Example_01_02_07"/>.</item>
+<item>An understanding of toolkit functions can be used to find the domain and range of related functions. See <link target-id="Example_01_02_08"/>, <link target-id="Example_01_02_09"/>, and <link target-id="Example_01_02_10"/>.</item><item><emphasis effect="bold">Composition of Functions:</emphasis> The composition of functions <m:math><m:mi>f</m:mi></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> is written <m:math><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow></m:math> and is defined by<newline/>
+<equation id="fs-id1167829879433" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><newline/>
+We read <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as <m:math><m:mi>f</m:mi></m:math> of <m:math><m:mi>g</m:mi></m:math> of <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>We can perform algebraic operations on functions. See <link target-id="Example_01_04_01"/>.</item>
+<item>When functions are combined, the output of the first (inner) function becomes the input of the second (outer) function.</item>
+<item>The function produced by combining two functions is a composite function. See <link target-id="Example_01_04_02"/> and <link target-id="Example_01_04_03"/>.</item>
+<item>The order of function composition must be considered when interpreting the meaning of composite functions. See <link target-id="Example_01_04_04"/>.</item>
+<item>A composite function can be evaluated by evaluating the inner function using the given input value and then evaluating the outer function taking as its input the output of the inner function.</item>
+
+<item>The domain of a composite function consists of those inputs in the domain of the inner function that correspond to outputs of the inner function that are in the domain of the outer function. See <link target-id="Example_01_04_08"/> and <link target-id="Example_01_04_09"/>.</item>
+<item>Just as functions can be combined to form a composite function, composite functions can be decomposed into simpler functions.</item>
+<item>Functions can often be decomposed in more than one way. See <link target-id="Example_01_04_10"/>.</item>
+</list></section>
+<section id="fs-id1167833020689" class="section-exercises">
+<section id="fs-id1167833020692" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1165137408926">For the following exercises, find the domain of each function using interval notation.</para>
+<exercise id="fs-id1165137854912">
+<problem id="fs-id1165134312130">
+<para id="fs-id1165134312132"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137731586">
+<para id="fs-id1165137731589"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165137473385">
+<problem id="fs-id1165137473388">
+<para id="fs-id1165134374059"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137451053">
+<para id="fs-id1165137451055"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">]</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165133276237">
+<problem id="fs-id1165133276240">
+<para id="fs-id1165137784864"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow>
+<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137454548">
+<para id="fs-id1165134170171"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165135548992">
+<problem id="fs-id1165135634123">
+<para id="fs-id1165135634125"><m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>22</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137528909">
+<para id="fs-id1165137528911"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165137476914">
+<problem id="fs-id1165137476916">
+<para id="fs-id1165137726504"><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mn>5</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137647829">
+<para id="fs-id1165137564959"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165135252252">
+<problem id="fs-id1165137611840">
+<para id="fs-id1165137611842"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+</m:msqrt>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137611238">
+<para id="fs-id1165137538970"><m:math>
+<m:mrow>
+<m:mo stretchy="false">[</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165137628472">
+<problem id="fs-id1165137651574">
+<para id="fs-id1165137651576"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>81</m:mn></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165135188135">
+<para id="fs-id1165137809882"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>∪</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>9</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+<exercise id="eip-770"><problem id="fs-id1165137605178">
+<para id="fs-id1165137605180">For<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>x</m:mi>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>write the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>in interval notation.</para>
+</problem>
+<solution id="fs-id1165137889762">
+<para id="fs-id1165137644220"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise><exercise id="eip-753"><problem id="fs-id1165137695105">
+<para id="fs-id1165135457075">Given<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mo> </m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>find<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>g</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137645597">
+<para id="fs-id1165135662450"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math></para>
+
+<para id="fs-id1165137738159"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165135502060"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>6</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137425123"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>f</m:mi>
+<m:mi>g</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+<m:mrow>
+<m:mn>6</m:mn><m:mo>−</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mo>−</m:mo><m:msqrt>
+<m:mn>6</m:mn>
+</m:msqrt>
+<m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:msqrt>
+<m:mn>6</m:mn>
+</m:msqrt>
+<m:mo>,</m:mo><m:msqrt>
+<m:mn>6</m:mn>
+</m:msqrt>
+<m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:msqrt>
+<m:mn>6</m:mn>
+</m:msqrt>
+<m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise><exercise id="eip-685"><problem id="fs-id1165137435040">
+<para id="fs-id1165135174958">Given<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math>find<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>g</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137533872">
+<para id="fs-id1165134231518"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>4</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+</m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math></para>
+<para id="fs-id1165137770336"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>4</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+</m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137782390"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137551645"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>f</m:mi>
+<m:mi>g</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>∪</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise><exercise id="eip-88"><problem id="fs-id1165137810123">
+<para id="fs-id1165137810125">Given <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>find<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>g</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>g</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137696948">
+<para id="fs-id1165137696950"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137628257"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165135383671"><m:math>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137755347"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mi>f</m:mi>
+<m:mi>g</m:mi>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>3</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>domain:<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise><para id="fs-id1167833020699"><emphasis effect="bold">Find and Evaluate Composite Functions</emphasis></para>
+<para id="fs-id1167833020704">In the following exercises, find <span class="token">ⓐ</span> (<emphasis effect="italics">f</emphasis> ∘ <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>), <span class="token">ⓑ</span> (<emphasis effect="italics">g</emphasis> ∘ <emphasis effect="italics">f</emphasis>)(<emphasis effect="italics">x</emphasis>), and <span class="token">ⓒ</span> (<emphasis effect="italics">f</emphasis> · <emphasis effect="italics">g</emphasis>)(<emphasis effect="italics">x</emphasis>).</para>
+<exercise id="fs-id1167829721059" class="material-set-2">
+<problem id="fs-id1167829721061">
+<para id="fs-id1167829721063"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829650613">
+<para id="fs-id1167829650615"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>23</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:math> <span class="token">ⓒ</span><newline/><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>26</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167826025403" class="material-set-2">
+<problem id="fs-id1167826025405">
+<para id="fs-id1167826025407"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836790650">
+<para id="fs-id1167836790652"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>24</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>24</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>19</m:mn></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>24</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829696400" class="material-set-2">
+<problem id="fs-id1167829696402">
+<para id="fs-id1167829696404"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829830707">
+<para id="fs-id1167829830709"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836602658">For the following exercises, use each pair of functions to find<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Simplify your answers.</para><exercise id="eip-787"><problem id="fs-id1165137693582">
+<para id="fs-id1165137693585"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137407208">
+<para id="fs-id1165137407210"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+</m:msqrt>
+<m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+<m:mo>+</m:mo><m:mn>7</m:mn></m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise><para id="eip-77">For the following exercises, find functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>so the given function can be expressed as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para><exercise id="eip-838"><problem id="fs-id1165137768743">
+<para id="fs-id1165137768745"><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137432927">
+<para id="fs-id1165137432929">sample:<m:math>
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:math>
+</para>
+</solution>
+</exercise><exercise id="eip-434"><problem id="fs-id1165135440595">
+<para id="fs-id1165137570789"><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137598944">
+<para id="fs-id1165137598946">sample:<m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mn>4</m:mn>
+       <m:mi>x</m:mi>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable></m:mrow>
+</m:math>
+</para></solution>
+</exercise><exercise id="eip-224"><problem id="fs-id1165137823665">
+<para id="fs-id1165137823667"><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow>
+</m:msqrt>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165135439855">
+<para id="fs-id1165135439858">sample:<m:math>
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+<m:mtext> </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:math>
+</para>
+</solution>
+</exercise></section></section>
+</content>
+<glossary>
+<definition id="fs-id1165137832421">
+<term>composite function</term>
+<meaning id="fs-id1165137832426">the new function formed by function composition, when the output of one function is used as the input of another</meaning>
+</definition>
+</glossary>
+</document>

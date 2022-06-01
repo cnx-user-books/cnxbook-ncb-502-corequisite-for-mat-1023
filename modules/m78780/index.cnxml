@@ -1,0 +1,1078 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Intro to Graphing (1.1)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78780</md:content-id>
+  <md:title>Intro to Graphing (1.1)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Plot points in a rectangular coordinate system</item>
+<item>Graph a linear equation by plotting points</item>
+<item>Find the x- and y-intercepts</item>
+<item>Identify other forms of a linear equation</item>
+</list></md:abstract>
+  <md:uuid>347864df-581a-45b7-bc4b-ea03fc1277bf</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-720"><para id="fs-id1169147087020">This Module supports section <emphasis> 1.1 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Plot Points on a Coordinate System <link target-id="fs-id1167835237326" document=""/></item>
+<item>Graph Equations by Plotting Points<link target-id="fs-id1167835417087" document=""/></item>
+<item>Find x and y Intercepts<link target-id="fs-id1167835400371" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167832150989" document=""/></item></list></note><section id="fs-id1167835237326">
+<title>Plot Points on a Rectangular Coordinate System</title>
+<para id="fs-id1167834423120">Just like maps use a grid system to identify locations, a grid system is used in algebra to show a relationship between two variables in a rectangular coordinate system. The rectangular coordinate system is also called the <emphasis effect="italics">xy</emphasis>-plane or the “coordinate plane.”</para>
+<para id="fs-id1167832052908">The rectangular coordinate system is formed by two intersecting number lines, one horizontal and one vertical. The horizontal number line is called the <emphasis effect="italics">x</emphasis>-axis. The vertical number line is called the <emphasis effect="italics">y</emphasis>-axis. These axes divide a plane into four regions, called quadrants. The quadrants are identified by Roman numerals, beginning on the upper right and proceeding counterclockwise. See <link target-id="CNX_IntAlg_Figure_03_01_001"/>.</para>
+<note id="eip-595"><label> Quadrants</label>
+The signs of the <emphasis effect="italics">x</emphasis>-coordinate and <emphasis effect="italics">y</emphasis>-coordinate affect the location of the points. You may have noticed some patterns as you graphed the points in the previous example. We can summarize sign patterns of the quadrants in this way:
+<equation id="fs-id1167835328203" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="center"><m:mtext mathvariant="bold">Quadrant I</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant II</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant III</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant IV</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mo>(</m:mo><m:mo>+</m:mo><m:mo>,</m:mo><m:mo>+</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>−</m:mo><m:mo>,</m:mo><m:mo>+</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>−</m:mo><m:mo>,</m:mo><m:mo>−</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>+</m:mo><m:mo>,</m:mo><m:mo>−</m:mo><m:mo>)</m:mo></m:mtd></m:mtr>
+</m:mtable></m:mrow></m:math></equation>
+</note><figure id="CNX_IntAlg_Figure_03_01_001"><title>Quadrants</title><media id="fs-id1167832066567" alt="This figure shows the x y-coordinate plane with the four quadrants labeled. In the top right of the plane is quadrant I labeled (plus, plus). In the top left of the plane is quadrant II labeled (minus, plus). In the bottom left of the plane is quadrant III labeled (minus, minus). In the bottom right of the plane is quadrant IV labeled (plus, minus).">
+<image src="../../media/CNX_IntAlg_Figure_03_01_006_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</figure><para id="fs-id1167832053394">In the rectangular coordinate system, every point is represented by an <term>ordered pair</term>. The first number in the ordered pair is the <emphasis effect="italics">x</emphasis>-coordinate of the point, and the second number is the <emphasis effect="italics">y</emphasis>-coordinate of the point. The phrase “ordered pair” means that the order is important.</para>
+<note id="fs-id1167834538411">
+<title>Ordered Pair</title>
+<para id="fs-id1167835240319">An <emphasis effect="bold">ordered pair</emphasis>, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> gives the coordinates of a point in a rectangular coordinate system. The first number is the <emphasis effect="italics">x</emphasis>-coordinate. The second number is the <emphasis effect="italics">y</emphasis>-coordinate.</para>
+<media id="fs-id1167835478964" alt="This figure shows the expression (x, y). The variable x is labeled x-coordinate. The variable y is labeled y-coordinate.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_002_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167834397450">What is the ordered pair of the point where the axes cross? At that point both coordinates are zero, so its ordered pair is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> has a special name. It is called the <term>origin</term>.</para>
+<note id="fs-id1167835194673">
+<title>The Origin</title>
+<para id="fs-id1167835327055">The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is called the <emphasis effect="bold">origin</emphasis>. It is the point where the <emphasis effect="italics">x</emphasis>-axis and <emphasis effect="italics">y</emphasis>-axis intersect.</para>
+</note>
+<para id="fs-id1167834377125">We use the coordinates to locate a point on the <emphasis effect="italics">xy</emphasis>-plane. Let’s plot the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as an example. First, locate 1 on the <emphasis effect="italics">x</emphasis>-axis and lightly sketch a vertical line through <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Then, locate 3 on the <emphasis effect="italics">y</emphasis>-axis and sketch a horizontal line through <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Now, find the point where these two lines meet—that is the point with coordinates <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> See <link target-id="CNX_IntAlg_Figure_03_01_003"/>.</para>
+<figure id="CNX_IntAlg_Figure_03_01_003">
+<media id="fs-id1167835376254" alt="This figure shows a point plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The point (1, 3) is labeled. A dashed vertical line goes through the point and intersects the x-axis at xplus1. A dashed horizontal line goes through the point and intersects the y-axis at yplus3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_003_img_new.jpg"/>
+</media>
+</figure>
+<para id="fs-id1167835374762">Notice that the vertical line through <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and the horizontal line through <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> are not part of the graph. We just used them to help us locate the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167832059451">When one of the coordinate is zero, the point lies on one of the axes. In <link target-id="CNX_IntAlg_Figure_03_01_004"/> the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is on the <emphasis effect="italics">y</emphasis>-axis and the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is on the <emphasis effect="italics">x</emphasis>-axis.</para>
+<figure id="CNX_IntAlg_Figure_03_01_004">
+<media id="fs-id1167835512862" alt="This figure shows points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The point (negative 2, 0) is labeled and lies on the x-axis. The point (0, 4) is labeled and lies on the y-axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_004_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1167835330675">
+<title>Points on the Axes</title>
+<para id="fs-id1167834403364">Points with a <emphasis effect="italics">y</emphasis>-coordinate equal to 0 are on the <emphasis effect="italics">x</emphasis>-axis, and have coordinates <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167835167375">Points with an <emphasis effect="italics">x</emphasis>-coordinate equal to 0 are on the <emphasis effect="italics">y</emphasis>-axis, and have coordinates <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<example id="fs-id1167834190090">
+<exercise id="fs-id1167834423551">
+<problem id="fs-id1167835416428">
+<para id="fs-id1167831893573">Plot each point in the rectangular coordinate system and identify the quadrant in which the point is located:</para>
+<para id="fs-id1167831103917"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓔ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math>
+</para>
+</problem>
+<solution id="fs-id1167835336204">
+<para id="fs-id1167835610006">The first number of the coordinate pair is the <emphasis effect="italics">x</emphasis>-coordinate, and the second number is the <emphasis effect="italics">y</emphasis>-coordinate. To plot each point, sketch a vertical line through the <emphasis effect="italics">x</emphasis>-coordinate and a horizontal line through the <emphasis effect="italics">y</emphasis>-coordinate. Their intersection is the point.<newline/>
+<span class="token">ⓐ</span> Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is to the left of the <emphasis effect="italics">y</emphasis>-axis. Also, since <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is above the <emphasis effect="italics">x</emphasis>-axis. The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is in Quadrant II.<newline/>
+<span class="token">ⓑ</span> Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is to the left of the <emphasis effect="italics">y</emphasis>-axis. Also, since <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is below the <emphasis effect="italics">x</emphasis>-axis. The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is in Quadrant III.<newline/>
+<span class="token">ⓒ</span> Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is to the right of the <emphasis effect="italics">y</emphasis>-axis. Since <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is below the <emphasis effect="italics">x</emphasis>-axis. The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is in Quadrant IV.<newline/>
+<span class="token">ⓓ</span> Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point whose coordinates are <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is on the <emphasis effect="italics">y</emphasis>-axis.<newline/>
+<span class="token">ⓔ</span> Since <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> the point is to the right of the <emphasis effect="italics">y</emphasis>-axis. Since <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> the point is above the <emphasis effect="italics">x</emphasis>-axis. (It may be helpful to write <m:math><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> as a mixed number or decimal.) The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is in Quadrant I.<newline/>
+<media id="fs-id1167835356754" alt="This figure shows points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The following points are labeled: (3, 5 divided by 2), (negative 2, 3), negative 5, 4), (negative 3, negative 4), and (2, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_005_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-170"><exercise id="fs-id1167834495427">
+<problem id="fs-id1167835207148">
+<para id="fs-id1167834402753">Plot each point in a rectangular coordinate system and identify the quadrant in which the point is located:<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓔ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835369019">
+<media id="fs-id1167831920613" alt="This figure shows points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The point labeled a is 2 units to the left of the origin and 1 unit above the origin and is located in quadrant II. The point labeled b is 3 units to the left of the origin and 1 unit below the origin and is located in quadrant III. The point labeled c is 4 units to the right of the origin and 4 units below the origin and is located in quadrant IV. The point labeled d is 4 units to the left of the origin and 4 units above the origin and is located in quadrant II. The point labeled e is 4 units to the left of the origin and 1 and a half units above the origin and is located in quadrant II.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_301_img_new.jpg"/>
+</media>
+</solution>
+</exercise></example><para id="fs-id1167835534159">Up to now, all the equations you have solved were equations with just one variable. In almost every case, when you solved the equation you got exactly one solution. But equations can have more than one variable. Equations with two variables may be of the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow></m:math> An equation of this form is called a <term>linear equation</term> in two variables.</para>
+<note id="fs-id1167835355041">
+<title>Linear Equation</title>
+<para id="fs-id1167835305763">An equation of the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are not both zero, is called a <emphasis effect="bold">linear equation</emphasis> in two variables.</para>
+</note>
+<para id="fs-id1167835233457">Here is an example of a linear equation in two variables, <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>.</para>
+<media id="fs-id1167831869016" alt="This figure shows the equation A x plus B y plus C. Below this is the equation x plus 4 y plus 8. Below this are the equations A plus 1, B plus 4, C plus 8. B and 4 are the same color in all the equations. C and 8 are the same color in all the equations.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_007_img_new.jpg"/>
+</media>
+<para id="fs-id1167835308773">The equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> is also a linear equation. But it does not appear to be in the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow></m:math> We can use the Addition Property of Equality and rewrite it in <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow></m:math> form.</para>
+<equation id="fs-id1167835510205" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mrow><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Add to both sides.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Commutative Property to put it in</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow><m:mspace width="0.2em"/><m:mtext>form.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167834430875">By rewriting <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> as <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> we can easily see that it is a linear equation in two variables because it is of the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow></m:math> When an equation is in the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> we say it is in <term>standard form of a linear equation</term>.</para>
+<note id="fs-id1167835214784">
+<title>Standard Form of Linear Equation</title>
+<para id="fs-id1167835237077">A linear equation is in <emphasis effect="bold">standard form</emphasis> when it is written <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167835346035">Most people prefer to have <emphasis effect="italics">A</emphasis>, <emphasis effect="italics">B</emphasis>, and <emphasis effect="italics">C</emphasis> be integers and <m:math><m:mrow><m:mi>A</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> when writing a linear equation in standard form, although it is not strictly necessary.</para>
+<para id="fs-id1167834423852">Linear equations have infinitely many solutions. For every number that is substituted for <emphasis effect="italics">x</emphasis> there is a corresponding <emphasis effect="italics">y</emphasis> value. This pair of values is a <term>solution</term> to the linear equation and is represented by the ordered pair <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> When we substitute these values of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> into the equation, the result is a true statement, because the value on the left side is equal to the value on the right side.</para>
+<note id="fs-id1167835311076">
+<title>Solution of a Linear Equation in Two Variables</title>
+<para id="fs-id1167834377117">An ordered pair <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a <emphasis effect="bold">solution</emphasis> of the linear equation<m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> if the equation is a true statement when the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-values of the ordered pair are substituted into the equation.</para>
+</note>
+<para id="fs-id1167834190603">Linear equations have infinitely many solutions. We can plot these solutions in the rectangular coordinate system. The points will line up perfectly in a straight line. We connect the points with a straight line to get the graph of the equation. We put arrows on the ends of each side of the line to indicate that the line continues in both directions.</para>
+<para id="fs-id1167835362190">A graph is a visual representation of all the solutions of the equation. It is an example of the saying, “A picture is worth a thousand words.” The line shows you <emphasis effect="italics">all</emphasis> the solutions to that equation. Every point on the line is a solution of the equation. And, every solution of this equation is on this line. This line is called the graph of the equation. Points <emphasis effect="italics">not</emphasis> on the line are not solutions!</para>
+<note id="fs-id1167835309099"><label>Graph of a Linear Equation</label>
+<para id="fs-id1167834279380">The graph of a linear equation <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow></m:math> is a straight line.</para>
+<list id="fs-id1167830898857" list-type="bulleted" bullet-style="bullet">
+<item>Every point on the line is a solution of the equation.</item>
+<item>Every solution of this equation is a point on this line.</item>
+</list>
+</note><example id="fs-id1167835400321">
+<exercise id="fs-id1167835190713">
+<problem id="fs-id1167835304682">
+<para id="fs-id1167835274549">The graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> is shown.</para>
+<media id="fs-id1167835421585" alt="This figure shows a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line has arrows on both ends and goes through the points (negative 3, negative 9), (negative 2, negative 7), (negative 1, negative 5), (0, negative 3), (1, negative 1), (2, 1), (3, 3), (4, 5), (5, 7), and (6, 9). The line is labeled y plus 2 x minus 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_008_img_new.jpg"/>
+</media>
+<para id="fs-id1167835379641">For each ordered pair, decide:</para>
+<para id="fs-id1167831888160"><span class="token">ⓐ</span> Is the ordered pair a solution to the equation?</para>
+<para id="fs-id1167835213648"><span class="token">ⓑ</span> Is the point on the line?</para>
+<para id="fs-id1167831909258">A: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> B: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> C: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> D: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834188708">
+<para id="fs-id1167831893488">Substitute the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-values into the equation to check if the ordered pair is a solution to the equation.<newline/><newline/>
+<span class="token">ⓐ</span><newline/>
+<media id="fs-id1167835210264" alt="Example A shows the ordered pair (0, negative 3). Under this is the equation y plus 2 x minus 3. Under this is the equation negative 3 equals 2 times 0 minus 3. The negative 3 and 0 are colored the same as the negative 3 and 0 in the ordered pair at the top. There is a question mark above the plus sign. Below this is the equation negative 3 plus negative 3. Below this is the statement (0, negative 3) is a solution. Example B shows the ordered pair (3, 3). Under this is the equation y plus 2 x minus 3. Under this is the equation 3 equals 2 times 3 minus 3. The 3 and 3 are colored the same as the 3 and 3 in the ordered pair at the top. There is a question mark above the plus sign. Below this is the equation 3 plus 3. Below this is the statement (3, 3) is a solution. Example C shows the ordered pair (2, negative 3). Under this is the equation y plus 2 x minus 3. Under this is the equation negative 3 equals 2 times 2 minus 3. The negative 3 and 2 are colored the same as the negative 3 and 2 in the ordered pair at the top. There is a question mark above the plus sign. Below this is the inequality negative 3 is not equal to 1. Below this is the statement (2, negative 3) is not a solution. Example D shows the ordered pair (negative 1, negative 5). Under this is the equation y plus 2 x minus 3. Under this is the equation negative 5 equals 2 times negative 1 minus 3. The negative 1 and negative 5 are colored the same as the negative 1 and negative 5 in the ordered pair at the top. There is a question mark above the plus sign. Below this is the equation negative 5 plus negative 5. Below this is the statement (negative 1, negative 5) is a solution.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_009_img_new.jpg"/>
+</media><newline/><newline/>
+<span class="token">ⓑ</span> Plot the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<media id="fs-id1167834061635" alt="This figure shows the graph of the linear equation y plus 2 x minus 3 and some points graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line has arrows on both ends and goes through the points (negative 1, negative 5), (0, negative 3), and (3, 3). The point (2, negative 3) is also plotted but not on the line.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_010_img_new.jpg"/>
+</media><newline/>
+The points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are on the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> and the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not on the line.<newline/>
+The points that are solutions to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> are on the line, but the point that is not a solution is not on the line.</para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167835417087"><title>Graph an Equation by Plotting Points</title><para id="fs-id1167835421131">There are several methods that can be used to graph a linear equation. The first method we will use is called plotting points, or the Point-Plotting Method. We find three points whose coordinates are solutions to the equation and then plot them in a rectangular coordinate system. By connecting these points in a line, we have the graph of the linear equation.</para>
+<example id="fs-id1167832065594">
+<title>How to Graph a Linear Equation by Plotting Points</title>
+<exercise id="fs-id1167835343968">
+<problem id="fs-id1167827957268">
+<para id="fs-id1167834422792">Graph the equation <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> by plotting points.</para>
+</problem>
+<solution id="fs-id1167835229769">
+<media id="fs-id1167830960982" alt="Step 1 is to Find three points whose coordinates are solutions to the equation. You can choose any values for x or y. In this case since y is isolated on the left side of the equations, it is easier to choose values for x. Choosing x plus 0. We substitute this into the equation y plus 2 x plus 1 to get y plus 2 times 0 plus 1. This simplifies to y plus 0 plus 1. So y plus 1. Choosing x plus 1. We substitute this into the equation y plus 2 x plus 1 to get y plus 2 times 1 plus 1. This simplifies to y plus 2 plus 1. So y plus 3. Choosing x plus negative 2. We substitute this into the equation y plus 2 x plus 1 to get y plus 2 times negative 2 plus 1. This simplifies to y plus negative 4 plus 1. The y plus negative 3. Next we want to organize the solutions in a table. For this problem we will put the three solutions we just found in a table. The table has 5 rows and 3 columns. The first row is a title row with the equation y plus 2 x plus 1. The second row is a header row with the headers x, y, and (x, y). The third row has the numbers 0, 1, and (0, 1). The fourth row has the numbers 1, 3, and (1, 3). The fifth row has the numbers negative 2, negative 3, and (negative 2, negative 3).">
+<image src="../../media/CNX_IntAlg_Figure_03_01_013a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167830698562" alt="Step 2 is to plot the points in a rectangular coordinate system. Plot: (0, 1), (1, 3), (negative 2, negative 3). The figure then shows a graph of some points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The points (0, 1), (1, 3), and (negative 2, negative 3) are plotted. Check that the points line up. If they do not, carefully check your work! Do the point line up? Yes, the points in this example line up.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_013b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167835180910" alt="Step 3 is to draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line. This line is the graph of y plus 2 x plus 1. The figure shows the graph of a straight line on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The points (negative 2, negative 3), (0, 1), and (1, 3) are plotted. The straight line goes through the three points and has arrows on both ends.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_013c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise>
+</example>
+
+
+
+<note id="fs-id1167835350108" class="howto">
+<title>Graph a linear equation by plotting points.</title>
+<list id="fs-id1167835305295" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Find three points whose coordinates are solutions to the equation. Organize them in a table.</item>
+<item>Plot the points in a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work.</item>
+<item>Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line.</item>
+</list>
+</note>
+<para id="fs-id1167834219734">It is true that it only takes two points to determine a line, but it is a good habit to use three points. If you only plot two points and one of them is incorrect, you can still draw a line but it will not represent the solutions to the equation. It will be the wrong line.</para>
+<para id="fs-id1167834531459">If you use three points, and one is incorrect, the points will not line up. This tells you something is wrong and you need to check your work. Look at the difference between these illustrations.</para>
+<media id="fs-id1167834111513" alt="The figure shows two images. In the first image there are three points with a straight line going through all three. In the second image there are three points that do not all lie on a straight line.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_014_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<para id="fs-id1167826828398">When an equation includes a fraction as the coefficient of <m:math><m:mi>x</m:mi></m:math>, we can still substitute any numbers for <emphasis effect="italics">x</emphasis>. But the arithmetic is easier if we make “good” choices for the values of <emphasis effect="italics">x</emphasis>. This way we will avoid fractional answers, which are hard to graph precisely.</para>
+<example id="fs-id1167834408393">
+<exercise id="fs-id1167835232887">
+<problem id="fs-id1167835214095">
+<para id="fs-id1167830914798">Graph the equation: <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832128684">
+<para id="fs-id1167832055099">Find three points that are solutions to the equation. Since this equation has the fraction <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> as a coefficient of <emphasis effect="italics">x</emphasis>, we will choose values of <emphasis effect="italics">x</emphasis> carefully. We will use zero as one choice and multiples of 2 for the other choices. Why are multiples of two a good choice for values of <emphasis effect="italics">x</emphasis>? By choosing multiples of 2 the multiplication by <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> simplifies to a whole number<newline/>
+<media id="fs-id1167831023926" alt="The first set of equations starts with x plus 0. Under this is the equation y plus 1 half x plus 3. Under this is the equation y plus 1 half times 0 plus 3. Below this is the equation y plus 0 plus 3. Below this is the equation y plus 3. The second set of equations starts with x plus 2. Under this is the equation y plus 1 half x plus 3. Under this is the equation y plus 1 half times 2 plus 3. Below this is the equation y plus 1 plus 3. Below this is the equation y plus 4. The third set of equations starts with x plus 4. Under this is the equation y plus 1 half x plus 3. Under this is the equation y plus 1 half times 4 plus 3. Below this is the equation y plus 2 plus 3. Below this is the equation y plus 5.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_015_img_new.jpg" mime-type="image/jpeg"/>
+</media><newline/>
+The points are shown in <link target-id="fs-id1167835202852"/>.<newline/>
+<table id="fs-id1167835202852" summary="The table has 5 rows and 3 columns. The first row is a title row with the equation y plus 1 half x plus 3. The second row is a header row with the headers x, y, and (x, y). The third row has the numbers 0, 3, and (0, 3). The fourth row has the numbers 2, 4, and (2, 4). The fifth row has the numbers 4, 5, and (4, 5).">
+<tgroup cols="3">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row valign="top">
+<entry valign="middle" nameend="c3" namest="c1" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center"><emphasis effect="bold"><emphasis effect="italics">x</emphasis></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><emphasis effect="italics">y</emphasis></emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">2</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+Plot the points, check that they line up, and draw the line.<newline/>
+<media id="fs-id1167835489362" alt="The figure shows the graph of a straight line on the x y-coordinate plane. The x and y axes run from negative 7 to 7. The points (0, 3), (2, 4), and (4, 5) are plotted. The straight line goes through the three points and has arrows on both ends. The line is labeled y plus 1 divided by 2 times x plus 3.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_016_img_new.jpg" mime-type="image/jpeg"/>
+</media></para>
+</solution>
+</exercise>
+</example><para id="eip-840"><title>What if the graph is NOT Linear?</title></para><para id="fs-id1811199">Suppose we want to graph the equation<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>We can begin by substituting a value for <emphasis effect="italics">x</emphasis> into the equation and determining the resulting value of <emphasis effect="italics">y</emphasis>. Each pair of <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-values is an ordered pair that can be plotted. <link target-id="Table_02_01_01"/> lists values of <emphasis effect="italics">x</emphasis> from –3 to 3 and the resulting values for <emphasis effect="italics">y</emphasis>.</para><table id="Table_02_01_01" summary="This is a table with 8 rows and 3 columns. The first row has columns labeled: x, y = 2x-1, (x, y). The entries in the second row are: negative 3; y = 2 times negative 3 minus 1 = negative 7; (-3, -7). The entries in the third row are: negative 2; y = 2 times negative 2 minus 1 = negative 5; (-2, -5). The entries in the fourth row are: negative1; y = 2 times negative 1 minus 1 = negative 3; (-1, -3). The entries in the fifth row are: 0; y = 2 times 0 minus 1 = negative 1; (0, -1). The entries in the sixth row are: 1; y = 2 times 1 minus 1 = 1; (1, 1). The entries in the seventh row are: 2; y = 2 times 2 minus 1 = 3; (2, 3). The entries in the eight row are: 3, y = 2 times 3 minus 1 = 5; (3,5)">
+<tgroup cols="3"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row>
+<entry align="right"><m:math>
+ <m:mi>x</m:mi>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−3</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−7</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−7</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>0</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>2</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>3</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1386116">We can plot the points in the table. The points for this particular equation form a line, so we can connect them. See <link target-id="Figure_02_01_006"/><emphasis>. </emphasis>This is not true for all equations.</para>
+<figure id="Figure_02_01_006" class="medium">
+<media id="fs-id1542084" alt="This is a graph of a line on an x, y coordinate plane. The x- and y-axis range from negative 8 to 8.  A line passes through the points (-3, -7); (-2, -5); (-1, -3); (0, -1); (1, 1); (2, 3); and (3, 5).  ">
+<image src="../../media/CNX_CAT_Figure_02_01_006.jpg" mime-type="image/jpg"/>
+</media>
+</figure>
+<para id="fs-id2522154">Note that the <emphasis effect="italics">x-</emphasis>values chosen are arbitrary, regardless of the type of equation we are graphing. Of course, some situations may require particular values of <emphasis effect="italics">x</emphasis> to be plotted in order to see a particular result. Otherwise, it is logical to choose values that can be calculated easily, and it is always a good idea to choose values that are both negative and positive. There is no rule dictating how many points to plot, although we need at least two to graph a line. Keep in mind, however, that the more points we plot, the more accurately we can sketch the graph.</para>
+<note id="fs-id1913210" class="precalculus howto">
+<label>How To</label>
+<para id="fs-id1832358"><emphasis>Given an equation, graph by plotting points.</emphasis></para>
+<list id="fs-id2302092" list-type="enumerated" number-style="arabic">
+<item>Make a table with one column labeled <emphasis effect="italics">x</emphasis>, a second column labeled with the equation, and a third column listing the resulting ordered pairs.</item>
+<item>Enter <emphasis effect="italics">x-</emphasis>values down the first column using positive and negative values. Selecting the <emphasis effect="italics">x-</emphasis>values in numerical order will make the graphing simpler.</item>
+<item>Select <emphasis effect="italics">x-</emphasis>values that will yield <emphasis effect="italics">y-</emphasis>values with little effort, preferably ones that can be calculated mentally.</item> 
+<item>Plot the ordered pairs.</item>
+<item>Connect the points if they form a line.</item>
+</list>
+</note>
+
+<example id="Example_02_01_02">
+<exercise id="fs-id2931480"><problem id="fs-id2931196">
+<title>Graphing an Equation in Two Variables by Plotting Points</title>
+
+<para id="fs-id1699173">Graph the equation<m:math>
+ <m:mrow> <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>by plotting points.</para>
+</problem>
+<solution id="fs-id805727">
+<para id="fs-id1517317">First, we construct a table similar to <link target-id="Table_02_01_02"/>. Choose <emphasis effect="italics">x</emphasis> values and calculate <emphasis effect="italics">y.</emphasis></para> 
+<table id="Table_02_01_02" summary="The table shows 8 rows and 3 columns. The entries in the first row are: x; y = negative x plus 2; and (x, y). The entries in the second row are: negative 5; y = the opposite of negative 5 plus 2 = 7; (-5, 7). The entries in the third row are: negative 3; y = the opposite of negative 3 plus 2 = 5; (-3, 5). The entries in the fourth row are: -1; y = the opposite of negative 1 plus 2 = 3; (-1, 3). The entries in the fifth row are: 0; y = opposite of zero plus 2 = 2; (0, 2). The entries in the sixth row are: 1; y = the opposite of 1 plus 2 = 1; (1, 1). The entries in the seventh row are: 3; y = the opposite of 3 plus 2 = negative 1; (3, -1). The entries in the eighth row are: 5; y = the opposite of 5 plus 2 = negative 3; (5, -3).">
+<tgroup cols="3"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row>
+<entry align="right"><m:math>
+ <m:mi>x</m:mi>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+
+
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−5</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−5</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>7</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−3</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>5</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>0</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mn>0</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mn>1</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>3</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mn>3</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>−1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>5</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mn>5</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>−3</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id2330968">Now, plot the points. Connect them if they form a line. See <link target-id="Figure_02_01_007"/></para>
+<figure id="Figure_02_01_007" class="medium">
+<media id="fs-id1925284" alt="This image is a graph of a line on an x, y coordinate plane. The x-axis includes numbers that range from negative 7 to 7. The y-axis includes numbers that range from negative 5 to 8.  A line passes through the  points: (-5, 7); (-3, 5); (-1, 3); (0, 2); (1, 1); (3, -1); and (5, -3).">
+<image src="../../media/CNX_CAT_Figure_02_01_007.jpg" mime-type="image/jpg"/>
+</media>
+</figure>
+</solution>
+</exercise></example><example id="eip-158"><exercise id="ti_02_01_01"><problem id="fs-id2995656"><para id="fs-id1752876">Construct a table and graph the equation by plotting points:<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3155135">
+<table id="fs-id859388" summary="The table shows 6 rows and 3 columns. The entries in the first row are: x; y = x divided by 2 plus 2, (x,y). The entries in the second row are: negative 2; y = (negative 2) divided by 2 plus 2 = 1; (-2, 1). The entries in the third row are: negative 1; y = (negative 1) divided by 2 plus 2 = 3/2; (-1,3/2). The entries in the fourth row are: 0; y = (0)/2 + 2 = 2; (0,2). The entries in the fifth row are: 1; y = (1)/2 + 2 = 5/2; (1,5/2). The entries in the sixth row are: 2; y = (2)/2 + 2 = 3; (2,3).">
+<tgroup cols="3"><colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<colspec colname="c3" colnum="3"/>
+<tbody>
+<row>
+<entry align="right"><m:math>
+ <m:mi>x</m:mi>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mrow>
+  <m:mn>−1</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>−1</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>0</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mn>0</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mn>1</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac>
+     <m:mn>5</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry align="right"><m:math>
+ <m:mn>2</m:mn>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mn>2</m:mn>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+<media id="fs-id2440549" alt="This is an image of a graph on an x, y coordinate plane. The x and y-axis range from negative 5 to 5.  A line passes through the points (-2, 1); (-1, 3/2); (0, 2); (1, 5/2); and (2, 3).">
+<image src="../../media/CNX_CAT_Figure_02_01_008.jpg" mime-type="image/jpg"/>
+</media>
+</solution>
+</exercise></example>
+</section><section id="fs-id1167835400371">
+<title>Find <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-intercepts</title>
+<para id="fs-id1167835331638">The <term>intercepts</term> of a graph are points at which the graph crosses the axes. The <term><emphasis effect="italics">x-</emphasis>intercept</term> is the point at which the graph crosses the <emphasis effect="italics">x-</emphasis>axis. At this point, the <emphasis effect="italics">y-</emphasis>coordinate is zero. The <term><emphasis effect="italics">y-</emphasis>intercept</term> is the point at which the graph crosses the <emphasis effect="italics">y-</emphasis>axis. At this point, the <emphasis effect="italics">x-</emphasis>coordinate is zero.</para><para id="fs-id1167834194637">Let’s look at the graphs of the lines.</para>
+<media id="fs-id1167835343912" alt="The figure shows four graphs of different equations. In example a the graph of 2 x plus y plus 6 is graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The points (0, 6) and (3, 0) are plotted and labeled. A straight line goes through both points and has arrows on both ends. In example b the graph of 3 x minus 4 y plus 12 is graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The points (0, negative 3) and (4, 0) are plotted and labeled. A straight line goes through both points and has arrows on both ends. In example c the graph of x minus y plus 5 is graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The points (0, negative 5) and (5, 0) are plotted and labeled. A straight line goes through both points and has arrows on both ends. In example d the graph of y plus negative 2 x is graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The point (0, 0) is plotted and labeled. A straight line goes through this point and the points (negative 1, 2) and (1, negative 2) and has arrows on both ends.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_023_img_new.jpg"/>
+</media>
+<para id="fs-id1167831887736">First, notice where each of these lines crosses the <emphasis effect="italics">x</emphasis>-axis. See <link target-id="fs-id1167835367746"/>.</para>
+<para id="fs-id1167835345975">Now, let’s look at the points where these lines cross the <emphasis effect="italics">y</emphasis>-axis.</para>
+<table id="fs-id1167835367746" summary="The table has 6 rows and 5 columns. The first row is a header row with the headers “Figure”, “The line crosses the x-axis at:”, “Ordered pair for this point”, “The line crosses the y-axis at:”, and “Ordered pair for this point”. The second row contains “Figure a”, 3, (3, 0), 6, (0, 6). The third row contains “Figure b”, 4, (4, 0), negative 3, (0, negative 3). The fourth row contains “Figure c”, 5, (5, 0), negative 5, (0, negative 5). The fifth row contains “Figure d”, 0, (0, 0), 0, (0, 0). The sixth row contains “General Figure”, a, (a, 0), b, (0, b).">
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row valign="top">
+<entry valign="middle" align="left"><emphasis effect="bold">Figure</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">The line crosses<newline/>the <emphasis effect="italics">x</emphasis>-axis at:</emphasis></entry>
+<entry valign="top" align="center"><emphasis effect="bold">Ordered pair<newline/>for this point</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">The line crosses<newline/>the <emphasis effect="italics">y-</emphasis>axis at:</emphasis></entry>
+<entry valign="middle" align="center"><emphasis effect="bold">Ordered pair<newline/>for this point</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="middle" align="center">Figure (a)</entry>
+<entry valign="middle" align="center">3</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center">6</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">Figure (b)</entry>
+<entry valign="middle" align="center">4</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−3</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">Figure (c)</entry>
+<entry valign="middle" align="center">5</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mn>−5</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">Figure (d)</entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center">0</entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="center">General Figure</entry>
+<entry valign="middle" align="center"><emphasis effect="italics">a</emphasis></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="middle" align="center"><emphasis effect="italics">b</emphasis></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-id1167834535861">Do you see a pattern?</para>
+<para id="fs-id1167834535864">For each line, the <emphasis effect="italics">y</emphasis>-coordinate of the point where the line crosses the <emphasis effect="italics">x</emphasis>-axis is zero. The point where the line crosses the <emphasis effect="italics">x</emphasis>-axis has the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and is called the <emphasis effect="italics">x-intercept</emphasis> of the line. The <emphasis effect="italics">x</emphasis>-intercept occurs when <emphasis effect="italics">y</emphasis> is zero.</para>
+<para id="fs-id1167835257786">In each line, the <emphasis effect="italics">x</emphasis><emphasis effect="bold">-</emphasis>coordinate of the point where the line crosses the <emphasis effect="italics">y</emphasis>-axis is zero. The point where the line crosses the <emphasis effect="italics">y</emphasis>-axis has the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and is called the <emphasis effect="italics">y-intercept</emphasis> of the line. The <emphasis effect="italics">y</emphasis>-intercept occurs when <emphasis effect="italics">x</emphasis> is zero.</para>
+<note id="fs-id1167826874383">
+<title><emphasis effect="italics">x</emphasis>-intercept and <emphasis effect="italics">y</emphasis>-intercept of a Line</title>
+<para id="fs-id1167835309776">The <emphasis effect="italics">x</emphasis>-intercept is the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where the line crosses the <emphasis effect="italics">x</emphasis>-axis.</para>
+<para id="fs-id1167831238979">The <emphasis effect="italics">y</emphasis>-intercept is the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where the line crosses the <emphasis effect="italics">y</emphasis>-axis.</para>
+<media id="fs-id1167834448946" alt="The table has 3 rows and 2 columns. The first row is a header row with the headers x and y. The second row contains a and 0. The third row contains 0 and b.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_038_img_new.jpg"/>
+</media>
+</note>
+<example id="fs-id1167834300811">
+<exercise id="fs-id1167834300813">
+<problem id="fs-id1167834300815">
+<para id="fs-id1167835376064">Find the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-intercepts on each graph shown.</para>
+<media id="fs-id1167834279734" alt="The figure has three graphs. Figure a shows a straight line graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The line goes through the points (negative 8, 6), (negative 4, 4), (0, 2), (4, 0), (8, negative 2). Figure b shows a straight line graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The line goes through the points (0, negative 6), (2, 0), and (4, 6). Figure c shows a straight line graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The line goes through the points (negative 5, 0), (negative 3, negative 3), (0, negative 5), (1, negative 6), and (2, negative 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_024_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167835595936">
+<para id="fs-id1167835360226"><span class="token">ⓐ</span> The graph crosses the <emphasis effect="italics">x</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">x-</emphasis>intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The graph crosses the <emphasis effect="italics">y</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">y</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/><newline/>
+<span class="token">ⓑ</span> The graph crosses the <emphasis effect="italics">x</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">x</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The graph crosses the <emphasis effect="italics">y</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">y</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/><newline/>
+<span class="token">ⓒ</span> The graph crosses the <emphasis effect="italics">x</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">x</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The graph crosses the <emphasis effect="italics">y</emphasis>-axis at the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The <emphasis effect="italics">y</emphasis>-intercept is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167832150989" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167835373759" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Points on the Axes</emphasis>
+<list id="fs-id1167834162010" list-type="bulleted" bullet-style="bullet">
+<item>Points with a <emphasis effect="italics">y</emphasis>-coordinate equal to 0 are on the <emphasis effect="italics">x</emphasis>-axis, and have coordinates <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Points with an <emphasis effect="italics">x</emphasis>-coordinate equal to <m:math><m:mn>0</m:mn></m:math> are on the <emphasis effect="italics">y</emphasis>-axis, and have coordinates <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+</list></item>
+<item><emphasis effect="bold">Quadrant</emphasis>
+<equation id="fs-id1167831081622" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="center"><m:mtext mathvariant="bold">Quadrant I</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant II</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant III</m:mtext></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext mathvariant="bold">Quadrant IV</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mo>(</m:mo><m:mo>+</m:mo><m:mo>,</m:mo><m:mo>+</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>−</m:mo><m:mo>,</m:mo><m:mo>+</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>−</m:mo><m:mo>,</m:mo><m:mo>−</m:mo><m:mo>)</m:mo></m:mtd><m:mtd columnalign="center"><m:mspace width="2em"/><m:mo>(</m:mo><m:mo>+</m:mo><m:mo>,</m:mo><m:mo>−</m:mo><m:mo>)</m:mo></m:mtd></m:mtr>
+</m:mtable></m:mrow></m:math></equation>
+<media id="fs-id1167835512761" alt="This figure shows the x y-coordinate plane with the four quadrants labeled. In the top right of the plane is quadrant I labeled (plus, plus). In the top left of the plane is quadrant II labeled (minus, plus). In the bottom left of the plane is quadrant III labeled (minus, minus). In the bottom right of the plane is quadrant IV labeled (plus, minus).">
+<image src="../../media/CNX_IntAlg_Figure_03_01_036_img_new.jpg" mime-type="image/jpeg"/>
+</media></item>
+<item><emphasis effect="bold">Graph of a Linear Equation:</emphasis> The graph of a linear equation <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:mrow></m:math> is a straight line.<newline/>
+Every point on the line is a solution of the equation.<newline/>
+Every solution of this equation is a point on this line.</item>
+<item><emphasis effect="bold">How to graph a linear equation by plotting points.</emphasis>
+<list id="fs-id1167830837149" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Find three points whose coordinates are solutions to the equation. Organize them in a table.</item>
+<item>Plot the points in a rectangular coordinate system. Check that the points line up. If they do not, carefully check your work.</item>
+<item>Draw the line through the three points. Extend the line to fill the grid and put arrows on both ends of the line.</item>
+</list></item>
+<item><emphasis effect="bold"><emphasis effect="italics">x</emphasis>-intercept and <emphasis effect="italics">y</emphasis>-intercept of a Line</emphasis>
+<list id="fs-id1167831076503" list-type="bulleted" bullet-style="bullet">
+<item>The <emphasis effect="italics">x</emphasis>-intercept is the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where the line crosses the <emphasis effect="italics">x</emphasis>-axis.</item>
+<item>The <emphasis effect="italics">y</emphasis>-intercept is the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where the line crosses the <emphasis effect="italics">y</emphasis>-axis.
+<media id="fs-id1167835351058" alt="The table has 3 rows and 2 columns. The first row is a header row with the headers x and y. The second row contains a and 0. The x-intercept occurs when y is zero. The third row contains 0 and b. The y-intercept occurs when x is zero.">
+<image src="../../media/CNX_IntAlg_Figure_03_01_037_img_new.jpg" mime-type="image/jpeg"/>
+</media></item>
+</list></item>
+</list></section>
+<section id="fs-id1167835381776" class="section-exercises">
+<section id="fs-id1167834060085a" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167834060092"><emphasis effect="bold">Plot Points in a Rectangular Coordinate System</emphasis></para>
+<para id="fs-id1167831837573">In the following exercises, plot each point in a rectangular coordinate system and identify the quadrant in which the point is located.</para>
+<exercise id="fs-id1167831837578" class="material-set-2">
+<problem id="fs-id1167831837580">
+<para id="fs-id1167835384360"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835381602">
+<para id="fs-id1167831833104"><media id="fs-id1167835381604" alt="This figure shows points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The point labeled a is 4 units to the left of the origin and 2 units above the origin and is located in quadrant II. The point labeled b is 1 unit to the left of the origin and 2 units below the origin and is located in quadrant III. The point labeled c is 3 units to the right of the origin and 5 units below the origin and is located in quadrant IV. The point labeled d is 3 units to the left of the origin and 5 units above the origin and is located in quadrant II. The point labeled e is 1 and a half units to the right of the origin and 2 units above the origin and is located in quadrant I.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_319_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835489339" class="material-set-2">
+<problem id="fs-id1167835489342">
+<para id="fs-id1167835351140"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>0</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓔ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835420000">
+<para id="fs-id1167832042108"><media id="fs-id1167835420002" alt="This figure shows points plotted on the x y-coordinate plane. The x and y axes run from negative 6 to 6. The point labeled a is 3 units to the right of the origin and 1 unit below the origin and is located in quadrant IV. The point labeled b is 3 units to the left of the origin and 1 unit above the origin and is located in quadrant II. The point labeled c is 2 units to the left of the origin and 2 units above the origin and is located in quadrant II. The point labeled d is 4 units to the left of the origin and 3 units below the origin and is located in quadrant III. The point labeled e is 1 unit to the right of the origin and 3 and 4 fifths units above the origin and is located in quadrant I.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_321_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1167835390387">In the following exercises, for each ordered pair, decide</para>
+<para id="fs-id1167835309845"><span class="token">ⓐ</span> is the ordered pair a solution to the equation? <span class="token">ⓑ</span> is the point on the line?</para>
+<exercise id="fs-id1167834516106" class="material-set-2">
+<problem id="fs-id1167834516108">
+<para id="fs-id1167834516111"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>;</m:mo></m:mrow></m:math><newline/>A: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> B: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> C: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> D: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167832042287" alt="This figure shows a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (negative 3, negative 1), (negative 2, 0), (negative 1, 1), (0, 2), (1, 3), (2, 4), and (3, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_201_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167831911373">
+<para id="fs-id1167830964089"><span class="token">ⓐ</span> A: yes, B: no, C: yes, D: yes <span class="token">ⓑ</span> A: yes, B: no, C: yes, D: yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167835379705" class="material-set-2">
+<problem id="fs-id1167831911279">
+<para id="fs-id1167831911281"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo></m:mrow></m:math><newline/>A: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> B: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> C: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> D: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+<media id="fs-id1167828365419" alt="This figure shows a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (negative 4, negative 5), (negative 2, negative 4), (0, negative 3), (2, negative 2), (4, negative 1), and (6, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_203_img_new.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167826783927">
+<para id="fs-id1167826783929"><span class="token">ⓐ</span> A: yes, B: yes, C: yes, D: no <span class="token">ⓑ</span> A: yes, B: yes, C: yes, D: no</para>
+</solution>
+</exercise>
+<para id="fs-id1167834534357"><emphasis effect="bold">Graph a Linear Equation by Plotting Points</emphasis></para>
+<para id="fs-id1167834227331">In the following exercises, graph by plotting points.</para>
+<exercise id="fs-id1167834133322">
+<problem id="fs-id1167834133324">
+<para id="fs-id1167834133326"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, given x= -2, 0, 2</para></problem>
+<solution id="fs-id1167834062901">
+<para id="fs-id1167831921309"><media id="fs-id1167834062904" alt="This figure shows a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 12 to 12. The line goes through the points (negative 3, negative 1), (negative 2, 0), (negative 1, 1), (0, 2), (1, 3), (2, 4), and (3, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_325_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<para id="fs-id1167835512622"><emphasis effect="bold">Find <emphasis effect="italics">x-</emphasis> and <emphasis effect="italics">y-</emphasis>Intercepts</emphasis></para>
+<para id="fs-id1167834219350">In the following exercises, find the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-intercepts on each graph.</para>
+<exercise id="fs-id1167831911460" class="material-set-2">
+<problem id="fs-id1167835596622">
+<para id="fs-id1167835596624"><newline/><media id="fs-id1167835596625" alt="The figure shows a straight line graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The line goes through the points (negative 6, 9), (negative 3, 6), (0, 3), (3, 0), and (6, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_205_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167834501585">
+<para id="fs-id1167834501587"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167827943612" class="material-set-2">
+<problem id="fs-id1167827943614">
+<para id="fs-id1167827943616"><newline/><media id="fs-id1167827943618" alt="The figure shows a straight line graphed on the x y-coordinate plane. The x and y axes run from negative 8 to 8. The line goes through the points (negative 1, negative 6), (0, negative 5), (2, negative 3), (5, 0), and (7, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_01_207_img_new.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167834060239">
+<para id="fs-id1167834494858"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167831076624">
+<term>horizontal line</term>
+<meaning id="fs-id1167826814098">A horizontal line is the graph of an equation of the form <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> The line passes through the <emphasis effect="italics">y</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167835355558">
+<term>intercepts of a line</term>
+<meaning id="fs-id1167835355563">The points where a line crosses the <emphasis effect="italics">x</emphasis>-axis and the <emphasis effect="italics">y</emphasis>-axis are called the intercepts of the line.</meaning>
+</definition>
+<definition id="fs-id1167834064606">
+<term>linear equation</term>
+<meaning id="fs-id1167834357135">An equation of the form <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are not both zero, is called a linear equation in two variables.</meaning>
+</definition>
+<definition id="fs-id1167834156774">
+<term>ordered pair</term>
+<meaning id="fs-id1167835533863">An ordered pair, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> gives the coordinates of a point in a rectangular coordinate system. The first number is the <emphasis effect="italics">x</emphasis>-coordinate. The second number is the <emphasis effect="italics">y</emphasis>-coordinate.</meaning>
+</definition>
+<definition id="fs-id1167834053603">
+<term>origin</term>
+<meaning id="fs-id1167831239720">The point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is called the origin. It is the point where the <emphasis effect="italics">x</emphasis>-axis and <emphasis effect="italics">y</emphasis>-axis intersect.</meaning>
+</definition>
+<definition id="fs-id1167834505886">
+<term>solution of a linear equation in two variables</term>
+<meaning id="fs-id1167831944043">An ordered pair <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a solution of the linear equation<m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>,</m:mo></m:mrow></m:math> if the equation is a true statement when the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-values of the ordered pair are substituted into the equation.</meaning>
+</definition>
+<definition id="fs-id1167835363804">
+<term>standard form of a linear equation</term>
+<meaning id="fs-id1167835363810">A linear equation is in standard form when it is written <m:math><m:mrow><m:mi>A</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167835231613">
+<term>vertical line</term>
+<meaning id="fs-id1167835231619">A vertical line is the graph of an equation of the form <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> The line passes through the <emphasis effect="italics">x</emphasis>-axis at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+</glossary>
+</document>

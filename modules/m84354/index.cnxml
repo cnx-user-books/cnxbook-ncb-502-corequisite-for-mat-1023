@@ -1,0 +1,2889 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Exponential Functions (4.1)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m84354</md:content-id>
+  <md:title>Exponential Functions (4.1)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Graph exponential functions</item>
+<item>Use exponential models in applications</item>
+</list></md:abstract>
+  <md:uuid>664cc544-eefe-43f1-a5c1-5306e7fb4617</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-85"><para id="fs-id1169147087020">This Module supports section <emphasis> 4.1 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Define and Evaluate Exponential Functions<link target-id="eip-43" document=""/></item>
+<item>Graphing Exponential Functions <link target-id="fs-id1167836378139" document=""/></item>
+<item>Transformations <link target-id="eip-166" document=""/></item>
+<item>Natural Base E <link target-id="eip-665" document=""/></item>
+<item>Using Models with Exponential Functions <link target-id="fs-id1167836362502" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167836684031" document=""/></item></list></note><section id="eip-43"><title>Define and Evaluate Exponential Functions</title><para id="fs-id1167836551830">The functions we have studied so far do not give us a model for many naturally occurring phenomena. From the growth of populations and the spread of viruses to radioactive decay and compounding interest, the models are very different from what we have studied so far. These models involve exponential functions.</para>
+<para id="fs-id1167836493207">An <term>exponential function</term> is a function of the form <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836520103">
+<title>Exponential Function</title>
+<para id="fs-id1167836534467">An exponential function, where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> is a function of the form</para>
+<equation id="fs-id1167836520490" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></equation><para id="eip-517">Notice that in this function,<emphasis> the variable is the exponent </emphasis>. In our functions so far, the variables were the base.</para>
+</note>
+<media id="fs-id1167833017914" alt="This figure shows three functions: f of x equals negative 3x plus 4, which is marked as linear; f of x equals 2x squared plus 5x minus 3, which is marked as quadratic; and f of x equals 6 to the x power, which is marked exponential. For the functions marked linear and quadratic, x is the base. For the function marked exponential, x is the exponent for the base 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_001_img.jpg"/>
+</media>
+<para id="fs-id1167830123844">Our definition says <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> If we let <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> becomes <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>1</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math> Since <m:math><m:mrow><m:msup><m:mn>1</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for all real numbers, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>1</m:mn><m:mrow/></m:msup><m:mo>.</m:mo></m:mrow></m:math> This is the constant function.</para>
+<para id="eip-767">Recall that the base of an exponential function must be a positive real number other than<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>1.</m:mn>
+</m:mrow>
+</m:math>Why do we limit the base <m:math>
+<m:mrow>
+<m:mi>a</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to positive values? To ensure that the outputs will be real numbers. Observe what happens if the base is not positive:</para>
+<equation id="fs-id1167836597416" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>−4</m:mn></m:mrow></m:msqrt><m:mspace width="1em"/><m:mtext>not a real number</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829716003">In fact, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> would not be a real number any time <m:math><m:mi>x</m:mi></m:math> is a fraction with an even denominator. So our definition requires <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+
+
+<example id="eip-417"><exercise id="fs-id1165137387381">
+<problem id="fs-id1165137659178">
+<title>Identifying Exponential Functions</title>
+<para id="fs-id1165137601478">Which of the following equations are <emphasis effect="italics">not</emphasis> exponential functions?</para>
+<list id="fs-id1165135176602">
+<item><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>4</m:mn>
+<m:mrow>
+<m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+</list>
+</problem>
+<solution id="fs-id1165134108513">
+<para id="fs-id1165137698136">By definition, an exponential function has a constant as a base and an independent variable as an exponent. Thus,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>does not represent an exponential function because the base is an independent variable. In fact,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is a power function.</para>
+<para id="fs-id1165137612252">Recall that the base <emphasis effect="italics">a </emphasis>of an exponential function is always a positive constant, and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Thus,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>−2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>does not represent an exponential function because the base,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−2</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math> is less than<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></para></solution>
+</exercise></example><example id="eip-866"><exercise id="ti_04_01_01"><problem id="fs-id1165137862673"><para id="fs-id1165137424249">Which of the following equations represent exponential functions?</para>
+<list id="fs-id1165135161022" list-type="bulleted">
+<item><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mn>0.875</m:mn>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.75</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mn>1095.6</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:math></item>
+</list>
+</problem>
+<solution id="fs-id1165137597685">
+<para id="fs-id1165137714559"><m:math>
+<m:mrow>
+<m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mn>0.875</m:mn>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mn>1095.6</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>represent exponential functions.</para>
+</solution>
+</exercise></example><para id="fs-id1165137563360">Why do we limit the base to positive values other than <m:math>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>?</m:mo>
+</m:mrow>
+</m:math> Because base <m:math>
+<m:mrow>
+<m:mn>1</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>results in the constant function. Observe what happens if the base is <m:math>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>:</m:mo>
+</m:mrow>
+</m:math></para>
+
+<list id="fs-id1165137400268" list-type="bulleted"><item>Let<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Then<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>1</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>for any value of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+</list>
+
+
+<para id="fs-id1165137459694">To evaluate an exponential function with the form<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>we simply substitute <m:math>
+<m:mrow>
+<m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>with the given value, and calculate the resulting power. For example:</para>
+
+<para id="fs-id1165135403544">Let <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>What is <m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo>
+</m:mrow>
+</m:math></para>
+
+<equation id="eip-id1165137643186" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Substitute </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Evaluate the power</m:mtext><m:mtext>.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137849020">To evaluate an exponential function with a form other than the basic form, it is important to follow the order of operations. For example:</para>
+
+<para id="fs-id1165137849024">Let<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>30</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>What is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo>
+</m:mrow>
+</m:math></para>
+
+<equation id="eip-id1165134086025" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>30</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>30</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Substitute </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>30</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mn>8</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Simplify the power first</m:mtext><m:mtext>.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>240</m:mn>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Multiply</m:mtext><m:mtext>.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1165137841073">Note that if the order of operations were not followed, the result would be incorrect:</para>
+
+<equation id="eip-id1165135320147" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>30</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>≠</m:mo><m:msup>
+<m:mrow>
+<m:mn>60</m:mn>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>=</m:mo><m:mn>216,000</m:mn>
+</m:mrow>
+</m:math></equation>
+<example id="Example_04_01_02">
+<exercise id="fs-id1165137455430">
+<problem id="fs-id1165137455432">
+<title>Evaluating Exponential Functions</title>
+<para id="fs-id1165137767841">Let <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Evaluate<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>without using a calculator.</para></problem>
+<solution id="fs-id1165135429364">
+<para id="fs-id1165137598173">Follow the order of operations. Be sure to pay attention to the parentheses.</para>
+<equation id="eip-id1165135208555" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Substitute </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Add the exponents</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>27</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Simplify the power</m:mtext><m:mtext>.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>135</m:mn>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Multiply</m:mtext><m:mtext>.</m:mtext>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example><example id="eip-390"><label>Try It</label>
+<exercise id="ti_04_01_02">
+<problem id="fs-id1165137762786">
+<para id="fs-id1165137762788">Let<m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1.2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Evaluate<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>using a calculator. Round to four decimal places.</para>
+</problem>
+<solution id="fs-id1165137637369">
+<para id="fs-id1165135543522"><m:math>
+<m:mrow>
+<m:mn>5.5556</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise></example></section><section id="fs-id1167836378139"><title>Graph Exponential Functions</title><para id="eip-594">By graphing a few exponential functions, we will be able to see their unique properties.</para><example id="fs-id1167829684737">
+<exercise id="fs-id1167826205226">
+<problem id="fs-id1167829741466">
+<para id="fs-id1167836387106">On the same coordinate system graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829748685">
+<para id="fs-id1167833020673">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167833050627"><media id="fs-id1167833081931" alt="This table has seven rows and five columns. The first row is header row and reads x, f of x equals 2 to the x power, (x, f of x), g of x equals 3 to the x power, and (x, g of x). The second row reads negative 2, 2 to the negative 2 power equals 1 divided by 2 squared which equals 1 over 4, (negative 2, 1 over 4), 3 to the negative 2 power equals 1 divided by 3 squared which equals 1 over 9, (negative 2, 1 over 9). The third row reads negative 1, 2 to the negative 1 power equals 1 divided by 2 to the first power which equals 1 over 2, (negative 1, 1 over 2), 3 to the negative 1 power equals 1 divided by 3 to the first power which equals 1 over 3, (negative 1, 1 over 3). The fourth row reads 0, 2 to the 0 power equals 1, (0, 1), 3 to the 0 power equals 1, (0, 1). The fifth row reads 1, 2 to the 1 power equals 2, (1, 2), 3 to the 1 power equals 9, (1, 3). The sixth row reads 2, 2 to the 2 power equals 4, (2, 4), 3 to the 2 power equals 9, (2, 9). The seventh row reads 3, 2 to the 3 power equals 8, (3, 8), 3 to the 3 power equals 27, (3, 27).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_002_img.jpg"/>
+</media></para>
+<para id="fs-id1167830077474"><media id="fs-id1167829694860" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 1 over 2), (0, 1), and (1, 2). The second curve is marked in red and passes through the points (negative 1, 1 over 3), (0, 1), and (1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_003_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+
+<example id="eip-136"><exercise id="fs-id1167836549679">
+<problem id="fs-id1167836524833">
+<para id="fs-id1167836754926">Graph: <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826171723">
+<para id="fs-id1167830123858"><newline/>
+<media id="fs-id1167833328995" alt="This figure shows a curve that slopes swiftly upward from just above (negative 3, 0) through (0, 1) up to (1, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_302_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise></example><para id="fs-id1167836619114">If we look at the graphs from the previous Example and Try Its, we can identify some of the properties of exponential functions.</para>
+<para id="fs-id1167836448581">The graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> as well as the graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> all have the same basic shape. This is the shape we expect from an exponential function where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836616275">We notice, that for each function, the graph contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This make sense because <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for any <emphasis effect="italics">a</emphasis>.</para>
+<para id="fs-id1167829580375">The graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829811012">Notice too, the graph of each function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836662701">What is the domain for each function? From the graphs we can see that the domain is the set of all real numbers. There is no restriction on the domain. We write the domain in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836540116">Look at each graph. What is the range of the function? The graph never hits the <m:math><m:mi>x</m:mi></m:math>-axis. The range is all positive numbers. We write the range in interval notation as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833114782">Whenever a graph of a function approaches a line but never touches it, we call that line an <term>asymptote</term>. For the exponential functions we are looking at, the graph approaches the <m:math><m:mi>x</m:mi></m:math>-axis very closely but will never cross it, we call the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> the <emphasis effect="italics">x</emphasis>-axis, a horizontal asymptote.</para>
+<note id="fs-id1167836699696">
+<title>Properties of the Graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></title>
+<table id="fs-id1167836507868" class="unnumbered" summary="Table has two columns and six rows. The first row shows the domain is negative infinity to infinity. The second row shows the range is 0 to infinity. The third row shows there is no x intercept. The fourth row shows the y-intercept is 0, 1. The fifth row shows the function contains 1, a and negative 1, 1 over a. The sixth column shows the asymptote is the x axis and the line y equals 0.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">x</emphasis>-intercept</entry>
+<entry valign="top" align="left">None</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="italics">y</emphasis>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<media id="fs-id1167829754330" alt="This figure shows a curve that slopes upward from (negative 1, 1 over a) through (0, 1), up to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_004_img.jpg"/>
+</media>
+</note>
+<para id="fs-id1167836528877">Our definition of an exponential function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> says <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> but the examples and discussion so far has been about functions where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> What happens when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>? The next example will explore this possibility.</para>
+<example id="fs-id1167833381202">
+<exercise id="fs-id1167836519839">
+<problem id="fs-id1167836535361">
+<para id="fs-id1167836545857">On the same coordinate system, graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829688322">
+<para id="fs-id11678362881723">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167836703928">
+<media id="fs-id1167833369800" alt="This table has seven rows and five columns. The first row is header row and reads x, f of x, equals 1 over 2 to the x power, (x, f of x), g of x equals 1 over 3 to the x power, and (x, g of x). The second row reads negative 2, 1 over 2 to the negative 2 power equals 2 squared which equals 4, (negative 2, 4), 3 to the negative 2 power equals 3 squared which equals 9, (negative 2, 9). The third row reads negative 1, 1 over 2 to the negative 1 power equals 2 to the first power which equals 2, (negative 1, 2), 1 over 3 to the negative 1 power equals 3 to the first power which equals 3, (negative 1, 3). The fourth row reads 0, 1 over 2 to the 0 power equals 1, (0, 1), 1 over 3 to the 0 power equals 1, (0, 1). The fifth row reads 1, 1 over 2 to the 1 power equals 1 over 2, (1, 1 over 2), 1 over 3 to the 1 power equals 1 over 3, (1, 1 over 3). The sixth row reads 2, 1 over 2 to the 2 power equals 1 over 4, (2, 1 over 4), 1 over 3 to the 2 power equals 1 over 9, (2, 1 over 9). The seventh row reads 3, 1 over 2 to the 3 power equals 1 over 8, (3, 1 over 8), 1 over 3 to the 3 power equals 1 over 27, (3, 1 over 27).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_005_img.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836391528"><media id="fs-id1167836447318" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 2), (0, 1), and (1, 1 over 2). The second curve is marked in red and passes through the points (negative 1, 3), (0, 1), and (1, 1 over 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_006_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-755"><exercise id="fs-id1167836543755">
+<problem id="fs-id1167829716495">
+<para id="fs-id1167836529024">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829589499">
+<para id="fs-id1167836572855"><newline/>
+<media id="fs-id1167836311951" alt="This figure shows a curve that passes through (negative 1, 4), (0, 1) to a point just above (3, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_303_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</example><example id="eip-371"><exercise id="fs-id1167829720040">
+<problem id="fs-id1167836614987">
+<para id="fs-id1167836650089">Graph: <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833139707">
+<para id="fs-id1167833020621"><newline/>
+<media id="fs-id1167836448097" alt="This figure shows a curve that passes through (negative 1, 5), (0, 1) to a point just above (3, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_304_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise></example><para id="fs-id1167829586484">Now let’s look at the graphs from the previous Example and Try Its so we can now identify some of the properties of exponential functions where <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836532650">The graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> as well as the graphs of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> all have the same basic shape. While this is the shape we expect from an exponential function where <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> the graphs go down from left to right while the previous graphs, when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> went from up from left to right.</para>
+<para id="fs-id1167833019145">We notice that for each function, the graph still contains the point (0, 1). This make sense because <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> for any <emphasis effect="italics">a</emphasis>.</para>
+<para id="fs-id1167836448517">As before, the graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833082097">Notice too that the graph of each function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> also contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the graph of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> contained <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This makes sense as <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836311929">We will summarize these properties in the chart below. Which also include when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836329709">
+<title>Properties of the Graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></title>
+<table id="fs-id1167836516046" class="unnumbered" summary="Table has four columns. It shows that when a is greater than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is increasing. It shows that when a is greater than 0 and less than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is decreasing.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left" namest="c3" nameend="c4">when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">increasing</entry>
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">decreasing</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<media id="fs-id1167836629903" alt="This figure has two parts. On the left, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a). On the right, where a is noted to be less than 1, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_007_img.jpg"/>
+</media>
+</note><para id="eip-530">It is important for us to notice that both of these graphs are <emphasis> one-to-one</emphasis>, as they both pass the horizontal line test. This means the exponential function will have an inverse. We will look at this later.</para>
+</section><section id="eip-166"><title>Transformations</title><para id="fs-id1167836389606">When we graphed quadratic functions, we were able to graph using translation rather than just plotting points. Will that work in graphing exponential functions?</para>
+<para id="eip-454">Transformations of exponential graphs behave similarly to those of other functions. Just as with other parent functions, we can apply the four types of transformations—shifts, reflections, stretches, and compressions—to the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>without loss of shape. For instance, just as the quadratic function maintains its parabolic shape when shifted, reflected, stretched, or compressed, the exponential function also maintains its general shape regardless of the transformations applied.</para><para id="eip-839">The first transformation occurs when we add a constant<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to the input of the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> giving us a <term class="no-emphasis">horizontal shift</term><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units in the <emphasis effect="italics">opposite</emphasis> direction of the sign. For example, if we begin by graphing the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> we can then graph two horizontal shifts alongside it, using<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>:</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the shift left,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> and the shift right,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Both horizontal shifts are shown in <link target-id="CNX_Precalc_Figure_04_02_007"/>.</para>
+<figure id="CNX_Precalc_Figure_04_02_007" class="medium">
+<media id="fs-id1165137697032" alt="Graph of three functions, g(x) = 2^(x+3) in blue, f(x) = 2^x in orange, and h(x)=2^(x-3). Each functions’ asymptotes are at y=0Note that each functions’ transformations are described in the text.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_007.jpg"/>
+</media>
+</figure>
+<example id="eip-584"><exercise id="fs-id1167836791679">
+<problem id="fs-id1167833058260">
+<para id="fs-id1167836288190">On the same coordinate system graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836686650">
+<para id="fs-id1167833310420">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167833086914">
+<media id="fs-id1167836305911" alt="This table has seven rows and five columns. The first row is header row and reads x, f of x equals 2 to the x power, (x, f of x), g of x equals 2 to the x plus 1 power, and (x, g of x). The second row reads negative 2, 2 to the negative 2 power equals 1 divided by 2 squared which equals 1 over 4, (negative 2, 1 over 4), 2 to the negative 2 plus 1 power equals 1 divided by 2 to the first power which equals 1 over 2, (negative 2, 1 over 2). The third row reads negative 1, 2 to the negative 1 power equals 1 divided by 2 to the first power which equals 1 over 2, (negative 1, 1 over 2), 2 to the negative 1 plus 1 power equals 2 to the 0 power which equals 1, (negative 1, 1). The fourth row reads 0, 2 to the 0 power equals 1, (0, 1), 2 to the 0 plus 1 power equals 2 to the 1 power which equals 2, (0, 2). The fifth row reads 1, 2 to the 1 power equals 2, (1, 2), 2 to the 1 plus 1 power equals 2 to the second power which equals 4, (1, 4). The sixth row reads 2, 2 to the 2 power equals 4, (2, 4), 2 to the 2 plus 1 power equals 2 to the third power which equals 8, (2, 8). The seventh row reads 3, 2 to the 3 power equals 8, (3, 8), 2 to the 3 plus 1 power equals 2 to the fourth power which equals 16, (3, 16).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_008_img.jpg"/>
+</media>
+</para>
+<para id="fs-id1167836309297"><media id="fs-id1167829811741" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 1 over 2), (0, 1) and (1, 2). The second curve is marked in red and passes through the points (negative 1, 1), (0, 2) and (1, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_009_img.jpg"/>
+</media></para>
+</solution>
+</exercise></example><example id="eip-379"><exercise id="fs-id1167836662585">
+<problem id="fs-id1167836368020">
+<para id="fs-id1167830095268">On the same coordinate system, graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829711887">
+<para id="fs-id1167836515274"><newline/>
+<media id="fs-id1167833334791" alt="This figure shows the graphs of two functions. The first function f of x equals 2 to the x power is marked in blue and corresponds to a curve that passes through the points (negative 1, 1 over 2), (0, 1) and (1, 2). The second function g of x equals 2 to the x minus 1 power is marked in red and passes through the points (0, 1 over 2), (1, 1), and (2, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_305_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise></example><para id="eip-764">Looking at the graphs of the functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> in the last example, we see that adding one in the exponent caused a horizontal shift of one unit to the left. Recognizing this pattern allows us to graph other functions with the same pattern by translation.</para><para id="eip-795">The next transformation occurs when we add a constant<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> giving us a <term class="no-emphasis">vertical shift</term><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units in the same direction as the sign. For example, if we begin by graphing a parent function,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> we can then graph two vertical shifts alongside it, using<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>:</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the upward shift,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and the downward shift,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>−</m:mo><m:mn>3.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Both vertical shifts are shown in <link target-id="CNX_Precalc_Figure_04_02_006"/>.</para>
+<figure id="CNX_Precalc_Figure_04_02_006" class="small">
+<media id="fs-id1165137724006" alt="Graph of three functions, g(x) = 2^x+3 in blue with an asymptote at y=3, f(x) = 2^x in orange with an asymptote at y=0, and h(x)=2^x-3 with an asymptote at y=-3. Note that each functions’ transformations are described in the text.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_006.jpg"/>
+</media>
+</figure>
+
+<para id="eip-637"><list id="fs-id1165135203774" list-type="bulleted">
+<item>The domain,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>remains unchanged.</item>
+<item>When the function is shifted up<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn><m:mo>:</m:mo>
+</m:mrow>
+</m:math>
+<list id="fs-id1165137601587" list-type="bulleted" bullet-style="open-circle">
+<item>The <emphasis effect="italics">y-</emphasis>intercept shifts up<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The asymptote shifts up<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>The range becomes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+</list>
+</item>
+<item>When the function is shifted down<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>:</m:mo>
+</m:mrow>
+</m:math>
+<list id="fs-id1165137784817" list-type="bulleted" bullet-style="open-circle">
+<item>The <emphasis effect="italics">y-</emphasis>intercept shifts down<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The asymptote also shifts down<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>The range becomes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+</list>
+</item>
+</list></para>
+
+<para id="fs-id1167829580432">Let’s now consider another situation that might be graphed more easily by <emphasis> translation</emphasis>, once we recognize the pattern.</para>
+<example id="fs-id1167836580200">
+<exercise id="fs-id1167836521734">
+<problem id="fs-id1167836713001">
+<para id="fs-id1167829619937">On the same coordinate system graph <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836554666">
+<para id="fs-id1167836533799">We will use point plotting to graph the functions.</para>
+<para id="fs-id1167836310407">
+<media id="fs-id1167836495232" alt="This table has five rows and six columns. The first row is header row and reads x, f of x equals 3 to the x power, (x, f of x), g of x equals 3 to the x power minus 2, and (x, g of x). The second row reads negative 2, 3 to the negative 2 power equals 1 over 9, (negative 2, 1 over 9), 3 to the negative 2 power minus 2 equals 1 over 9 minus 2 which equals negative 17 over 9, (negative 2, negative 17 over 9). The third row reads negative 1, 3 to the negative 1 power equals 1 over 3, (negative 1, 1 over 3), 3 to the negative 1 power minus 2 equals 1 over 3 minus 2 which equals negative 5 over 3, (negative 1, negative 5 over 3). The fourth row reads 0, 3 to the 0 power equals 1, (0, 1), 3 to the 0 power minus 2 equals 1 minus 2 which equals negative 1, (0, negative 1). The fifth row reads 1, 3 to the 1 power equals 3, (1, 3), 3 to the 1 power minus 2 equals 3 minus 2 which equals 1, (1, 1). The sixth row reads 2, 3 squared equals 9, (2, 9), 3 squared minus 2 equals 9 minus 2 which equals 7, (2, 7).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_010_img.jpg"/>
+</media>
+</para>
+<para id="fs-id1167829747870"><media id="fs-id1167836313276" alt="This figure shows two curves. The first curve is marked in blue and passes through the points (negative 1, 1 over 3), (0, 1), and (1, 3). The second curve is marked in red and passes through the points (negative 1, negative 5 over 3), (0, negative 1), and (1, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_011_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-612"><exercise id="fs-id1167833025186">
+<problem id="fs-id1167836309930">
+<para id="fs-id1167833310732">On the same coordinate system, graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836554813">
+<para id="fs-id1167836319597"><newline/>
+<media id="fs-id1167829599609" alt="This figure shows the graphs of two functions. The first function f of x equals 3 to the x power is marked in blue and corresponds to a curve that passes through the points (negative 1, 1 over 3), (0, 1) and (1, 3). The second function g of x equals 3 to the x power plus 2 is marked in red and passes through the points (negative 1, 7 over 3), (0, 3) and (1, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_307_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167829694018">Looking at the graphs of the functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> in the last example, we see that subtracting 2 caused a vertical shift of down two units. Notice that the horizontal asymptote also shifted down 2 units. Recognizing this pattern allows us to graph other functions with the same pattern by translation.</para>
+<note id="eip-743"><label>A General Note</label>
+
+<para id="fs-id1165134037589">For any constants<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math>the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>shifts the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></para>
+<list id="fs-id1165137638569" list-type="bulleted">
+<item>vertically<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units, in the <emphasis effect="italics">same</emphasis> direction of the sign of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>horizontally<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units, in the <emphasis effect="italics">opposite</emphasis> direction of the sign of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The <emphasis effect="italics">y</emphasis>-intercept becomes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>c</m:mi>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The horizontal asymptote becomes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>d</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The range becomes<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>d</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The domain,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>remains unchanged.</item>
+</list></note><example id="eip-459"><exercise id="fs-id1165137834201"><problem id="fs-id1165137416701">
+<title>Graphing a Shift of an Exponential Function</title>
+<para id="fs-id1165137563667">Graph<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>−</m:mo><m:mn>3.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>State the domain, range, and asymptote.</para>
+</problem>
+<solution id="fs-id1165135175234">
+<para id="fs-id1165137923482">We have an exponential equation of the form<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math> with<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math> and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>=</m:mo><m:mi>−</m:mi><m:mn>3.</m:mn>
+</m:mrow>
+</m:math></para><para id="fs-id1165137469681">Draw the horizontal asymptote<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>d</m:mi>
+</m:mrow>
+</m:math>, so draw<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3.</m:mn>
+</m:mrow>
+</m:math></para><para id="fs-id1165137661814">Identify the shift as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>c</m:mi><m:mo>,</m:mo><m:mi>d</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> so the shift is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para><para id="fs-id1165137693953">Shift the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>left 1 units and down 3 units.</para>
+
+<figure id="CNX_Precalc_Figure_04_02_008" class="small">
+<media id="fs-id1165137591826" alt="Graph of the function, f(x) = 2^(x+1)-3, with an asymptote at y=-3. Labeled points in the graph are (-1, -2), (0, -1), and (1, 1).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_008.jpg"/>
+</media>
+</figure>
+
+<para id="fs-id1165134199602">The domain is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the range is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the horizontal asymptote is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3.</m:mn>
+</m:mrow>
+</m:math></para></solution>
+</exercise></example><para id="eip-927"><title>Stretch or Compress</title>While horizontal and vertical shifts involve adding constants to the input or to the function itself, a <term class="no-emphasis">stretch</term> or <term class="no-emphasis">compression</term> occurs when we multiply the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>by a constant<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>|</m:mo><m:mi>c</m:mi><m:mo>|</m:mo><m:mo>&gt;</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>For example, if we begin by graphing the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>we can then graph the stretch, using<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>to get<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as shown on the left in <link target-id="CNX_Precalc_Figure_04_02_010"/>, and the compression, using<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>to get<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as shown on the right in <link target-id="CNX_Precalc_Figure_04_02_010"/>.</para><para id="eip-569"><figure id="CNX_Precalc_Figure_04_02_010">
+<media id="fs-id1165135512550" alt="Two graphs where graph a is an example of vertical stretch and graph b is an example of vertical compression.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_010.jpg"/>
+</media>
+<caption>(a)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>stretches the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>3.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>(b)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>compresses the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>.</m:mo>
+</m:mrow>
+</m:math></caption>
+</figure></para><note id="eip-501"><label>A General Note</label>
+
+<para id="fs-id1165137696285">For any factor<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>the function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>c</m:mi><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mi>a</m:mi>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math>
+</para>
+<list id="fs-id1165137476370" list-type="bulleted"><item>is stretched vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>|</m:mo><m:mi>c</m:mi><m:mo>|</m:mo><m:mo>&gt;</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>is compressed vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>|</m:mo><m:mi>c</m:mi><m:mo>|</m:mo><m:mo>&lt;</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>has a <emphasis effect="italics">y</emphasis>-intercept of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>has a horizontal asymptote at<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math> a range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> and a domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>which are unchanged from the parent function.</item>
+</list></note><example id="eip-11"><exercise id="fs-id1165135528997"><problem id="fs-id1165135656098">
+<para id="fs-id1165135656100"><title>Graphing the Stretch of an Exponential Function</title></para><para id="fs-id1165135656104">Sketch a graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>State the domain, range, and asymptote.</para>
+</problem>
+<solution id="fs-id1165137657436">
+<para id="fs-id1165137657438">Before graphing, identify the behavior and key points on the graph.</para>
+<list id="fs-id1165137657441" list-type="bulleted"><item>Since<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>is between zero and one, the left tail of the graph will increase without bound as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>decreases, and the right tail will approach the <emphasis effect="italics">x</emphasis>-axis as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>increases.</item>
+<item>Since<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>will be stretched by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>4.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>Create a table of points as shown in <link target-id="Table_04_02_04"/>.
+<table id="Table_04_02_04" summary="Two rows and eight columns. The first row is labeled, “x”, and the second row is labeled, “f(x)=4(0.25)^x”. Reading the columns as ordered pairs, we have the following values: (-3, 32), (-2, 16), (-1, 8), (0, 4), (1, 2), (2, 1), and (3, 0.5).">
+<tgroup cols="8"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<tbody>
+<row>
+<entry><emphasis><m:math>
+<m:mi>x</m:mi>
+</m:math></emphasis></entry>
+<entry><m:math>
+
+<m:mo>−</m:mo><m:mn>3</m:mn>
+
+</m:math></entry>
+<entry><m:math>
+
+<m:mo>−</m:mo><m:mn>2</m:mn>
+
+</m:math></entry>
+<entry><m:math>
+
+<m:mo>−</m:mo><m:mn>1</m:mn>
+
+</m:math></entry>
+<entry><m:math>
+<m:mn>0</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>2</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>3</m:mn>
+</m:math></entry>
+</row>
+<row>
+<entry><m:math display="block">
+ <m:mstyle fontweight="bold" fontstyle="italic">
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mstyle>
+<m:mstyle fontweight="bold"><m:mo>=</m:mo><m:mn>4</m:mn></m:mstyle>
+
+    <m:mo>(</m:mo>
+     <m:mstyle fontweight="bold"> <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac></m:mstyle>
+    <m:msup><m:mo>)</m:mo>
+
+   <m:mi>x</m:mi>
+  </m:msup>
+
+
+</m:math></entry>
+<entry><m:math>
+
+<m:mn>32</m:mn>
+
+</m:math></entry>
+<entry><m:math>
+
+<m:mn>16</m:mn>
+
+</m:math></entry>
+<entry><m:math>
+<m:mn>8</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>4</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>2</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+
+<m:mn>0.5</m:mn>
+
+</m:math></entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table></item>
+<item>Plot the <emphasis effect="italics">y-</emphasis>intercept,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>along with two other points. We can use<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+</list><para id="fs-id1165135319502">Draw a smooth curve connecting the points, as shown in <link target-id="CNX_Precalc_Figure_04_02_011"/>.</para>
+
+<figure id="CNX_Precalc_Figure_04_02_011" class="small">
+<media id="fs-id1165135453156" alt="Graph of the function, f(x) = 4(1/2)^(x), with an asymptote at y=0. Labeled points in the graph are (-1, 8), (0, 4), and (1, 2).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_011.jpg"/>
+</media>
+</figure>
+
+<para id="fs-id1165137442037">The domain is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the range is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the horizontal asymptote is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise></example><para id="eip-645"><title>Reflections</title>In addition to shifting, compressing, and stretching a graph, we can also reflect it about the <emphasis effect="italics">x</emphasis>-axis or the <emphasis effect="italics">y</emphasis>-axis. When we multiply the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>by<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−1</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>we get a reflection about the <emphasis effect="italics">x</emphasis>-axis. When we multiply the input by<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−1</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>we get a <term class="no-emphasis">reflection</term> about the <emphasis effect="italics">y</emphasis>-axis. For example, if we begin by graphing the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> we can then graph the two reflections alongside it. The reflection about the <emphasis effect="italics">x</emphasis>-axis,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>−2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math>is shown on the left side of <link target-id="CNX_Precalc_Figure_04_02_013"/>, and the reflection about the <emphasis effect="italics">y</emphasis>-axis<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> is shown on the right side of <link target-id="CNX_Precalc_Figure_04_02_013"/>.</para><para id="eip-311"><figure id="CNX_Precalc_Figure_04_02_013">
+<media id="fs-id1165137410094" alt="Two graphs where graph a is an example of a reflection about the x-axis and graph b is an example of a reflection about the y-axis.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_013.jpg"/>
+</media>
+<caption>(a)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>reflects the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the x-axis. (b)<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>reflects the graph of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the <emphasis effect="italics">y</emphasis>-axis.</caption>
+</figure>
+</para><note id="eip-699"><label>A General Note</label>
+
+
+<para id="fs-id1165137455888">The function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></para><list id="fs-id1165137838801" list-type="bulleted"><item>reflects the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the <emphasis effect="italics">x</emphasis>-axis.</item>
+<item>has a <emphasis effect="italics">y</emphasis>-intercept of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>has a range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn>
+</m:mrow>
+<m:mo>)</m:mo><m:mo>.</m:mo></m:mrow>
+</m:mrow>
+</m:math></item>
+<item>has a horizontal asymptote at<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>which are unchanged from the parent function.</item>
+</list><para id="fs-id1165137742185">The function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:math></para><list id="fs-id1165137551240" list-type="bulleted"><item>reflects the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>a</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the <emphasis effect="italics">y</emphasis>-axis.</item>
+<item>has a <emphasis effect="italics">y</emphasis>-intercept of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> a horizontal asymptote at<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math> a range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> and a domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> which are unchanged from the parent function.</item>
+</list></note><example id="eip-60"><exercise id="fs-id1165137406134"><problem id="fs-id1165137406136">
+<title>Writing and Graphing the Reflection of an Exponential Function</title>
+<para id="fs-id1165137896193">Find and graph the equation for a function,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+</m:mrow>
+</m:math>that reflects<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the <emphasis effect="italics">x</emphasis>-axis. State its domain, range, and asymptote.</para>
+</problem>
+<solution id="fs-id1165137937537">
+<para id="fs-id1165137937539">Since we want to reflect the parent function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>about the <emphasis effect="italics">x-</emphasis>axis, we multiply<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>by<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to get,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Next we create a table of points as in <link target-id="Table_04_02_005"/>.</para>
+<table id="Table_04_02_005" summary="Two rows and eight columns. The first row is labeled, “x”, and the second row is labeled, “f(x)=-(1/4)^x”. Reading the columns as ordered pairs, we have the following values: (-3, -64), (-2, -16), (-1, -4), (0, -1), (1, -0.25), (2, -0.0625), and (3, -0.0156).">
+<tgroup cols="8"><colspec colnum="1" colname="c1" colwidth="75"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<tbody>
+<row>
+<entry><emphasis><m:math>
+<m:mi>x</m:mi>
+</m:math></emphasis></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>3</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mn>0</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>1</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>2</m:mn>
+</m:math></entry>
+<entry><m:math>
+<m:mn>3</m:mn>
+</m:math></entry>
+</row>
+<row>
+<entry><m:math display="block">
+ <m:mstyle fontweight="bold" fontstyle="italic">
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo></m:mstyle>
+
+    <m:mo>(</m:mo>
+    <m:mstyle fontweight="bold">  <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>4</m:mn>
+      </m:mfrac></m:mstyle>
+      <m:msup>
+   <m:mo>)</m:mo>
+   <m:mi>x</m:mi>
+  </m:msup>
+
+
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>64</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>16</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>4</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>0.25</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>0.0625</m:mn>
+</m:mrow>
+</m:math></entry>
+<entry><m:math>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>0.0156</m:mn>
+</m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="eip-id1167546794019">Plot the <emphasis effect="italics">y-</emphasis>intercept,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>along with two other points. We can use<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>,</m:mo><m:mn>−0.25</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+<para id="fs-id1165135369275">Draw a smooth curve connecting the points:</para>
+
+<figure id="CNX_Precalc_Figure_04_02_014" class="small">
+<media id="fs-id1165137736449" alt="Graph of the function, g(x) = -(0.25)^(x), with an asymptote at y=0. Labeled points in the graph are (-1, -4), (0, -1), and (1, -0.25).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_04_02_014.jpg"/>
+</media>
+</figure>
+
+<para id="fs-id1165137828154">The domain is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the range is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mn>0</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>;</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>the horizontal asymptote is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise></example><para id="eip-202"><table id="Table_04_02_006" summary="Two rows and two columns. The first column shows the left shift of the equation g(x)=log_b(x) when b&gt;1, and notes the following changes: the reflected function is decreasing as x moves from 0 to infinity, the asymptote remains x=0, the x-intercept remains (1, 0), the key point changes to (b^(-1), 1), the domain remains (0, infinity), and the range remains (-infinity, infinity). The second column shows the left shift of the equation g(x)=log_b(x) when b&gt;1, and notes the following changes: the reflected function is decreasing as x moves from 0 to infinity, the asymptote remains x=0, the x-intercept changes to (-1, 0), the key point changes to (-b, 1), the domain changes to (-infinity, 0), and the range remains (-infinity, infinity).">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+
+<thead>
+<row>
+<entry namest="c1" nameend="c2">Translations of the Parent Function <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Translation</entry>
+<entry>Form</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Shift
+<list id="fs-id1165137640731" list-type="bulleted">
+<item>Horizontally<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to the left</item>
+<item>Vertically<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units up</item>
+</list>
+</entry>
+<entry><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi>
+</m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Stretch and Compress
+<list id="fs-id1165134074993" list-type="bulleted"><item>Stretch if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math></item>
+<item>Compression if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math></item>
+</list>
+</entry>
+<entry><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Reflect about the <emphasis effect="italics">x</emphasis>-axis</entry>
+<entry><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>Reflect about the <emphasis effect="italics">y</emphasis>-axis</entry>
+<entry><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mi>x</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>=</m:mo><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>b</m:mi>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></entry>
+</row>
+<row>
+<entry>General equation for all translations</entry>
+<entry><m:math display="block">
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+<m:mi>b</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi>
+</m:mrow>
+</m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table><note id="fs-id1165137635134">
+<label>A General Note</label>
+<title>Translations of Exponential Functions</title>
+<para id="fs-id1165137806521">A translation of an exponential function has the form</para>
+<equation id="fs-id1165137806525" class="unnumered"><m:math>
+<m:mrow>
+<m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup>
+<m:mi>b</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo><m:mi>d</m:mi>
+</m:mrow>
+</m:math></equation>
+
+<para id="fs-id1165137805520">Where the parent function,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math>is</para>
+<list id="fs-id1165137678290" list-type="bulleted">
+<item>shifted horizontally<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units to the left.</item>
+<item>stretched vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>compressed vertically by a factor of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>a</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math></item>
+<item>shifted vertically<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>d</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>units.</item>
+<item>reflected about the <emphasis effect="italics">x-</emphasis>axis when<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0.</m:mn>
+</m:mrow>
+</m:math></item>
+</list>
+<para id="fs-id1165137937613">Note the order of the shifts, transformations, and reflections follow the order of operations.</para>
+</note>
+
+
+
+</para></section><section id="eip-665"><title>Natural Base <m:math><m:mi>e</m:mi></m:math></title><para id="fs-id1167836578657"><newline/>All of our exponential functions have had either an integer or a rational number as the base. We will now look at an exponential function with an irrational number as the base.</para><para id="fs-id1167836569039">Before we can look at this exponential function, we need to define the irrational number, <emphasis effect="italics">e</emphasis>. This number is used as a base in many applications in the sciences and business that are modeled by exponential functions. The number is defined as the value of <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math> as <emphasis effect="italics">n</emphasis> gets larger and larger. We say, as <emphasis effect="italics">n</emphasis> approaches infinity, or increases without bound. The table shows the value of <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math> for several values of <m:math><m:mrow><m:mi>n</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<table id="fs-id1167836293918" summary="This table has 11 rows and two columns. In the first row, which is the header row, we have n and the quantity 1 plus 1 over n to the n power. Below the n in the first column we have 1, 2, 5, 10, 100, 1000, 10,000, 100,000, 1,000,000, and 1,000,000,000. Below the quantity 1 plus 1 over n to the n power in the second column we have 2, 2.25, 2.48832, 2.59374246, 2.704813829…, 2.716923932…, 2.718145927…, 2.718268237…, 2.718280469…, and 2.718281827….">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="middle" align="center"><m:math><m:mi>n</m:mi></m:math></entry>
+<entry valign="middle" align="center"><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">1</entry>
+<entry valign="top" align="left">2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">2</entry>
+<entry valign="top" align="left">2.25</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">5</entry>
+<entry valign="top" align="left">2.48832</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">10</entry>
+<entry valign="top" align="left">2.59374246</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">100</entry>
+<entry valign="top" align="left">2.704813829…</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1,000</entry>
+<entry valign="top" align="left">2.716923932…</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">10,000</entry>
+<entry valign="top" align="left">2.718145927…</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">100,000</entry>
+<entry valign="top" align="left">2.718268237…</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1,000,000</entry>
+<entry valign="top" align="left">2.718280469…</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1,000,000,000</entry>
+<entry valign="top" align="left">2.718281827…</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<equation id="fs-id1167836731868" class="unnumbered"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>≈</m:mo><m:mn>2.718281827</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1167833369418">The number <emphasis effect="italics">e</emphasis> is like the number <m:math><m:mi>π</m:mi></m:math> in that we use a symbol to represent it because its decimal representation never stops or repeats. The irrational number <emphasis effect="italics">e</emphasis> is called the <term>natural base</term>.</para>
+<note id="fs-id1167833051440">
+<title>Natural Base <m:math><m:mi>e</m:mi></m:math></title>
+<para id="fs-id1167836318323">The number <emphasis effect="italics">e</emphasis> is defined as the value of <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> as <emphasis effect="italics">n</emphasis> increases without bound. We say, as <emphasis effect="italics">n</emphasis> approaches infinity,</para>
+<equation id="fs-id1167836540237" class="unnumbered"><label/><m:math><m:mrow><m:mi>e</m:mi><m:mo>≈</m:mo><m:mn>2.718281827..</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836326624">The exponential function whose base is <m:math><m:mrow><m:mi>e</m:mi><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> is called the <term>natural exponential function</term>.</para>
+<note id="fs-id1167836292023">
+<title>Natural Exponential Function</title>
+<para id="fs-id1167836597194">The natural exponential function is an exponential function whose base is <m:math><m:mi>e</m:mi></m:math></para>
+<equation id="fs-id1167836730984" class="unnumbered"><label/><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167829748295">The domain is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the range is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167836610121">Let’s graph the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> on the same coordinate system as <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836407679" alt="This figure shows the graphs of three functions. The first function, f of x equals 2 to the x, is marked in red and passes through the points (negative 1, negative 1 over 2), (0, negative 1), and (2, 1). The second function, f of x equals 3 to the x power, is marked in green and corresponds to a curve that passes through the points (negative 1, 1 over 3), (0, 1) and (1, 3). The third function, f of x equals e to the x power, is marked in blue and corresponds to a curve that passes through the points (negative 1, 1 over e), (0, 1) and (0, e).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_012.jpg"/>
+</media>
+<para id="fs-id1167829811344">Notice that the graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> is “between” the graphs of <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math> Does this make sense as <m:math><m:mrow><m:mn>2</m:mn><m:mo>&lt;</m:mo><m:mi>e</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:math>?</para>
+</section><section id="fs-id1167836362502">
+<title>Use Exponential Models in Applications</title>
+<para id="fs-id1167836552831">Exponential functions model many situations. If you own a bank account, you have experienced the use of an exponential function. There are two formulas that are used to determine the balance in the account when interest is earned. If a principal, <emphasis effect="italics">P</emphasis>, is invested at an interest rate, <emphasis effect="italics">r</emphasis>, for <emphasis effect="italics">t</emphasis> years, the new balance, <emphasis effect="italics">A</emphasis>, will depend on how often the interest is compounded. If the interest is compounded <emphasis effect="italics">n</emphasis> times a year we use the formula <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> If the interest is compounded continuously, we use the formula <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math> These are the formulas for <term>compound interest</term>.</para>
+<note id="fs-id1167836508330">
+<title>Compound Interest</title>
+<para id="fs-id1167836390543">For a principal, <emphasis effect="italics">P</emphasis>, invested at an interest rate, <emphasis effect="italics">r</emphasis>, for <emphasis effect="italics">t</emphasis> years, the new balance, <emphasis effect="italics">A</emphasis>, is:</para>
+<equation id="fs-id1167829753339" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>times a year.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded continuously.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168757697777">As you work with the Interest formulas, it is often helpful to identify the values of the variables first and then substitute them into the formula.</para>
+<example id="fs-id1167836529275">
+<exercise id="fs-id1167836363829">
+<problem id="fs-id1167836492912">
+<para id="fs-id1167836287621">A total of <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mrow></m:math> was invested in a college fund for a new grandchild. If the interest rate is <m:math><m:mrow><m:mn>5</m:mn><m:mtext>%</m:mtext><m:mo>,</m:mo></m:mrow></m:math> how much will be in the account in 18 years by each method of compounding?</para>
+<para id="fs-id1167829624131"><span class="token">ⓐ</span> compound quarterly</para>
+<para id="fs-id1167836508694"><span class="token">ⓑ</span> compound monthly</para>
+<para id="fs-id1167836688058"><span class="token">ⓒ</span> compound continuously</para>
+</problem>
+<solution id="fs-id1167824737605">
+<para id="fs-id1167836553150"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify the values of each variable in the formulas.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Remember to express the percent as a decimal.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>P</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mtext>$</m:mtext><m:mn>10,000</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.05</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>18</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167833009726"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>For quarterly compounding,</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>There are 4</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>quarters in a year.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values in the formula.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>10,000</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>0.05</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>18</m:mn></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Compute the amount. Be careful to consider the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>order of operations as you enter the expression into</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>your calculator.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="0.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>24,459.20</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167829785534"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>For monthly compounding,</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>.</m:mo><m:mspace width="0.2em"/><m:mtext>There are 12</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>months in a year.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values in the formula.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>10,000</m:mn><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>0.05</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>12</m:mn><m:mo>·</m:mo><m:mn>18</m:mn></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Compute the amount.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>24,550.08</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836331190"><span class="token">ⓒ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>For compounding continuously,</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values in the formula.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>10,000</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>0.05</m:mn><m:mo>·</m:mo><m:mn>18</m:mn></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Compute the amount.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6.8em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:mtext>$</m:mtext><m:mn>24,596.03</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-967"><exercise id="fs-id1167836326753">
+<problem id="fs-id1167836527053">
+<para id="fs-id1167829627312">Angela invested <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>15,000</m:mn></m:mrow></m:math> in a savings account. If the interest rate is <m:math><m:mrow><m:mn>4</m:mn><m:mtext>%</m:mtext><m:mo>,</m:mo></m:mrow></m:math> how much will be in the account in 10 years by each method of compounding?</para>
+<para id="fs-id1167836312202"><span class="token">ⓐ</span> compound quarterly</para>
+<para id="fs-id1167836546022"><span class="token">ⓑ</span> compound monthly</para>
+<para id="fs-id1167829746735"><span class="token">ⓒ</span> compound continuously</para>
+</problem>
+<solution id="fs-id1167836626426">
+<para id="fs-id1167836665513"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>22,332.96</m:mn></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>22,362.49</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>22,377.37</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836532544">Other topics that are modeled by exponential functions involve growth and decay. Both also use the formula <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math> we used for the growth of money. For growth and decay, generally we use<m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> as the original amount instead of calling it <m:math><m:mrow><m:mi>P</m:mi><m:mo>,</m:mo></m:mrow></m:math> the principal. We see that <term>exponential growth</term> has a positive rate of growth and <term>exponential decay</term> has a negative rate of growth.</para>
+<note id="fs-id1167836355750">
+<title>Exponential Growth and Decay</title>
+<para id="fs-id1167829879476">For an original amount, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> that grows or decays at a rate, <emphasis effect="italics">r</emphasis>, for a certain time, <emphasis effect="italics">t</emphasis>, the final amount, <emphasis effect="italics">A</emphasis>, is:</para>
+<equation id="fs-id1167832926138" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836368231">Exponential growth is typically seen in the growth of populations of humans or animals or bacteria. Our next example looks at the growth of a virus.</para>
+<example id="fs-id1167832999455">
+<exercise id="fs-id1167836416558">
+<problem id="fs-id1167836700138">
+<para id="fs-id1167836311008">Chris is a researcher at the Center for Disease Control and Prevention and he is trying to understand the behavior of a new and dangerous virus. He starts his experiment with 100 of the virus that grows at a rate of 25% per hour. He will check on the virus in 24 hours. How many viruses will he find?</para>
+</problem>
+<solution id="fs-id1167836415746">
+<para id="fs-id1167833407369"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify the values of each variable in the formulas.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Be sure to put the percent in decimal form.</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Be sure the units match—the rate is per hour and</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the time is in hours.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>A</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>?</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>100</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>r</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0.25</m:mn><m:mtext>/hour</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>hours</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values in the formula:</m:mtext><m:mspace width="0.2em"/><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:msup><m:mi>e</m:mi><m:mrow><m:mn>0.25</m:mn><m:mo>·</m:mo><m:mn>24</m:mn></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Compute the amount.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>40,342.88</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Round to the nearest whole virus.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>40,343</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The researcher will find 40,343</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>viruses.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-3"><exercise id="fs-id1167836525488">
+<problem id="fs-id1167836447434">
+<para id="fs-id1167836705136">Maria, a biologist is observing the growth pattern of a virus. She starts with 100 of the virus that grows at a rate of <m:math><m:mrow><m:mn>10</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per hour. She will check on the virus in 24 hours. How many viruses will she find?</para>
+</problem>
+<solution id="fs-id1167836406898">
+<para id="fs-id1167833059010">She will find 1,102 viruses.</para>
+</solution>
+</exercise>
+</example><note id="fs-id1167836552092" class="media">
+<para id="fs-id1167829740742">Access these online resources for additional instruction and practice with evaluating and graphing exponential functions.</para>
+<list id="fs-id1167829619792" list-type="bulleted" bullet-style="bullet">
+<item><link url="https://openstax.org/l/37Graphexponent">Graphing Exponential Functions</link></item>
+<item><link url="https://openstax.org/l/37Solvelikebase">Solving Exponential Equations</link></item>
+<item><link url="https://openstax.org/l/37Exponentapp">Applications of Exponential Functions</link></item>
+<item><link url="https://openstax.org/l/37Compoundint">Continuously Compound Interest</link></item>
+<item><link url="https://openstax.org/l/37Exponentdecay">Radioactive Decay and Exponential Growth</link></item>
+</list>
+</note>
+</section>
+<section id="fs-id1167836684031" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836512983" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Properties of the Graph of</emphasis> <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>:</m:mo></m:mrow></m:math><newline/>
+<table id="fs-id1167836611172" class="unnumbered" summary="Table has four columns. It shows that when a is greater than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is increasing. It shows that when a is greater than 0 and less than 1, the domain is negative infinity to infinity, the range is 0 to infinity, there is no x intercept, the y-intercept is 0, 1, the function contains 1, a and negative 1, 1 over a, the asymptote is the x axis and the line y equals 0, and the basic shape is decreasing.">
+<label/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left" namest="c1" nameend="c2">when <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left" namest="c3" nameend="c4">when <m:math><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Domain</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Range</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left">none</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mi>y</m:mi></m:math>-intercept</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left">Contains</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>a</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>a</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left">Asymptote</entry>
+<entry valign="top" align="left"><m:math><m:mi>x</m:mi></m:math>-axis, the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">increasing</entry>
+<entry valign="top" align="left">Basic shape</entry>
+<entry valign="top" align="left">decreasing</entry>
+</row>
+</tbody>
+</tgroup>
+</table><newline/>
+<media id="fs-id1167836341593" alt="This figure has two parts. On the left, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a). On the right, where a is noted to be less than 1, we have a curve that passes through (negative 1, 1 over a) through (0, 1) to (1, a).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_015_img.jpg"/>
+</media>
+</item>
+<item><emphasis effect="bold">One-to-One Property of Exponential Equations:</emphasis><newline/>
+For <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<equation id="fs-id1167836625231" class="unnumbered"><label/><m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mrow></m:math></equation></item>
+
+<item><emphasis effect="bold">Compound Interest:</emphasis> For a principal, <m:math><m:mrow><m:mi>P</m:mi><m:mo>,</m:mo></m:mrow></m:math> invested at an interest rate, <m:math><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> for <m:math><m:mi>t</m:mi></m:math> years, the new balance, <m:math><m:mrow><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> is<newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded</m:mtext><m:mspace width="0.2em"/><m:mi>n</m:mi><m:mspace width="0.2em"/><m:mtext>times a year.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>P</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>when compounded continuously.</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></item>
+<item><emphasis effect="bold">Exponential Growth and Decay:</emphasis> For an original amount, <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> that grows or decays at a rate, <m:math><m:mrow><m:mi>r</m:mi><m:mo>,</m:mo></m:mrow></m:math> for a certain time <m:math><m:mrow><m:mi>t</m:mi><m:mo>,</m:mo></m:mrow></m:math> the final amount,<m:math><m:mrow><m:mi>A</m:mi><m:mo>,</m:mo></m:mrow></m:math> is <m:math><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mi>e</m:mi><m:mrow><m:mi>r</m:mi><m:mi>t</m:mi></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+</list></section>
+<section id="fs-id1167829742000" class="section-exercises">
+<section id="fs-id1167836526899" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167836417373"><emphasis effect="bold">Graph Exponential Functions</emphasis></para>
+<para id="fs-id1167829589485">In the following exercises, graph each exponential function.</para>
+<exercise id="fs-id1167832940776" class="material-set-2">
+<problem id="fs-id1167832940778">
+<para id="fs-id1167836728864"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836601784">
+<para id="fs-id1167836601786">
+<media id="fs-id1167829717237" alt="This figure shows a curve that passes through (negative 1, 1 over 2) through (0, 1) to (1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_309_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id1167836788123" class="material-set-2">
+<problem id="fs-id1167836701485">
+<para id="fs-id1167836701487"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833245537">
+<para id="fs-id1167833245540">
+<media id="fs-id1167836525515" alt="This figure shows a curve that passes through (negative 1, 2) through (0, 1) to (1, 1 over 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_315_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167833052000" class="material-set-2">
+<problem id="fs-id1167836698903">
+<para id="fs-id1167836698906"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833086962">
+<para id="fs-id1167833086964">
+<media id="fs-id1167832951192" alt="This figure shows a curve that passes through (negative1, 6) through (0, 1) to (1, 1 over 6).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_317_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+
+<para id="fs-id1167836502040">In the following exercises, graph each exponential function.</para>
+<exercise id="fs-id1167836629505" class="material-set-2">
+<problem id="fs-id1167836629507">
+<para id="fs-id1167829716816"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833191640">
+<para id="fs-id1167836625196">
+<media id="fs-id1167836625198" alt="This figure shows an exponential curve that passes through (negative 3, 1 over 3), (negative 2, 1), and (0, 9).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_329_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167833339426" class="material-set-2">
+<problem id="fs-id1167833339428">
+<para id="fs-id1167836502096"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836352467">
+<para id="fs-id1167836352469">
+<media id="fs-id1167833136688" alt="This figure shows an exponential that passes through (negative 1, 7 over 2), (0, 4), and (1, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_331_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167836611970" class="material-set-2">
+<problem id="fs-id1167836611972">
+<para id="fs-id1167836713835"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829790295">
+<para id="fs-id1167829790297">
+<media id="fs-id1167836732115" alt="This figure shows an exponential that passes through (2, 4), (3, 2), and (4, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_333_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167833379384" class="material-set-2">
+<problem id="fs-id1167836729866">
+<para id="fs-id1167836729868"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836288512">
+<para id="fs-id1167836288514">
+<media id="fs-id1167836686999" alt="This figure shows an exponential that passes through (1, 1 plus 1 over e), (0, 2), and (1, e).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_335_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167836578972" class="material-set-2">
+<problem id="fs-id1167836578974">
+<para id="fs-id1167836570215"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829851773">
+<para id="fs-id1167829851775">
+<media id="fs-id1167836624332" alt="This figure shows an exponential that passes through (negative 1, negative 1 over 2), (0, negative 1), and (1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_337_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+
+
+<para id="fs-id1167829753456">In the following exercises, match the graphs to one of the following functions: <span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓓ</span> <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓔ</span> <m:math><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓕ</span> <m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
+<exercise id="fs-id1167836571140" class="material-set-2">
+<problem id="fs-id1167836571142">
+<para id="fs-id1167836545533"><newline/><media id="fs-id1167836545534" alt="This figure shows an exponential that passes through (1, 1 over 3), (0, 1), and (1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_201_img.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1167836540537">
+<para id="fs-id1167836540539"><span class="token">ⓕ</span></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167836327321" class="material-set-2">
+<problem id="fs-id1167836327324">
+<para id="fs-id1167829714933"><newline/><media id="fs-id1167829714934" alt="This figure shows an exponential that passes through (1, 1 over 2), (0, 1), and (1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_203_img.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1167836530819">
+<para id="fs-id1167836530822"><span class="token">ⓐ</span></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167829595987" class="material-set-2">
+<problem id="fs-id1167829595989">
+<para id="fs-id1167836665444"><newline/><media id="fs-id1167836665445" alt="This figure shows an exponential that passes through (negative 1, 3 over 2), (0, negative 1), and (1, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_02_205_img.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1167836434304">
+<para id="fs-id1167836434307"><span class="token">ⓔ</span></para>
+</solution>
+</exercise>
+
+<para id="fs-id1167836448678"><emphasis effect="bold">Use exponential models in applications</emphasis></para>
+<para id="fs-id1167826024625">In the following exercises, use an exponential model to solve.</para>
+<exercise id="fs-id1167826024628" class="material-set-2">
+<problem id="fs-id1167836560235">
+<para id="fs-id1167836560237">Edgar accumulated <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>5,000</m:mn></m:mrow></m:math> in credit card debt. If the interest rate is <m:math><m:mrow><m:mn>20</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year, and he does not make any payments for 2 years, how much will he owe on this debt in 2 years by each method of compounding?<newline/><span class="token">ⓐ</span> compound quarterly<newline/><span class="token">ⓑ</span> compound monthly<newline/><span class="token">ⓒ</span> compound continuously</para></problem>
+<solution id="fs-id1167836663338">
+<para id="fs-id1167833239045"><span class="token">ⓐ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>7,387.28</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>7,434.57</m:mn></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>7,459.12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167836440538" class="material-set-2">
+<problem id="fs-id1167829693432">
+<para id="fs-id1167829693434">Rochelle deposits <m:math><m:mrow><m:mtext>$</m:mtext><m:mn>5,000</m:mn></m:mrow></m:math> in an IRA. What will be the value of her investment in 25 years if the investment is earning <m:math><m:mrow><m:mn>8</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per year and is compounded continuously?</para>
+</problem>
+<solution id="fs-id1167836609768">
+<para id="fs-id1167836609770"><m:math><m:mrow><m:mtext>$</m:mtext><m:mn>36,945.28</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167833377186" class="material-set-2">
+<problem id="fs-id1167833377188">
+<para id="fs-id1167836800496">A researcher at the Center for Disease Control and Prevention is studying the growth of a bacteria. He starts his experiment with 100 of the bacteria that grows at a rate of <m:math><m:mrow><m:mn>6</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> per hour. He will check on the bacteria every 8 hours. How many bacteria will he find in 8 hours?</para>
+</problem>
+<solution id="fs-id1167829753479">
+<para id="fs-id1167829753481">159 bacteria</para>
+</solution>
+</exercise>
+<para id="fs-id1165137731675">For the following exercises, match each function with one of the graphs in <link target-id="CNX_Precalc_Figure_04_02_206"/>.</para>
+
+<figure id="CNX_Precalc_Figure_04_02_206" class="small">
+<media id="fs-id1165137761700" alt="Graph of six exponential functions.">
+<image mime-type="image/jpg" src="../../media/CNX_PreCalc_Figure_04_02_206.jpg"/>
+</media>
+</figure><exercise id="fs-id1165137758080">
+<problem id="fs-id1165137758082">
+<para id="fs-id1165137758084"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0.69</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165137722409">
+<para id="fs-id1165137722412">B</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1165137447034">
+<problem id="fs-id1165137762800">
+<para id="fs-id1165137762802"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>0.81</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165137767449">
+<para id="fs-id1165137767451">A</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1165137692364">
+<problem id="fs-id1165137692366">
+<para id="fs-id1165137692368"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>1.59</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mi>x</m:mi>
+</m:msup>
+
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165135541572">
+<para id="fs-id1165137705256">E</para>
+</solution>
+</exercise><para id="eip-815">For the following exercises, each graph is a transformation of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mn>2</m:mn>
+   <m:mi>x</m:mi>
+  </m:msup>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Write an equation describing the transformation.</para><exercise id="eip-61"><problem id="fs-id1165135191681">
+<para id="eip-id2853461">
+<newline/>
+<media id="fs-id1165135536360" alt="Graph of f(x)=2^(x) with the following translations: a reflection about the x-axis, and a shift up by 3." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_PreCalc_Figure_04_02_215.jpg"/>
+</media>
+</para>
+</problem>
+<solution id="fs-id1165135536375">
+<para id="fs-id1165137444723"><m:math>
+<m:mrow>
+<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:msup>
+<m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+</m:math></para>
+</solution></exercise>
+
+</section></section>
+</content>
+<glossary>
+<definition id="fs-id1167833082091">
+<term>asymptote</term>
+<meaning id="fs-id1167836691950">A line which a graph of a function approaches closely but never touches.</meaning>
+</definition>
+<definition id="fs-id1167836691954">
+<term>exponential function</term>
+<meaning id="fs-id1167833007259">An exponential function, where <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> is a function of the form <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167829721169">
+<term>natural base</term>
+<meaning id="fs-id1167829721174">The number <emphasis effect="italics">e</emphasis> is defined as the value of <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>,</m:mo></m:mrow></m:math> as <emphasis effect="italics">n</emphasis> gets larger and larger. We say, as <emphasis effect="italics">n</emphasis> increases without bound, <m:math><m:mrow><m:mi>e</m:mi><m:mo>≈</m:mo><m:mn>2.718281827..</m:mn><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167829828499">
+<term>natural exponential function</term>
+<meaning id="fs-id1167836363420">The natural exponential function is an exponential function whose base is <emphasis effect="italics">e</emphasis>: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>.</m:mo></m:mrow></m:math> The domain is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and the range is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,1080 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Inverse Functions (2.7)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m82569</md:content-id>
+  <md:title>Inverse Functions (2.7)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Determine whether a function is one-to-one</item>
+<item>Find the inverse of a function</item>
+</list></md:abstract>
+  <md:uuid>a0b22fa3-37c6-4d3d-ad06-1cf14fe1d690</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-316"><para id="fs-id1169147087020">This Module supports section <emphasis> 2.7 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>One-to-One Functions <link target-id="fs-id1167836534688" document=""/></item>
+<item>Define Inverse of a Function <link target-id="fs-id1167836509386" document=""/></item>
+<item>Find Inverse of a Function <link target-id="eip-200" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167829906171" document=""/></item></list></note><section id="fs-id1167836534688">
+<title>Determine Whether a Function is One-to-One</title>
+<para id="fs-id1167830093543">When we first introduced functions, we said a <term class="no-emphasis">function</term> is a relation that assigns to each element in its domain exactly one element in the range. For each ordered pair in the relation, each <emphasis effect="italics">x</emphasis>-value is matched with only one <emphasis effect="italics">y</emphasis>-value.</para>
+<para id="fs-id1167836340795">We used the birthday example to help us understand the definition. Every person has a birthday, but no one has two birthdays and it is okay for two people to share a birthday. Since each person has exactly one birthday, that relation is a function.</para>
+<media id="fs-id1167829586481" alt="This figure shows two tables. To the left is the table labeled Name, which from top to bottom reads Alison, Penelope, June, Gregory, Geoffrey, Lauren, Stephen, Alice, Liz, and Danny. The table on the right is labeled Birthday, which from top to bottom reads January 12, February 3, April 25, May 10, May 23, July 24, August 2, and September 15. There are arrows going from Alison to April 25, Penelope to May 23, June to August 2, Gregory to September 15, Geoffrey to January 12, Lauren to May 10, Stephen to July 24, Alice to February 3, Liz to July 24, and Danny to no birthday.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_008_img.jpg"/>
+</media>
+<para id="fs-id1167829789822">A function is <term>one-to-one</term> if each value in the range has exactly one element in the domain. For each ordered pair in the function, each <emphasis effect="italics">y</emphasis>-value is matched with only one <emphasis effect="italics">x</emphasis>-value.</para>
+<para id="fs-id1167836516310">Our example of the birthday relation is not a one-to-one function. Two people can share the same birthday. The range value August 2 is the birthday of Liz and June, and so one range value has two domain values. Therefore, the function is not one-to-one.</para>
+<note id="fs-id1167836543477">
+<title>One-to-One Function</title>
+<para id="fs-id1167829692902">A function is <emphasis effect="bold">one-to-one</emphasis> if each value in the range corresponds to one element in the domain. For each ordered pair in the function, each <emphasis effect="italics">y</emphasis>-value is matched with only one <emphasis effect="italics">x</emphasis>-value. There are no repeated <emphasis effect="italics">y</emphasis>-values.</para>
+</note>
+<example id="fs-id1167836548952">
+<exercise id="fs-id1167836286660">
+<problem id="fs-id1167829589807">
+<para id="fs-id1167836547182">For each set of ordered pairs, determine if it represents a function and, if so, if the function is one-to-one.</para>
+<para id="fs-id1167836798080"><span class="token">ⓐ</span> <m:math><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:math> and <span class="token">ⓑ</span> <m:math><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829694152">
+<para id="fs-id1167836620263"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836568027">Each <emphasis effect="italics">x</emphasis>-value is matched with only one <emphasis effect="italics">y</emphasis>-value. So this relation is a function.</para>
+<para id="fs-id1167836684567">But each <emphasis effect="italics">y</emphasis>-value is not paired with only one <emphasis effect="italics">x</emphasis>-value, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>27</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> for example. So this function is not one-to-one.</para>
+<para id="fs-id1167836531055"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="5em"/><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167829712213">Each <emphasis effect="italics">x</emphasis>-value is matched with only one <emphasis effect="italics">y</emphasis>-value. So this relation is a function.</para>
+<para id="fs-id1167836546333">Since each <emphasis effect="italics">y</emphasis>-value is paired with only one <emphasis effect="italics">x</emphasis>-value, this function is one-to-one.</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-742"><exercise id="fs-id1167829627366">
+<problem id="fs-id1167829695780">
+<para id="fs-id1167836730111">For each set of ordered pairs, determine if it represents a function and if so, is the function one-to-one.</para>
+<para id="fs-id1167836689409"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836553296">
+<para id="fs-id1167836558408"><span class="token">ⓐ</span> One-to-one function<newline/><span class="token">ⓑ</span> Function; not one-to-one</para>
+</solution>
+</exercise></example><para id="fs-id1167836737936">To help us determine whether a relation is a function, we use the <term class="no-emphasis">vertical line test</term>. A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point. Also, if any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
+<para id="fs-id1167836697122">The vertical line is representing an <emphasis effect="italics">x</emphasis>-value and we check that it intersects the graph in only one <emphasis effect="italics">y</emphasis>-value. Then it is a function.</para>
+<para id="fs-id1167833369216">To check if a function is one-to-one, we use a similar process. We use a horizontal line and check that each horizontal line intersects the graph in only one point. The horizontal line is representing a <emphasis effect="italics">y</emphasis>-value and we check that it intersects the graph in only one <emphasis effect="italics">x</emphasis>-value. If every horizontal line intersects the graph of a function in at most one point, it is a one-to-one function. This is the <term>horizontal line test</term>.</para>
+<note id="fs-id1167829712822">
+<title>Horizontal Line Test</title>
+<para id="fs-id1167836416189">If every horizontal line intersects the graph of a function in at most one point, it is a one-to-one function.</para>
+</note>
+<para id="fs-id1168757697826">We can test whether a graph of a relation is a function by using the vertical line test. We can then tell if the function is one-to-one by applying the horizontal line test.</para>
+<example id="fs-id1167833257674">
+<exercise id="fs-id1167829720214">
+<problem id="fs-id1167836692974">
+<para id="fs-id1167836621109">Determine <span class="token">ⓐ</span> whether each graph is the graph of a function and, if so, <span class="token">ⓑ</span> whether it is one-to-one.</para>
+<media id="fs-id1167836514026" alt="This first graph shows a straight line passing through (0, 2) and (3, 0). This second shows a parabola opening up with vertex at (0, negative 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_009_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836685332">
+<para id="fs-id1167836536170"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829693847" alt="This figure shows a straight line passing through (0, 2) and (3, 0), with a red vertical line that only passes through one point and a blue horizontal line that only passes through one point.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_010_img.jpg"/>
+</media></para>
+<para id="fs-id1167833224372">Since any vertical line intersects the graph in at most one point, the graph is the graph of a function. Since any horizontal line intersects the graph in at most one point, the graph is the graph of a one-to-one function.</para>
+<para id="fs-id1167824739558"><span class="token">ⓑ</span><newline/>
+<media id="fs-id1167829597115" alt="This figure shows a parabola opening up with vertex at (0, negative 1), with a red vertical line that only passes through one point and a blue horizontal line that passes through two points.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_011_img.jpg"/>
+</media></para>
+<para id="fs-id1167836684122">Since any vertical line intersects the graph in at most one point, the graph is the graph of a function. The horizontal line shown on the graph intersects it in two points. This graph does not represent a one-to-one function.</para>
+</solution>
+</exercise>
+</example><example id="eip-46"><exercise id="fs-id1167836729138">
+<problem id="fs-id1167836529356">
+<para id="fs-id1167836732672">Determine <span class="token">ⓐ</span> whether each graph is the graph of a function and, if so, <span class="token">ⓑ</span> whether it is one-to-one.</para>
+<media id="fs-id1167829688608" alt="Graph a shows a parabola opening to the right with vertex at (negative 1, 0). Graph b shows an exponential function that does not cross the x axis and that passes through (0, 1) before increasing rapidly.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_012_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167829833822">
+<para id="fs-id1167836630189"><span class="token">ⓐ</span> Not a function <span class="token">ⓑ</span> One-to-one function</para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167836509386"><title>Defining the Inverse of a Function</title><para id="fs-id1167829784507">Let’s look at a one-to one function, <m:math><m:mi>f</m:mi></m:math>, represented by the ordered pairs <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> For each <m:math><m:mi>x</m:mi></m:math>-value, <m:math><m:mi>f</m:mi></m:math> adds 5 to get the <m:math><m:mi>y</m:mi></m:math>-value. To ‘undo’ the addition of 5, we subtract 5 from each <m:math><m:mi>y</m:mi></m:math>-value and get back to the original <m:math><m:mi>x</m:mi></m:math>-value. We can call this “taking the inverse of <m:math><m:mi>f</m:mi></m:math>” and name the function <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836330596" alt="This figure shows the set (0, 5), (1, 6), (2, 7) and (3, 8) on the left side of an oval. The oval contains the numbers 0, 1, 2, and 3. There are black arrows from these numbers that point to the numbers 5, 6, 7, and 8, respectively in a second oval to the right of the first. Above this, there is a black arrow labeled “f add 5” coming from the left oval to the right oval. There are red arrows from the numbers 5, 6, 7, and 8 in the right oval to the numbers 0, 1, 2, and 3, respectively, in the left oval. Below this, we have a red arrow labeled “f with a superscript negative 1” and “subtract 5”. To the right of this, we have the set (5, 0), (6, 1), (7, 2) and (8, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_014_img.jpg"/>
+</media>
+<para id="fs-id1167836619718">Notice that that the ordered pairs of <m:math><m:mi>f</m:mi></m:math> and <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> have their <m:math><m:mi>x</m:mi></m:math>-values and <m:math><m:mi>y</m:mi></m:math>-values reversed. The domain of <m:math><m:mi>f</m:mi></m:math> is the range of <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> and the domain of <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math> is the range of <m:math><m:mrow><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836493064"><title>Inverse of a Function Defined by Ordered Pairs</title><para id="fs-id1167832980874">If <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a one-to-one function whose ordered pairs are of the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> then its inverse function <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the set of ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+
+<para id="fs-id1165135319550">The range of a function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is the domain of the inverse function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para> 
+<para id="fs-id1165137673886">The domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is the range of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+</m:math>
+</para></note>
+<para id="fs-id1167836700044">In the next example we will find the inverse of a function defined by ordered pairs.</para>
+<example id="fs-id1167836492441">
+<exercise id="fs-id1167836537933">
+<problem id="fs-id1167829879570">
+<para id="fs-id1167833007322">Find the inverse of the function <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Determine the domain and range of the inverse function.</para>
+</problem>
+<solution id="fs-id1167836700375">
+<para id="fs-id1167836328806">This function is one-to-one since every <m:math><m:mi>x</m:mi></m:math>-value is paired with exactly one <m:math><m:mi>y</m:mi></m:math>-value.</para>
+<para id="fs-id1167836409343">To find the inverse we reverse the <m:math><m:mi>x</m:mi></m:math>-values and <m:math><m:mi>y</m:mi></m:math>-values in the ordered pairs of the function.<newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Function</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Inverse Function</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Domain of Inverse Function</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Range of Inverse Function</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-784"><exercise id="fs-id1167824736280">
+<problem id="fs-id1167836531849">
+<para id="fs-id1167836531851">Find the inverse of <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>10</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>13</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math> Determine the domain and range of the inverse function.</para>
+</problem>
+<solution id="fs-id1167833135456">
+<para id="fs-id1167833135458">Inverse function: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>13</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Domain: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>13</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Range: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+
+<para id="fs-id1167829746002">Since every point on the graph of a function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a mirror image of a point on the graph of <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> we say the graphs are mirror images of each other through the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math> We will use this concept to graph the inverse of a function in the next example.</para>
+<example id="fs-id1167829620960">
+<exercise id="fs-id1167829620962">
+<problem id="fs-id1167829620964">
+<para id="fs-id1167829620966">Graph, on the same coordinate system, the inverse of the one-to one function shown.</para>
+<media id="fs-id1167829620970" alt="This figure shows a line from (negative 5, negative 3) to (negative 3, negative 1) then to (negative 1,0) then to (0,2) and then to (3, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_016_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167836646061">
+<para id="fs-id1167836646063">We can use points on the graph to find points on the inverse graph. Some points on the graph are: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+<para id="fs-id1167836532837">So, the inverse function will contain the points: <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.<newline/>
+<media id="fs-id1167832940223" alt="This figure shows a line from (negative 5, negative 3) to (negative 3, negative 1) then to (negative 1, 0) then to (0,2) and then to (3, 4). Then there is a dashed line to denote y equals x. There is also a line from (negative 3, negative 5) to (negative 1, negative 3) then to (0, negative 1), then to (2, 0) and then to (4, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_017_img.jpg"/>
+</media></para>
+<para id="fs-id1167832940234">Notice how the graph of the original function and the graph of the inverse functions are mirror images through the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+
+
+
+
+
+<para id="eip-14">Given a function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>we represent its inverse as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>read as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mo>“</m:mo><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>inverse of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo><m:mtext>”</m:mtext><m:mtext> </m:mtext></m:mrow>
+</m:math>The raised<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>is part of the notation. It is not an exponent; it does not imply a power of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>−1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>. In other words,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>does <emphasis effect="italics">not</emphasis> mean<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>because<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>is the reciprocal of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and not the inverse.</para><para id="eip-239">The “exponent-like” notation comes from an analogy between function composition and multiplication: just as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>a</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>(1 is the identity element for multiplication) for any nonzero number<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>so<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>∘</m:mo><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>equals the identity function, that is,</para><equation id="eip-849"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow>
+</m:math>
+</equation><note id="eip-103"><title>Inverse Functions</title><para id="fs-id1165137473076">For any <term class="no-emphasis">one-to-one function</term><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>a function<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>is an <term>inverse function</term> of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>This can also be written as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>It also follows that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>for all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>if<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>is the inverse of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>
+</para>
+<para id="fs-id1165137444821">The notation <m:math>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+</m:mrow>
+</m:math> is read <m:math>
+<m:mrow><m:mtext>“</m:mtext>
+<m:mi>f</m:mi></m:mrow>
+</m:math> inverse.” Like any other function, we can use any variable name as the input for <m:math>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>,</m:mo></m:mrow>
+</m:math> so we will often write<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow>
+</m:math> which we read as <m:math>
+<m:mrow>
+<m:mo>“</m:mo><m:mi>f</m:mi>
+</m:mrow>
+</m:math> inverse of <m:math>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>.</m:mo><m:mo>”</m:mo>
+</m:mrow>
+</m:math>
+Keep in mind that <equation id="fs-id1165137581324" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>≠</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</equation> and not all functions have inverses.</para>
+
+<para id="eip-96"><emphasis>Inverse function</emphasis>, which is a function for which the input of the original function becomes the output of the inverse function and the output of the original function becomes the input of the inverse function.</para><equation id="fs-id1167836625735" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>for all</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>in the domain of</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>for all</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>in the domain of</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+
+</note><para id="eip-827">When we began our discussion of an inverse function, we talked about how the inverse function ‘undoes’ what the original function did to a value in its domain in order to get back to the original <emphasis effect="italics">x</emphasis>-value. This holds for all<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>in the domain of<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>Informally, this means that inverse functions “undo” each other. However, just as zero does not have a <term class="no-emphasis">reciprocal</term>, some functions do not have inverses.</para><example id="eip-224"><para id="fs-id1165135397975">For example,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>are inverse functions.</para> 
+<equation id="fs-id1165137756798" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>∘</m:mo><m:mi>f</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>4</m:mn><m:mi>x</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>4</m:mn><m:mi>x</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow>
+</m:math>
+</equation> 
+<para id="fs-id1165137767233">and</para> 
+<equation id="fs-id1165137755853" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow/>
+</m:msup>
+<m:mo>∘</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mi>x</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mi>x</m:mi></m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow>
+</m:math>
+</equation></example><para id="fs-id1167829579603">We can use this property to verify that two functions are inverses of each other.</para>
+<note id="eip-308"><title>How To</title><para id="fs-id1165135434077"><emphasis>Given two functions<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>test whether the functions are inverses of each other.</emphasis></para>
+<list id="fs-id1165137452358" list-type="enumerated" number-style="arabic"><item>Determine whether<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>or<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow>
+</m:math>
+</item> 
+<item>If either statement is true, then both are true, and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>g</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>If either statement is false, then both are false, and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>≠</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>≠</m:mo><m:msup>
+<m:mi>g</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>.</m:mo></m:mrow>
+</m:math>
+</item>
+</list></note><example id="fs-id1167829579606">
+<exercise id="fs-id1167829579608">
+<problem id="fs-id1167829579610">
+<para id="fs-id1167829579612">Verify that <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> are inverse functions.</para>
+</problem>
+<solution id="fs-id1167836543935">
+<para id="fs-id1167836543937">The functions are inverses of each other if <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829851288"><table id="fs-id1167829851289" class="unnumbered unstyled" summary="We want to examine whether g of f of x equals x In the first step, we substitute 5 x minus 1 for f of x which means that we are checking whether g of 5 x minus 1 equals x Then we find g of 5 x minus 1 where g of x equals the quantity x plus 1 all over 5. This means that we are trying to check whether the quantity 5 x plus 1 minus 1 all over 5 equals x. When we simplify we see that we are trying to check whether 5 x over 5 equals x. After simplifying further, we see that x equals x so this result holds. To investigate the other way, we are trying to determine whether f of g of x equals x. In the first step, we substitute the quantity x plus 1 all over 5 for g of x which means that we are trying to check whether f of quantity x plus 1 all over 5 equals x. Then we find f of quantity x plus 1 all over 5 where f of x equals 5 x minus 1. This means that we are trying to determine whether 5 times the quantity x plus 1 all over 5, minus 1 equals x. We simplify to see that to get x plus 1 minus 1 equals x. Simplifying further, we see that x does indeed equal x.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836524802" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> for <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836685029" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020d_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167825791236" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020a_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167825791245" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020e_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829715425" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020f_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829715444" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020g_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167829696081" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020h_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Substitute <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> for <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829718205" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020i_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167829718219" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020b_img.jpg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167829718228" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020j_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833202354" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020k_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167832999569" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_020l_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167832999579">Since both <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> are true, the functions <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> are inverse functions. That is, they are inverses of each other.</para>
+</solution>
+</exercise>
+</example>
+
+<example id="eip-36"><exercise id="fs-id1167836399489">
+<problem id="fs-id1167836399491">
+<para id="fs-id1167836399493">Verify that the functions are inverse functions.</para>
+<para id="fs-id1167836399496"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833020781">
+<para id="fs-id1167833020783"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-438"><exercise id="fs-id1167829715060">
+<problem id="fs-id1167829715062">
+<para id="fs-id1167829715064">Verify that the functions are inverse functions.</para>
+<para id="fs-id1167829715067"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829687013">
+<para id="fs-id1167829687016"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+</example><example id="eip-578"><exercise id="fs-id1165137557051">
+<problem id="fs-id1165137679032">
+<title>Testing Inverse Relationships Algebraically</title>
+<para id="fs-id1165135519417">If<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext></m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mi>x</m:mi>
+</m:mfrac>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>is<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>g</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo>?</m:mo></m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165137627632">
+
+
+ <equation id="fs-id1165137675509" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr rowalign="center">
+     <m:mtd columnalign="right" rowalign="center">
+      <m:mrow>
+       <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mo>(</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>)</m:mo>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mi>x</m:mi>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+  
+</equation><para id="fs-id1165137611481">so</para> 
+<equation id="fs-id1165135678636" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>g</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mtext> and </m:mtext><m:mi>f</m:mi><m:mo>=</m:mo><m:msup>
+<m:mi>g</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+</m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1165135436648">This is enough to answer yes to the question, but we can also verify the other formula.</para>
+ <equation id="fs-id1165137784350" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr rowalign="center">
+     <m:mtd columnalign="right" rowalign="center">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr rowalign="center">
+     <m:mtd rowalign="center"/>
+     <m:mtd rowalign="center">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left" rowalign="center">
+      <m:mi>x</m:mi>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+  
+</equation>
+<para id="fs-id1165135389000"><title>Analysis </title> Notice the inverse operations are in reverse order of the operations from the original function.</para>
+</solution>
+</exercise></example></section><section id="eip-200"><title>Finding the Inverse of a Function</title><para id="fs-id1167836333437">We have found inverses of function defined by ordered pairs and from a graph. We will now look at how to find an inverse using an algebraic equation. The method uses the idea that if <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a one-to-one function with ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> then its inverse function <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the set of ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167833345792">If we reverse the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> in the function and then solve for <emphasis effect="italics">y</emphasis>, we get our <term class="no-emphasis">inverse function</term>.</para>
+<note id="eip-487"><title>How To  Find the Inverse</title><list id="fs-id1167829738778" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Substitute <emphasis effect="italics">y</emphasis> for <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Interchange the variables <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>.</item>
+<item>Solve for <emphasis effect="italics">y</emphasis>.</item>
+<item>Substitute <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for <emphasis effect="italics">y</emphasis>.</item>
+<item>Verify that the functions are inverses.</item>
+</list>
+</note><example id="fs-id1167833345812">
+<title>How to Find the inverse of a One-to-One Function</title>
+<exercise id="fs-id1167833239447">
+<problem id="fs-id1167833239449">
+<para id="fs-id1167833239451">Find the inverse of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167821865222">
+<media id="fs-id1167821865224" alt="Step 1 is to substitute y for f of x. To do so, we replace f of x with y. Hence, f of x equals 4 x plus 7 becomes y equals 4 x plus 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_021a_img.jpg"/>
+</media>
+<media id="fs-id1167821865234" alt="Step 2 is to interchange the variables x and y. To do so, we replace x with y and then y with x. Hence, we obtain x equals 4y plus 7.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_021b_img.jpg"/>
+</media>
+<media id="fs-id1167821865243" alt="Step 3 is to solve for y. To do so, we subtract 7 from each side and then divide by 4. Hence, we have x minus 7 equals 4y and then the quantity x minus 7 divided by 4 equals y.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_021c_img.jpg"/>
+</media>
+<media id="fs-id1167836495426" alt="Step 4 is to substitute f superscript negative 1 of x for y. To do so, we replace y with f superscript negative 1 of x. Hence, the quantity x minus 7 divided by 4 equals f superscript negative 1 of x.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_021d_img.jpg"/>
+</media>
+<media id="fs-id1167836495436" alt="Step 5 is to verify that the functions are inverses. To do so, we show that f superscript negative 1 of f of x equals x and that f of f superscript negative 1of x equals x. Hence, we ask whether f inverse of 4x plus 7 equals x. This becomes a question of whether 4 x plus 7 minus 7 all divided by 4 equals x. This becomes a question of whether 4x divided by 4 equals x. This is true. To show the other side, we examine whether f of f inverse of x equals x. This becomes a question of whether f of the quantity x minus 7 divided by 4 equals x. This becomes a question of whether 4 times the quantity x minus 7 divided by 4 equals x. This becomes a question of whether x minus 7 plus 7 equals x. This is true.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_021e_img.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<example id="eip-112"><exercise id="fs-id1167836495457">
+<problem id="fs-id1167833239525">
+<para id="fs-id1167833239527">Find the inverse of the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833239556">
+<para id="fs-id1167833239558"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="fs-id1167829650658">
+<title>How to Find the Inverse of a One-to-One Function</title>
+<exercise id="fs-id1167829650664">
+<problem id="fs-id1167833350434">
+<para id="fs-id1167833350436">Find the inverse of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826172026">
+<para id="fs-id1167826172028"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Interchange the variables</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Solve for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Substitute</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>f</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:msup><m:mi>f</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836399012">Verify that the functions are inverses.<newline/>
+<m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>f</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>f</m:mi><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mroot><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mroot><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mroot></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mroot></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mroot></m:mtd><m:mtd columnalign="left"><m:mover><m:mo>=</m:mo><m:mo>?</m:mo></m:mover></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>✓</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi><m:mo>✓</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-840"><exercise id="fs-id1167833020913">
+<problem id="fs-id1167833020915">
+<para id="fs-id1167833020917">Find the inverse of the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836477385">
+<para id="fs-id1167836477387"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-405"><exercise id="fs-id1165137600416">
+<problem id="fs-id1165135198605">
+<para id="fs-id1165135198608"><m:math>
+<m:mrow>
+<m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mi>x</m:mi>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id1165135541959">
+<para id="fs-id1165135541961"><m:math>
+<m:mrow>
+<m:msup>
+<m:mi>f</m:mi>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise></example>
+</section><section id="fs-id1167829906171" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167829906177" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Composition of Functions:</emphasis> The composition of functions <m:math><m:mi>f</m:mi></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo>,</m:mo></m:mrow></m:math> is written <m:math><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow></m:math> and is defined by<newline/>
+<equation id="fs-id1167829879433" class="unnumbered"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>∘</m:mo><m:mi>g</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><newline/>
+We read <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as <m:math><m:mi>f</m:mi></m:math> of <m:math><m:mi>g</m:mi></m:math> of <m:math><m:mrow><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><emphasis effect="bold">Horizontal Line Test:</emphasis> If every horizontal line, intersects the graph of a function in at most one point, it is a one-to-one function.</item>
+<item><emphasis effect="bold">Inverse of a Function Defined by Ordered Pairs:</emphasis> If <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is a one-to-one function whose ordered pairs are of the form <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> then its inverse function <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is the set of ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>,</m:mo><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><emphasis effect="bold">Inverse Functions:</emphasis> For every <m:math><m:mi>x</m:mi></m:math> in the domain of one-to-one function <m:math><m:mi>f</m:mi></m:math> and <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<equation id="fs-id1167836544056" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">How to Find the Inverse of a One-to-One Function:</emphasis>
+<list id="fs-id1167836768376" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Substitute <emphasis effect="italics">y</emphasis> for <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Interchange the variables <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>.</item>
+<item>Solve for <emphasis effect="italics">y</emphasis>.</item>
+<item>Substitute <m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for <m:math><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Verify that the functions are inverses.</item>
+</list></item>
+</list>
+</section>
+<section id="fs-id1167833020689" class="section-exercises">
+<section id="fs-id1167833020692" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167825808240"><emphasis effect="bold">Determine Whether a Function is One-to-One</emphasis></para>
+<para id="fs-id1167825808246">In the following exercises, determine if the set of ordered pairs represents a function and if so, is the function one-to-one.</para>
+<exercise id="fs-id1167825808250" class="material-set-2">
+<problem id="fs-id1167825808252">
+<para id="fs-id1167825808254"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:math>,<newline/><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1167836530984">
+<para id="fs-id1167824668944">Function; not one-to-one</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833369697" class="material-set-2">
+<problem id="fs-id1167833369699">
+<para id="fs-id1167833369701"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:math>,<newline/><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:math></para>
+</problem>
+<solution id="fs-id1167824704165">
+<para id="fs-id1167824704167">One-to-one function</para>
+</solution>
+</exercise>
+<para id="fs-id1167836533576">In the following exercises, determine whether each graph is the graph of a function and if so, is it one-to-one.</para>
+<exercise id="fs-id1167836533580" class="material-set-2">
+<problem id="fs-id1167836533582">
+<para id="fs-id1167836533584"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829787690" alt="This figure shows a graph of a circle with center at the origin and radius 3.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_201_img.jpg"/>
+</media><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1167829787704" alt="This figure shows a graph of a parabola opening upward with vertex at (0k, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_202_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167829787714">
+<para id="fs-id1167829787716"><span class="token">ⓐ</span> Not a function <span class="token">ⓑ</span> Function; not one-to-one</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167823012125" class="material-set-2">
+<problem id="fs-id1167823012127">
+<para id="fs-id1167823012129"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167823012136" alt="This figure shows a graph of a curve that starts at (negative 6 negative 2) increases to the origin and then continues increasing slowly to (6, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_205_img.jpg"/>
+</media><newline/>
+<span class="token">ⓑ</span><newline/>
+<media id="fs-id1167823012152" alt="This figure shows a parabola opening upward with vertex at (0, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_01_206_img.jpg"/>
+</media></para>
+</problem>
+<solution id="fs-id1167823012162">
+<para id="fs-id1167823012164"><span class="token">ⓐ</span> One-to-one function<newline/><span class="token">ⓑ</span> Function; not one-to-one</para>
+</solution>
+</exercise>
+<para id="fs-id1167836624981">In the following exercises, find the inverse of each function. Determine the domain and range of the inverse function.</para>
+<exercise id="fs-id1167836624985" class="material-set-2">
+<problem id="fs-id1167836624987">
+<para id="fs-id1167836624990"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829808255">
+<para id="fs-id1167829808257">Inverse function: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Domain: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Range: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825703072" class="material-set-2">
+<problem id="fs-id1167825703074">
+<para id="fs-id1167825703077"><m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829890422">
+<para id="fs-id1167829890424">Inverse function: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Domain: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Range: <m:math><m:mrow><m:mrow><m:mo>{</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>}</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167836523852">In the following exercises, determine whether or not the given functions are inverses.</para>
+<exercise id="fs-id1167836523856" class="material-set-2">
+<problem id="fs-id1167836523858">
+<para id="fs-id1167836523860"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824733031">
+<para id="fs-id1167824733033"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832926058" class="material-set-2">
+<problem id="fs-id1167832926061">
+<para id="fs-id1167832926063"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829787270">
+<para id="fs-id1167829787272"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829808958" class="material-set-2">
+<problem id="fs-id1167829808960">
+<para id="fs-id1167829808962"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836440128">
+<para id="fs-id1167836440130"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824765407" class="material-set-2">
+<problem id="fs-id1167824765409">
+<para id="fs-id1167824765411"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833051870">
+<para id="fs-id1167833051872"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>,</m:mo></m:mrow></m:math> so they are inverses (for nonnegative <m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833022953">In the following exercises, find the inverse of each function.</para>
+<exercise id="fs-id1167833022957" class="material-set-2">
+<problem id="fs-id1167833022959">
+<para id="fs-id1167833022961"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833022984">
+<para id="fs-id1167833022986"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829859344" class="material-set-2">
+<problem id="fs-id1167829859346">
+<para id="fs-id1167829859348"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824602071">
+<para id="fs-id1167824602073"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836621636" class="material-set-2">
+<problem id="fs-id1167836621638">
+<para id="fs-id1167836621640"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829811511">
+<para id="fs-id1167829811513"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829801847" class="material-set-2">
+<problem id="fs-id1167829801849">
+<para id="fs-id1167829801851"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833175196">
+<para id="fs-id1167833175199"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829851254" class="material-set-2">
+<problem id="fs-id1167829851256">
+<para id="fs-id1167829851258"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829651284">
+<para id="fs-id1167829651286"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836575720" class="material-set-2">
+<problem id="fs-id1167836575722">
+<para id="fs-id1167836575724"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836575752">
+<para id="fs-id1167836575754"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836494143" class="material-set-2">
+<problem id="fs-id1167836494145">
+<para id="fs-id1167836494147"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836494175">
+<para id="fs-id1167836494177"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824917078" class="material-set-2">
+<problem id="fs-id1167824917080">
+<para id="fs-id1167824917082"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>,</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836450145">
+<para id="fs-id1167836450147"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mn>9</m:mn></m:mfrac></m:mrow></m:math>, <m:math><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829808436" class="material-set-2">
+<problem id="fs-id1167829808438">
+<para id="fs-id1167829808440"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot><m:mrow><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829808470">
+<para id="fs-id1167829808472"><m:math><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section></section>
+</content>
+<glossary>
+<definition id="fs-id1167836399263">
+<term>one-to-one function</term>
+<meaning id="fs-id1167836399269">A function is one-to-one if each value in the range has exactly one element in the domain. For each ordered pair in the function, each <emphasis effect="italics">y</emphasis>-value is matched with only one <emphasis effect="italics">x</emphasis>-value.</meaning>
+</definition>
+</glossary>
+</document>

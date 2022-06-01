@@ -1,0 +1,2338 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Properties of Logarithms (4.3)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m84686</md:content-id>
+  <md:title>Properties of Logarithms (4.3)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Use the properties of logarithms</item>
+<item>Use the Change of Base Formula</item>
+</list></md:abstract>
+  <md:uuid>b4640591-77bc-49f9-b20b-c234a5498c45</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-161"><para id="fs-id1169147087020">This Module supports section <emphasis> 4.3 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Properties of Logarithms <link target-id="fs-id1167833024608" document=""/></item>
+<item>Expand and Condense Logarithms <link target-id="eip-151" document=""/></item>
+<item>Change of Base Formula<link target-id="fs-id1167825660092" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167836540486" document=""/></item></list></note><para id="fs-id1167829968231">Now that we have learned about exponential and logarithmic functions, we can introduce some of the properties of logarithms. These will be very helpful as we continue to solve both exponential and logarithmic equations. In the previous section we already introduced Basic property and inverse property, which we will review below.</para>
+
+<note id="fs-id1167829930461">
+<title>Properties of Logarithms</title>
+<para id="eip-850">The first two properties derive from the definition of logarithms. Since <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> we can convert this to logarithmic form and get <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math> Also, since <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>,</m:mo></m:mrow></m:math> we get <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para><equation id="fs-id1167836285974" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="5em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1167836509660">
+<title>Inverse Properties of Logarithms</title>
+<para id="eip-531">These two properties are called inverse properties because, when we have the same base, raising to a power “undoes” the log and taking the log “undoes” raising to a power. These two properties show the <term class="no-emphasis">composition</term> of functions. Both ended up with the identity function which shows again that the exponential and logarithmic functions are inverse functions.</para><para id="fs-id1167836521102">For <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167833066282" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="5em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></equation></note>
+<section id="fs-id1167833024608"><title>Use the Properties of Logarithms</title><para id="fs-id1167836360532">Recall that the logarithmic and exponential functions “undo” each other. This means that logarithms have similar properties to exponents. Our definition of logarithm shows us that a logarithm is the exponent of the equivalent exponential function. The properties of exponents have related properties for logarithms. There are three more properties of logarithms that will be useful in our work.</para><para id="eip-421">Before we can solve an equation like <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>
+, we need a method for combining terms on the left side of the equation.
+<newline/>
+Recall that we use the <emphasis effect="italics">Product Property of Exponents</emphasis>, <m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> we see that to multiply the same base, we add the exponents. We have a similar property for logarithms, called the <emphasis><term>Product Property of Logarithms</term></emphasis>, which tells us that to take the log of a product, we add the log of the factors.  Because logs are exponents, and we multiply like bases, we can add the exponents. 
+
+</para><note id="fs-id1167829694016">
+<title>Product Property of Logarithms</title>
+<para id="fs-id1167829907689">If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then,</para>
+<equation id="fs-id1167836560117" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167833085159">The logarithm of a product is the sum of the logarithms.</para>
+</note>
+<para id="fs-id1167829693765">We use this property to write the log of a product as a sum of the logs of each factor.</para>
+<note id="eip-165"><label>How To</label>
+<para id="fs-id1165134223340"><emphasis>Given the logarithm of a product, use the product rule of logarithms to write an equivalent sum of logarithms.</emphasis></para>
+<list id="fs-id1165137748303" list-type="enumerated" number-style="arabic">
+<item>Factor the argument completely, expressing each whole number factor as a product of primes.</item>
+<item>Write the equivalent expression by summing the logarithms of each factor.</item>
+</list>
+</note><example id="fs-id1167824643239">
+<exercise id="fs-id1167826132687">
+<problem id="fs-id1167836701067">
+<para id="fs-id1167836447737">Use the Product Property of Logarithms to write each logarithm as a sum of logarithms. Simplify, if possible: <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836532493">
+<para id="fs-id1167829633946"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>7</m:mn><m:mi>x</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Product Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>7</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>7</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836310616"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Product Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify by evaluating</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mi>log</m:mi></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>64</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-112"><exercise id="fs-id1167836287646">
+<problem id="fs-id1167836520189">
+<para id="fs-id1167829936758">Use the Product Property of Logarithms to write each logarithm as a sum of logarithms. Simplify, if possible.</para>
+<para id="fs-id1167824735147"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>27</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836492299">
+<para id="fs-id1167836414960"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>9</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-931"><exercise id="fs-id1165135458651"><problem id="fs-id1165135458654">
+<title>Using the Product Rule for Logarithms</title>
+<para id="fs-id1165137585196">Expand <m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>30</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para></problem>
+<solution id="fs-id1165137676248">
+<para id="fs-id1165137676251">We begin by factoring the argument completely, expressing<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mn>30</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as a product of primes.</para>
+<equation id="eip-id1165137725082" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>30</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165137438435">Next we write the equivalent equation by summing the logarithms of each factor.</para>
+<equation id="eip-id1165137836500" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>30</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></equation>
+</solution>
+</exercise>
+</example><para id="fs-id1167836448476"><title>Quotient Property</title>Similarly, in the Quotient Property of Exponents, <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> we see that to divide the same base, we subtract the exponents. The <term>Quotient Property of Logarithms</term>, <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math> tells us to take the log of a quotient, we subtract the log of the numerator and denominator.</para>
+<note id="fs-id1167833008215">
+<title>Quotient Property of Logarithms</title>
+<para id="fs-id1167829694242">If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then,</para>
+<equation id="fs-id1167836512572" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167829691498">The logarithm of a quotient is the difference of the logarithms.</para><para id="eip-156">Note that <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>≠</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>−</m:mo><m:mi>N</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="eip-795">We use this property to write the log of a quotient as the difference of the logs of each factor.</para><note id="eip-158"><label>How To</label>
+<para id="fs-id1165137749813"><emphasis>Given the logarithm of a quotient, use the quotient rule of logarithms to write an equivalent difference of logarithms.</emphasis></para><list id="fs-id1165137749817" list-type="enumerated" number-style="arabic">
+<item>Express the argument in lowest terms by factoring the numerator and denominator and canceling common terms.</item>
+<item>Write the equivalent expression by subtracting the logarithm of the denominator from the logarithm of the numerator.</item>
+<item>Check to see that each term is fully expanded. If not, apply the product rule for logarithms to expand completely.</item>
+</list>
+</note><example id="fs-id1167833023118">
+<exercise id="fs-id1167836662447">
+<problem id="fs-id1167829694727">
+<para id="fs-id1167836704561">Use the Quotient Property of Logarithms to write each logarithm as a difference of logarithms. Simplify, if possible.<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math> and <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836524021">
+<para id="fs-id1167836625233"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Quotient Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>5</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>7</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>7</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167833378973"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Quotient Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mn>100</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-713"><exercise id="fs-id1167824732926">
+<problem id="fs-id1167836697298">
+<para id="fs-id1167836312715">Use the Quotient Property of Logarithms to write each logarithm as a difference of logarithms. Simplify, if possible.</para>
+<para id="fs-id1167836502108"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mi>x</m:mi><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829595168">
+<para id="fs-id1167836367768"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-229"><exercise id="fs-id1167836335184">
+<problem id="fs-id1167836525799">
+<para id="fs-id1167825702912">Use the Quotient Property of Logarithms to write each logarithm as a difference of logarithms. Simplify, if possible.</para>
+<para id="fs-id1167833370053"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829811047">
+<para id="fs-id1167836400007"> <span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-362"><exercise id="fs-id1165135185904">
+<problem id="fs-id1165135185906">
+<title>Using the Quotient Rule for Logarithms</title>
+<para id="fs-id1165135696743">Expand<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>15</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165137534099">
+<para id="fs-id1165137534102">First we note that the quotient is factored and in lowest terms, so we apply the quotient rule. </para>
+<equation id="eip-id1165135241002" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>15</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>15</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165137634442">Notice that the resulting terms are logarithms of products. To expand completely, we apply the product rule, noting that the prime factors of the factor 15 are 3 and 5.</para>
+<equation id="eip-id1165137930288" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">[</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>−</m:mo><m:mo stretchy="false">[</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                                                                 </m:mtext><m:mo>=</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+       <m:mrow>
+        <m:mi>log</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1165137629471"><title>Analysis </title>There are exceptions to consider in this and later examples. First, because denominators must never be zero, this expression is not defined for<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Also, since the argument of a logarithm must be positive, we note as we observe the expanded logarithm, that<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math><m:math>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+</m:mrow>
+</m:math><m:math>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mfrac>
+<m:mn>4</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>,</m:mo>
+</m:mrow>
+</m:math> and<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>Combining these conditions is beyond the scope of this section, and we will not consider them here or in subsequent exercises.</para></solution>
+
+
+</exercise></example><para id="eip-328"><title>Power Property</title>We’ve explored the product rule and the quotient rule, but how can we take the logarithm of a power, such as<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>?</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>
+The third property of logarithms is related to the Power Property of Exponents, <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>,</m:mo></m:mrow></m:math> we see that to raise a power to a power, we multiply the exponents. 
+
+</para><equation id="eip-687"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>⋅</m:mo><m:mi>x</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>x</m:mi>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>2</m:mn><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>x</m:mi>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math></equation><para id="eip-541">Notice that we used the product property for logarithms to find a solution for the example above. By doing so, we have derived the <term>Power Property of Logarithms</term>, <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mrow></m:math>, which tells us to take the log of a number raised to a power, we multiply the power times the log of the number.</para><note id="fs-id1167836542306">
+<title>Power Property of Logarithms</title>
+<para id="fs-id1167836340795">If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is any real number then,</para>
+<equation id="fs-id1167836556087" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167824740500">We use this property to write the log of a number raised to a power as the product of the power times the log of the number. <emphasis> We essentially take the exponent and throw it in front of the logarithm.</emphasis></para>
+<example id="fs-id1167824767082">
+<exercise id="fs-id1167824774192">
+<problem id="fs-id1167836512226">
+<para id="fs-id1167829596067">Use the Power Property of Logarithms to write each logarithm as a product of logarithms. Simplify, if possible.<newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> and <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836620851">
+<para id="fs-id1167836731574"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167824766970"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>10</m:mn><m:mspace width="0.2em"/><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>10</m:mn><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-921"><exercise id="fs-id1167826169922">
+<problem id="fs-id1167836693312">
+<para id="fs-id1167836520482">Use the Power Property of Logarithms to write each logarithm as a product of logarithms. Simplify, if possible.</para>
+<para id="fs-id1167829719011"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:msup><m:mn>5</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>100</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836289254">
+<para id="fs-id1167836688151"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>7</m:mn></m:msub><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>100</m:mn><m:mo>·</m:mo><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example></section><section id="eip-151"><title>Expand and Condense Logarithms</title><para id="eip-708">We summarize the Properties of Logarithms here for easy reference. While the natural logarithms are a special case of these properties, it is often helpful to also show the natural logarithm version of each property.</para><note id="eip-9"><title>Properties of Logarithms</title><para id="fs-id1167836575024">If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is any real number then,</para>
+<table id="fs-id1167836707128" class="unnumbered" summary=".">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row valign="top">
+<entry valign="middle" align="left">Property</entry>
+<entry valign="middle" align="left">Base <m:math><m:mi>a</m:mi></m:math></entry>
+<entry valign="middle" align="left">Base <m:math><m:mi>e</m:mi></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry/>
+<entry valign="middle" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><emphasis effect="bold">Inverse Properties</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>a</m:mi><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><emphasis effect="bold">Product Property of Logarithms</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><emphasis effect="bold">Quotient Property of Logarithms</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="middle" align="left"><emphasis effect="bold">Power Property of Logarithms</emphasis></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mrow></m:math></entry>
+<entry valign="middle" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></note><para id="fs-id1167836694331">Now that we have the properties we can use them to <emphasis>“expand” </emphasis>a logarithmic expression. This means to write the logarithm as a sum or difference and without any powers.</para><para id="eip-710">Taken together, the product rule, quotient rule, and power rule are often called “laws of logs.”  Sometimes we apply more than one rule in order to simplify an expression. For example:</para><equation id="eip-285"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>6</m:mn><m:mi>x</m:mi>
+</m:mrow>
+<m:mi>y</m:mi>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>6</m:mn><m:mi>x</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>y</m:mi>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mn>6</m:mn><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>y</m:mi>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math></equation><para id="fs-id1167836516031">We generally apply the Product and Quotient Properties before we apply the Power Property. Remember, however, that we can only do this with products, quotients, powers, and roots—never with addition or subtraction inside the argument of the logarithm.</para><example id="fs-id1167824822972">
+<exercise id="fs-id1167829716031">
+<problem id="fs-id1167836609282">
+<para id="fs-id1167836530646">Use the Properties of Logarithms to expand the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167836448201">
+<para id="fs-id1167833058231"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Product Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>2</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>on the last two terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-478"><exercise id="fs-id1167836532369">
+<problem id="fs-id1167836620332">
+<para id="fs-id1167836694784">Use the Properties of Logarithms to expand the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167836493823">
+<para id="fs-id1167833047214"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-553"><label>Try It</label><exercise id="fs-id1165135173497">
+<problem id="fs-id1165135173499">
+<title>Expanding Logarithms Using Product, Quotient, and Power Rules</title>
+<para id="fs-id1165135173504">Rewrite<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mi>y</m:mi>
+</m:mrow>
+<m:mn>7</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as a sum or difference of logs.</para>
+</problem>
+<solution id="fs-id1165135253766">
+<para id="fs-id1165135253768">First, because we have a quotient of two expressions, we can use the quotient rule:</para>
+<equation id="eip-id1165135209370" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mi>y</m:mi>
+</m:mrow>
+<m:mn>7</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mi>y</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165137854981">Then seeing the product in the first term, we use the product rule:</para>
+<equation id="eip-id1165135474707" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mi>y</m:mi>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165134154611">Finally, we use the power rule on the first term:</para>
+<equation id="eip-id1165137463825" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>ln</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:math></equation>
+</solution>
+</exercise></example><example id="eip-40"><label>Try It</label>
+<exercise id="ti_04_05_07">
+<problem id="fs-id1165135182942">
+<para id="fs-id1165137635162">Expand<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>log</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>z</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165137593597">
+<para id="fs-id1165137593600"><m:math>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>log</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>log</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>log</m:mi><m:mi>z</m:mi>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise></example><example id="eip-276"><exercise id="fs-id1165135440448">
+<problem id="fs-id1165135440450">
+<title>Expanding Complex Logarithmic Expressions</title>
+<para id="fs-id1165135150641">Expand<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>64</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134085798">
+<para id="fs-id1165134085801">We can expand by applying the Product and Quotient Rules. </para>
+<equation id="eip-id1165134267967" class="unnumbered"><label/><m:math>
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>64</m:mn><m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mn>64</m:mn><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Apply the Quotient Rule</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mn>6</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mtext>Simplify by writing  64 as 2</m:mtext>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+<m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mn>6</m:mn><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Apply the Power Rule</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math>
+</equation></solution>
+</exercise></example><para id="fs-id1167829714482">When we have a radical in the logarithmic expression, it is helpful to first write its radicand as a rational exponent.</para>
+<example id="eip-913"><exercise id="fs-id1165137811250"><problem id="fs-id1165137811252">
+<title>Using the Power Rule for Logarithms to Simplify the Logarithm of a Radical Expression</title>
+<para id="fs-id1165135637419">Expand<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>log</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165137453631">
+<equation id="eip-id1165135369492" class="unnumbered"><label/><m:math>
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mi>log</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mi>x</m:mi>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mi>log</m:mi><m:msup>
+<m:mi>x</m:mi>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:msup>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow/>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>log</m:mi><m:mi>x</m:mi>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math></equation></solution>
+</exercise>
+</example><example id="fs-id1167833024381">
+<exercise id="fs-id1167836296138">
+<problem id="fs-id1167836602246">
+<para id="fs-id1167829691674">Use the Properties of Logarithms to expand the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167833019889">
+<para id="fs-id1167836628705"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the radical with a rational exponent.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:msup></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Quotient Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Product Property,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>in the second term.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>inside the parentheses.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify by distributing.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mn>4</m:mn></m:mroot><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+</exercise>
+</example>
+<example id="eip-333"><label>Try It</label><exercise id="fs-id1167836433725">
+<problem id="fs-id1167833326358">
+<para id="fs-id1167836533759">Use the Properties of Logarithms to expand the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>5</m:mn></m:mroot></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167833239698">
+<para id="fs-id1167836525864"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>−</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-146"><label>Try It</label>
+<exercise id="ti_04_05_08">
+<problem id="fs-id1165137804496">
+<para id="fs-id1165137804498">Expand<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mroot>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mn>3</m:mn>
+</m:mroot>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165135193088">
+<para id="fs-id1165135193090"><m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mi>ln</m:mi><m:mi>x</m:mi>
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+</example><note id="eip-330"><label>Q&amp;A</label>
+<para id="eip-id1165134197968"><emphasis>Can we expand</emphasis><m:math>  <m:mrow>   <m:mtext> </m:mtext><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:msup>      <m:mi>x</m:mi>      <m:mn>2</m:mn>     </m:msup>     <m:mo>+</m:mo><m:msup>      <m:mi>y</m:mi>      <m:mn>2</m:mn>     </m:msup>         </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>?</m:mo>  </m:mrow> </m:math></para><para id="fs-id1165135440437"><emphasis effect="italics">No. There is no way to expand the logarithm of a sum or difference inside the argument of the logarithm.</emphasis></para>
+</note><para id="fs-id1167824763483"><title>Condense Logarithms</title>The opposite of expanding a logarithm is to <emphasis> condense</emphasis> a sum or difference of logarithms that have the same base into a single logarithm. We again use the properties of logarithms to help us, but in reverse.</para><para id="fs-id1167829586351">To condense logarithmic expressions <emphasis> with the same base </emphasis>  into one logarithm, we start by using the Power Property to get the coefficients of the log terms to be one and then the Product and Quotient Properties as needed.</para><note id="eip-499"><label>How To</label>
+<para id="fs-id1165135190871"><emphasis>Given a sum, difference, or product of logarithms with the same base, write an equivalent expression as a single logarithm.</emphasis></para><list id="fs-id1165137833816" list-type="enumerated" number-style="arabic">
+<item>Apply the power property first. Identify terms that are products of factors and a logarithm, and rewrite each as the logarithm of a power.</item>
+<item>Next apply the product property. Rewrite sums of logarithms as the logarithm of a product.</item>
+<item>Apply the quotient property last. Rewrite differences of logarithms as the logarithm of a quotient.</item>
+</list>
+</note><example id="fs-id1167833056354">
+<exercise id="fs-id1167836326277">
+<problem id="fs-id1167836320366">
+<para id="fs-id1167836352825">Use the Properties of Logarithms to condense the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167829930936">
+<para id="fs-id1167836531920"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The log expressions all have the same base, 4.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>The first two terms are added, so we use the Product Property,</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Since the logs are subtracted, we use the Quotient Property,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mi>y</m:mi></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="6em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mi>y</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-999"><exercise id="fs-id1167836355817">
+<problem id="fs-id1167836314651">
+<para id="fs-id1167824585085">Use the Properties of Logarithms to condense the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>5</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167833328722">
+<para id="fs-id1167836444994"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-855"><exercise id="fs-id1167836774254">
+<problem id="fs-id1167833058029">
+<para id="fs-id1167836515619">Use the Properties of Logarithms to condense the logarithm <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>6</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167833412682">
+<para id="fs-id1167833048528"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="fs-id1167833058729">
+<exercise id="fs-id1167833186641">
+<problem id="fs-id1167836787861">
+<para id="fs-id1167833053515">Use the Properties of Logarithms to condense the logarithm <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167836492430">
+<para id="fs-id1167836692632"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The log expressions have the same base, 3.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The terms are added, so we use the Product</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Property,</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-65"><exercise id="fs-id1167836620107">
+<problem id="fs-id1167836418916">
+<para id="fs-id1167836375583">Use the Properties of Logarithms to condense the logarithm <m:math><m:mrow><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. Simplify, if possible.</para>
+</problem>
+<solution id="fs-id1167833256623">
+<para id="fs-id1167836514427"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><example id="eip-451"><label>Try It</label><exercise id="fs-id1165134435881">
+<problem id="fs-id1165134435883">
+<title>Condensing Complex Logarithmic Expressions</title>
+<para id="fs-id1165134435888">Condense<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165135344095">
+<para id="fs-id1165135344097">We apply the power rule first:</para>
+<equation id="eip-id1165131962868" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165135531546">Next we apply the product rule to the sum:</para>
+<equation id="eip-id1165134209220" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math></equation>
+<para id="fs-id1165134280852">Finally, we apply the quotient rule to the difference:</para>
+<equation id="eip-id1165134552640" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msqrt>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mn>6</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math></equation>
+</solution>
+</exercise>
+</example></section><section id="fs-id1167825660092">
+<title>Use the Change-of-Base Formula</title>
+<para id="eip-436">Most calculators can evaluate only common and natural logs. In order to evaluate logarithms with a base other than 10 or<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>e</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math>we use the <term>change-of-base formula</term> to rewrite the logarithm as the quotient of logarithms of any other base; when using a calculator, we would change them to common or natural logs. We will show how this is derived by using the <term class="no-emphasis">one-to-one</term> property and <term class="no-emphais">power rule for logarithms</term>.</para><para id="fs-id1167836293793"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Suppose we want to evaluate</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mtd><m:mtd/><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Let</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the expression in exponential form.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msup><m:mi>a</m:mi><m:mi>y</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>M</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Take the</m:mtext><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mspace width="0.2em"/><m:mtext>of each side by applying the one-to-one property.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:msup><m:mi>a</m:mi><m:mi>y</m:mi></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Use the Power Property.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:mi>y</m:mi><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Solve for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="fs-id1167836356469">The Change-of-Base Formula introduces a new base <m:math><m:mrow><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> This can be any base <emphasis effect="italics">b</emphasis> we want where <m:math><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math> Because our calculators have keys for logarithms base 10 and base <emphasis effect="italics">e</emphasis>, we will rewrite the Change-of-Base Formula with the new base as 10 or <emphasis effect="italics">e</emphasis>.</para>
+<note id="fs-id1167833274079">
+<title>Change-of-Base Formula</title>
+<para id="eip-935">The <term>change-of-base formula</term> can be used to evaluate a logarithm with any base.</para><para id="fs-id1167829788705">For any logarithmic bases <m:math><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167836327051" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mi>M</m:mi></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mtext>new base</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext>new base 10</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext>new base</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<note id="eip-363"><label>How To</label>
+<para id="fs-id1165137893339"><emphasis>Given a logarithm with the form<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>M</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math> use the change-of-base formula to rewrite it as a quotient of logs with any positive base<emphasis><m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math></emphasis> where<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>≠</m:mo><m:mn>1.</m:mn>
+</m:mrow>
+</m:math></emphasis></para><list id="fs-id1165134172563" list-type="enumerated" number-style="arabic"><item>Determine the new base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>,</m:mo>
+</m:mrow>
+</m:math> remembering that the common log,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>log</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math> has base 10, and the natural log,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow>
+</m:math>has base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>e</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>Rewrite the log as a quotient using the change-of-base formula
+<list id="fs-id1165134039298" list-type="enumerated" number-style="lower-alpha"><item>The numerator of the quotient will be a logarithm with base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and argument<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>M</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+<item>The denominator of the quotient will be a logarithm with base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>and argument<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></item>
+</list></item>
+</list></note><example id="eip-714"><exercise id="fs-id1165134196189"><problem id="fs-id1165134196191">
+<title>Changing Logarithmic Expressions to Expressions Involving Only Natural Logs</title>
+<para id="fs-id1165134196197">Change<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to a quotient of natural logarithms.</para>
+</problem>
+<solution id="fs-id1165135444046">
+<para id="fs-id1165135444049">Because we will be expressing<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mn>3</m:mn><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>as a quotient of natural logarithms, the new base,<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>e</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+<para id="fs-id1165135690112">We rewrite the log as a quotient using the change-of-base formula. The numerator of the quotient will be the natural log with argument 3. The denominator of the quotient will be the natural log with argument 5.</para>
+<equation id="eip-id1165135416564" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mi>M</m:mi>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>ln</m:mi><m:mi>M</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>ln</m:mi><m:mi>b</m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>5</m:mn>
+</m:msub>
+<m:mn>3</m:mn>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>ln</m:mi><m:mn>3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi>ln</m:mi><m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math></equation>
+</solution>
+</exercise></example><para id="fs-id1168756556563">When we use a calculator to find the logarithm value, we usually round to three decimal places. This gives us an approximate value and so we use the approximately equal symbol <m:math><m:mrow><m:mtext>(≈)</m:mtext></m:mrow></m:math>.</para>
+<example id="fs-id1167836614208">
+<exercise id="fs-id1167836614210">
+<problem id="fs-id1167836608436">
+<para id="fs-id1167836608438">Rounding to three decimal places, approximate <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:mn>35</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836539229">
+<table id="fs-id1167829741851" class="unnumbered unstyled" summary="We examine log sub 4 of 35. First, we use the change of base formula log sub a of M equals log sub b of M over log sub b of a, where a is blue and M is red. Then we identify a and M and choose 10 for b. This gives log sub 4 of 35 equals log of 35 over log of 4 where 4 is blue and 35 is red. Enter the expression log of 35 over log of 4 in the calculator using the log button for base 10. Hence, log sub 4 of 35 is approximately 2.5646.">
+<label/><tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left">
+<media id="fs-id1167836620865" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_04_001a_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Use the Change-of-Base Formula.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836664272" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_04_001b_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Identify <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">M</emphasis>. Choose 10 for <emphasis effect="italics">b</emphasis>.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833057205" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_04_001c_img.jpg"/>
+</media>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">Enter the expression <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mn>35</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math> in the calculator<newline/>using the log button for base 10. Round to three decimal places.</entry>
+<entry valign="bottom" align="left"><media id="fs-id1167836391639" alt=".">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_10_04_001d_img.jpg"/>
+</media>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</solution>
+</exercise>
+</example>
+<example id="eip-622"><exercise id="fs-id1165134084328"><problem id="fs-id1165134084330">
+<title>Using the Change-of-Base Formula with a Calculator</title>
+<para id="fs-id1165134084335">Evaluate<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>using the change-of-base formula with a calculator.</para>
+</problem>
+<solution id="fs-id1165135353036">
+<para id="fs-id1165135353038">According to the change-of-base formula, we can rewrite the log base 2 as a logarithm of any other base. Since our calculators can evaluate the natural log, we might choose to use the natural logarithm, which is the log base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>e</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:math></para>
+<equation id="eip-id1165135337069" class="unnumbered"><label/><m:math display="block">
+<m:mrow>
+<m:mtable columnalign="left">
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mn>10</m:mn><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>ln</m:mi><m:mn>10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi>ln</m:mi><m:mn>2</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Apply the change of base formula using base </m:mtext><m:mi>e</m:mi><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr columnalign="left">
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>≈</m:mo><m:mn>3.3219</m:mn>
+</m:mrow>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mrow>
+<m:mtext>Use a calculator to evaluate to 4 decimal places</m:mtext><m:mo>.</m:mo>
+</m:mrow>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:mrow>
+</m:math></equation>
+</solution>
+</exercise></example><example id="eip-253"><exercise id="fs-id1167824735518">
+<problem id="fs-id1167836595915">
+<para id="fs-id1167836595917">Rounding to three decimal places, approximate <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>42</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836704928">
+<para id="fs-id1167833369849"><m:math><m:mrow><m:mn>3.402</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+</example><note id="fs-id1167836627853" class="media-2">
+<para id="fs-id1167836547696">Access these online resources for additional instruction and practice with using the properties of logarithms.</para>
+<list id="fs-id1167833379361" display="block"><item><link url="http://openstax.org/l/proplog">The Properties of Logarithms</link></item>
+<item><link url="https://openstax.org/l/37Logproperties">Using Properties of Logarithms to Expand Logs</link></item>
+<item><link url="https://openstax.org/l/37Condenselogs">Using Properties of Logarithms to Condense Logs</link></item>
+<item><link url="https://openstax.org/l/37Changeofbase">Change of Base</link></item>
+</list></note>
+</section>
+<section id="fs-id1167836540486" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167836341093" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Properties of Logarithms</emphasis><newline/>
+<equation id="fs-id1167836699031" class="unnumbered"><label/><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="5em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation></item>
+<item><emphasis effect="bold">Inverse Properties of Logarithms</emphasis>
+<list id="fs-id1167836690704" list-type="bulleted" bullet-style="open-circle">
+<item>For <m:math><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math><newline/>
+<equation id="fs-id1167829713372" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="4.95em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></equation></item></list></item>
+<item><emphasis effect="bold">Product Property of Logarithms</emphasis><newline/>
+<list id="fs-id1167833138150" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then,<newline/>
+<equation id="fs-id1167833083092" class="unnumbered"><label/><m:math><m:mrow><m:mspace width="2.08em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></equation><newline/>
+The logarithm of a product is the sum of the logarithms.</item></list></item>
+<item><emphasis effect="bold">Quotient Property of Logarithms</emphasis><newline/>
+<list id="fs-id1167836388045" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>N</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mtext>,</m:mtext><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow></m:math> then,<newline/>
+<equation id="fs-id1167829906625" class="unnumbered"><label/><m:math><m:mrow><m:mspace width="3em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></equation><newline/>
+The logarithm of a quotient is the difference of the logarithms.</item></list></item>
+<item><emphasis effect="bold">Power Property of Logarithms</emphasis><newline/>
+<list id="fs-id1167829741984" list-type="bulleted" bullet-style="open-circle">
+<item>If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is any real number then,<newline/>
+<equation id="fs-id1167836389933" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mrow></m:math></equation><newline/>
+The log of a number raised to a power is the product of the power times the log of the number.</item></list></item>
+<item><emphasis effect="bold">Properties of Logarithms Summary</emphasis><newline/>
+If <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>a</m:mtext><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is any real number then,<newline/>
+<table id="fs-id1167836321886" class="unnumbered" summary=".">
+<label/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry valign="top" align="left">Property</entry>
+<entry valign="top" align="left">Base <m:math><m:mi>a</m:mi></m:math></entry>
+<entry valign="top" align="left">Base <m:math><m:mi>e</m:mi></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry/>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry/>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left"><emphasis effect="bold">Inverse Properties</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="1.25em"/><m:msup><m:mi>a</m:mi><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mspace width="1em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left"><emphasis effect="bold">Product Property of Logarithms</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mo>·</m:mo><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>M</m:mi><m:mspace width="0.2em"/><m:mo>·</m:mo><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>+</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left"><emphasis effect="bold">Quotient Property of Logarithms</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.9em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="2.4em"/><m:mtext>ln</m:mtext><m:mfrac><m:mi>M</m:mi><m:mi>N</m:mi></m:mfrac><m:mo>=</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>N</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry valign="top" align="left"><emphasis effect="bold">Power Property of Logarithms</emphasis></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.55em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mspace width="0.2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="1.76em"/><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>M</m:mi><m:mi>p</m:mi></m:msup><m:mo>=</m:mo><m:mi>p</m:mi><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></item>
+<item><emphasis effect="bold">Change-of-Base Formula</emphasis><newline/>
+For any logarithmic bases <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>, and <m:math><m:mrow><m:mi>M</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>
+<equation id="fs-id1167836579777" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>M</m:mi></m:mrow><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>b</m:mi></m:msub><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>log</m:mtext><m:mi>M</m:mi></m:mrow><m:mrow><m:mtext>log</m:mtext><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mi>a</m:mi></m:msub><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>M</m:mi></m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="center"><m:mtext>new base</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext>new base 10</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext>new base</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item>
+</list>
+</section>
+<section id="fs-id1167829579253" class="section-exercises">
+<section id="fs-id1167829579256" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="fs-id1167829580267"><emphasis effect="bold">Use the Properties of Logarithms</emphasis></para>
+<para id="fs-id1167829614345">In the following exercises, use the properties of logarithms to evaluate.</para>
+<exercise id="fs-id1167836570225" class="material-set-2">
+<problem id="fs-id1167836570227">
+<para id="fs-id1167836390535"><span class="token">ⓐ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>e</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836613922">
+<para id="fs-id1167836613924"><span class="token">ⓐ</span> 0 <span class="token">ⓑ</span> 1</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167832976425" class="material-set-2">
+<problem id="fs-id1167832976427">
+<para id="fs-id1167832976429"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>4</m:mn></m:msub><m:msup><m:mn>4</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836701638">
+<para id="fs-id1167836701640"><span class="token">ⓐ</span> 10 <span class="token">ⓑ</span> 10</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167825703204" class="material-set-2">
+<problem id="fs-id1167825703206">
+<para id="fs-id1167825703208"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>15</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>8</m:mn></m:msub><m:msup><m:mn>8</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824739893">
+<para id="fs-id1167824739895"><span class="token">ⓐ</span> 15 <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824731565" class="material-set-2">
+<problem id="fs-id1167824731567">
+<para id="fs-id1167824731569"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mtext>log</m:mtext><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826128120">
+<para id="fs-id1167826128122"> <span class="token">ⓐ</span> <m:math><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836546363" class="material-set-2">
+<problem id="fs-id1167836546365">
+<para id="fs-id1167836546367"><span class="token">ⓐ</span> <m:math><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mtext>ln</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>e</m:mi><m:mn>7</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829690214">
+<para id="fs-id1167829690217"><span class="token">ⓐ</span> 3 <span class="token">ⓑ</span> 7</para>
+</solution>
+</exercise>
+<para id="fs-id1167829906149">In the following exercises, use the Product Property of Logarithms to write each logarithm as a sum of logarithms. Simplify if possible.</para>
+<exercise id="fs-id1167832930330" class="material-set-2">
+<problem id="fs-id1167832930333">
+<para id="fs-id1167832930335"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824735966">
+<para id="fs-id1167824735969"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>8</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836289339" class="material-set-2">
+<problem id="fs-id1167836289341">
+<para id="fs-id1167836289343"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>81</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836607356">
+<para id="fs-id1167836607358"><m:math><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829715346" class="material-set-2">
+<problem id="fs-id1167829715348">
+<para id="fs-id1167829715350"><m:math><m:mrow><m:mtext>log</m:mtext><m:mn>1000</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826172028">
+<para id="fs-id1167826172030"><m:math><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167824737588">In the following exercises, use the Quotient Property of Logarithms to write each logarithm as a sum of logarithms. Simplify if possible.</para>
+<exercise id="fs-id1167836601706" class="material-set-2">
+<problem id="fs-id1167833356538">
+<para id="fs-id1167833356540"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836299782">
+<para id="fs-id1167836299784"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>6</m:mn></m:msub><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829719382" class="material-set-2">
+<problem id="fs-id1167829719384">
+<para id="fs-id1167829719386"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mrow><m:mn>125</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836353181">
+<para id="fs-id1167836683579"><m:math><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836567119" class="material-set-2">
+<problem id="fs-id1167829808689">
+<para id="fs-id1167829808691"><m:math><m:mrow><m:mtext>log</m:mtext><m:mfrac><m:mrow><m:mn>10,000</m:mn></m:mrow><m:mi>y</m:mi></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824764014">
+<para id="fs-id1167824764016"><m:math><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mtext>log</m:mtext><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829749650" class="material-set-2">
+<problem id="fs-id1167824699954">
+<para id="fs-id1167824699956"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msup><m:mi>e</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167825924144">
+<para id="fs-id1167825924147"><m:math><m:mrow><m:mn>4</m:mn><m:mo>−</m:mo><m:mtext>ln</m:mtext><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833256649">In the following exercises, use the Power Property of Logarithms to expand each. Simplify if possible.</para>
+<exercise id="fs-id1167836526355" class="material-set-2">
+<problem id="fs-id1167836526357">
+<para id="fs-id1167829745534"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833223994">
+<para id="fs-id1167833223996"><m:math><m:mrow><m:mn>5</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833056098" class="material-set-2">
+<problem id="fs-id1167833056101">
+<para id="fs-id1167833056103"><m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mi>x</m:mi><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836792661">
+<para id="fs-id1167836792663"><m:math><m:mrow><m:mn>−3</m:mn><m:mtext>log</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833326970" class="material-set-2">
+<problem id="fs-id1167833326972">
+<para id="fs-id1167833326975"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mroot><m:mi>x</m:mi><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836509464">
+<para id="fs-id1167836509466"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833397286" class="material-set-2">
+<problem id="fs-id1167833397289">
+<para id="fs-id1167824578708"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:msup><m:mi>x</m:mi><m:mrow><m:mroot><m:mn>4</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836662797">
+<para id="fs-id1167829650458"><m:math><m:mrow><m:mroot><m:mn>4</m:mn><m:mn>3</m:mn></m:mroot><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833128401">In the following exercises, use the Properties of Logarithms to expand the logarithm. Simplify if possible.</para>
+<exercise id="fs-id1167836493549" class="material-set-2">
+<problem id="fs-id1167836493551">
+<para id="fs-id1167836493553"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>5</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833018371">
+<para id="fs-id1167833018374"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836294137" class="material-set-2">
+<problem id="fs-id1167836399850">
+<para id="fs-id1167836399852"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mroot><m:mrow><m:mn>21</m:mn></m:mrow><m:mn>4</m:mn></m:mroot><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833128715">
+<para id="fs-id1167833128717"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>21</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836509057" class="material-set-2">
+<problem id="fs-id1167836509059">
+<para id="fs-id1167824720407"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836294462">
+<para id="fs-id1167836294464"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>4</m:mn><m:mo>+</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>b</m:mi></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>d</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836732484" class="material-set-2">
+<problem id="fs-id1167836732486">
+<para id="fs-id1167836732488"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mfrac><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow><m:mrow><m:mn>27</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836442187">
+<para id="fs-id1167833086867"><m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836511329" class="material-set-2">
+<problem id="fs-id1167836621428">
+<para id="fs-id1167836621430"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>5</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836536940">
+<para id="fs-id1167829696030"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>z</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829614542" class="material-set-2">
+<problem id="fs-id1167829614544">
+<para id="fs-id1167829861818"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mroot><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mi>z</m:mi></m:mrow></m:mfrac></m:mrow><m:mn>3</m:mn></m:mroot></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836391228">
+<para id="fs-id1167836391230"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:math><newline/><m:math><m:mrow><m:mo>−</m:mo><m:mspace width="0.2em"/><m:mn>3</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167833057861">In the following exercises, use the Properties of Logarithms to condense the logarithm. Simplify if possible.</para>
+<exercise id="fs-id1167833270269" class="material-set-2">
+<problem id="fs-id1167833270271">
+<para id="fs-id1167833270273"><m:math><m:mrow><m:mtext>log</m:mtext><m:mn>4</m:mn><m:mo>+</m:mo><m:mtext>log</m:mtext><m:mn>25</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836621827">
+<para id="fs-id1167829750109">2</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830095291" class="material-set-2">
+<problem id="fs-id1167830095293">
+<para id="fs-id1167836536972"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mn>5</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826170218">
+<para id="fs-id1167826170220"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>2</m:mn></m:msub><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833023778" class="material-set-2">
+<problem id="fs-id1167833023781">
+<para id="fs-id1167833023783"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>2</m:mn><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833378077">
+<para id="fs-id1167836664695"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836341027" class="material-set-2">
+<problem id="fs-id1167832980527">
+<para id="fs-id1167832980529"><m:math><m:mrow><m:mn>6</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:mi>y</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829832302">
+<para id="fs-id1167829832304"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>3</m:mn></m:msub><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>9</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836530742" class="material-set-2">
+<problem id="fs-id1167836530744">
+<para id="fs-id1167836530746"><m:math><m:mrow><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836502132">
+<para id="fs-id1167829749981">0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833129223" class="material-set-2">
+<problem id="fs-id1167833129225">
+<para id="fs-id1167833129227"><m:math><m:mrow><m:mn>3</m:mn><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext>ln</m:mtext><m:mspace width="0.2em"/><m:mi>z</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829594427">
+<para id="fs-id1167829594429"><m:math><m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833349777" class="material-set-2">
+<problem id="fs-id1167833349780">
+<para id="fs-id1167833349782"><m:math><m:mrow><m:mn>2</m:mn><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836531314">
+<para id="fs-id1167832980513"><m:math><m:mrow><m:mtext>log</m:mtext><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>·</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167829752238"><emphasis effect="bold">Use the Change-of-Base Formula</emphasis></para>
+<para id="fs-id1167829752244">In the following exercises, use the Change-of-Base Formula, rounding to three decimal places, to approximate each logarithm.</para>
+<exercise id="fs-id1167836666277" class="material-set-2">
+<problem id="fs-id1167836666279">
+<para id="fs-id1167836666281"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mn>5</m:mn></m:msub><m:mn>46</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833207818">
+<para id="fs-id1167833207820"><m:math><m:mrow><m:mn>2.379</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836541801" class="material-set-2">
+<problem id="fs-id1167836541803">
+<para id="fs-id1167836541806"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msub><m:mn>93</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829597751">
+<para id="fs-id1167829597753"><m:math><m:mrow><m:mn>1.674</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829619908" class="material-set-2">
+<problem id="fs-id1167829619910">
+<para id="fs-id1167836578895"><m:math><m:mrow><m:msub><m:mrow><m:mtext>log</m:mtext></m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:msub><m:mn>21</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829579779">
+<para id="fs-id1167829579781"><m:math><m:mrow><m:mn>5.542</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise><para id="eip-871">For the following exercises, rewrite each expression as an equivalent ratio of logs using the indicated base.</para><exercise id="eip-372"><problem id="fs-id1165135484547">
+<para id="fs-id1165135484549"><m:math>
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>7</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>15</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+</m:mrow>
+</m:math>to base<m:math>
+<m:mrow>
+<m:mtext> </m:mtext><m:mi>e</m:mi>
+</m:mrow>
+</m:math></para>
+</problem>
+<solution id="fs-id1165135186353">
+<para id="fs-id1165135186355"><m:math>
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mi>log</m:mi>
+</m:mrow>
+<m:mn>7</m:mn>
+</m:msub>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>15</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mn>15</m:mn>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+<m:mrow>
+<m:mi>ln</m:mi><m:mrow><m:mo>(</m:mo>
+<m:mn>7</m:mn>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+</section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1165137890644">
+<term>change-of-base formula</term>
+<meaning id="fs-id1165137890649">a formula for converting a logarithm with any base to a quotient of logarithms with any other base.</meaning>
+</definition>
+
+<definition id="fs-id1165137890654">
+<term>power property for logarithms</term>
+<meaning id="fs-id1165137890659">a rule of logarithms that states that the log of a power is equal to the product of the exponent and the log of its base</meaning>
+</definition>
+
+<definition id="fs-id1165137890664">
+<term>product property for logarithms</term>
+<meaning id="fs-id1165137890670">a rule of logarithms that states that the log of a product is equal to a sum of logarithms</meaning>
+</definition>
+
+<definition id="fs-id1165137890674">
+<term>quotient property for logarithms</term>
+<meaning id="fs-id1165137890679">a rule of logarithms that states that the log of a quotient is equal to a difference of logarithms</meaning>
+</definition>
+</glossary>
+</document>

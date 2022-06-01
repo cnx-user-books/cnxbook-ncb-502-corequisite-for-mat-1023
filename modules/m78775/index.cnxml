@@ -1,0 +1,1034 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Rational Expressions (P6)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m78775</md:content-id>
+  <md:title>Rational Expressions (P6)</md:title>
+  <md:abstract>In this section students will:
+<list>
+<item>Simplify rational expressions.</item>
+<item>Multiply rational expressions.</item>
+<item>Divide rational expressions.</item>
+<item>Add and subtract rational expressions.</item>
+<item>Simplify complex rational expressions.</item>
+</list></md:abstract>
+  <md:uuid>f5859983-4d95-4543-8bd3-355d4eba049d</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-767"><para id="fs-id1169147087020">This Module supports section <emphasis> P6 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Determine the Values for Which a Rational Expression is Undefined <link target-id="fs-id1167833051286" document=""/></item>
+<item>Simplify Rational Expressions <link target-id="fs-id1167829695612" document=""/></item>
+<item>Multiply Rational Expressions <link target-id="fs-id1167836524164" document=""/></item>
+<item>Divide Rational Expressions <link target-id="fs-id1167832982339" document=""/></item>
+<item>Add and Subtract Rational Expressions <link target-id="eip-623" document=""/></item>
+<item>Add and Subtract Rational Expressions, Unlike Denominators <link target-id="eip-663" document=""/></item>
+<item>Complex Rational Expressions <link target-id="eip-114" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167833055818" document=""/></item></list></note><para id="fs-id1167833061177">We previously reviewed the properties of fractions and their operations. We introduced rational numbers, which are just fractions where the numerators and denominators are integers. In this chapter, we will work with fractions whose numerators and denominators are polynomials. We call this kind of expression a <term>rational expression</term>.</para>
+<note id="fs-id1167836545646">
+<title>Rational Expression</title>
+<para id="fs-id1167829789940">A rational expression is an expression of the form <m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> are polynomials and <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167829594575">Here are some examples of rational expressions:</para>
+<equation id="fs-id1167836614305" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="center"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>56</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="3em"/><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167829748611">Notice that the first rational expression listed above, <m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>56</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, is just a fraction. Since a constant is a polynomial with degree zero, the ratio of two constants is a rational expression,<emphasis> provided the denominator is not zero.</emphasis></para><para id="fs-id1167829597677">We will do the same operations with rational expressions that we did with fractions. We will simplify, add, subtract, multiply, divide and use them in applications.</para>
+<section id="fs-id1167833051286">
+<title>Determine the Values for Which a Rational Expression is Undefined</title>
+<para id="eip-574">The <term>domain</term> of an expression is the set of numbers for which the expression is defined. If the denominator is zero, the rational expression is undefined. The numerator of a rational expression may be 0—but not the denominator.</para><para id="fs-id1167836523329">When we work with a numerical fraction, it is easy to avoid dividing by zero because we can see the number in the denominator. In order to avoid dividing by zero in a rational expression, we must not allow values of the variable that will make the denominator be zero.</para>
+<para id="fs-id1167833356628">So before we begin any operation with a rational expression, we examine it first to find the values that would make the denominator zero. That way, when we solve a rational equation for example, we will know whether the algebraic solutions we find are allowed or not.</para>
+<note id="fs-id1167829785493" class="howto">
+<title>Determine the values for which a rational expression is undefined.</title>
+<list id="fs-id1167829853672" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Set the denominator equal to zero.</item>
+<item>Solve the equation.</item>
+</list>
+</note>
+<example id="fs-id1167836513845">
+<exercise id="fs-id1167829596289">
+<problem id="fs-id1167836334858">
+<para id="fs-id1167829590560">Determine the value for which each rational expression is undefined:</para>
+<para id="fs-id1167836544617"><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836688430">
+<para id="fs-id1167836285832">The expression will be undefined when the denominator is zero.</para>
+<para id="fs-id1167836635534"><span class="token">ⓐ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Set the denominator equal to zero and solve</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>for the variable.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mn>3</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>c</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined for</m:mtext><m:mspace width="0.2em"/><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836533216"><span class="token">ⓑ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Set the denominator equal to zero and solve</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>for the variable.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined for</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836538194"><span class="token">ⓒ</span><newline/>
+<m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mspace width="1.4em"/></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Set the denominator equal to zero and solve</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>for the variable.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="1em"/></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mspace width="0.2em"/></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>is undefined for</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mspace width="0.2em"/><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167829695612">
+<title>Simplify Rational Expressions</title>
+<para id="fs-id1167836527766">A fraction is considered simplified if there are no common factors, other than 1, in its numerator and denominator. Similarly, a <term>simplified rational expression</term> has no common factors, other than 1, in its numerator and denominator.</para>
+<note id="fs-id1167836398722">
+<title>Simplified Rational Expression</title>
+<para id="fs-id1167833060864">A rational expression is considered simplified if there are no common factors in its numerator and denominator.</para>
+</note>
+<para id="fs-id1167829711718">For example,</para>
+<equation id="fs-id1167829743890" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>is simplified because there are no common factors of</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mtext>is not simplified because</m:mtext><m:mspace width="0.2em"/><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>is a common factor of</m:mtext><m:mspace width="0.2em"/><m:mn>2</m:mn><m:mi>x</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836322571">We use the Equivalent Fractions Property to simplify numerical fractions. We restate it here as we will also use it to simplify rational expressions.</para>
+<note id="fs-id1167833061169">
+<title>Equivalent Fractions Property</title>
+<para id="fs-id1167836288889">If <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> are numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167836503188" class="unnumbered"><label/><m:math><m:mrow><m:mtext>then</m:mtext><m:mspace width="0.5em"/><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mspace width="1em"/><m:mtext>and</m:mtext><m:mspace width="1em"/><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167836630433">Notice that in the Equivalent Fractions Property, the values that would make the denominators zero are specifically disallowed. We see <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> clearly stated.</para>
+<para id="fs-id1167829696810">To simplify rational expressions, we first write the numerator and denominator in factored form. Then we remove the common factors using the Equivalent Fractions Property.</para>
+<para id="fs-id1167836622848">Be very careful as you remove common factors. Factors are multiplied to make a product. You can remove a factor from a product. You cannot remove a term from a sum.</para>
+<media id="fs-id1167832950889" alt="The rational expression is the quantity 2 times 3 times 7 divided by the quantity 3 times 5 times 7 are 3 and 7. Its common factors are 3 and 7, which are factors of the product. When they are removed, the result is two-fifths. The rational expression is the product of 3 x and the quantity x minus 9 divided by the product of 5 and the quantity x minus 9. The common factor is x minus 9, which is a factor of the product. When it is removed, the result is 3 x divided by 5. The rational expression is the quantity x plus 5 divided by 5. There is an x both the numerator and denomiantor. However, it is a term of the sum in the numerator. The rational expression has no common factors.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_001_img_new.jpg"/>
+</media>
+<para id="fs-id1167836502802">Removing the <emphasis effect="italics">x</emphasis>’s from <m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math> would be like cancelling the 2’s in the fraction <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>!</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167829747159">
+<title>How to Simplify a Rational Expression</title>
+<exercise id="fs-id1167836320119">
+<problem id="fs-id1167836357330">
+<para id="fs-id1167836352962">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1167833060810">
+<media id="fs-id1167836691877" alt="Step 1 is to factor the numerator and denominator completely in the rational expression, the quantity x squared plus 5 x plus six divided by the quantity x squared 8 x plus 12. The numerator, x squared plus 5 x plus six, factors into the quantity x plus 2 times the quantity x plus 3. The denominator, x squared 8 x plus 12, factors into the quantity x plus 2 times the quantity x plus 6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_002a_img_new.jpg"/>
+</media>
+<media id="fs-id1167836630482" alt="Step 2 is to simplify the rational expression, the quantity x plus 2 times the quantity x plus 3 all divided by the quantity x plus 2 times the quantity x plus 6, by dividing out the common factor, x plus 6. The result of removing the common factor is the quantity x plus 3 divided by the quantity x plus 6, where x is not equal to 2 and x is not equal to -6.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_002b_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<note id="fs-id1167836363174" class="howto"><label>How To</label><title>Simplify a rational expression</title>
+<list id="fs-id1167836309167" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Factor the numerator and denominator completely.</item>
+<item>Simplify by dividing out common factors.</item>
+</list>
+</note><para id="fs-id1167833059027">Usually, we leave the simplified rational expression in factored form. This way, it is easy to check that we have removed <emphasis effect="italics">all</emphasis> the common factors.</para>
+<example id="eip-881"><exercise id="fs-id1169596621314">
+<problem id="fs-id1169596765286">
+<para id="fs-id1169596765288">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1169596448001">
+<title>Solution</title>
+<para id="fs-id1169594011501"><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>42</m:mn></m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the numerator and denominator.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Remove the common factor</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mspace width="0.2em"/><m:mtext>from</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>the numerator and the denominator.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5em"/><m:mrow><m:mfrac><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836310916">Now we will see how to simplify a rational expression whose numerator and denominator have opposite factors. We previously introduced opposite notation: the opposite of <emphasis effect="italics">a</emphasis> is <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836526746">The numerical fraction, say <m:math><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>−7</m:mn></m:mrow></m:mfrac></m:mrow></m:math> simplifies to <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>. We also recognize that the numerator and denominator are opposites.</para>
+<para id="fs-id1167829908755">The fraction <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow><m:mtext>−</m:mtext><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, whose numerator and denominator are opposites also simplifies to <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>.</para>
+<equation id="fs-id1167835349317" class="unnumbered"><label/><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Let’s look at the expression</m:mtext><m:mspace width="0.2em"/><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mtext>−</m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Factor out</m:mtext><m:mspace width="0.2em"/><m:mn>–1</m:mn><m:mo>.</m:mo></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mn>−1</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836538942">This tells us that <m:math><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:math> is the opposite of <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836516632">In general, we could write the opposite of <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:math> as <m:math><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> So the rational expression <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> simplifies to <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<note id="fs-id1167836359669">
+<title>Opposites in a Rational Expression</title>
+<para id="fs-id1167836362838">The opposite of <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:math> is <m:math><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167836323144" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="0.5em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mi>b</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167836694811">An expression and its opposite divide to <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</note>
+<para id="fs-id1167836533690">We will use this property to simplify rational expressions that contain opposites in their numerators and denominators. Be careful not to treat <m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow></m:math> as opposites. Recall that in addition, order doesn’t matter so <m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow></m:math>. So if <m:math><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi></m:mrow></m:math>, then <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167836410229">
+<exercise id="fs-id1167836520298">
+<problem id="fs-id1167836520300">
+<para id="fs-id1167836560381">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow><m:mrow><m:mn>64</m:mn><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829692856">
+<para id="fs-id1167829692858"><table id="fs-id1167829692860" class="unnumbered unstyled" summary="Factor the numerator and denominator of the rational expression, the quantity x squared minus 4 x minus 32 divided by the quantity 64 minus x squared. The numerator factors into the quantity x minus 8 times the quantity x plus 4. The denominator factors into the quantity 8 minus x times the quantity 8 plus x. The factors x minus 8 and 8 minus x are opposites, so multiply the rational expression by negative 1. The result is the negative of the quantity x plus 4 divided by the quantity x plus 8.">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167836539080" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_003a_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the numerator and the denominator.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836615458" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_003b_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Recognize the factors that are opposites.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836732515" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_003c_img.jpg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829597704" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_07_01_003d_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example><example id="eip-873"><exercise id="fs-id1167833048618">
+<problem id="fs-id1167836547623">
+<para id="fs-id1167836547625">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836608272">
+<para id="fs-id1167836536509"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+</section>
+<section id="fs-id1167836524164"><title>Multiply Rational Expressions</title><para id="fs-id1167836444832">To multiply rational expressions, we do just what we did with numerical fractions. We multiply the numerators and multiply the denominators. Then, if there are any common factors, we remove them to simplify the result.</para>
+<note id="fs-id1167836513458">
+<title>Multiplication of Rational Expressions</title>
+<para id="fs-id1167836534861">If <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, <emphasis effect="italics">r</emphasis>, and <emphasis effect="italics">s</emphasis> are polynomials where <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1167836652582" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>s</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1167836408369"><list id="fs-id1167833413093" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Factor each numerator and denominator completely.</item>
+<item>Multiply the numerators and denominators.</item>
+<item>Simplify by dividing out common factors.</item>
+</list>
+</para></note>
+<para id="fs-id1167829906397">Remember, throughout this chapter, we will assume that all numerical values that would make the denominator be zero are excluded. We will not write the restrictions for each rational expression, but keep in mind that the denominator can never be zero. So in this next example, <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167836528392">
+<title>How to Multiply Rational Expressions</title>
+<exercise id="fs-id1167836612590">
+<problem id="fs-id1167836612592">
+<para id="fs-id1167836310961">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833017887">
+<media id="fs-id1167829809845" alt="Step 1 is to factor each numerator and the denominator completely in 2 x divided by the quantity x squared minus 7 x plus 12 times the rational expression the quantity x squared minus 9 divided by 6 x squared. The denominator, x squared minus 7 x plus 12, factors into the quantity x minus 3 times the quantity x minus 4. The numerator x squared minus 9 factors into the quantity x minus 3 times the quantity x plus 3.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_004a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167832937156" alt="Step 2 is to multiply the numerators 2 x and the quantity x minus 3 times the quantity x plus 3, and the denominators the quantity x minus 3 times the quantity x minus 4 and 6 x squared. It is helpful to write the monomials in the numerator and in the denominator. first.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_004b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836520974" alt="Step 3 is to simplify 2 x times the quantity x minus 3 times the quantity x plus 3 all divided by 2 times 3 times x times x times the quantity x minus 3 times the quantity x plus 4 by dividing out the common factor, x minus 3. Leaving the denominator in factored form, the result is the quantity x plus 3 divided by 3 x times the quantity x minus 4.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_004c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<example id="eip-529"><exercise id="fs-id1167836693093">
+<problem id="fs-id1167829719638">
+<para id="fs-id1167829719641">Simplify: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>10</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829709413">
+<para id="fs-id1167836526547"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="eip-899">The following is an alternate method, used in the College Algebra textbook, where you divide out the common factors prior to multiplying the numerators and denominators.</para><example id="fs-id1167829906676"><exercise id="fs-id1167829906679"><problem id="fs-id1167836299899">
+<para id="fs-id1167836299901">Multiply: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836598002">
+<media id="eip-11" alt="The figure shows two examples of multiplying a binomial with its conjugate. In the first example x plus 9 is multiplied with x minus 9 to get x squared minus 9 x plus 9 x minus 81 which simplifies to x squared minus 81. Colors show that x squared comes from the square of the x in the original binomial and 81 comes from the square of the 9 in the original binomial. ">
+<image src="../../media/rationalex1.PNG" mime-type="image/png"/>
+</media></solution>
+</exercise>
+</example></section><section id="fs-id1167832982339"><title>Divide Rational Expressions</title><para id="fs-id1167832982344">Just like we did for numerical fractions, to divide a rational expression by another, multiply the first expression by the reciprocal of the second. Using this approach, we would rewrite<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>x</m:mi>
+  </m:mfrac>
+  <m:mo>÷</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>as the product<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>x</m:mi>
+  </m:mfrac>
+  <m:mo>⋅</m:mo><m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Once the division expression has been rewritten as a multiplication expression, we can multiply as we did before.</para><note id="fs-id1167836620438">
+<title>Division of Rational Expressions</title>
+<para id="fs-id1167836542330">If <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, <emphasis effect="italics">r,</emphasis> and <emphasis effect="italics">s</emphasis> are polynomials where <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1167836503136" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>s</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></equation><para id="eip-445"><list id="fs-id1167836706805" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Rewrite the division as the product of the first rational expression and the reciprocal of the second.</item>
+<item>Factor the numerators and denominators completely.</item>
+<item>Multiply the numerators and denominators together.</item>
+<item>Simplify by dividing out common factors.</item>
+</list>
+</para>
+</note>
+<para id="fs-id1167836684083">Once we rewrite the division as multiplication of the first expression by the reciprocal of the second, we then factor everything and look for common factors.</para>
+<example id="fs-id1167836539011">
+<title>How to Divide Rational Expressions</title>
+<exercise id="fs-id1167836539013">
+<problem id="fs-id1167836539015">
+<para id="fs-id1167833059599">Divide: <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>6</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836293485">
+<media id="fs-id1167836312059" alt="Step 1 is to rewrite the division of the rational expression, the quantity p cubed plus q cubes divided by the quantity 2 p squared plus 2 p q plus 2 q squared divided by the rational expression, the quantity p squared minus q squared all divided by 6. Do this by flipping the rational expression, the quantity p squared minus q squared all divided by 6, and changing division to multiplication. The result is the quantity p cubed plus q cubes divided by the quantity 2 p squared plus 2 p q plus 2 q squared times the quantity 6 divided by the quantity p squared minus q squared.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_005a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167829692817" alt="Step 2 is to factor the numerators, the quantity p cubed plus q cubed and 6, and the denominators, the quantity 2 p squared plus 2 p q plus 2 squared and the quantity p squared minus q squared, completely. The result is the quantity p plus q times the quantity p squared minus p q plus q squared all times the quantity 2 times 3 divided by the quantity p minus q times the quantity p plus q.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_005b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836608330" alt="Step 3 is to multiply the numerators and denominators. The result is the quantity p plus q times the quantity p squared minus p q plus q squared times 2 times 3 all divided by the 2 times the quantity p squared plus p q plus q squared times the quantity p minus q times the quantity p plus q.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_005c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167829905516" alt="Step 4 is to simplify the expression by dividing out the common factors, the quantity p plus q and 2. The result is 3 times the quantity p squared minus p q plus q squared all divided by the quantity p minus q times the quantity p squared plus p q plus q squared.">
+<image src="../../media/CNX_IntAlg_Figure_07_01_005d_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<para id="eip-788">The following is an alternate method, used in the College Algebra textbook, where you divide out the common factors prior to multiplying the numerators and denominators.</para><example id="eip-442"><exercise id="eip-748"><problem id="fs-id1167339296451">
+<title>Dividing Rational Expressions</title>
+<para id="fs-id1167339296456">Divide the rational expressions and express the quotient in simplest form:</para> 
+<equation id="fs-id1167339281593" class="unnumbered"><label/><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:mfrac>
+  <m:mo>÷</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id1167339185775">
+<equation id="fs-id1167339185778" class="unnumbered"><media id="eip-12" alt="The figure shows two examples of multiplying a binomial with its conjugate. In the first example x plus 9 is multiplied with x minus 9 to get x squared minus 9 x plus 9 x minus 81 which simplifies to x squared minus 81. Colors show that x squared comes from the square of the x in the original binomial and 81 comes from the square of the 9 in the original binomial. ">
+<image src="../../media/rationalex2.PNG" mime-type="image/png"/>
+</media></equation></solution>
+</exercise></example></section><section id="eip-623"><title>Add and subtract Rational Expressions</title><para id="fs-id1167833328016">What is the first step you take when you add numerical fractions? You check if they have a common denominator. If they do, you add the numerators and place the sum over the common denominator. If they do not have a common denominator, you find one before you add.</para>
+<para id="fs-id1167836306628">It is the same with rational expressions. To add rational expressions, they must have a common denominator. When the denominators are the same, you add the numerators and place the sum over the common denominator.</para>
+<note id="fs-id1167836628310">
+<title>Rational Expression Addition and Subtraction</title>
+<para id="fs-id1167836514001">If <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, and <emphasis effect="italics">r</emphasis> are polynomials where <m:math><m:mrow><m:mi>r</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then</para>
+<equation id="fs-id1167836312458" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mspace width="1em"/><m:mtext>and</m:mtext><m:mspace width="1em"/><m:mfrac><m:mi>p</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>q</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mi>q</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></equation>
+</note>
+<list id="eip-34"><title>How To:</title><item>To add or subtract rational expressions with a common denominator, add or subtract the numerators and place the result over the common denominator.</item>
+<item>We always simplify rational expressions. Be sure to factor, if possible, after you subtract the numerators so you can identify any common factors.</item>
+<item> Remember, too, we do not allow values that would make the denominator zero. </item>
+ </list><example id="fs-id1167836544834">
+<exercise id="fs-id1167836607892">
+<problem id="fs-id1167836550235">
+<para id="fs-id1167829690445">Add: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829908743">
+<para id="fs-id1167836524115">Since the denominator is <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>,</m:mo></m:mrow></m:math> we must exclude the value <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836689465"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="5.8em"/><m:mfrac><m:mrow><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mspace width="0.8em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>4</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>The fractions have a common denominator,</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>so add the numerators and place the sum</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>over the common denominator.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>28</m:mn><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Write the degrees in descending order.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>28</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Factor the numerator.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify by removing common factors.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:menclose></m:mrow></m:mfrac></m:mtd></m:mtr>
+<m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836511782">The expression simplifies to <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math> but the original expression had a denominator of <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math> so <m:math><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mtext>−</m:mtext><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+
+<para id="fs-id1167836791982">To subtract rational expressions, they must also have a common denominator. When the denominators are the same, you subtract the numerators and place the difference over the common denominator. Be careful of the signs when you subtract a binomial or trinomial.</para>
+<example id="fs-id1167836503887">
+<exercise id="fs-id1167829597819">
+<problem id="fs-id1167829936808">
+<para id="fs-id1167836706047">Subtract: <m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836615100">
+<para id="fs-id1167829746839"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Subtract the numerators and place the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>difference over the common denominator.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Distribute the sign in the numerator.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Combine like terms.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Factor the numerator and the denominator.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify by removing common factors.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="2em"/><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><section id="eip-663"><title>Add, Subtract with Unlike Denominators</title><para id="fs-id1167339429245">Adding and subtracting rational expressions works just like adding and subtracting numerical fractions. To add fractions, we need to find a common denominator. Let’s look at an example of fraction addition.</para> 
+<equation id="fs-id1167339232046" class="unnumbered"><label/>
+<m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>5</m:mn>
+       <m:mrow>
+        <m:mn>24</m:mn></m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>40</m:mn></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>25</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>120</m:mn></m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mn>3</m:mn>
+       <m:mrow>
+        <m:mn>120</m:mn></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>28</m:mn></m:mrow>
+       <m:mrow>
+        <m:mn>120</m:mn></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center"><m:mo>=</m:mo></m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>7</m:mn>
+       <m:mrow>
+        <m:mn>30</m:mn></m:mrow>
+      </m:mfrac>
+      </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable></m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1167339242302">We have to rewrite the fractions so they share a common denominator before we are able to add. We must do the same thing when adding or subtracting rational expressions.</para>
+<para id="fs-id1167339242307">The easiest common denominator to use will be the <term>least common denominator</term>, or LCD. The LCD is the smallest multiple that the denominators have in common. To find the LCD of two rational expressions, we factor the expressions and multiply all of the distinct factors. For instance, if the factored denominators were<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>then the LCD would be<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para> 
+
+<note id="fs-id1167833239730" class="howto">
+<title>Find the least common denominator of rational expressions.</title>
+<list id="fs-id1167836389504" class="stepwise" number-style="arabic" list-type="enumerated"><item>Factor each denominator completely.</item>
+<item>List the factors of each denominator. Match factors vertically when possible, as this will make it easier to avoid duplication.</item>
+<item>Bring down the columns by including all factors, but do not include common factors twice.</item>
+<item>Write the LCD as the product of the factors.</item>
+</list>
+</note>
+<para id="fs-id1167833364760">Remember, we always exclude values that would make the denominator zero. What values of <m:math><m:mi>x</m:mi></m:math> should we exclude in this next example?</para>
+<example id="fs-id1167836331076">
+<exercise id="fs-id1167833386366">
+<problem id="fs-id1167836309168">
+<para id="fs-id1167836612766"><span class="token">ⓐ</span> Find the LCD for the expressions <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and <span class="token">ⓑ</span> rewrite them as equivalent rational expressions with the lowest common denominator.</para>
+</problem>
+<solution id="fs-id1167829694661">
+<para id="fs-id1167836493853"><span class="token">ⓐ</span></para>
+<para id="fs-id1167836626525"><table id="fs-id1167826130067" class="unnumbered unstyled" summary="Find the lowest common denominator of the rational expressions 8 divided by the quantity x squared minus 2 x minus 3 and 3 x divided by the quantity x squared plus 4 x plus 3. Line up the denominators and factor them completely. Line up the common factors. The denominator x squared minus 2 x minus 3 is equal to the quantity x plus 1 times the quantity x minus 3. The denominator x squared plus 4 x plus 3 is equal to the quantity x plus 1 times the quantity x plus 3. The quantity x plus 1 is a factor of both denominators. The quantity x minus 3 is only a factor of the denominator x squared minus 2 x minus 3, so it is in a column alone. The quantity x plus 3 is only a factor of the denominator x squared plus 4 x plus 3, so it is in a column alone. The lowest common denominator is the product of the primes from each column, the quantity x plus 1 times the quantity x minus 3 times the quantity x plus 3.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Find the LCD for <m:math><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor each denominator completely, lining up common factors.<newline/><newline/>Bring down the columns.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836518420" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_004a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Write the LCD as the product of the factors.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829594568" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_004b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+<para id="fs-id1167836287401"><span class="token">ⓑ</span></para>
+<para id="fs-id1167836692692"><table id="fs-id1167836692693" class="unnumbered unstyled" summary="Factor the denominators of the rational expressions, 8 divided by the quantity x squared minus 2 x minus 3 and 3 x divided by the quantity x squared plus 4 x plus 3. The denominator, x squared minus 2 x minus 3, factors into the quantity x plus 1 times the quantity x minus 3. The denominator, x squared plus 4 x plus 3, factors into the quantity x plus 1 times the quantity x plus 3. Write each rational expression with a factored denominator. The first rational expression is 8 divided by the quantity x plus 1 times the quantity x minus 3. The second rational expression is 3 x divided by the quantity x plus 1 times the quantity x plus 3. Multiply the numerator and denominator of each expression by the missing lowest common denominator factor. The results are 8 times the quantity x plus 3 all divided by the quantity x plus 1 times the quantity x minus 3 times the quantity x plus 3 and the quantity 3 x times the quantity x minus 3 all divided by the quantity x plus 1 times the quantity x plus 3 times the quantity x minus 3. Simplify the numerators of the rational expressions and keep the denominators. 8 times the quantity x plus 3 is 8 x plus 24. 3 x times the quantity x minus 3 is 3 x squared minus 9. The results are 8 times the quantity x plus 3 all divided by the quantity x plus 1 times the quantity x minus 3 times the quantity x plus 3 and the quantity 3 x squared minus 9 x all divided by the quantity x plus 1 times x plus 3 times the quantity x minus 3.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167836444808" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_005a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor each denominator.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836532070" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_005b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply each denominator by the ‘missing’<newline/>LCD factor and multiply each numerator by the same factor.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836512927" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_005c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the numerators.</entry>
+<entry valign="top" align="center"><media id="fs-id1167836527650" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_005d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-520"><exercise id="fs-id1167836362198">
+<problem id="fs-id1167836534817">
+<para id="fs-id1167836619996"><span class="token">ⓐ</span> Find the LCD for the expressions <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <span class="token">ⓑ</span> rewrite them as equivalent rational expressions with the lowest common denominator.</para>
+</problem>
+<solution id="fs-id1167833058297">
+<para id="fs-id1167836321317"><span class="token">ⓐ</span> <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math>,<newline/><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="eip-83">Now we have all the steps we need to add or subtract rational expressions with unlike denominators. Here's an example:</para><note id="eip-420"><label>How to:</label>
+<list id="fs-id1167836294894" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Determine if the expressions have a common denominator.
+<list id="fs-id1167836508187" list-type="bulleted" bullet-style="bullet">
+<item><emphasis effect="bold">Yes</emphasis> – go to step 2.</item>
+<item><emphasis effect="bold">No</emphasis> – Rewrite each rational expression with the LCD.
+<list id="fs-id1167836609976" list-type="bulleted" bullet-style="bullet">
+<item>Find the LCD.</item>
+<item>Rewrite each rational expression as an equivalent rational expression with the LCD.</item></list>
+</item></list></item>
+<item>Add or subtract the rational expressions.</item>
+<item>Simplify, if possible.</item>
+</list>
+</note><example id="eip-853"><exercise id="fs-id1167836439678">
+<problem id="fs-id1167836578933">
+<para id="fs-id1167833396962">Add: <m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829753077">
+<media id="fs-id1167836622324" alt="Step 1 is to determine if the rational expressions 3 divided by the quantity x minus 3 and 2 divided by the quantity x minus 2 have a common factors. The denominators x minus 3 and x minus 2 do not have any common factors, which means the lowest common denominator of the rational expressions is the quantity x minus 3 times the quantity x minus 2. Rewrite each rational expression with the least common denominator. Multiply the numerator and denominator of 3 divided by the quantity x minus 3 by the quantity x minus 2. Multiply the numerator and denominator of 2 divided by the quantity x minus 2 by the quantity x minus 2. The result is the rational expression 3 times the quantity x minus 2 all divided by the quantity x minus 3 times the quantity x minus 2 plus the rational expression 2 times the quantity x minus 3 divided by the quantity x minus 2 times the quantity x minus 3. Simplify the numerators and keep the denominators factored. The numerator of the first rational expression, 3 times the quantity x minus 2, simplifies to 3 x minus 6. The numerator of the second rational expression, 2 times the quantity x minus 3, simplifies to 2 x minus 6. The result is the rational expression the quantity 3 x minus 6 all divided by the quantity x minus 3 times the quantity x minus 2 plus the rational expression, the quantity 2 x minus 6 all divided by the quantity x minus 3 times the quantity x minus 2.">
+<image src="../../media/CNX_IntAlg_Figure_07_02_006a_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167829746788" alt="Step 2 is to add or subtract the rational expressions by adding the numerators, the quantity 3 x minus 6 and the quantity 2 x minus 6, and placing the sum over the denominator, the quantity x minus 3 times the quantity x minus 2. The result is the quantity 3 x minus 6 plus 2 x minus 6 all divided by the quantity x minus 3 times the quantity x minus 2. Simplify the numerator by combining like terms. The result is the quantity 5 x minus 12 all divided by the quantity x minus 3 times the quantity x minus 2.">
+<image src="../../media/CNX_IntAlg_Figure_07_02_006b_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+<media id="fs-id1167836728342" alt="Step 3. Notice that 5 x minus 12 cannot be factored, so the answer is simplified.">
+<image src="../../media/CNX_IntAlg_Figure_07_02_006c_img_new.jpg" mime-type="image/jpeg"/>
+</media>
+</solution>
+</exercise>
+</example><example id="eip-963"><exercise id="fs-id1167836508953">
+<problem id="fs-id1167836363982">
+<para id="fs-id1167836363984">Subtract:<m:math><m:mrow><m:mfrac><m:mrow><m:mn>−3</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829593986">
+<para id="fs-id1167829593988"><table id="fs-id1167829593989" class="unnumbered unstyled" summary="Subtract the rational expressions the quantity negative 3 n minus 9 all divided by the quantity n squared plus n minus 6 and the quantity n plus 3 divided by the quantity 2 minus n. Factor the denominator of the first rational expression, n squared plus n minus 6. The result is the quantity negative 3 n minus 9 all divided by the quantity n minus 2 times the quantity n plus 3 minus the quantity n plus 3 divided by the quantity 2 minus n. Notice that n minus 2 and 2 minus n are opposites. Multiply the numerator and denominator of the second rational expression, n plus 3 divided by the quantity 2 minus n, by negative 1. Write its denominator, negative 1 times the quantity 2 minus n, as n minus 2. The result is the quantity negative 3 n minus 9 all divided by the quantity n minus 2 times the quantity n plus 3 minus negative one times the quantity n plus 3 all divided by n minus 2. Simplify the numerator of the second rational expression, remembering that a minus negative b is a plus b. Write the numerator, negative times the quantity n plus 3, as n plus 3. The result is the quantity negative 3 n minus 9 all divided by the quantity n minus 2 times the quantity n plus 3 minus the quantity n plus 3 all divided by n minus 2. Notice that the denominators do not have any common factors. Find the lowest common denominator. The denominator, n squared plus n minus 6, factors into the quantity n minus 2 times the quantity n plus 3. The denominator, n minus 2, cannot be factored. Line the denominators up by common factors. The least common denominator is the product of a factor from each column, the quantity n minus 2 times the quantity n plus 3. Rewrite each rational expression as an equivalent rational expression using the lowest common denominator. The first rational expression, the quantity negative 3 n minus 9 all divided by the quantity n minus 2 times the quantity n plus 3 , is already written using the LCD. Multiply the numerator and denominator of the second rational expression, the quantity n plus 3 divided by the quantity n plus 2, by n plus 3. Simplify the numerators. The result is the quantity negative 3 n minus 9 all divided by the quantity n minus 2 times the quantity n plus 3 minus the quantity n squared plus 6 n plus 9 all divided by the quantity n minus 2 times the quantity n plus 3. Add the rational expressions. The result is the quantity negative 3 n minus 9 plus n squared plus 6 n plus 9 all divided by the quantity n minus 2 times the quantity n plus 3. Simplify the numerator by combining like terms. The result is the quantity n squared plus 3 n all divided by the quantity n minus 2 times the quantity n plus 3. Factoring the numerator, results in n times the quantity n plus 3 all divided by the quantity n minus 2 times the quantity n plus 3. Notice that n plus 3 is a common factor in the numerator and denominator. Remove it and simplify. The result is n divided by the quantity n minus 2.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><media id="fs-id1167833135469" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the denominator.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836626594" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Since <m:math><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow></m:math> are opposites, we will<newline/>multiply the second rational expression by <m:math><m:mrow><m:mfrac><m:mrow><m:mn>−1</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167829586348" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><media id="fs-id1167833224664" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009a_img.jpg" mime-type="image/jpeg"/></media></entry>
+<entry valign="top" align="left"><media id="fs-id1167836626907" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009g_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify. Remember, <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>−</m:mtext><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167833407431" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009h_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Do the rational expressions have a<newline/>common denominator? No.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Find the LCD.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.95em"/><m:munder accentunder="true"><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo stretchy="true">_________________</m:mo></m:munder></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.5em"/><m:mtext>LCD</m:mtext><m:mspace width="1.75em"/><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:math></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite each rational expression as an<newline/>equivalent rational expression with the LCD.	</entry>
+<entry valign="top" align="left"><media id="fs-id1167836533932" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the numerators.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836606028" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009i_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Add the rational expressions.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836728972" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009j_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the numerator.</entry>
+<entry valign="top" align="left"><media id="fs-id1167833049923" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009k_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the numerator to look for common factors.</entry>
+<entry valign="top" align="left"><media id="fs-id1167836287998" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009l_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829908132" alt="."><image src="../../media/CNX_IntAlg_Figure_07_02_009m_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise></example></section></section><section id="eip-114"><title>Complex Rational Expressions</title><para id="eip-814">Complex fractions are fractions in which the numerator or denominator contains a fraction. We previously simplified complex fractions like these:</para><equation id="eip-328"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd><m:mtd/><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation><note id="eip-357"><para id="fs-id1167835320604">A <term>complex rational expression</term> is a rational expression in which the numerator and/or the denominator contains a rational expression.</para><equation id="eip-644"><label/><title>Examples</title><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>8</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mspace width="3em"/><m:mfrac><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>y</m:mi></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mi>y</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow></m:mfrac><m:mspace width="3em"/><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></equation>
+</note><para id="eip-975">We will use <emphasis>two methods </emphasis>to simplify complex rational expressions. The following is the first type: </para><equation id="eip-620"><label/><title>For Example</title><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></equation><para id="eip-154">We noted that fraction bars tell us to divide, so rewrote it as the division problem:</para><equation id="eip-747"><label/><m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>÷</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation><para id="eip-735">Then, we multiplied the first rational expression by the reciprocal of the second, just like we do when we divide two fractions.</para><example id="eip-350"><exercise id="fs-id1167831836544">
+<problem id="fs-id1167834433716">
+<para id="fs-id1167834346605">Simplify the complex rational expression by writing it as division: <m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835304216">
+<para id="fs-id1167831910119"><m:math><m:mrow><m:mtable>
+<m:mtr><m:mtd/><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mrow><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite the complex fraction as division.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Rewrite as the product of first times the</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>reciprocal of the second.</m:mtext></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mn>6</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Factor.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Multiply.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mrow><m:mn>3</m:mn><m:mo>·</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Remove common factors.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mn>3</m:mn></m:menclose><m:mo>·</m:mo><m:mn>2</m:mn><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mn>3</m:mn></m:menclose><m:menclose notation="updiagonalstrike"><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:menclose></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr/><m:mtr/>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mspace width="4em"/><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167832057148">Are there any value(s) of <emphasis effect="italics">x</emphasis> that should not be allowed? The original complex rational expression had denominators of <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:mo>.</m:mo></m:mrow></m:math> This expression would be undefined if <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> or <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="eip-51"><label>Method One </label>
+<list id="fs-id1167835280276" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Simplify the numerator and denominator.</item>
+<item>Rewrite the complex rational expression as a division problem.</item>
+<item>Divide the expressions.</item>
+</list>
+</note><example id="eip-112"><exercise id="fs-id1167831239685">
+<problem id="fs-id1167835498830">
+<para id="fs-id1167835367015">Simplify the complex rational expression by writing it as division: <m:math><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835243968">
+<para id="fs-id1167834184692"><table id="fs-id1167834308269" class="unnumbered unstyled can-break" summary="Simplify the complex rational expression n minus the quantity 4 n divided by the quantity n plus 5 all divided by the sum of 1 divided by the quantity n plus 5 and 1 divided by the quantity n minus 5. Simplify the numerator and denominator. Find the common denominators for the numerator and denominator. The result is the n times the quantity n plus 5 all divided by 1 times the quantity n plus 5 minus the quantity 4 n divided by the quantity n plus 5 all divided by 1 times the quantity n minus 5 divided by the quantity n plus 5 times the quantity n minus 5 plus the quantity 1 times the quantity n plus 5 divided by the quantity n plus 5 times the quantity n minus 5. Simplify the numerators. The result is the quantity n squared plus 5 n divided by the quantity n plus 5 minus the quantity 4 n divided by the quantity n plus 5 all divided by 1 times the quantity n minus 5 divided by the quantity n plus 5 times the quantity n minus 5 plus 1 times the quantity n plus 5 divided by the quantity n plus 5 times the quantity n minus 5. Subtract the rational expressions in the numerator and add in the denominator. The result is the quantity n squared plus 5 n minus 4 n divided by the quantity n plus 5 all divided by the quantity n minus 5 plus n plus 5 divided by the quantity n plus 5 times the quantity n minus 5. Multiply the first expression by the reciprocal of the second. The result is the quantity n squared plus 5 n minus 4 n divided by the quantity n plus 5 times the quantity n plus 5 times the quantity n minus 5 divided by the quantity n minus 5 plus n plus 5. Simplify. We now have one rational expression over one rational expression. The result is the quantity n squared plus n divided by the quantity n plus 5 all divided by the quantity 2 n divided by the quantity n plus 5 times the quantity n minus 5. Rewrite the expression as fraction division. The result is the quotient of the quantity n squared plus n divided by the quantity n plus 5 and the quantity 2 n divided by the quantity n plus 5 times the quantity n minus 5. Multiply the first fraction times the reciprocal of the second fraction. The result is the quantity n squared plus n divided by the quantity n plus 5 times the quantity of n plus 5 times the quantity n minus 5 all divided by the quantity 2 n. Factor any expressions if possible. The result us n times the quantity n plus 1 times the quantity n plus 5 times the quantity n minus 5 all divided by the product of the quantity n plus 5 and 2 n. Remove the common factors, n and n plus 5, from the numerator and denominator. Simplify. The result is the product of the quantity n plus 1 and the quantity n minus 5 all divided by 2.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167834527716" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the numerator and denominator.<newline/>Find common denominators for the numerator and<newline/>denominator.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835370172" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the numerators.</entry>
+<entry valign="top" align="center"><media id="fs-id1167830699580" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Subtract the rational expressions in the numerator and<newline/>add in the denominator.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835191878" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify. (We now have one rational expression over<newline/>one rational expression.)</entry>
+<entry valign="top" align="center"><media id="fs-id1167832006043" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rewrite as fraction division.</entry>
+<entry valign="top" align="center"><media id="fs-id1167832058793" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply the first times the reciprocal of the second.</entry>
+<entry valign="top" align="center"><media id="fs-id1167826779013" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003g_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor any expressions if possible.</entry>
+<entry valign="top" align="center"><media id="fs-id1167831148955" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003h_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Remove common factors.</entry>
+<entry valign="top" align="center"><media id="fs-id1167834194708" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003i_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167834156730" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_003j_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example><para id="eip-664">As we did early, we can use that strategy here to simplify complex rational expressions. We will multiply the numerator and denominator by the LCD of all the rational expressions.</para><note id="eip-637"><label> Method Two </label>
+<list id="fs-id1167826799162" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Find the LCD of all fractions in the complex rational expression.</item>
+<item>Multiply the numerator and denominator by the LCD.</item>
+<item>Simplify the expression.</item>
+</list>
+</note><example id="eip-575"><exercise id="fs-id1167835420261">
+<problem id="fs-id1167835350442">
+<para id="fs-id1167834131359">Simplify the complex rational expression by using the LCD: <m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834130742">
+<para id="fs-id1167834279335"><table id="fs-id1167834063606" class="unnumbered unstyled can-break" summary="Simplify the complex rational expression, 2 divided by the quantity x plus 6 all divided by the difference between 4 divided by the quantity x minus 6 and 4 divided by the quantity x squared minus 36. Find the least common denominator all of the fractions. It is x squared minus 36 which equals the quantity x plus 6 times the quantity x minus 6. Multiply the numerator and denominator by the least common denominator. The result is the quantity x plus 6 times the quantity x minus 6 times the quantity 2 divided by the quantity x plus 6 all divided by the quantity x plus 6 times the quantity x minus 6 times the difference between the quantity 4 divided by the quantity x minus 6 and 4 divided by the product of the quantity x plus 6 and the quantity x minus 6. Simplify the expression. Distribute, the quantity x plus 6 and x minus 6, in the denominator. The result is the quantity x plus 6 times the quantity x minus 6 times the quantity 2 divided by the quantity x plus 6 all divided by the quantity x plus 6 times the quantity x minus 6 times the quantity 4 divided by the quantity x minus 6 minus the quantity x plus 6 times the quantity x minus 6 times 4 divided by the product of the quantity x plus 6 and the quantity x minus 6. Simplify by removing the common factors, x plus 6 from the numerator, and the quantity x minus 6 times the quantity x plus 6, from the denominator. The result is 2 times the quantity x minus 6 all divided by the product of 4 and the quantity x plus 6 minus 4. To simplify the denominator, distribute and combine like terms. The result is 2 times the quantity x minus 6 all divided by the quantity 4 x plus 20. Factor the denominator. The result is 2 times the quantity x minus 6 all divided by 4 times the quantity x plus 5. Notice that 4 in the denominator is 2 times 2. Remove the common factor, 2, from the numerator and denominator. The result is the quantity x minus 6 all divided by 2 times the quantity x plus 5. Notice that there are no more factors common to the numerator and denominator.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167832119089" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the LCD of all fractions in the complex rational<newline/>expression. The LCD is <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply the numerator and denominator by the LCD.</entry>
+<entry valign="top" align="center"><media id="fs-id1167830700886" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify the expression.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute in the denominator.</entry>
+<entry valign="top" align="center"><media id="fs-id1167834133885" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167834161475" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835519235" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">To simplify the denominator, distribute<newline/>and combine like terms.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835350606" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Factor the denominator.</entry>
+<entry valign="top" align="center"><media id="fs-id1167831040626" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006g_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Remove common factors.</entry>
+<entry valign="top" align="center"><media id="fs-id1167831895215" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006h_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835369386" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_006i_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Notice that there are no more factors<newline/>common to the numerator and denominator.</entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example><example id="eip-167"><exercise id="fs-id1167835325063">
+<problem id="fs-id1167834501479">
+<para id="fs-id1167834194400">Simplify the complex rational expression by using the LCD: <m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>4</m:mn><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835344864">
+<para id="fs-id1167835363256"><table id="fs-id1167835363257" class="unnumbered unstyled" summary="Simplify the complex rational expression, 4 divided by the quantity m squared minus 7 m plus 12 all divided by the difference between 3 divided by the quantity m minus 3 and 2 divided by the quantity m minus 4. Find the least common denominator of all fractions in the expression. The least common denominator is the quantity m minus 3 times the quantity m minus 4. Multiply the numerator and denominator by the least common denominator. The result is the quantity m minus 3 times the quantity m minus 4 times the quantity 4 divided by the quantity m minus 3 times the quantity m minus 4 all divided by the quantity m minus 3 times the quantity m minus 4 times the difference between 3 divided by the quantity m minus 3 and 2 divided by the quantity m minus 4. Simplify by removing the common factors, m minus 3 and m minus 4, from the numerator and denominator. The result is 4 divided by the product of 3 and m minus 4 minus the product of 2 and minus 3. Distribute the factors 3 and 2 in the denominator. The result is 4 divided by the quantity 3 m minus 12 minus 2 m plus 6. Combine like terms in the denominator. The result is 4 divided by the quantity m minus 6.">
+<label/>
+<tgroup cols="2">
+<colspec colname="c1" colnum="1"/>
+<colspec colname="c2" colnum="2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><media id="fs-id1167830838226" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007b_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the LCD of all fractions in the<newline/>complex rational expression.</entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The LCD is <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="center"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Multiply the numerator and<newline/>denominator by the LCD.</entry>
+<entry valign="top" align="center"><media id="fs-id1167834472376" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007a_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835308942" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007c_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Simplify.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835410534" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007d_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Distribute.</entry>
+<entry valign="top" align="center"><media id="fs-id1167826978771" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007e_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Combine like terms.</entry>
+<entry valign="top" align="center"><media id="fs-id1167835352202" alt="."><image src="../../media/CNX_IntAlg_Figure_07_03_007f_img.jpg" mime-type="image/jpeg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example></section><section id="fs-id1167833055818" class="key-concepts">
+<title>Key Concepts</title>
+<list id="fs-id1167829713109" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Determine the values for which a rational expression is undefined.</emphasis>
+<list id="fs-id1167829713117" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Set the denominator equal to zero.</item>
+<item>Solve the equation.</item>
+</list></item>
+<item><emphasis effect="bold">Equivalent Fractions Property</emphasis><newline/>
+If <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> are numbers where <m:math><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then <m:math><m:mrow><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac></m:mrow></m:math> and <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><emphasis effect="bold">How to simplify a rational expression.</emphasis>
+<list id="fs-id1167833138259" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Factor the numerator and denominator completely.</item>
+<item>Simplify by dividing out common factors.</item>
+</list></item>
+<item><emphasis effect="bold">Opposites in a Rational Expression</emphasis><newline/>    
+The opposite of <m:math><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:math> is <m:math><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math><newline/>    <m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−1</m:mn><m:mspace width="8em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mi>b</m:mi></m:mrow></m:math><newline/>    An expression and its opposite divide to <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item><emphasis effect="bold">Multiplication of Rational Expressions</emphasis><newline/>
+If <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, <emphasis effect="italics">r</emphasis>, and <emphasis effect="italics">s</emphasis> are polynomials where <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then<newline/>
+<m:math><m:mrow><m:mspace width="8em"/><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>s</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mi>r</m:mi></m:mrow><m:mrow><m:mi>q</m:mi><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math></item>
+<item><emphasis effect="bold">How to multiply rational expressions.</emphasis>
+<list id="fs-id1167833009502" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Factor each numerator and denominator completely.</item>
+<item>Multiply the numerators and denominators.</item>
+<item>Simplify by dividing out common factors.</item>
+</list></item>
+<item><emphasis effect="bold">Division of Rational Expressions</emphasis><newline/>
+If <emphasis effect="italics">p</emphasis>, <emphasis effect="italics">q</emphasis>, <emphasis effect="italics">r</emphasis>, and <emphasis effect="italics">s</emphasis> are polynomials where <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>s</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> then<newline/>
+<m:math><m:mrow><m:mspace width="8em"/><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mi>r</m:mi><m:mi>s</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></item>
+<item><emphasis effect="bold">How to divide rational expressions.</emphasis>
+<list id="fs-id1167836543511" class="stepwise" number-style="arabic" list-type="enumerated">
+<item>Rewrite the division as the product of the first rational expression and the reciprocal of the second.</item>
+<item>Factor the numerators and denominators completely.</item>
+<item>Multiply the numerators and denominators together.</item>
+<item>Simplify by dividing out common factors.</item>
+</list></item>
+</list></section>
+<section id="fs-id1167836548283" class="section-exercises">
+<section id="fs-id1167836548287" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167836548294"><emphasis effect="bold">Determine the Values for Which a Rational Expression is Undefined</emphasis></para>
+<para id="fs-id1167836548301">In the following exercises, determine the values for which the rational expression is undefined.</para>
+<exercise id="fs-id1167832961255" class="material-set-2">
+<problem id="fs-id1167832961257">
+<para id="fs-id1167832961259"><newline/><span class="token">ⓐ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>z</m:mi></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓑ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829785065">
+<para id="fs-id1167829785067"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math><newline/><span class="token">ⓒ</span> <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+<para id="fs-id1167836624536"><emphasis effect="bold">Simplify Rational Expressions</emphasis></para>
+<para id="fs-id1167836624542">In the following exercises, simplify each rational expression.</para>
+
+
+<exercise id="fs-id1167832936464">
+<problem id="fs-id1167832936466">
+<para id="fs-id1167832936469"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mn>3</m:mn></m:msup><m:mi>n</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>m</m:mi><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836529047">
+<para id="fs-id1167836529049"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+<exercise id="fs-id1167829739733">
+<problem id="fs-id1167829739735">
+<para id="fs-id1167829739737"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836433907">
+<para id="fs-id1167836433909"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="fs-id1167829785105"><emphasis effect="bold">Multiply Rational Expressions</emphasis></para>
+<para id="fs-id1167829785111">In the following exercises, multiply the rational expressions.</para>
+
+
+<exercise id="fs-id1167833339572" class="material-set-2">
+<problem id="fs-id1167833339575">
+<para id="fs-id1167833339577"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>20</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829718996">
+<para id="fs-id1167829789437"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+
+
+
+
+<exercise id="fs-id1167833212921" class="material-set-2">
+<problem id="fs-id1167833212923">
+<para id="fs-id1167833212926"><m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac><m:mo>·</m:mo><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826025479">
+<para id="fs-id1167826025481"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+<para id="fs-id1167829719911"><emphasis effect="bold">Divide Rational Expressions</emphasis></para>
+<para id="fs-id1167829719917">In the following exercises, divide the rational expressions.</para>
+<exercise id="fs-id1167829719920" class="material-set-2">
+<problem id="fs-id1167829719923">
+<para id="fs-id1167829719925"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>11</m:mn><m:mo>−</m:mo><m:mi>v</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833009075">
+<para id="fs-id1167833009077"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1167829689464" class="material-set-2">
+<problem id="fs-id1167829689466">
+<para id="fs-id1167829689468"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:msup><m:mi>s</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>64</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836455942">
+<para id="fs-id1167836455944"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id1167830014005" class="material-set-2">
+<problem id="fs-id1167830014007">
+<para id="fs-id1167830014009"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836492093">
+<para id="fs-id1167836492095"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><para id="eip-552">In the following exercises, simplify each complex rational expression.</para><exercise id="eip-650"><problem id="fs-id1167826808701">
+<para id="fs-id1167826808703"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826799193">
+<para id="fs-id1167826799195"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="eip-835"><problem id="fs-id1167834300263">
+<para id="fs-id1167834300265"><m:math><m:mrow><m:mfrac><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>25</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167834432252">
+<para id="fs-id1167834432254"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise><exercise id="eip-235"><problem id="fs-id1167835363301">
+<para id="fs-id1167835363303"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>5</m:mn><m:mrow><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167835510188">
+<para id="fs-id1167831872142"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+
+
+</section></section>
+</content>
+<glossary>
+<definition id="fs-id1167833139455">
+<term>rational expression</term>
+<meaning id="fs-id1167833139460">A rational expression is an expression of the form <m:math><m:mrow><m:mfrac><m:mi>p</m:mi><m:mi>q</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis> are polynomials and <m:math><m:mrow><m:mi>q</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167836650203">
+<term>simplified rational expression</term>
+<meaning id="fs-id1167836650208">A simplified rational expression has no common factors, other than 1, in its numerator and denominator.</meaning>
+</definition>
+<definition id="fs-id1167836650214">
+<term>rational function</term>
+<meaning id="fs-id1167836650219">A rational function is a function of the form <m:math><m:mrow><m:mi>R</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mrow></m:math> where <m:math><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> are polynomial functions and <m:math><m:mrow><m:mi>q</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is not zero.</meaning>
+</definition>
+<definition id="fs-id1167834308149">
+<term>complex rational expression</term>
+<meaning id="fs-id1167834099322">A complex rational expression is a rational expression in which the numerator and/or denominator contains a rational expression.</meaning>
+</definition>
+</glossary>
+</document>

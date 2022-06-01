@@ -1,0 +1,2699 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Transformations of Functions (2.5)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m82567</md:content-id>
+  <md:title>Transformations of Functions (2.5)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Identify graphs of basic functions</item>
+<item>Identify and graph various transformations of functions</item>
+</list></md:abstract>
+  <md:uuid>ebea2545-e9c1-4f61-93b6-5b6da1454ed3</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-504"><para id="fs-id1169147087020">This Module supports section <emphasis> 2.5 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Identify Basic (Parent) Functions <link target-id="fs-id1167836522816" document=""/></item>
+<item>Vertical and Horizontal Transformations <link target-id="eip-844" document=""/></item>
+<item>Reflections about the Axis <link target-id="eip-248" document=""/></item>
+<item>Stretching and Shrinking Transformations <link target-id="eip-714" document=""/></item>
+<item>Sequences of Transformations <link target-id="eip-438" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167836597228" document=""/></item></list></note><section id="fs-id1167836522816">
+<title>Identify Graphs of Basic Functions</title>
+<para id="fs-id1167833020798">We can write <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> as in function notation as <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> It still means the same thing. The graph of the function is the graph of all ordered pairs <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> So we can write the ordered pairs as <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> It looks different but the graph will be the same.</para><para id="fs-id1167836685520">Compare the graph of <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> previously shown in <link target-id="CNX_IntAlg_Figure_03_06_001"/> with the graph of <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> shown in <link target-id="CNX_IntAlg_Figure_03_06_007"/>. Nothing has changed but the notation.</para>
+<figure id="CNX_IntAlg_Figure_03_06_007">
+<media id="fs-id1167836415144" alt="This figure has a graph next to a table. The graph has a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The line is labeled f of x equals2 x minus 3. There are several vertical arrows that relate values on the x-axis to points on the line. The first arrow relates x equalsnegative 2 on the x-axis to the point (negative 2, negative 7) on the line. The second arrow relates x equalsnegative 1 on the x-axis to the point (negative 1, negative 5) on the line. The next arrow relates x equals0 on the x-axis to the point (0, negative 3) on the line. The next arrow relates x equals3 on the x-axis to the point (3, 3) on the line. The last arrow relates x equals4 on the x-axis to the point (4, 5) on the line. The table has 7 rows and 3 columns. The first row is a title row with the label f of x equals2 x minus 3. The second row is a header row with the headers x, f of x, and (x, f of x). The third row has the coordinates negative 2, negative 7, and (negative 2, negative 7). The fourth row has the coordinates negative 1, negative 5, and (negative 1, negative 5). The fifth row has the coordinates 0, negative 3, and (0, negative 3). The sixth row has the coordinates 3, 3, and (3, 3). The seventh row has the coordinates 4, 5, and (4, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_007_img_new.jpg"/>
+</media>
+</figure>
+<note id="fs-id1167829598148">
+<title>Graph of a Function</title>
+<para id="fs-id1167836692382">The graph of a function is the graph of all its ordered pairs, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> or using function notation, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167829719082" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>name of function</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>x</m:mi><m:mtext>-coordinate of the ordered pair</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>y</m:mi><m:mtext>-coordinate of the ordered pair</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+</note>
+<para id="eip-398">As we move forward in our study, it is helpful to be familiar with the graphs of several basic functions and be able to identify them.</para><para id="fs-id1167836480334">We wrote linear equations in several forms, but it will be most helpful for us here to use the slope-intercept form of the linear equation. The slope-intercept form of a linear equation is <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> In function notation, this linear function becomes <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math> where <emphasis effect="italics">m</emphasis> is the slope of the line and <emphasis effect="italics">b</emphasis> is the <emphasis effect="italics">y</emphasis>-intercept.</para>
+<para id="fs-id1167836692114">The domain is the set of all real numbers, and the range is also the set of all real numbers.</para>
+<note id="fs-id1167833049966">
+<title>Linear Function</title>
+<media id="fs-id1167829790631" alt="This figure has a graph of a straight line on the x y-coordinate plane. The line goes through the point (0, b). Next to the graph are the following: “f of x equalsm x plus b”, “m, b: all real numbers”, “m: slope of the line”, “b: y-intercept”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_008_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167836755080">We will use the graphing techniques we used earlier, to graph the basic functions.</para>
+<example id="fs-id1167825091753">
+<exercise id="fs-id1167833056074">
+<problem id="fs-id1167836513618">
+<para id="fs-id1167836612024">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836546655">
+<para id="fs-id1167836618853"><table id="fs-id1167836688758" class="unnumbered unstyled" summary="We recognize f of x equalsnegative 2 x minus 4 as a linear function. Find the slope and y-intercept. m equalsnegative 2. b equalsnegative 4. Graph using the slope intercept. The figure has the graph of a linear function on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The line goes through the points (negative 2, 0), (0, negative 4), and (negative 1, negative 2).">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="4.5em"/><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">We recognize this as a linear function.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Find the slope and <emphasis effect="italics">y</emphasis>-intercept.</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mspace width="5.5em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math><newline/><m:math><m:mrow><m:mspace width="5.65em"/><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Graph using the slope intercept.</entry>
+<entry valign="top" align="left"><media id="fs-id1167829746004" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_009a_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<para id="fs-id1167833054733">The next function whose graph we will look at is called the constant function and its equation is of the form <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">b</emphasis> is any real number. If we replace the <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with y, we get <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>.</m:mo></m:mrow></m:math> We recognize this as the horizontal line whose <emphasis effect="italics">y</emphasis>-intercept is <emphasis effect="italics">b</emphasis>. The graph of the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>,</m:mo></m:mrow></m:math> is also the horizontal line whose <emphasis effect="italics">y</emphasis>-intercept is <emphasis effect="italics">b</emphasis>.</para>
+<para id="fs-id1167836602424">Notice that for any real number we put in the function, the function value will be <emphasis effect="italics">b</emphasis>. This tells us the range has only one value, <emphasis effect="italics">b</emphasis>.</para>
+<note id="fs-id1167836494179">
+<title>Constant Function</title>
+<media id="fs-id1167836684877" alt="This figure has a graph of a straight horizontal line on the x y-coordinate plane. The line goes through the point (0, b). Next to the graph are the following: “f of x equalsb”, “b: any real number”, “b: y-intercept”, “Domain: (negative infinity, infinity)”, and “Range: b”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_010_img_new.jpg"/>
+</media>
+</note>
+<example id="fs-id1167833142741">
+<exercise id="fs-id1167836525068">
+<problem id="fs-id1167824764495">
+<para id="fs-id1167836433572">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833060151">
+<para id="fs-id1167836574261"><table id="fs-id1167836560655" class="unnumbered unstyled" summary="We recognize f of x equals4 as a constant function. The graph will be a horizontal line through (0, 4). The figure has the graph of a constant function on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The line goes through the points (negative 2, 4), (0, 4), and (1, 4).">
+<label/>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="center"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">We recognize this as a constant function.</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">The graph will be a horizontal line through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></entry>
+<entry valign="top" align="left"><media id="fs-id1167836514168" alt="."><image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_011a_img.jpg"/></media></entry>
+</row>
+</tbody>
+</tgroup>
+</table></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-447"><exercise id="fs-id1167824736254">
+<problem id="fs-id1167836557139">
+<para id="fs-id1167824764946">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829878652">
+<para id="fs-id1167836399311"><newline/><media id="fs-id1167829851276" alt="The figure has the graph of a constant function on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (0, negative 2), (1, negative 2), and (2, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_303_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836528178">The identity function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> is a special case of the linear function. If we write it in linear function form, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> we see the slope is 1 and the <emphasis effect="italics">y</emphasis>-intercept is 0.</para>
+<note id="fs-id1167824674086">
+<title>Identity Function</title>
+<media id="fs-id1167836355755" alt="This figure has a graph of a straight line on the x y-coordinate plane. The line goes through the points (0, 0), (1, 1), and (2, 2). Next to the graph are the following: “f of x equalsx”, “m: 1”, “b: 0”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_012_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167826171267">The next function we will look at is not a linear function. So the graph will not be a line. The only method we have to graph this function is point plotting. Because this is an unfamiliar function, we make sure to choose several positive and negative values as well as 0 for our x-values.</para>
+<example id="fs-id1167836683384">
+<exercise id="fs-id1167836646170">
+<problem id="fs-id1167833345125">
+<para id="fs-id1167836650008">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833396805">
+<para id="fs-id1167833339306">We choose <emphasis effect="italics">x</emphasis>-values. We substitute them in and then create a chart as shown.<newline/>
+<media id="fs-id1167836295348" alt="This figure has a graph next to a table. In the graph there is a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 2 to 6. The parabola goes through the points (negative 3, 9), (negative 2, 4), (negative 1, 1), (0, 0), (1, 1), (2, 4), and (3, 9). The table has 8 rows and 3 columns. The first row is a header row with the headers x, f of x equalsx squared, and (x, f of x). The second row has the coordinates negative 3, 9, and (negative 3, 9). The third row has the coordinates negative 2, 4, and (negative 2, 4). The fourth row has the coordinates negative 1, 1, and (negative 1, 1). The fifth row has the coordinates 0, 0, and (0, 0). The sixth row has the coordinates 1, 1, and (1, 1). The seventh row has the coordinates 2, 4, and (2, 4). The seventh row has the coordinates 3, 9, and (3, 9).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_013_img_new.jpg"/>
+</media></para></solution>
+</exercise>
+</example>
+<para id="fs-id1167829783193">Looking at the result in <link target-id="fs-id1167836683384"/>, we can summarize the features of the square function. We call this graph a parabola. As we consider the domain, notice any real number can be used as an <emphasis effect="italics">x</emphasis>-value. The domain is all real numbers.</para>
+<para id="fs-id1167829853073">The range is not all real numbers. Notice the graph consists of values of <emphasis effect="italics">y</emphasis> never go below zero. This makes sense as the square of any number cannot be negative. So, the range of the square function is all non-negative real numbers.</para>
+<note id="fs-id1167824617137">
+<title>Square Function</title>
+<media id="fs-id1167829744925" alt="This figure has a graph of a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 2 to 6. The parabola goes through the points (negative 2, 4), (negative 1, 1), (0, 0), (1, 1), and (2, 4). Next to the graph are the following: “f of x equalsx squared”, “Domain: (negative infinity, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_014_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167829738598">The next function we will look at is also not a linear function so the graph will not be a line. Again we will use point plotting, and make sure to choose several positive and negative values as well as 0 for our <emphasis effect="italics">x</emphasis>-values.</para>
+<example id="fs-id1167832966170">
+<exercise id="fs-id1167836572855">
+<problem id="fs-id1167824701409">
+<para id="fs-id1167836800401">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829756525">
+<para id="fs-id1167836415391">We choose <emphasis effect="italics">x</emphasis>-values. We substitute them in and then create a chart.<newline/>
+<media id="fs-id1167833020710" alt="This figure has a curved line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The curved line goes through the points (negative 2, negative 8), (negative 1, negative 1), (0, 0), (1, 1), and (2, 8). Next to the graph is a table. The table has 6 rows and 3 columns. The first row is a header row with the headers x, f of x equalsx cubed, and (x, f of x). The second row has the coordinates negative 2, negative 8, and (negative 2, negative 8). The third row has the coordinates negative 1, negative 1, and (negative 1, negative 1). The fourth row has the coordinates 0, 0, and (0, 0). The fifth row has the coordinates 1, 1, and (1, 1). The sixth row has the coordinates 2, 8, and (2, 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_015_img_new.jpg"/>
+</media></para></solution>
+</exercise>
+</example>
+<example id="eip-518"><exercise id="fs-id1167833196697">
+<problem id="fs-id1167829907663">
+<para id="fs-id1167823012200">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836775118">
+<para id="fs-id1167829984244"><newline/><media id="fs-id1167836434321" alt="This figure has a curved line graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line goes through the points (negative 2, 8), (negative 1, 1), (0, 0), (1, negative 1), and (2, negative 8).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_308_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><para id="fs-id1167836598078">Looking at the result in <link target-id="fs-id1167832966170"/>, we can summarize the features of the cube function. As we consider the domain, notice any real number can be used as an <emphasis effect="italics">x</emphasis>-value. The domain is all real numbers.</para>
+<para id="fs-id1167836787693">The range is all real numbers. This makes sense as the cube of any non-zero number can be positive or negative. So, the range of the cube function is all real numbers.</para>
+<note id="fs-id1167829687218">
+<title>Cube Function</title>
+<media id="fs-id1167836496942" alt="This figure has a curved line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The curved line goes through the points (negative 2, negative 8), (negative 1, negative 1), (0, 0), (1, 1), and (2, 8).). Next to the graph are the following: “f of x equalsx cubed”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_016_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167833023152">The next function we will look at does not square or cube the input values, but rather takes the square root of those values.</para>
+<para id="fs-id1167836512756">Let’s graph the function <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math> and then summarize the features of the function. Remember, we can only take the square root of non-negative real numbers, so our domain will be the non-negative real numbers.</para>
+<example id="fs-id1167829930477">
+<exercise id="fs-id1167833350001">
+<problem id="fs-id1167836569057">
+<para id="fs-id1167833019425"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833326611">
+<para id="fs-id1167829921787">We choose <emphasis effect="italics">x</emphasis>-values. Since we will be taking the square root, we choose numbers that are perfect squares, to make our work easier. We substitute them in and then create a chart.<newline/>
+<media id="fs-id1167829686050" alt="This figure has a curved half-line graphed on the x y-coordinate plane. The x-axis runs from 0 to 8. The y-axis runs from 0 to 8. The curved half-line starts at the point (0, 0) and then goes up and to the right. The curved half line goes through the points (1, 1) and (4, 2). Next to the graph is a table. The table has 5 rows and 3 columns. The first row is a header row with the headers x, f of x equalssquare root of x, and (x, f of x). The second row has the coordinates 0, 0, and (0, 0). The third row has the coordinates 1, 1, and (1, 1). The fourth row has the coordinates 4, 2, and (4, 2). The fifth row has the coordinates 9, 3, and (9, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_017_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-511"><exercise id="fs-id1167836510334">
+<problem id="fs-id1167836610583">
+<para id="fs-id1167836602315">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830077318">
+<para id="fs-id1167833139590"><newline/><media id="fs-id1167824733299" alt="This figure has a curved half-line graphed on the x y-coordinate plane. The x-axis runs from 0 to 10. The y-axis runs from negative 10 to 0. The curved half-line starts at the point (0, 0) and then goes down and to the right. The curved half line goes through the points (1, negative 1), (4, negative 2), and (9, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_310_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><note id="fs-id1167836664843">
+<title>Square Root Function</title>
+<media id="fs-id1167836292233" alt="This figure has a curved half-line graphed on the x y-coordinate plane. The x-axis runs from 0 to 8. The y-axis runs from 0 to 8. The curved half-line starts at the point (0, 0) and then goes up and to the right. The curved half line goes through the points (1, 1) and (4, 2). Next to the graph are the following: “f of x equalssquare root of x”, “Domain: [0, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_018_img_new.jpg"/>
+</media>
+</note>
+<para id="fs-id1167836299963">Our last basic function is the absolute value function, <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>x</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Keep in mind that the absolute value of a number is its distance from zero. Since we never measure distance as a negative number, we will never get a negative number in the range.</para>
+<example id="fs-id1167829879306">
+<exercise id="fs-id1167836417983">
+<problem id="fs-id1167836531216">
+<para id="fs-id1167836544266">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>x</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836707251">
+<para id="fs-id1167836282463">We choose <emphasis effect="italics">x</emphasis>-values. We substitute them in and then create a chart.<newline/>
+<media id="fs-id1167836614974" alt="This figure has a v-shaped line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 1 to 6. The v-shaped line goes through the points (negative 3, 3), (negative 2, 2), (negative 1, 1), (0, 0), (1, 1), (2, 2), and (3, 3). Next to the graph is a table. The table has 8 rows and 3 columns. The first row is a header row with the headers x, f of x equalsabsolute value of x, and (x, f of x). The second row has the coordinates negative 3, 3, and (negative 3, 3). The third row has the coordinates negative 2, 2, and (negative 2, 2). The fourth row has the coordinates negative 1, 1, and (negative 1, 1). The fifth row has the coordinates 0, 0, and (0, 0). The sixth row has the coordinates 1, 1, and (1, 1). The seventh row has the coordinates 2, 2, and (2, 2). The eighth row has the coordinates 3, 3, and (3, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_019_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example>
+<example id="eip-843"><exercise id="fs-id1167833378973">
+<problem id="fs-id1167836595957">
+<para id="fs-id1167836349492">Graph: <m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>x</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167830123030">
+<para id="fs-id1167836787910"><newline/><media id="fs-id1167833023118" alt="This figure has a v-shaped line graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 8 to 4. The v-shaped line goes through the points (negative 3, negative 3), (negative 2, negative 2), (negative 1, negative 1), (0, 0), (1, negative 1), (2, negative 2), and (3, negative 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_312_img_new.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</example><note id="fs-id1167836389848">
+<title>Absolute Value Function</title>
+<media id="fs-id1167836335262" alt="This figure has a v-shaped line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 1 to 6. The v-shaped line goes through the points (negative 3, 3), (negative 2, 2), (negative 1, 1), (0, 0), (1, 1), (2, 2), and (3, 3). The point (0, 0) where the line changes slope is called the vertex. Next to the graph are the following: “f of x equalsabsolute value of x”, “Domain: (negative infinity, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_020_img_new.jpg"/>
+</media>
+</note>
+</section>
+<section id="eip-844"><title>Vertical and Horizontal Transformations</title><para id="fs-id1165135503932">One simple kind of <term class="no-emphasis">transformation</term> involves shifting the entire graph of a function up, down, right, or left. The simplest shift is a <emphasis>vertical shift</emphasis>, moving the graph up or down, because this transformation involves adding a positive or negative constant to the function. In other words, we add the same constant to the output value of the function regardless of the input. For a function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+ </m:math>is shifted vertically<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>units. See <link target-id="Figure_01_05_002"/> for an example.</para>
+
+<figure id="Figure_01_05_002" class="small">
+<media id="fs-id1165137464872" alt="Figure_01_05_001">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_001.jpg"/>
+</media>
+<caption>Vertical shift by<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>of the cube root function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mroot>
+   <m:mi>x</m:mi>
+   <m:mn>3</m:mn>
+  </m:mroot>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math></caption>
+</figure>
+
+<para id="fs-id1165137439125">To help you visualize the concept of a vertical shift, consider that<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Therefore,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>k</m:mi><m:mtext>  </m:mtext>
+ </m:mrow>
+</m:math>is equivalent to<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Every unit of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is replaced by<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>so the <emphasis effect="italics">y</emphasis>-value increases or decreases depending on the value of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>The result is a shift upward or downward.</para><note id="fs-id1165137737394">
+<label>A General Note</label>
+<title>Vertical Shift</title>
+<para id="fs-id1165137627718">Given a function <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> a new function <m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> where <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>k</m:mi>
+ </m:mrow>
+</m:math> is a constant, is a <term>vertical shift</term> of the function <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> All the output values change by <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> units. If <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> is positive, the graph will shift up. If <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> is negative, the graph will shift down.</para></note>
+
+
+<para id="eip-723"><title>Horizontal Shifts</title></para><para id="fs-id1165137404493">We just saw that the vertical shift is a change to the output, or outside, of the function. We will now look at how changes to input, on the inside of the function, change its graph and meaning. A shift to the input results in a movement of the graph of the function left or right in what is known as a <emphasis>horizontal shift</emphasis>, shown in <link target-id="Figure_01_05_005"/>.</para><figure id="Figure_01_05_005" class="small">
+<media id="fs-id1165137662366" alt="Figure_01_05_004">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_004.jpg"/>
+</media>
+ <caption>Horizontal shift of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mroot>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mroot>
+   <m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Note that<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>shifts the graph to the left, that is, towards <emphasis effect="italics">negative</emphasis> values of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </caption>
+</figure>
+
+<para id="eip-884">For example, if<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>then<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is a new function. Each input is reduced by 2 prior to squaring the function. The result is that the graph is shifted 2 units to the right, because we would need to increase the prior input by 2 units to yield the same output value as given in<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><note id="fs-id1165137436470">
+<label>A General Note</label>
+<title>Horizontal Shift</title>
+<para id="fs-id1165135188470">Given a function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>a new function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>where<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is a constant, is a <term>horizontal shift</term> of the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>is positive, the graph will shift right. If<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>is negative, the graph will shift left.</para></note>
+
+<example id="Example_01_05_03">
+<exercise id="fs-id1165135241148">
+<problem id="fs-id1165134148356">
+<title>Adding a Constant to an Input</title>
+ <para id="fs-id1165137658363">Returning to our building airflow example from <link target-id="Figure_01_05_003"/>, suppose that in autumn the facilities manager decides that the original venting plan starts too late, and wants to begin the entire venting program 2 hours earlier. Sketch a graph of the new function.</para></problem>
+<solution id="fs-id1165137423751">
+<para id="fs-id1165137423753">We can set<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>to be the original program and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>to be the revised program.</para>
+
+ <equation id="fs-id1165135195278" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>the original venting plan</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>starting 2 hrs sooner</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+
+</equation><para id="fs-id1165137714274">In the new graph, at each time, the airflow is the same as the original function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>was 2 hours later. For example, in the original function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the airflow starts to change at 8 a.m., whereas for the function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>F</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>the airflow starts to change at 6 a.m. The comparable function values are<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>See <link target-id="Figure_01_05_006"/>. Notice also that the vents first opened to<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>220</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> ft</m:mtext>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>at 10 a.m. under the original plan, while under the new plan the vents reach<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mn>220</m:mn><m:msup>
+   <m:mrow>
+    <m:mtext> ft</m:mtext>
+   </m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msup>
+  <m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>at <newline/>8 a.m., so<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para><para id="fs-id1165137411313">In both cases, we see that, because<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>starts 2 hours sooner,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>That means that the same output values are reached when<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para>
+
+<figure id="Figure_01_05_006" class="small">
+<media id="fs-id1165137640758" alt="Figure_01_05_005a">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_005a.jpg"/>
+</media>
+</figure>
+</solution>
+
+<commentary id="fs-id1165137714144">
+<title>Analysis </title>
+<para id="fs-id1165137757835">Note that<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>has the effect of shifting the graph to the <emphasis effect="italics">left</emphasis>.</para>
+<para id="fs-id1165137473462">Horizontal changes or “inside changes” affect the domain of a function (the input) instead of the range and often seem counterintuitive. The new function<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>F</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>uses the same outputs as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>but matches those outputs to inputs 2 hours earlier than those of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>Said another way, we must add 2 hours to the input of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>V</m:mi><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>to find the corresponding output for<m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>:</m:mo><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math></para>
+</commentary>
+ </exercise>
+</example>
+
+
+
+
+<example id="Example_01_05_05">
+<exercise id="fs-id1165135528978"><problem id="fs-id1165135528980">
+<title>Identifying a Horizontal Shift of a Toolkit Function</title>
+ <para id="fs-id1165137582443"><link target-id="Figure_01_05_008"/> represents a transformation of the toolkit function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Relate this new function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>to<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and then find a formula for<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math></para>
+
+<figure id="Figure_01_05_008" class="small"><media id="fs-id1165137406070" alt="Graph of a parabola.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_007.jpg"/>
+</media>
+</figure></problem>
+<solution id="fs-id1165135173899">
+ <para id="fs-id1165135173902">Notice that the graph is identical in shape to the<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>function, but the <emphasis effect="italics">x-</emphasis>values are shifted to the right 2 units. The vertex used to be at (0,0), but now the vertex is at (2,0). The graph is the basic quadratic function shifted 2 units to the right, so</para>
+<equation id="fs-id1165133349274" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165137561935">Notice how we must input the value<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>to get the output value<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the<emphasis effect="italics"> x</emphasis>-values must be 2 units larger because of the shift to the right by 2 units. We can then use the definition of the<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>function to write a formula for<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>by evaluating<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+
+ <equation id="fs-id1165137444147" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+
+</equation>
+
+
+ <para id="fs-id1165137939874"><title>Analysis </title>To determine whether the shift is<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo>+</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>or<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow>
+ </m:math>, consider a single reference point on the graph. For a quadratic, looking at the vertex point is convenient. In the original function,<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>In our shifted function,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>To obtain the output value of 0 from the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>we need to decide whether a plus or a minus sign will work to satisfy<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>For this to work, we will need to <emphasis effect="italics">subtract</emphasis> 2 units from our input values.</para></solution>
+
+</exercise>
+</example>
+
+<example id="Example_01_05_06">
+<exercise id="fs-id1165137437869">
+<problem id="fs-id1165137786325">
+<title>Interpreting Horizontal versus Vertical Shifts</title>
+ <para id="fs-id1165137574172">The function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>gives the number of gallons of gas required to drive<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>miles. Interpret<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>10</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>and<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math>
+</para>
+</problem>
+<solution id="fs-id1165135690669">
+ <para id="fs-id1165137921579"><m:math>
+  <m:mrow>
+   <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>10</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>can be interpreted as adding 10 to the output, gallons. This is the gas required to drive<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>miles, plus another 10 gallons of gas. The graph would indicate a vertical shift.</para>
+
+ <para id="fs-id1165137434382"><m:math>
+  <m:mrow>
+   <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>can be interpreted as adding 10 to the input, miles. So this is the number of gallons of gas required to drive 10 miles more than<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>miles. The graph would indicate a horizontal shift.</para>
+</solution>
+</exercise>
+</example><example id="eip-472"><label>Try It</label>
+<exercise id="ti_01_05_02">
+ <problem id="fs-id1165137470341"><para id="fs-id1165137557596">Given the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+   <m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>graph the original function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and the transformation<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>on the same axes. Is this a horizontal or a vertical shift? Which way is the graph shifted and by how many units?</para></problem>
+ <solution id="fs-id1165135548998"><para id="fs-id1165135548999">The graphs of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>are shown below. The transformation is a horizontal shift. The function is shifted to the left by 2 units.</para>
+
+
+ <media id="fs-id1165137761611" alt="Graph of a square root function and a horizontally shift square foot function.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_008.jpg"/>
+</media>
+ </solution>
+</exercise>
+</example>
+
+
+<para id="eip-908"><title>Combining Vertical and Horizontal Shifts</title></para><para id="fs-id1165137676099">Now that we have two transformations, we can combine them. Vertical shifts are outside changes that affect the output (<emphasis effect="italics">y</emphasis>-) values and shift the function up or down. Horizontal shifts are inside changes that affect the input (<emphasis effect="italics">x</emphasis>-) values and shift the function left or right. Combining the two types of shifts will cause the graph of a function to shift up or down <emphasis effect="italics">and</emphasis> left or right.</para><note id="fs-id1165137628099" class="howto">
+ <label>How To</label>
+ <para id="fs-id1165137668111"><emphasis>Given a function and both a vertical and a horizontal shift, sketch the graph.</emphasis></para>
+<list id="fs-id1165137558226" list-type="enumerated" number-style="arabic">
+<item>Identify the vertical and horizontal shifts from the formula.</item>
+<item>The vertical shift results from a constant added to the output. Move the graph up for a positive constant and down for a negative constant.</item>
+<item>The horizontal shift results from a constant added to the input. Move the graph left for a positive constant and right for a negative constant.</item>
+<item>Apply the shifts to the graph in either order.</item>
+</list>
+</note>
+
+<example id="Example_01_05_07">
+<exercise id="fs-id1165137874554"><problem id="fs-id1165137874556">
+<title>Graphing Combined Vertical and Horizontal Shifts</title>
+ <para id="fs-id1165135168426">Given<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>sketch a graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3.</m:mn></m:mrow>
+ </m:math>
+ </para>
+</problem>
+<solution id="fs-id1165137841697">
+ <para id="fs-id1165137841699">The function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is our toolkit absolute value function. We know that this graph has a V shape, with the point at the origin. The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>has transformed<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>in two ways:<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a change on the inside of the function, giving a horizontal shift left by 1, and the subtraction by 3 in<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a change to the outside of the function, giving a vertical shift down by 3. The transformation of the graph is illustrated in <link target-id="Figure_01_05_010a"/>.</para>
+
+
+ <para id="fs-id1165133276230">Let us follow one point of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+ </m:math></para>
+<list id="eip-id1165135605357"><item>The point<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>is transformed first by shifting left 1 unit:<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></item>
+<item>The point<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>is transformed next by shifting down 3 units:<m:math>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math></item>
+</list><figure id="Figure_01_05_010a" class="small">
+ <media id="fs-id1165137938698" alt="Graph of an absolute function, y=|x|, and how it was transformed to y=|x+1|-3.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_009a.jpg"/>
+</media>
+</figure>
+
+ <para id="fs-id1165137705975"> <link target-id="Figure_01_05_010b"/> shows the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+
+<figure id="Figure_01_05_010b" class="small">
+ <media id="fs-id1165137534968" alt="The final function y=|x+1|-3.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_009b.jpg"/>
+</media>
+</figure>
+</solution>
+</exercise></example>
+
+<example id="eip-313"><label>Try It</label>
+ <exercise id="fs-id1165137400636"><problem id="fs-id1165137400639">
+  <para id="fs-id1165135479104">Given<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>sketch a graph of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137422205">
+
+ <media id="fs-id1165137557535" alt="Graph of h(x)=|x-2|+4.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_010.jpg"/>
+</media>
+</solution>
+  </exercise></example><example id="Example_01_05_08">
+<exercise id="fs-id1165137452719"><problem id="fs-id1165137452721">
+<title>Identifying Combined Vertical and Horizontal Shifts</title>
+ <para id="fs-id1165137731917">Write a formula for the graph shown in <link target-id="Figure_01_05_012"/>, which is a transformation of the toolkit square root function.</para>
+
+<figure id="Figure_01_05_012" class="small">
+ <media id="fs-id1165137593967" alt="Graph of a square root function transposed right one unit and up 2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_011.jpg"/>
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165137549427">
+<para id="fs-id1165137549429">The graph of the toolkit function starts at the origin, so this graph has been shifted 1 to the right and up 2. In function notation, we could write that as </para>
+
+ <equation id="fs-id1165137692779" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165135175226">Using the formula for the square root function, we can write</para>
+
+<equation id="fs-id1165135176449" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>+</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>
+</equation>
+ <para id="fs-id1165135500702"><title>Analysis </title>Note that this transformation has changed the domain and range of the function. This new graph has domain<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and range<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para></solution>
+
+
+
+</exercise></example>
+
+</section><section id="eip-248"><title>Graphing Functions Using Reflections about the Axes</title><para id="fs-id1165137772409">Another transformation that can be applied to a function is a reflection over the <emphasis effect="italics">x</emphasis>- or <emphasis effect="italics">y</emphasis>-axis. A <emphasis>vertical reflection</emphasis> reflects a graph vertically across the <emphasis effect="italics">x</emphasis>-axis, while a <emphasis>horizontal reflection</emphasis> reflects a graph horizontally across the <emphasis effect="italics">y</emphasis>-axis. The reflections are shown in <link target-id="Figure_01_05_013"/>.</para><figure id="Figure_01_05_013" class="small">
+   <media id="fs-id1165137661975" alt="Graph of the vertical and horizontal reflection of a function.">
+    <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_012.jpg"/>
+   </media>
+   <caption>Vertical and horizontal reflections of a function.</caption>
+  </figure>
+
+  <para id="fs-id1165137642152">Notice that the vertical reflection produces a new graph that is a mirror image of the base or original graph about the <emphasis effect="italics">x</emphasis>-axis. The horizontal reflection produces a new graph that is a mirror image of the base or original graph about the <emphasis effect="italics">y</emphasis>-axis.</para>
+<note id="fs-id1165137432318">
+   <label>A General Note</label>
+   <title>Reflections</title>
+   <para id="fs-id1165134040633">Given a function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">),</m:mo></m:mrow>
+   </m:math> a new function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>is a <term>vertical reflection</term> of the function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>sometimes called a reflection about (or over, or through) the <emphasis effect="italics">x</emphasis>-axis.</para><para id="fs-id1165135203741">Given a function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>a new function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>is a <term>horizontal reflection</term> of the function<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>sometimes called a reflection about the <emphasis effect="italics">y</emphasis>-axis.</para></note>
+
+
+  <note id="fs-id1165137557940" class="howto">
+   <label>How To</label>
+   <para id="fs-id1165135187109"><emphasis>Given a function, reflect the graph both vertically and horizontally.
+   </emphasis></para>
+   <list id="fs-id1165137920678" list-type="enumerated" number-style="arabic"><item>Multiply all outputs by –1 for a vertical reflection. The new graph is a reflection of the original graph about the <emphasis effect="italics">x</emphasis>-axis.</item>
+   <item>Multiply all inputs by –1 for a horizontal reflection. The new graph is a reflection of the original graph about the <emphasis effect="italics">y</emphasis>-axis.</item>
+   </list></note>
+
+  <example id="Example_01_05_09"><exercise id="fs-id1165135195785">
+    <problem id="fs-id1165137838801">
+     <title>Reflecting a Graph Horizontally and Vertically</title>
+     <para id="fs-id1165134351127">Reflect the graph of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+        <m:mi>t</m:mi>
+       </m:msqrt>
+      </m:mrow>
+     </m:math> (a) vertically and (b) horizontally.
+     </para></problem>
+    <solution id="fs-id1165135696191">
+
+
+   <list id="fs-id1165135386517" list-type="enumerated" number-style="lower-alpha">
+    <item><para id="fs-id1165137455471">Reflecting the graph vertically means that each output value will be reflected over the horizontal <emphasis effect="italics">t-</emphasis>axis as shown in <link target-id="Figure_01_05_014"/>.</para>
+
+    <figure id="Figure_01_05_014">
+     <media id="fs-id1165137460965" alt="Graph of the vertical reflection of the square root function.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_013.jpg"/>
+     </media>
+     <caption>Vertical reflection of the square root function</caption>
+    </figure>
+
+    <para id="fs-id1165137431214">Because each output value is the opposite of the original output value, we can write</para>
+     <equation id="fs-id1165137425686"><m:math display="block">
+      <m:mrow>
+       <m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> or </m:mtext><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:msqrt>
+        <m:mi>t</m:mi>
+       </m:msqrt>
+       </m:mrow>
+     </m:math>
+     </equation><para id="fs-id1165135698624">Notice that this is an outside change, or vertical shift, that affects the output<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>values, so the negative sign belongs outside of the function.</para>
+    </item>
+    <item>
+     <para id="fs-id1165134393050">Reflecting horizontally means that each input value will be reflected over the vertical axis as shown in <link target-id="Figure_01_05_015"/>.</para>
+
+    <figure id="Figure_01_05_015">
+     <media id="fs-id1165137393283" alt="Graph of the horizontal reflection of the square root function.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_014.jpg"/>
+     </media>
+     <caption>Horizontal reflection of the square root function</caption>
+    </figure>
+
+    <para id="fs-id1165133408855">Because each input value is the opposite of the original input value, we can write</para>
+     <equation id="fs-id1165137470692" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+       <m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> or </m:mtext><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mi>t</m:mi></m:mrow>
+       </m:msqrt>
+       </m:mrow>
+     </m:math>
+     </equation><para id="fs-id1165137742575">Notice that this is an inside change or horizontal change that affects the input values, so the negative sign is on the inside of the function.</para>
+<para id="fs-id1165137664617">Note that these transformations can affect the domain and range of the functions. While the original square root function has domain<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>and range<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>the vertical reflection gives the<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>function the range<m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math> and the horizontal reflection gives the<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>function the domain<m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+
+     </para></item>
+   </list>
+
+    </solution>
+   </exercise>
+  </example><example id="eip-922"><exercise id="fs-id1165137437703">
+  <problem id="fs-id1165137726983">
+   <para id="fs-id1165137726985">Reflect the graph of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>|</m:mo>
+ </m:mrow>
+</m:math> (a) vertically and (b) horizontally.
+   </para></problem>
+
+  <solution id="fs-id1165134234186">
+
+  <list id="fs-id1165137444428" list-type="enumerated" number-style="lower-alpha"><item>
+
+     <media id="fs-id1165137693977" alt="Graph of a vertically reflected absolute function.">
+    <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_015a.jpg"/>
+   </media>
+  </item>
+
+  <item>
+    <media id="fs-id1165135436637" alt="Graph of an absolute function translated one unit left.">
+    <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_015b.jpg"/>
+   </media>
+  </item>
+  </list></solution>
+   </exercise></example></section><section id="eip-714"><title>Stretching and Shrinking Transformations</title><para id="fs-id1165137654773">Adding a constant to the inputs or outputs of a function changed the position of a graph with respect to the axes, but it did not affect the shape of a graph. We now explore the effects of multiplying the inputs or outputs by some quantity.</para>
+<para id="fs-id1165137675403">We can transform the inside (input values) of a function or we can transform the outside (output values) of a function. Each change has a specific effect that can be seen graphically.</para>
+
+<section id="fs-id1165137793506">
+<title> Vertical Stretches and Compressions </title>
+ <para id="fs-id1165137461225">When we multiply a function by a positive constant, we get a function whose graph is stretched or compressed vertically in relation to the graph of the original function. If the constant is greater than 1, we get a <emphasis>vertical stretch</emphasis>; if the constant is between 0 and 1, we get a<emphasis> vertical compression</emphasis>. <link target-id="Figure_01_05_025"/> shows a function multiplied by constant factors 2 and 0.5 and the resulting vertical stretch and compression.</para><figure id="Figure_01_05_025" class="small">
+ <media id="fs-id1165135191886" alt="Graph of a function that shows vertical stretching and compression.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_024.jpg"/>
+ </media>
+ <caption>Vertical stretch and compression</caption>
+</figure>
+
+<note id="fs-id1165137472530">
+<label>A General Note</label>
+<title>Vertical Stretches and Compressions</title>
+ <para id="fs-id1165137444261">Given a function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>a new function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>where<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a constant, is a <term>vertical stretch</term> or <term>vertical compression</term> of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+<list id="fs-id1165135553621">
+ <item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then the graph will be stretched.</item>
+ <item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then the graph will be compressed.</item>
+ <item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then there will be combination of a vertical stretch or compression with a vertical reflection.</item>
+</list>
+</note>
+
+
+<note id="fs-id1165135173107" class="howto">
+ <label>How To</label>
+ <para id="fs-id1165132939216">
+  <emphasis>Given a function, graph its vertical stretch.</emphasis>
+ </para>
+<list id="fs-id1165134190735" list-type="enumerated" number-style="arabic"><item>Identify the value of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </item>
+ <item>Multiply all range values by<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math></item>
+ <item>
+<para id="eip-id1165133107002">If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext></m:mrow>
+ </m:math>the graph is stretched by a factor of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math></para>
+ <para id="eip-id1165135191979">If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the graph is compressed by a factor of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math></para>
+ <para id="eip-id1165134061939">If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the graph is either stretched or compressed and also reflected about the <emphasis effect="italics">x</emphasis>-axis.</para></item>
+</list></note>
+
+<example id="Example_01_05_13">
+<exercise id="fs-id1165137619296"><problem id="fs-id1165137619298">
+<title>Graphing a Vertical Stretch </title>
+ <para id="fs-id1165137552971">A function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+ </m:math>models the population of fruit flies. The graph is shown in <link target-id="Figure_01_05_026"/>.</para>
+
+<figure id="Figure_01_05_026" class="small">
+ <media id="fs-id1165137501364" alt="Graph to represent the growth of the population of fruit flies.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_025.jpg"/>
+</media>
+</figure>
+
+ <para id="fs-id1165135349865">A scientist is comparing this population to another population,<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>Q</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>whose growth follows the same pattern, but is twice as large. Sketch a graph of this population.</para>
+</problem>
+<solution id="fs-id1165137482306">
+ <para id="fs-id1165137482308">Because the population is always twice as large, the new population’s output values are always twice the original function’s output values. Graphically, this is shown in <link target-id="Figure_01_05_027"/>.</para>
+
+ <para id="fs-id1165137482312">If we choose four reference points, (0, 1), (3, 3), (6, 2) and (7, 0) we will multiply all of the outputs by 2.</para><para id="fs-id1165137705889">The following shows where the new points for the new graph will be located.</para>
+ <equation id="fs-id1165133281393" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow>
+         <m:mo>)</m:mo></m:mrow></m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>6</m:mn></m:mrow>
+         <m:mo>)</m:mo></m:mrow></m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn></m:mrow>
+         <m:mo>)</m:mo></m:mrow></m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>7</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">→</m:mo><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mn>7</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn></m:mrow>
+         <m:mo>)</m:mo></m:mrow></m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable></m:mrow>
+ </m:math>
+ </equation><figure id="Figure_01_05_027" class="small">
+ <media id="fs-id1165135190469" alt="Graph of the population function doubled.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_026.jpg"/>
+</media>
+</figure>
+
+<para id="fs-id1165132939230">Symbolically, the relationship is written as</para>
+ <equation id="fs-id1165135524747" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mi>Q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+ </m:math>
+ </equation><para id="fs-id1165135305830">This means that for any input<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the value of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>Q</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is twice the value of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>P</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Notice that the effect on the graph is a vertical stretching of the graph, where every point doubles its distance from the horizontal axis. The input values,<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>stay the same while the output values are twice as large as before.</para>
+</solution>
+</exercise></example>
+
+<example id="Example_01_05_15">
+<exercise id="fs-id1165135530673">
+<problem id="fs-id1165135530675">
+<title>Recognizing a Vertical Stretch</title>
+ <para id="fs-id1165135519281">The graph in <link target-id="Figure_01_05_028"/> is a transformation of the toolkit function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Relate this new function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>to<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and then find a formula for<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+
+<figure id="Figure_01_05_028" class="small">
+ <media id="fs-id1165137431034" alt="Graph of a transformation of f(x)=x^3.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_027.jpg"/>
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165135173356">
+ <para id="fs-id1165137424163">When trying to determine a vertical stretch or shift, it is helpful to look for a point on the graph that is relatively clear. In this graph, it appears that<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>With the basic cubic function at the same input,<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo><m:mn>8.</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math> Based on that, it appears that the outputs of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>are<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>the outputs of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>because<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>From this we can fairly safely conclude that <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165135154389">We can write a formula for<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>by using the definition of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+ <equation id="fs-id1165137634248" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+  </m:mrow>
+ </m:math>
+ </equation>
+</solution>
+</exercise>
+</example>
+
+</section>
+<section id="fs-id1165135344103">
+<title> Horizontal Stretches and Compressions </title>
+<para id="fs-id1165133167751">Now we consider changes to the inside of a function. When we multiply a function’s input by a positive constant, we get a function whose graph is stretched or compressed horizontally in relation to the graph of the original function. If the constant is between 0 and 1, we get a <emphasis>horizontal stretch</emphasis>; if the constant is greater than 1, we get a <emphasis>horizontal compression</emphasis> of the function.</para>
+
+ <figure id="Figure_01_05_029" class="small">
+  <media id="fs-id1165137659669" alt="Graph of the vertical stretch and compression of x^2.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_028.jpg"/>
+      </media>
+      </figure>
+
+ <para id="fs-id1165133366207">Given a function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>the form<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>results in a horizontal stretch or compression. Consider the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Observe <link target-id="Figure_01_05_029"/>. The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>0.5</m:mn><m:mi>x</m:mi></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>is a horizontal stretch of the graph of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>by a factor of 2. The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>x</m:mi></m:mrow>
+      <m:mo>)</m:mo></m:mrow></m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>is a horizontal compression of the graph of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>by a factor of 2.</para>
+
+<note id="fs-id1165137732896">
+<label>A General Note</label>
+<title>Horizontal Stretches and Compressions</title>
+ <para id="fs-id1165134573810">Given a function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>a new function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>where<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a constant, is a <term>horizontal stretch</term> or <term>horizontal compression</term> of the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para><list id="eip-456"><item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then the graph will be compressed by<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>b</m:mi>
+   </m:mfrac>
+   <m:mo>.</m:mo></m:mrow>
+ </m:math>
+</item>
+<item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then the graph will be stretched by<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>b</m:mi>
+   </m:mfrac>
+   <m:mo>.</m:mo></m:mrow>
+ </m:math>
+</item>
+<item>If<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>then there will be combination of a horizontal stretch or compression with a horizontal reflection.</item>
+
+
+
+
+ </list>
+ </note>
+
+<note id="fs-id1165137832347" class="howto">
+<label>How To</label>
+<para id="fs-id1165137784900"><emphasis>Given a description of a function, sketch a horizontal compression or stretch.
+</emphasis></para>
+<list id="fs-id1165137784904" list-type="enumerated" number-style="arabic"><item>Write a formula to represent the function.</item>
+ <item>Set<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>where<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>for a compression or<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>
+  for a stretch.</item>
+</list></note>
+
+<example id="Example_01_05_16"><exercise id="fs-id1165137455653"><problem id="fs-id1165137470240">
+<title>Graphing a Horizontal Compression </title>
+ <para id="fs-id1165137470245">Suppose a scientist is comparing a population of fruit flies to a population that progresses through its lifespan twice as fast as the original population. In other words, this new population,<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>R</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>will progress in 1 hour the same amount as the original population does in 2 hours, and in 2 hours, it will progress as much as the original population does in 4 hours. Sketch a graph of this population.</para></problem>
+<solution id="fs-id1165137837246">
+<para id="fs-id1165137837248">Symbolically, we could write</para>
+
+ <equation id="fs-id1165137767577" class="unnumbered"><label/><m:math display="block">
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> and in general,</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>R</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+   </m:mtable>
+  </m:mrow>
+ </m:math>
+
+</equation><para id="fs-id1165134380331">See <link target-id="Figure_01_05_030"/> for a graphical comparison of the original population and the compressed population.</para>
+
+<figure id="Figure_01_05_030"><media id="fs-id1165137844206" alt="Two side-by-side graphs. The first graph has function for original population whose domain is [0,7] and range is [0,3]. The maximum value occurs at (3,3). The second graph has the same shape as the first except it is half as wide. It is a graph of transformed population, with a domain of [0, 3.5] and a range of [0,3]. The maximum occurs at (1.5, 3). ">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_029ab.jpg"/>
+ </media>
+
+<caption>(a) Original population graph (b) Compressed population graph </caption></figure></solution>
+<commentary id="fs-id1165134297638">
+<title>Analysis </title>
+<para id="fs-id1165134297643">Note that the effect on the graph is a horizontal compression where all input values are half of their original distance from the vertical axis. </para></commentary>
+</exercise></example><example id="Example_01_05_18">
+<exercise id="fs-id1165137783980">
+<problem id="fs-id1165137783983">
+<title>Recognizing a Horizontal Compression on a Graph</title>
+ <para id="fs-id1165135545991">Relate the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>to<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>in <link target-id="Figure_01_05_033"/>.</para>
+
+ <figure id="Figure_01_05_033" class="small">
+  <media id="fs-id1165137542176" alt="Graph of f(x) being vertically compressed to g(x).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_032.jpg"/>
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165137737597">
+ <para id="fs-id1165137895242">The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>looks like the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>horizontally compressed. Because<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>ends at<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>and<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>ends at<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>we can see that the <m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>-</m:mtext></m:mrow>
+</m:math>values have been compressed by<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>because<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+    </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>We might also notice that<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mn>6</m:mn>
+    <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+ </m:math>and<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>Either way, we can describe this relationship as<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>x</m:mi></m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>This is a horizontal compression by<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+<commentary id="fs-id1165137793556">
+<title>Analysis </title>
+ <para id="fs-id1165137404580">Notice that the coefficient needed for a horizontal stretch or compression is the reciprocal of the stretch or compression. So to stretch the graph horizontally by a scale factor of 4, we need a coefficient of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>in our function:<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+     </m:mfrac>
+     <m:mi>x</m:mi></m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>This means that the input values must be four times larger to produce the same result, requiring the input to be larger, causing the horizontal stretching.</para>
+</commentary>
+</exercise>
+</example><example id="eip-245"><exercise id="ti_01_05_07">
+<problem id="fs-id1165137451792"><para id="fs-id1165137451793">Write a formula for the toolkit square root function horizontally stretched by a factor of 3.</para></problem>
+ <solution id="fs-id1165132945546"><para id="fs-id1165132945547"><m:math>
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+     <m:mi>x</m:mi></m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+ </m:math>so using the square root function we get<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+     <m:mi>x</m:mi></m:mrow>
+   </m:msqrt>
+  </m:mrow>
+ </m:math>
+ </para>
+ </solution>
+</exercise></example></section>
+</section><section id="eip-438"><title>Performing a Sequence of Transformations</title><para id="fs-id1165137387533">When combining transformations, it is very important to consider the order of the transformations. For example, vertically shifting by 3 and then vertically stretching by 2 does not create the same graph as vertically stretching by 2 and then vertically shifting by 3, because when we shift first, both the original function and the shift get stretched, while only the original function gets stretched when we stretch first.</para>
+  <para id="fs-id1165137387540">When we see an expression such as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+</m:math>which transformation should we start with? The answer here follows nicely from the order of operations. Given the output value of<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>we first multiply by 2, causing the vertical stretch, and then add 3, causing the vertical shift. In other words, multiplication before addition.</para><para id="fs-id1165137483273">Horizontal transformations are a little trickier to think about. When we write<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>for example, we have to think about how the inputs to the function<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+  </m:math>relate to the inputs to the function<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>Suppose we know<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>12.</m:mn><m:mtext> </m:mtext></m:mrow>
+  </m:math>What input to<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+  </m:math>would produce that output? In other words, what value of<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext></m:mrow>
+  </m:math>will allow<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>?</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>We would need<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>7.</m:mn><m:mtext> </m:mtext></m:mrow>
+  </m:math>To solve for<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>we would first subtract 3, resulting in a horizontal shift, and then divide by 2, causing a horizontal compression.</para>
+  <para id="fs-id1165137580228">This format ends up being very difficult to work with, because it is usually much easier to horizontally stretch a graph before shifting. We can work around this by factoring inside the function.</para>
+  <equation id="fs-id1165135241282" class="unnumbered"><label/><m:math display="block">
+   <m:mrow>
+    <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>b</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+         <m:mi>p</m:mi>
+         <m:mi>b</m:mi>
+        </m:mfrac>
+       </m:mrow>
+       <m:mo>)</m:mo></m:mrow></m:mrow>
+     <m:mo>)</m:mo></m:mrow></m:mrow>
+  </m:math>
+  </equation>
+  <para id="fs-id1165137427526">Let’s work through an example.</para>
+  <equation id="fs-id1165137705217" class="unnumbered"><label/><m:math display="block">
+   <m:mrow>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+     <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+   </m:mrow>
+  </m:math>
+  </equation>
+  <para id="fs-id1165137438427">We can factor out a 2.</para>
+  <equation id="fs-id1165137694985" class="unnumbered"><label/><m:math display="block">
+   <m:mrow>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+     <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+   </m:mrow>
+  </m:math>
+  </equation>
+  <para id="fs-id1165135349189">Now we can more clearly observe a horizontal shift to the left 2 units and a horizontal compression. Factoring in this way allows us to horizontally stretch first and then shift horizontally.</para>
+
+  <note id="fs-id1165137715290">
+<label>A General Note</label>
+<title>Combining Transformations</title>
+
+   <para id="fs-id1165137469882">When combining vertical transformations written in the form<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>a</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>k</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>first vertically stretch by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext></m:mrow>
+   </m:math>and then vertically shift by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>.</m:mo></m:mrow>
+   </m:math>
+   </para>
+   <para id="fs-id1165137423095">When combining horizontal transformations written in the form<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>first horizontally shift by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>h</m:mi><m:mtext> </m:mtext></m:mrow>
+   </m:math>and then horizontally stretch by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>b</m:mi>
+     </m:mfrac>
+     <m:mo>.</m:mo></m:mrow>
+   </m:math>
+   </para><para id="fs-id1165135186003">When combining horizontal transformations written in the form<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>first horizontally stretch by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>b</m:mi>
+     </m:mfrac>
+     <m:mtext> </m:mtext></m:mrow>
+   </m:math>and then horizontally shift by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow>
+   </m:math>
+   </para><para id="fs-id1165135191611">Horizontal and vertical transformations are independent. It does not matter whether horizontal or vertical transformations are performed first.</para>
+  </note><example id="Example_01_05_20">
+   <exercise id="fs-id1165137642734">
+    <problem id="fs-id1165137571821">
+     <title>Finding a Triple Transformation of a Graph</title>
+     <para id="fs-id1165137571826">Use the graph of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+     </m:math>in <link target-id="Figure_01_05_035"/> to sketch a graph of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3.</m:mn></m:mrow>
+     </m:math>
+     </para>
+
+     <figure id="Figure_01_05_035" class="small">
+      <media id="fs-id1165137619127" alt="Graph of a half-circle.">
+       <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_034.jpg"/>
+      </media>
+     </figure>
+
+    </problem>
+    <solution id="fs-id1165134148412">
+     <para id="fs-id1165134148414">To simplify, let’s start by factoring out the inside of the function.</para>
+
+     <equation id="fs-id1165137831276" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+       <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+     </m:math>
+     </equation>
+     <para id="fs-id1165135532397">By factoring the inside, we can first horizontally stretch by 2, as indicated by the<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       <m:mtext> </m:mtext></m:mrow>
+     </m:math>on the inside of the function. Remember that twice the size of 0 is still 0, so the point (0,2) remains at (0,2) while the point (2,0) will stretch to (4,0). See <link target-id="Figure_01_05_036"/>.</para><figure id="Figure_01_05_036" class="small">
+     <media id="fs-id1165135580394" alt="Graph of a vertically stretch half-circle.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_035.jpg"/>
+     </media>
+    </figure>
+
+     <para id="fs-id1165137736781">Next, we horizontally shift left by 2 units, as indicated by<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2.</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>See <link target-id="Figure_01_05_037"/>.</para>
+
+    <figure id="Figure_01_05_037" class="small">
+     <media id="fs-id1165135641688" alt="Graph of a vertically stretch and translated half-circle.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_036.jpg"/>
+     </media>
+    </figure>
+
+     <para id="fs-id1165137696198">Last, we vertically shift down by 3 to complete our sketch, as indicated by the<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>on the outside of the function. See <link target-id="Figure_01_05_038"/>.</para>
+
+    <figure id="Figure_01_05_038" class="small">
+     <media id="fs-id1165135196774" alt="Graph of a vertically stretch and translated half-circle.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_05_037.jpg"/>
+     </media>
+    </figure>
+    </solution>
+   </exercise>
+  </example>
+
+  <note id="fs-id1165135497140" class="media">
+   <label>Media</label>
+   <para id="fs-id1165137410202">Access this online resource for additional instruction and practice with transformation of functions.</para>
+   <list id="fs-id1165137410206"><item><link url="http://openstax.org/l/functrans">Function Transformations</link></item></list>
+  </note>
+
+  </section><section id="fs-id1167836597228" class="key-concepts"><title>Key Concepts</title><list id="fs-id1167833036726" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Graph of a Function</emphasis>
+<list id="fs-id1167836386300" list-type="bulleted" bullet-style="bullet">
+<item>The graph of a function is the graph of all its ordered pairs, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> or using function notation, <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+<equation id="fs-id1167836706023" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>name of function</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>x</m:mi><m:mtext>-coordinate of the ordered pair</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mi>y</m:mi><m:mtext>-coordinate of the ordered pair</m:mtext></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation></item></list></item>
+<item><emphasis effect="bold">Linear Function</emphasis><newline/>
+<media id="fs-id1167833240439" alt="This figure has a graph of a straight line on the x y-coordinate plane. The line goes through the point (0, b). Next to the graph are the following: “f of x equalsm x plus b”, “m, b: all real numbers”, “m: slope of the line”, “b: y-intercept”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_027_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Constant Function</emphasis><newline/>
+<media id="fs-id1167836699152" alt="This figure has a graph of a straight horizontal line on the x y-coordinate plane. The line goes through the point (0, b). Next to the graph are the following: “f of x equalsb”, “b: any real number”, “b: y-intercept”, “Domain: (negative infinity, infinity)”, and “Range: b”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_028_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Identity Function</emphasis><newline/>
+<media id="fs-id1167826129331" alt="This figure has a graph of a straight line on the x y-coordinate plane. The line goes through the points (0, 0), (1, 1), and (2, 2). Next to the graph are the following: “f of x equalsx”, “m: 1”, “b: 0”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_029_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Square Function</emphasis><newline/>
+<media id="fs-id1167836612513" alt="This figure has a graph of a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 2 to 6. The parabola goes through the points (negative 2, 4), (negative 1, 1), (0, 0), (1, 1), and (2, 4). Next to the graph are the following: “f of x equalsx squared”, “Domain: (negative infinity, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_030_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Cube Function</emphasis><newline/>
+<media id="fs-id1167833380845" alt="This figure has a curved line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 4 to 4. The curved line goes through the points (negative 2, negative 8), (negative 1, negative 1), (0, 0), (1, 1), and (2, 8).). Next to the graph are the following: “f of x equalsx cubed”, “Domain: (negative infinity, infinity)”, and “Range: (negative infinity, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_031_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Square Root Function</emphasis><newline/>
+<media id="fs-id1167833245744" alt="This figure has a curved half-line graphed on the x y-coordinate plane. The x-axis runs from 0 to 8. The y-axis runs from 0 to 8. The curved half-line starts at the point (0, 0) and then goes up and to the right. The curved half line goes through the points (1, 1) and (4, 2). Next to the graph are the following: “f of x equalssquare root of x”, “Domain: [0, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_032_img_new.jpg"/>
+</media></item>
+<item><emphasis effect="bold">Absolute Value Function</emphasis><newline/>
+<media id="fs-id1167836602267" alt="This figure has a v-shaped line graphed on the x y-coordinate plane. The x-axis runs from negative 4 to 4. The y-axis runs from negative 1 to 6. The v-shaped line goes through the points (negative 3, 3), (negative 2, 2), (negative 1, 1), (0, 0), (1, 1), (2, 2), and (3, 3). The point (0, 0) where the line changes slope is called the vertex. Next to the graph are the following: “f of x equalsabsolute value of x”, “Domain: (negative infinity, infinity)”, and “Range: [0, infinity)”.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_033_img_new.jpg"/>
+</media></item>
+</list>
+<table id="eip-id1165134393730" summary=".." class="unnumbered unstyled"><label/><title>Parent Functions</title>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+    <row>
+        <entry>Constant function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>,</m:mo>
+            </m:mrow>
+        </m:math>where<m:math>
+            <m:mrow>
+                <m:mtext> </m:mtext><m:mi>c</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+        </m:math>is a constant</entry>
+    </row>
+
+
+    <row>
+        <entry>Identity function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Absolute value function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Quadratic function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                    </m:msup>
+
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Cubic function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>3</m:mn>
+                    </m:msup>
+
+            </m:mrow>
+        </m:math>
+
+        </entry>
+    </row>
+
+    <row>
+        <entry>Reciprocal function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>x</m:mi>
+                    </m:mfrac>
+
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Reciprocal squared function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                            <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mn>2</m:mn>
+                            </m:msup>
+
+                        </m:mrow>
+                    </m:mfrac>
+
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Square root function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt>
+                        <m:mi>x</m:mi>
+                    </m:msqrt>
+
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+
+    <row>
+        <entry>Cube root function</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mroot>
+                        <m:mi>x</m:mi>
+                        <m:mn>3</m:mn>
+                    </m:mroot>
+
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="eip-4"><title>Transformations</title><table id="eip-id1165134474082" summary=".." class="unnumbered unstyled"><label/>
+<tgroup cols="2"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+    <row>
+        <entry>Vertical shift</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>k</m:mi><m:mtext> </m:mtext>
+            </m:mrow>
+        </m:math>(up for<m:math>
+            <m:mrow>
+                <m:mtext> </m:mtext><m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+            </m:mrow>
+        </m:math>)</entry>
+    </row>
+    <row>
+        <entry>Horizontal shift</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math>(right for<m:math>
+            <m:mrow>
+                <m:mtext> </m:mtext><m:mi>h</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+            </m:mrow>
+        </m:math>)</entry>
+    </row>
+    <row>
+        <entry>Vertical reflection</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+    <row>
+        <entry>Horizontal reflection</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+    <row>
+        <entry>Vertical stretch</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+            </m:mrow>
+        </m:math>(<m:math>
+            <m:mrow>
+                <m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+            </m:mrow>
+        </m:math>
+            )</entry>
+    </row>
+    <row>
+        <entry>Vertical compression</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+            </m:mrow>
+        </m:math><m:math>
+            <m:mrow>
+                <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+    <row>
+        <entry>Horizontal stretch</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math><m:math>
+            <m:mrow>
+                <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+        </m:math>
+        </entry>
+    </row>
+    <row>
+        <entry>Horizontal compression.</entry>
+        <entry><m:math>
+            <m:mrow>
+                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext>
+            </m:mrow>
+        </m:math>(<m:math>
+            <m:mrow>
+                <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
+            </m:mrow>
+        </m:math>)</entry>
+    </row>
+</tbody>
+
+
+
+</tgroup>
+</table></para></section><section id="fs-id1167836310305" class="section-exercises"><title>Section Exercises</title><section id="fs-id1167836300671" class="practice-perfect"><title>Practice Makes Perfect</title><para id="fs-id1167833377170"><emphasis effect="bold">Identify Graphs of Basic Functions</emphasis></para>
+<para id="fs-id1167836356048">In the following exercises, <span class="token">ⓐ</span> graph each function <span class="token">ⓑ</span> state its domain and range. Write the domain and range in interval notation.</para>
+<exercise id="fs-id1167836665073">
+<problem id="fs-id1167836477133">
+<para id="fs-id1167836330144"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836296139">
+<para id="fs-id1167829849369"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836356672" alt="The figure has a linear function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The line goes through the points (negative 2, negative 2), (negative 1, 1), and (0, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_313_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:(-∞,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167824736142">
+<problem id="fs-id1167824649348">
+<para id="fs-id1167836560312"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833350800">
+<para id="fs-id1167836299759"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836530065" alt="The figure has a linear function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The line goes through the points (negative 2, 0), (0, negative 2), and (2, negative 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_315_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:(-∞,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836544127">
+<problem id="fs-id1167836319404">
+<para id="fs-id1167824732917"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836407696">
+<para id="fs-id1167836649918"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829878394" alt="The figure has a constant function graphed on the x y-coordinate plane. The x-axis runs from negative 8 to 8. The y-axis runs from negative 8 to 8. The line goes through the points (negative 2, 5), (negative 1, 5), and (0, 5).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_321_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:{5}</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836621812">
+<problem id="fs-id1167833310489">
+<para id="fs-id1167833135075"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836330168">
+<para id="fs-id1167836539196"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836691433" alt="The figure has a linear function graphed on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (0, 0), (1, negative 2), and (negative 1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_327_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:(-∞,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836698477">
+<problem id="fs-id1167836625081">
+<para id="fs-id1167836533854"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836296574">
+<para id="fs-id1167829830462"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829719707" alt="The figure has a square function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The parabola goes through the points (negative 1, 3), (0, 0), and (1, 3). The lowest point on the graph is (0, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_329_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:[0,∞)</para></solution>
+</exercise>
+<exercise id="fs-id1167836321873">
+<problem id="fs-id1167836627175">
+<para id="fs-id1167836319029"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167824765152">
+<para id="fs-id1167836510523"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829749853" alt="The figure has a square function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The parabola goes through the points (negative 4, 8), (negative 2, 2), (0, 0), (2, 2), and (4, 8). The lowest point on the graph is (0, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_333_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> (-∞,∞), R:[-∞,0)</para></solution>
+</exercise>
+<exercise id="fs-id1167829650694">
+<problem id="fs-id1167836791239">
+<para id="fs-id1167836390020"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829695009">
+<para id="fs-id1167833346213"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167833051204" alt="The figure has a cube function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line goes through the points (negative 1, 2), (0, 0), and (1, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_337_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:(-∞,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836341365">
+<problem id="fs-id1167833056424">
+<para id="fs-id1167829750112"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836717043">
+<para id="fs-id1167824584281"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167829688798" alt="The figure has a cube function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line goes through the points (negative 1, 1), (0, 2), and (1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_339_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:(-∞,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836481043">
+<problem id="fs-id1167826132631">
+<para id="fs-id1167836375975"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833142040">
+<para id="fs-id1167836310146"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836510096" alt="The figure has a square root function graphed on the x y-coordinate plane. The x-axis runs from 0 to 10. The y-axis runs from 0 to 10. The half-line starts at the point (0, 0) and goes through the points (1, 2) and (4, 4).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_341_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:[0,∞), R:[0,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836510676">
+<problem id="fs-id1167836624651">
+<para id="fs-id1167836455857"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167826170204">
+<para id="fs-id1167836514110"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836511382" alt="The figure has a square root function graphed on the x y-coordinate plane. The x-axis runs from 0 to 10. The y-axis runs from 0 to 10. The half-line starts at the point (1, 0) and goes through the points (2, 1) and (5, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_343_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:[1,∞), R:[0,∞)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829923887">
+<problem id="fs-id1167824766922">
+<para id="fs-id1167836409493"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>x</m:mi></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833186644">
+<para id="fs-id1167829715758"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167836774098" alt="The figure has an absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The vertex is at the point (0, 0). The line goes through the points (negative 1, 3) and (1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_345_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:[ <m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow></m:math> ∞), R:[−∞,∞)</para></solution>
+</exercise>
+<exercise id="fs-id1167836393413">
+<problem id="fs-id1167829899539">
+<para id="fs-id1167829936852"><m:math><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>x</m:mi></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836608457">
+<para id="fs-id1167836550967"><span class="token">ⓐ</span><newline/>
+<media id="fs-id1167833024700" alt="The figure has an absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The vertex is at the point (0, 1). The line goes through the points (negative 1, 2) and (1, 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_06_347_img_new.jpg"/>
+</media>
+<newline/><newline/><span class="token">ⓑ</span> D:(-∞,∞), R:[1,∞)</para>
+</solution>
+</exercise><para id="eip-757">For the following exercises, write a formula for the function obtained when the graph is shifted as described.</para><exercise id="eip-975"><problem id="fs-id1165134041418">
+  <para id="fs-id1165133334338"><m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mi>x</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+</m:math>
+is shifted down 3 units and to the right 1 unit.</para></problem>
+<solution id="fs-id1165133334343">
+ <para id="fs-id1165133334345"><m:math>
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>|</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+ </m:math>
+ </para></solution>
+</exercise><exercise id="eip-698"><problem id="fs-id1165137805975">
+  <para id="fs-id1165135191770"><m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mrow>
+      <m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+     </m:mrow>
+    </m:mfrac>
+    <m:mtext> </m:mtext></m:mrow>
+  </m:math>is shifted up 2 units and to the left 4 units.</para></problem>
+<solution id="fs-id1165135524467">
+ <para id="fs-id1165135524470"><m:math>
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:msup>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mn>2</m:mn></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><para id="eip-880">For the following exercises, describe how the graph of the function is a transformation of the graph of the original function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para><exercise id="eip-862"><problem id="fs-id1165135193436">
+  <para id="fs-id1165134211267"><m:math>
+   <m:mrow>
+    <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>43</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165134038728">
+ <para id="fs-id1165134038730">The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>43</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a horizontal shift to the left 43 units of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution></exercise><exercise id="eip-141"><problem id="fs-id1165137936725">
+  <para id="fs-id1165137936728"><m:math>
+   <m:mrow>
+    <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165137704820">
+ <para id="fs-id1165137704822"> The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a vertical shift up 8 units of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><exercise id="eip-62"><problem id="fs-id1165134220845">
+  <para id="fs-id1165134220847"><m:math>
+   <m:mrow>
+    <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165137782282">
+ <para id="fs-id1165137782284">The graph of <m:math>
+  <m:mrow>
+   <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+ </m:math> is a horizontal shift to the left 4 units and a vertical shift down 1 unit of the graph of <m:math>
+  <m:mrow>
+   <m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para></solution>
+</exercise><para id="eip-712">For the following exercises, describe how the graph of each function is a transformation of the graph of the original function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para><exercise id="eip-901"><problem id="fs-id1165137599983">
+  <para id="fs-id1165137599985"><m:math>
+   <m:mrow>
+    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165135208810">
+ <para id="fs-id1165135400954">The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a vertical reflection (across the <m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>x</m:mi></m:mrow>
+ </m:math>-axis) of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><exercise id="eip-655"><problem id="fs-id1165135412894">
+  <para id="fs-id1165135412896"><m:math>
+   <m:mrow>
+    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165135193808">
+ <para id="fs-id1165135193810">The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a vertical stretch by a factor of 4 of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><exercise id="eip-547"><problem id="fs-id1165135440226">
+  <para id="fs-id1165135440229"><m:math>
+   <m:mrow>
+    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165135481187">
+ <para id="fs-id1165137558467"> The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a horizontal compression by a factor of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext></m:mrow>
+ </m:math>of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><exercise id="eip-618"><problem id="fs-id1165137664917">
+  <para id="fs-id1165137664919"><m:math>
+   <m:mrow>
+    <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>x</m:mi></m:mrow>
+     <m:mo>)</m:mo></m:mrow></m:mrow>
+  </m:math>
+  </para>
+ </problem>
+<solution id="fs-id1165135301694">
+ <para id="fs-id1165135301696"> The graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>is a horizontal reflection across the<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>y</m:mi></m:mrow>
+ </m:math>-axis and a vertical stretch by a factor of 3 of the graph of<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo>.</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><para id="eip-346">For the following exercises, write a formula for the function<m:math>
+  <m:mrow>
+   <m:mtext> </m:mtext><m:mi>g</m:mi><m:mtext> </m:mtext></m:mrow>
+ </m:math>that results when the graph of a given toolkit function is transformed as described.</para><exercise id="eip-77"><problem id="fs-id1165135195130">
+  <para id="fs-id1165135195132">The graph of<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo><m:mtext> </m:mtext></m:mrow>
+  </m:math>is reflected over the<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>y</m:mi></m:mrow>
+  </m:math><emphasis effect="italics">-</emphasis>axis and horizontally compressed by a factor of<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+   </m:mrow>
+  </m:math>
+   .</para>
+ </problem>
+<solution id="fs-id1165137810354">
+ <para id="fs-id1165137810356"><m:math>
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>|</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>|</m:mo></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise><exercise id="eip-716"><problem id="fs-id1165137634445">
+  <para id="fs-id1165137634448">
+   The graph of<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+      </m:mrow>
+     </m:mfrac>
+     <m:mtext> </m:mtext></m:mrow>
+   </m:math>is vertically compressed by a factor of<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+     </m:mfrac>
+     <m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+   </m:math>then shifted to the left 2 units and down 3 units.
+  </para>
+ </problem>
+<solution id="fs-id1165137812539">
+ <para id="fs-id1165137812541"><m:math>
+  <m:mrow>
+   <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+ </m:math>
+ </para>
+</solution>
+</exercise>
+</section></section>
+</content>
+<glossary>
+  
+  <definition id="fs-id1165133242964">
+   <term>horizontal compression</term>
+  <meaning id="fs-id1165137833874">a transformation that compresses a function’s graph horizontally, by multiplying the input by a constant<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
+  </m:math>
+  </meaning>
+  </definition>
+  <definition id="fs-id1165135440170">
+   <term>horizontal reflection</term>
+   <meaning id="fs-id1165137602051">a transformation that reflects a function’s graph across the <emphasis effect="italics">y</emphasis>-axis by multiplying the input by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mn>−1</m:mn></m:mrow>
+   </m:math></meaning>
+  </definition>
+
+  <definition id="fs-id1165137922367">
+   <term>horizontal shift</term>
+   <meaning id="fs-id1165137922373">a transformation that shifts a function’s graph left or right by adding a positive or negative constant to the input</meaning>
+  </definition>
+  <definition id="fs-id1165137922379">
+   <term>horizontal stretch</term>
+   <meaning id="fs-id1165135675238">a transformation that stretches a function’s graph horizontally by multiplying the input by a constant<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow>
+   </m:math>
+   </meaning>
+  </definition>
+ 
+  <definition id="fs-id1165137676545">
+   <term>vertical compression</term>
+   <meaning id="fs-id1165137676551">a function transformation that compresses the function’s graph vertically by multiplying the output by a constant<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow>
+   </m:math>
+   </meaning>
+  </definition>
+  <definition id="fs-id1165137662611">
+   <term>vertical reflection</term> <meaning id="fs-id1165137834403">a transformation that reflects a function’s graph across the <emphasis effect="italics">x</emphasis>-axis by multiplying the output by<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mn>−1</m:mn></m:mrow>
+   </m:math></meaning>
+  </definition>
+  <definition id="fs-id1165135580354">
+   <term>vertical shift</term>
+   <meaning id="fs-id1165137862443">a transformation that shifts a function’s graph up or down by adding a positive or negative constant to the output</meaning>
+  </definition>
+  <definition id="fs-id1165137862450">
+   <term>vertical stretch</term>
+   <meaning id="fs-id1165132971698">a transformation that stretches a function’s graph vertically by multiplying the output by a constant<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow>
+   </m:math>
+   </meaning>
+  </definition>
+ </glossary>
+</document>

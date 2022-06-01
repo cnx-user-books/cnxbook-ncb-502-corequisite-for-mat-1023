@@ -1,0 +1,1971 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>More on Slope (2.4)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m82505</md:content-id>
+  <md:title>More on Slope (2.4)</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Use slopes to identify parallel and perpendicular lines</item>
+<item>Find an equation of a line parallel to a given line</item>
+<item>Find an equation of a line perpendicular to a given line</item>
+<item>Find average rate of change </item>
+</list></md:abstract>
+  <md:uuid>70db3a66-0597-44d2-a845-a98f2019c29c</md:uuid>
+</metadata>
+
+<content>
+<note id="eip-4"><para id="fs-id1169147087020">This Module supports section <emphasis> 2.4 of Mat 1023</emphasis>.</para><list id="eip-947" list-type="enumerated" number-style="arabic"><title>In case you missed something in class, or just want to review a specific topic covered in this Module, here is a list of topics covered:</title><item>Identify and Graph Parallel Lines <link target-id="eip-481" document=""/></item>
+<item>Identify and Graph Perpendicular Lines <link target-id="fs-id1167836513856" document=""/></item>
+<item>Rates of Change <link target-id="eip-791" document=""/></item>
+<item>Key Concepts  <link target-id="fs-id1167836539487" document=""/></item></list></note><section id="eip-481"><title>Identify and Graph Parallel Lines</title><para id="fs-id1167835364316">Two lines that have the same slope are called <term>parallel lines</term>. Parallel lines have the same steepness and never intersect.</para>
+<para id="fs-id1167832060588">We say this more formally in terms of the rectangular coordinate system. Two lines that have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts are called parallel lines. See <link target-id="CNX_IntAlg_Figure_03_02_022"/>.</para>
+<figure id="CNX_IntAlg_Figure_03_02_022"><media id="fs-id1167831920918" alt="This figure shows the graph of a two straight lines on the x y-coordinate plane. The x-axis runs from negative 8 to 8. The y-axis runs from negative 8 to 8. The first line goes through the points (0, 3) and (5, 5). The second line goes through the points (0, negative 2) and (5, 0). The lines are parallel meaning they will always be the same distance apart and never intersect. They are slanted by the same angle.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_022_img_new.jpg"/></media></figure>
+<para id="fs-id1167832041547">Verify that both lines have the same slope, <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and different <emphasis effect="italics">y</emphasis>-intercepts.</para>
+<para id="fs-id1167835370766">What about vertical lines? The slope of a vertical line is undefined, so vertical lines don’t fit in the definition above. We say that vertical lines that have different <emphasis effect="italics">x</emphasis>-intercepts are parallel, like the lines shown in this graph.</para>
+<figure id="CNX_IntAlg_Figure_03_02_023"><media id="fs-id1167835639908" alt="This figure shows the graph of a two straight vertical line on the x y-coordinate plane. The x-axis runs from negative 8 to 8. The y-axis runs from negative 8 to 8. The first line goes through the points (2, 0) and (2, 1). The second line goes through the points (5, 0) and (5, 1). The lines are parallel meaning they will always be the same distance apart and never intersect.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_023_img_new.jpg"/></media></figure>
+<note id="fs-id1167834185054">
+<title>Parallel Lines</title>
+<para id="fs-id1167835379318"><emphasis effect="bold">Parallel lines</emphasis> are lines in the same plane that do not intersect.</para>
+<list id="fs-id1167834064692" list-type="bulleted" bullet-style="bullet">
+<item>Parallel lines have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts.</item>
+<item>If <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the slopes of two parallel lines then <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Parallel vertical lines have different <emphasis effect="italics">x</emphasis>-intercepts.</item></list></note>
+<para id="fs-id1167834183457">Since parallel lines have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts, we can now just look at the slope–intercept form of the equations of lines and decide if the lines are parallel.</para>
+
+<example id="fs-id1167835345395">
+<exercise id="fs-id1167835345397">
+<problem id="fs-id1167835345399">
+<para id="fs-id1167830702466">Use slopes and <emphasis effect="italics">y</emphasis>-intercepts to determine if the lines are parallel:</para>
+<para id="fs-id1167835239993"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>−6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−9</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167835343197">
+<para id="fs-id1167835343199"><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mspace width="0.7em"/><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="3em"/><m:mrow><m:mtext>and</m:mtext></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="3em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Solve the first equation for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.85em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>The equation is now in slope–intercept form</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="3.3em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>The equation of the second line is already</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>in slope–intercept form</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="3em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Identify the slope and</m:mtext><m:mi>y</m:mi><m:mtext>-intercept of both lines</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="3em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="3em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>y</m:mi><m:mtext>-intercept is</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mrow><m:mi>y</m:mi><m:mtext>-intercept is</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/>
+The lines have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts and so they are parallel.<newline/>
+You may want to graph the lines to confirm whether they are parallel.<newline/><newline/>
+<span class="token">ⓑ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mspace width="2em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mtext>and</m:mtext></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>The first equation is already in slope–intercept form</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="2em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Solve the second equation for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mspace width="1.5em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>y</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>The second equation is now in slope–intercept form</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mspace width="4.85em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Identify the slope and</m:mtext><m:mi>y</m:mi><m:mtext>-intercept of both lines</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="2em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4.5em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mrow><m:mi>y</m:mi><m:mtext>-intercept is</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="3em"/><m:mrow><m:mi>y</m:mi><m:mtext>-intercept is</m:mtext><m:mspace width="0.2em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/>
+The lines have the same slope, but they also have the same <emphasis effect="italics">y</emphasis>-intercepts. Their equations represent the same line and we say the lines are coincident. They are not parallel; they are the same line.</para>
+</solution>
+</exercise>
+</example>
+
+
+
+<example id="eip-911"><exercise id="fs-id1167835356391">
+<problem id="fs-id1167835356393">
+<para id="fs-id1167835356396">Use slopes and <emphasis effect="italics">y-</emphasis>intercepts to determine if the lines are parallel:</para>
+<para id="fs-id1167826994058"><span class="token">ⓐ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167835367918">
+<para id="fs-id1167835367920"><span class="token">ⓐ</span> parallel <span class="token">ⓑ</span> not parallel; same line</para></solution>
+</exercise></example><example id="fs-id1167835309647">
+<exercise id="fs-id1167835309649">
+<problem id="fs-id1167835319715">
+<para id="fs-id1167835319717">Use slopes and <emphasis effect="italics">y-</emphasis>intercepts to determine if the lines are parallel:</para>
+<para id="fs-id1167834433121"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167835349102">
+<para id="fs-id1167835349104"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math><newline/>
+We recognize right away from the equations that these are horizontal lines, and so we know their slopes are both 0.<newline/>
+Since the horizontal lines cross the <emphasis effect="italics">y</emphasis>-axis at <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math> and at <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know the <emphasis effect="italics">y</emphasis>-intercepts are <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The lines have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts and so they are parallel.<newline/>
+<span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math><newline/>
+We recognize right away from the equations that these are vertical lines, and so we know their slopes are undefined.<newline/>
+Since the vertical lines cross the <emphasis effect="italics">x</emphasis>-axis at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>,</m:mo></m:mrow></m:math> we know the <emphasis effect="italics">y</emphasis>-intercepts are <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math><newline/>
+The lines are vertical and have different <emphasis effect="italics">x</emphasis>-intercepts and so they are parallel.</para></solution>
+</exercise></example>
+
+
+
+<example id="eip-859"><exercise id="fs-id1167828431870">
+<problem id="fs-id1167828431873">
+<para id="fs-id1167826793554">Use slopes and <emphasis effect="italics">y-</emphasis>intercepts to determine if the lines are parallel:</para>
+<para id="fs-id1167834095289"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167834522940">
+<para id="fs-id1167834522942"><span class="token">ⓐ</span> parallel <span class="token">ⓑ</span> parallel</para></solution>
+</exercise></example>
+<para id="eip-648"><title>Find an Equation of a Line Parallel to a Given Line</title></para><para id="fs-id1167833047491">Suppose we need to find an equation of a line that passes through a specific point and is parallel to a given line. We can use the fact that parallel lines have the same slope. So we will have a point and the slope—just what we need to use the point-slope equation.</para>
+<para id="fs-id1167836312500">First, let’s look at this graphically.</para>
+<para id="fs-id1167829716102">This graph shows <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> We want to graph a line parallel to this line and passing through the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836320481" alt="This figure has a graph of a straight line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The point (negative 2, 1) is plotted. The line does not go through the point (negative 2, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_010_img_new.jpg"/>
+</media>
+<para id="fs-id1167836697298">We know that parallel lines have the same slope. So the second line will have the same slope as <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> That slope is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>∥</m:mo></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math> We’ll use the notation <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>∥</m:mo></m:msub></m:mrow></m:math> to represent the slope of a line parallel to a line with slope <emphasis effect="italics">m</emphasis>. (Notice that the subscript || looks like two parallel lines.)</para>
+<para id="fs-id1167829743890">The second line will pass through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and have <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836289727">To graph the line, we start at<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and count out the rise and run.</para>
+<para id="fs-id1167836700923">With <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> (or <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow></m:math>), we count out the rise 2 and the run 1. We draw the line, as shown in the graph.</para>
+<media id="fs-id1167829713321" alt="This figure has a graph of a two straight lines on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The first line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The points (negative 2, 1) and (negative 1, 3) are plotted. The second line goes through the points (negative 2, 1) and (negative 1, 3).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_011_img_new.jpg"/>
+</media>
+<para id="fs-id1167829696351">Do the lines appear parallel? Does the second line pass through<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836305436">We were asked to graph the line, now let’s see how to do this algebraically.</para>
+<para id="fs-id1167836493048">We can use either the slope-intercept form or the point-slope form to find an equation of a line. Here we know one point and can find the slope. So we will use the point-slope form.</para>
+<note id="fs-id1167836367818" class="howto">
+<title>Find an equation of a line parallel to a given line.</title>
+<list id="fs-id1167829879306" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the parallel line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+<example id="fs-id1167836300038">
+<title>How to Find the Equation of a Line Parallel to a Given Line and a Point</title>
+<exercise id="fs-id1167836414960">
+<problem id="fs-id1167836410330">
+<para id="fs-id1167836596689">Find an equation of a line parallel to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836623976">
+<media id="fs-id1167836686744" alt="Step 1 is to find the slope of the given line. The line is in slope-intercept form, y equals 2 x minus 3. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012a_img_new.jpg"/>
+</media>
+<media id="fs-id1167836508752" alt="Step 2 is to find the slope of the parallel line. Parallel lines have the same slope. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836313488" alt="Step 3 is to identify the point. The given point is (negative 2, 1). x 1 is negative 2 and y 1 is 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012c_img_new.jpg"/>
+</media>
+<media id="fs-id1167829596586" alt="Step 4 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus 1 equals 2 times the quantity x minus negative 2 in parentheses. This simplifies to y minus 1 equals 2 x plus 4.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012d_img_new.jpg"/>
+</media>
+<media id="fs-id1167836635332" alt="Step 5 is to write the equation in slope-intercept form. y equals 2 x plus 5.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012e_img_new.jpg"/>
+</media>
+<para id="fs-id1167833061296">Look at graph with the parallel lines shown previously. Does this equation make sense? What is the <emphasis effect="italics">y</emphasis>-intercept of the line? What is the slope?</para>
+</solution>
+</exercise>
+</example>
+
+<example id="eip-940"><exercise id="fs-id1167836611133">
+<problem id="fs-id1167829894247">
+<para id="fs-id1167829683684">Find an equation of a line parallel to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167825660367">
+<para id="fs-id1167836349436"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise></example>
+<example id="eip-737"><exercise id="fs-id1167836628180">
+<problem id="fs-id1167833224723">
+<para id="fs-id1167824732116">Find an equation of a line parallel to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836327026">Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836289214">
+<para id="fs-id1167836538340"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example>
+</section><section id="fs-id1167836513856"><title>Identify and Graph Perpendicular Lines</title><para id="fs-id1167834408376">Let’s look at the lines whose equations are <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math> shown in <link target-id="CNX_IntAlg_Figure_03_02_024"/>.</para><figure id="CNX_IntAlg_Figure_03_02_024"><media id="fs-id1167831117165" alt="This figure shows the graph of a two perpendicular straight lines on the x y-coordinate plane. The x-axis runs from negative 8 to 8. The y-axis runs from negative 8 to 8. The first line goes through the points (0, negative 1) and (4, 0). The first line is labeled y equals 1 divided by 4 x minus 1. The second line goes through the points (0, 2) and (1, negative 2). The second line is labeled y equals negative 4 x plus 2. The lines are perpendicular meaning they form a right angle where they intersect.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_02_024_img_new.jpg"/></media></figure>
+<para id="fs-id1167834535352">These lines lie in the same plane and intersect in right angles. We call these lines perpendicular.</para>
+<para id="fs-id1167835318549">If we look at the slope of the first line, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and the slope of the second line, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math> we can see that they are <emphasis effect="italics">negative reciprocals</emphasis> of each other. If we multiply them, their product is <m:math><m:mrow><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<equation id="fs-id1167835186804" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>·</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mn>−1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167835354803">This is always true for <term>perpendicular lines</term> and leads us to this definition.</para>
+<note id="fs-id1167835235421">
+<title>Perpendicular Lines</title>
+<para id="fs-id1167835319868"><emphasis effect="bold">Perpendicular lines</emphasis> are lines in the same plane that form a right angle.</para>
+<list id="fs-id1167835319876" list-type="bulleted" bullet-style="bullet">
+<item>If <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the slopes of two perpendicular lines, then:
+<list id="fs-id1167835531564" list-type="bulleted" bullet-style="bullet">
+<item>their slopes are negative reciprocals of each other, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>the product of their slopes is <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math>, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>·</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></item></list></item>
+<item>A vertical line and a horizontal line are always perpendicular to each other.</item></list></note>
+<para id="fs-id1167835371110">We were able to look at the slope–intercept form of linear equations and determine whether or not the lines were parallel. We can do the same thing for perpendicular lines.</para>
+<para id="fs-id1167835283530">We find the slope–intercept form of the equation, and then see if the slopes are opposite reciprocals. If the product of the slopes is <m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow></m:math> the lines are perpendicular.</para>
+<example id="fs-id1167830865621">
+<exercise id="fs-id1167830865623">
+<problem id="fs-id1167830865625">
+<para id="fs-id1167830865628">Use slopes to determine if the lines are perpendicular:</para>
+<para id="fs-id1167828421259"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167835378549">
+<para id="fs-id1167835163582"><span class="token">ⓐ</span><newline/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>The first equation is in slope–intercept form</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="1.2em"/><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Solve the second equation for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd/><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Identify the slope of each line</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="5.3em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math><newline/>
+The slopes are negative reciprocals of each other, so the lines are perpendicular. We check by multiplying the slopes, Since <m:math><m:mrow><m:mn>−5</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow></m:math> it checks.<newline/><newline/>
+<span class="token">ⓑ</span><newline/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mtext>Solve the equations for</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mtext>.</m:mtext></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd columnalign="left"><m:mspace width="4em"/><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>7</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mtext>Identify the slope of each line</m:mtext><m:mo>.</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.9em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>7</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="5.9em"/><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mtd></m:mtr></m:mtable></m:math>
+<newline/>
+The slopes are reciprocals of each other, but they have the same sign. Since they are not negative reciprocals, the lines are not perpendicular.</para></solution>
+</exercise></example>
+<example id="eip-595"><exercise id="fs-id1167832138828">
+<problem id="fs-id1167835512978">
+<para id="fs-id1167835512980">Use slopes to determine if the lines are perpendicular:</para>
+<para id="fs-id1167835512984"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167834552534">
+<para id="fs-id1167834552536"><span class="token">ⓐ</span> perpendicular <span class="token">ⓑ</span> not perpendicular</para></solution>
+</exercise></example><example id="eip-960"><exercise id="fs-id1167834449199">
+<problem id="fs-id1167834449201">
+<para id="fs-id1167834449203">Use slopes to determine if the lines are perpendicular:</para>
+<para id="fs-id1167834229316"><span class="token">ⓐ</span> <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn></m:mrow></m:math> <span class="token">ⓑ</span> <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo></m:mrow></m:math></para></problem>
+<solution id="fs-id1167834059406">
+<para id="fs-id1167831891814"><span class="token">ⓐ</span> perpendicular <span class="token">ⓑ</span> not perpendicular</para></solution>
+</exercise></example><para id="fs-id1167826204724"><title>Find an Equation of a Line Perpendicular to a Given Line</title> Suppose we need to find a line passing through a specific point and which is perpendicular to a given line. We can use the fact that perpendicular lines have slopes that are negative reciprocals. We will again use the point-slope equation, like we did with parallel lines.</para>
+<para id="fs-id1167829834014">This graph shows <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>.</m:mo></m:mrow></m:math> Now, we want to graph a line perpendicular to this line and passing through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167829578789" alt="This figure has a graph of a straight line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The point (negative 2, 1) is plotted. The line does not go through the point (negative 2, 1).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_012_img_new.jpg"/>
+</media>
+<para id="fs-id1167836534688">We know that perpendicular lines have slopes that are negative reciprocals.</para>
+<para id="fs-id1167836553112">We’ll use the notation <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:math> to represent the slope of a line perpendicular to a line with slope <emphasis effect="italics">m</emphasis>. (Notice that the subscript <m:math><m:mo>⊥</m:mo></m:math> looks like the right angles made by two perpendicular lines.)</para>
+<equation id="fs-id1167833022890" class="unnumbered"><label/><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:mtext>perpendicular line</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="left"><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></equation>
+<para id="fs-id1167836575849">We now know the perpendicular line will pass through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> with <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829627541">To graph the line, we will start at <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and count out the rise <m:math><m:mrow><m:mn>−1</m:mn></m:mrow></m:math> and the run 2. Then we draw the line.</para>
+<media id="fs-id1167830095268" alt="This figure has a graph of two perpendicular straight lines on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The first line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The points (negative 2, 1) and (0, 0) are plotted. A right triangle is drawn connecting the points (negative 2, 1), (negative 2, 0), and (0, 0). The second line goes through the points (negative 2, 1) and (0, 0).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_013_img_new.jpg"/>
+</media>
+<para id="fs-id1167836296407">Do the lines appear perpendicular? Does the second line pass through<m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167829627933">We were asked to graph the line, now, let’s see how to do this algebraically.</para>
+<para id="fs-id1167825703151">We can use either the slope-intercept form or the point-slope form to find an equation of a line. In this example we know one point, and can find the slope, so we will use the point-slope form.</para>
+<example id="fs-id1167829737780">
+<title>How to Find the Equation of a Line Perpendicular to a Given Line and a Point</title>
+<exercise id="fs-id1167833338703">
+<problem id="fs-id1167836570858">
+<para id="fs-id1167836790223">Find an equation of a line perpendicular to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836539459">
+<media id="fs-id1167836527833" alt="Step 1 is to find the slope of the given line. The line is in slope-intercept form, y equals 2 x minus 3. m equals 2.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014a_img_new.jpg"/>
+</media>
+<media id="fs-id1167836286660" alt="Step 2 is to find the slope of the perpendicular line. The slopes of perpendicular lines are negative reciprocals. m equals negative 1 divided by 2">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014b_img_new.jpg"/>
+</media>
+<media id="fs-id1167836731058" alt="Step 3 is to identify the point. The given point is (negative 2, 1). x 1 is negative 2 and y 1 is 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014c_img_new.jpg"/>
+</media>
+<media id="fs-id1167832940562" alt="Step 4 is to substitute the values into the point-slope form y minus y 1 equals m times the quantity x minus x 1 in parentheses. y minus 1 equals negative 1 divided by 2 times the quantity x minus negative 2 in parentheses. This simplifies to y minus 1 equals negative 1 divided by 2 times the quantity x plus 2 in parentheses. This further simplifies to y minus 1 equals negative 1 divided by 2 times x minus 1.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014d_img_new.jpg"/>
+</media>
+<media id="fs-id1167836321997" alt="Step 5 is to write the equation in slope-intercept form. y equals negative 1 divided by 2 times x.">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_014e_img_new.jpg"/>
+</media>
+</solution>
+</exercise>
+</example>
+<example id="eip-924"><exercise id="fs-id1167833364838">
+<problem id="fs-id1167836615040">
+<para id="fs-id1167836399749">Find an equation of a line perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167830093016">
+<para id="fs-id1167832940087"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise></example><example id="eip-520"><exercise id="fs-id1167832930300">
+<problem id="fs-id1167836390247">
+<para id="fs-id1167836790119">Find an equation of a line perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836681139">
+<para id="fs-id1167829590431"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+
+</example><note id="fs-id1167836513068" class="howto">
+<title>Find an equation of a line perpendicular to a given line.</title>
+<list id="fs-id1167833369074" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the perpendicular line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</note>
+<example id="fs-id1167833061157">
+<exercise id="fs-id1167833382937">
+<problem id="fs-id1167836329294">
+<para id="fs-id1167836630433">Find an equation of a line perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836340178">
+<para id="fs-id1167836549844">Again, since we know one point, the point-slope option seems more promising than the slope-intercept option. We need the slope to use this form, and we know the new line will be perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo></m:mrow></m:math> This line is vertical, so its perpendicular will be horizontal. This tells us the <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167836520781"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify the point.</m:mtext></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtable><m:mtr><m:mtd columnalign="left"><m:mtext>Identify the slope of the perpendicular line.</m:mtext></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="left"><m:mtext>Substitute the values into</m:mtext><m:mspace width="0.2em"/><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>Simplify.</m:mtext></m:mtd></m:mtr><m:mtr/><m:mtr/><m:mtr/></m:mtable></m:mtd><m:mtd/><m:mtd/><m:mtd columnalign="center"><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>m</m:mi><m:mo>⊥</m:mo></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−2</m:mn></m:mtd></m:mtr></m:mtable></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+<para id="fs-id1167836533799">Sketch the graph of both lines. On your graph, do the lines appear to be perpendicular?</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-672"><exercise id="fs-id1167829750618">
+<problem id="fs-id1167833274749">
+<para id="fs-id1167836429672">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math>. Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167836486854">
+<para id="fs-id1167836433816"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise></example><para id="fs-id1167829789981">In <link target-id="fs-id1167833061157"/>, we used the point-slope form to find the equation. We could have looked at this in a different way.</para>
+<para id="fs-id1167836539730">We want to find a line that is perpendicular to <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> This graph shows us the line<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836477510" alt="This figure has a graph of a straight vertical line and a point on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The line goes through the points (5, 0), (5, 1), and (5, 2). The point (3, negative 2) is plotted. The line does not go through the point (3, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_015_img_new.jpg"/>
+</media>
+<para id="fs-id1167826206025">We know every line perpendicular to a vertical line is horizontal, so we will sketch the horizontal line through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<media id="fs-id1167836550296" alt="This figure has a graph of a straight vertical line and a straight horizontal line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. The vertical line goes through the points (5, 0), (5, 1), and (5, 2). The horizontal line goes through the points (negative 2, negative 2), (0, negative 2), (3, negative 2), and (6, negative 2).">
+<image mime-type="image/jpeg" src="../../media/CNX_IntAlg_Figure_03_03_016_img_new.jpg"/>
+</media>
+<para id="fs-id1167829690001">Do the lines appear perpendicular?</para>
+<para id="fs-id1167836418683">If we look at a few points on this horizontal line, we notice they all have <emphasis effect="italics">y</emphasis>-coordinates of <m:math><m:mrow><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math> So, the equation of the line perpendicular to the vertical line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> is <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+<example id="fs-id1167836554451">
+<exercise id="fs-id1167833257675">
+<problem id="fs-id1167829807866">
+<para id="fs-id1167829743413">Find an equation of a line that is perpendicular to <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167824651086">
+<para id="fs-id1167829812775">The line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math> is a horizontal line. Any line perpendicular to it must be vertical, in the form <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> Since the perpendicular line is vertical and passes through <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math> every point on it has an <emphasis effect="italics">x</emphasis>-coordinate of <m:math><m:mrow><m:mn>−3</m:mn><m:mo>.</m:mo></m:mrow></m:math> The equation of the perpendicular line is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+<para id="fs-id1167833020048">You may want to sketch the lines. Do they appear perpendicular?</para>
+</solution>
+</exercise>
+</example>
+<example id="eip-158"><exercise id="fs-id1167836594788">
+<problem id="fs-id1167826205784">
+<para id="fs-id1167829691675">Find an equation of a line that is perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−5</m:mn></m:mrow></m:math> that contains the point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−4</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> Write the equation in slope-intercept form.</para>
+</problem>
+<solution id="fs-id1167829748611">
+<para id="fs-id1167836612514"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+</example><note id="fs-id1167833202337" class="media-2">
+<para id="fs-id1167836554915">Access these online resources for additional instruction and practice with finding the equation of a line.</para>
+<list id="fs-id1167836558410" display="block">
+<item><link url="https://openstax.org/l/37slopeycept">Write an Equation of Line Given its slope and Y-Intercept</link></item>
+<item><link url="https://openstax.org/l/37slopepoint">Using Point Slope Form to Write the Equation of a Line, Find the equation given slope and point</link></item>
+<item><link url="https://openstax.org/l/37twoptspline">Find the equation given two points</link></item>
+<item><link url="https://openstax.org/l/37perpenpara">Find the equation of perpendicular and parallel lines</link></item>
+</list>
+</note>
+</section><section id="eip-791"><title>Rate of Change</title><para id="eip-127">A <term>rate of change</term> is a relationship or unit rate that shows how one variable or quantity changes with another. <figure id="eip-idm411519120">
+
+<media id="rocexample" alt="a table with notated changes in x and y values to determine the rate of change.">
+
+<image mime-type="image/png" src="../../media/rocex.png"/>
+</media>
+</figure>
+
+The most common way to investigate rates of change is in numerical or tabular form of data. 
+
+How the values of <m:math><m:mn>x</m:mn></m:math> change compared to how the values of <m:math><m:mn>y</m:mn></m:math> change is called the rate of change. From hour 1 to hour 2, 6 batches of cookies were made. From hour 2 to hour 3, 6 more batches were made. This relationship of change is often represented with a ratio where the dependent variable is in the numerator and the independent variable is in the denominator. The rate of change here would be:
+
+<figure id="eip-idm512806528">
+<media id="rateofchange" alt="An image of the ratio generated by the previous data table.">
+<image mime-type="image/png" src="../../media/rateofchange.png"/>
+</media>
+</figure></para>
+<para id="eip-589">Recall from the previous chapter, that slope is sometimes described as rise over run.
+We can assign a numerical value to the slope of a line by finding the ratio of the rise and run. The <emphasis effect="italics">rise</emphasis> is the amount the vertical distance changes while the <emphasis effect="italics">run</emphasis> measures the horizontal change, as shown in this illustration. <emphasis>Slope is a rate of change.</emphasis></para><note id="eip-22"><title>Note on Slope</title><para id="fs-id2512513">The slope of a line, <emphasis effect="italics">m</emphasis>, represents the veritcal change in <emphasis effect="italics">y</emphasis> over the horizontal change in <emphasis effect="italics">x.</emphasis> Given two points,<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>the following formula determines the slope of a line containing these points:</para>
+<equation id="fs-id1908930" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></equation><para id="eip-599">Slope also indicates the direction in which a line slants as well as its steepness.</para></note>
+
+  <para id="fs-id1165137834011">So <term>rate of change</term> describes how an output quantity changes relative to the change in the input quantity.  To find the <term>average rate of change</term> over the specified period of time, we divide the change in the output value by the change in the input value.</para><equation id="fs-id1165135452482" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Average rate of change</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>Change in output</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>Change in input</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>y</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>x</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>y</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>y</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>f</m:mi><m:mo>(</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1165135471272">The Greek letter<m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mtext> </m:mtext></m:mrow>
+</m:math>(delta) signifies the change in a quantity; we read the ratio as “delta-<emphasis effect="italics">y</emphasis> over delta-<emphasis effect="italics">x</emphasis>” or “the change in<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext></m:mrow>
+  </m:math>divided by the change in<m:math>
+   <m:mrow>
+    <m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>.</m:mo></m:mrow>
+  </m:math>” Occasionally we write<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>f</m:mi><m:mtext> </m:mtext></m:mrow>
+</m:math>instead of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>which still represents the change in the function’s output value resulting from a change to its input value. It does not mean we are changing the function into some other function.</para><example id="eip-704"><para id="fs-id1165135194500">Gasoline costs have experienced some wild fluctuations over the last several decades. <link target-id="Table_01_03_01"/><footnote id="fs-id1165137642606">http://www.eia.gov/totalenergy/data/annual/showtext.cfm?t=ptb0524. Accessed 3/5/2014.</footnote> lists the average cost, in dollars, of a gallon of gasoline for the years 2005–2012. The cost of gasoline can be considered as a function of year.</para><table id="Table_01_03_01" summary="Two rows and nine columns. The first row is labeled, “y”, and the second row is labeled, “C(y)”. Reading the rows as ordered pairs, we have: (2005, 2.31), (2006, 2.62), (2007, 2.84), (2008, 3.30), (2009, 2.41), (2010, 2.84), (2011, 3.58), and (2012, 3.68).">
+<tgroup cols="9"><colspec colnum="1" colname="c1" colwidth="40"/>
+   <colspec colnum="2" colname="c2" colwidth="40"/>
+   <colspec colnum="3" colname="c3" colwidth="40"/>
+   <colspec colnum="4" colname="c4" colwidth="40"/>
+   <colspec colnum="5" colname="c5" colwidth="40"/>
+   <colspec colnum="6" colname="c6" colwidth="40"/>
+   <colspec colnum="7" colname="c7" colwidth="40"/>
+   <colspec colnum="8" colname="c8" colwidth="40"/>
+   <colspec colnum="9" colname="c9" colwidth="40"/>
+   <tbody>
+    <row>
+     <entry align="center"><emphasis><m:math>
+      <m:mi>y</m:mi>
+     </m:math></emphasis>
+     </entry>
+     <entry align="center">2005</entry>
+     <entry align="center">2006</entry>
+     <entry align="center">2007</entry>
+     <entry align="center">2008</entry>
+     <entry align="center">2009</entry>
+     <entry align="center">2010</entry>
+     <entry align="center">2011</entry>
+     <entry align="center">2012</entry>
+    </row>
+
+    <row>
+     <entry align="center"><emphasis><m:math>
+      <m:mrow>
+       <m:mi>C</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>y</m:mi>
+        <m:mo>)</m:mo></m:mrow></m:mrow>
+     </m:math>
+</emphasis>
+     </entry>
+     <entry align="center">2.31</entry>
+     <entry align="center">2.62</entry>
+     <entry align="center">2.84</entry>
+     <entry align="center">3.30</entry>
+     <entry align="center">2.41</entry>
+     <entry align="center">2.84</entry>
+     <entry align="center">3.58</entry>
+     <entry align="center">3.68</entry>
+    </row>
+   </tbody>
+
+
+</tgroup>
+</table><para id="fs-id1165133097252">If we were interested only in how the gasoline prices changed between 2005 and 2012, we could compute that the cost per gallon had increased from $2.31 to $3.68, an increase of $1.37. While this is interesting, it might be more useful to look at how much the price changed <emphasis effect="italics">per year</emphasis>. </para></example><para id="fs-id1165137539940">In our example, the gasoline price increased by $1.37 from 2005 to 2012. Over 7 years, the average rate of change was</para>
+<equation id="fs-id1165137526960" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mtext>$</m:mtext><m:mn>1.37</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>7 years</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>≈</m:mo><m:mn>0.196</m:mn><m:mtext> dollars per year</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165137418924">On average, the price of gas increased by about 19.6¢ each year.</para>
+  <para id="fs-id1165135397217">Other examples of rates of change include:</para>
+  <list id="fs-id1165137424067" list-type="bulleted">
+  <item>A population of rats increasing by 40 rats per week</item>
+  <item>A car traveling 68 miles per hour (distance traveled changes by 68 miles each hour as time passes)</item>
+  <item>A car driving 27 miles per gallon (distance traveled changes by 27 miles for each gallon)</item>
+  <item>The current through an electrical circuit increasing by 0.125 amperes for every volt of increased voltage</item>
+  <item>The amount of money in a college account decreasing by $4,000 per quarter</item>
+  </list>
+
+  <note id="fs-id1165137642836">
+   <label>A General Note</label>
+   <title>Rate of Change</title>
+   <para id="fs-id1165137780744">A rate of change describes how an output quantity changes relative to the change in the input quantity. The units on a rate of change are “output units per input units.”</para>
+   <para id="fs-id1165137544638">The average rate of change between two input values is the total change of the function values (output values) divided by the change in the input values.</para>
+
+   <equation id="fs-id1165134060431"><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msub>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msub>
+       <m:mi>x</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation></note>
+
+  <note id="fs-id1165135530407" class="precalculus howto">
+   <label>How To</label>
+   <para id="fs-id1165137762240"><emphasis>Given the value of a function at different points, calculate the average rate of change of a function for the interval between two values<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+     </m:msub>
+     <m:mtext> </m:mtext></m:mrow>
+   </m:math>and<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msub>
+     <m:mo>.</m:mo></m:mrow>
+   </m:math>
+   </emphasis></para>
+   <list id="fs-id1165137442714" list-type="enumerated" number-style="arabic"><item>Calculate the difference <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>y</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>y</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>y</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+    </item>
+    <item>Calculate the difference <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>x</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+    </item>
+    <item>Find the ratio<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo></m:mrow>
+</m:math>    </item>
+   </list></note>
+
+  <example id="Example_01_03_01">
+   <exercise id="fs-id1165135485962">
+    <problem id="fs-id1165137464225">
+     <title>Computing an Average Rate of Change</title>
+     <para id="fs-id1165137603118">Using the data in <link target-id="Table_01_03_01"/>, find the average rate of change of the price of gasoline between 2007 and 2009.</para>
+    </problem>
+    <solution id="fs-id1165137593409">
+     <para id="fs-id1165135209401">In 2007, the price of gasoline was $2.84. In 2009, the cost was $2.41. The average rate of change is</para>
+     <equation id="fs-id1165137812332" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>y</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mi>Δ</m:mi><m:mi>x</m:mi>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>y</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>y</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo><m:msub>
+         <m:mi>x</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>$</m:mi><m:mn>2.41</m:mn><m:mo>−</m:mo><m:mi>$</m:mi><m:mn>2.84</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2009</m:mn><m:mo>−</m:mo><m:mn>2007</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mi>$</m:mi><m:mn>0.43</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mtext> years</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mo>−</m:mo><m:mi>$</m:mi><m:mn>0.22</m:mn><m:mtext> per year</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></solution>
+    <commentary id="fs-id1165135705087">
+     <title>Analysis </title>
+     <para id="fs-id1165137784092">Note that a decrease is expressed by a negative change or “negative increase.” A rate of change is negative when the output decreases as the input increases or when the output increases as the input decreases.</para>
+     </commentary>
+   </exercise>
+  </example>
+
+  <example id="eip-950"><exercise id="fs-id1165135353057">
+    <problem id="fs-id1165135383644">
+     <title>Computing Average Rate of Change for a Function Expressed as a Formula</title>
+     <para id="fs-id1165131958324">Compute the average rate of change of <m:math>
+      <m:mrow>
+       <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mi>x</m:mi>
+       </m:mfrac>
+       </m:mrow>
+     </m:math> on the interval <m:math>
+ <m:mrow>
+  <m:mtext>[2,</m:mtext><m:mtext> </m:mtext><m:mtext>4].</m:mtext>
+ </m:mrow>
+</m:math>
+</para></problem>
+    <solution id="fs-id1165137595439">
+     <para id="fs-id1165137595441">We can start by computing the function values at each <term class="no-emphasis">endpoint</term> of the interval.</para>
+
+    <equation id="fs-id1165137701107" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mn>2</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="right" rowalign="center"><m:mspace width="2em"/>
+     <m:mrow>
+      <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:msup>
+       <m:mn>4</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>4</m:mn><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>16</m:mn><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>7</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>63</m:mn>
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1165137427523">Now we compute the average rate of change.</para>
+    <equation id="fs-id1165137401823" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mtext>Average rate of change</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>63</m:mn>
+         </m:mrow>
+         <m:mn>4</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>7</m:mn>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+       <m:mrow>
+        <m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>49</m:mn>
+         </m:mrow>
+         <m:mn>4</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>49</m:mn>
+       </m:mrow>
+       <m:mn>8</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation></solution>
+   </exercise>
+  </example><example id="eip-401"><exercise id="ti_01_03_02">
+    <problem id="fs-id1165137832323"><para id="fs-id1165137832324">Find the average rate of change of <m:math>
+     <m:mrow>
+      <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mi>x</m:mi>
+       <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msqrt>
+        <m:mi>x</m:mi>
+       </m:msqrt>
+      </m:mrow>
+    </m:math> on the interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>9</m:mn><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+    </para></problem>
+    <solution id="fs-id1165137455570"><para id="fs-id1165137455571"><m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+     </m:mrow>
+    </m:math>
+    </para></solution>
+   </exercise>
+  </example><example id="Example_01_03_02">
+   <exercise id="fs-id1165137851963">
+    <problem id="fs-id1165137437853">
+     <title>Computing Average Rate of Change from a Graph</title>
+     <para id="fs-id1165137415140">Given the function<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext></m:mrow>
+     </m:math>shown in <link target-id="Figure_01_03_001"/>, find the average rate of change on the interval<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo></m:mrow>
+     </m:math></para>
+
+
+     <figure id="Figure_01_03_001" class="small">
+      <media id="fs-id1165137838377" alt="Graph of a parabola.">
+       <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_03_001.jpg"/>
+      </media>
+     </figure>
+
+    </problem>
+    <solution id="fs-id1165137501924">
+     <para id="fs-id1165137598939">At <m:math>
+      <m:mrow>
+       <m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:mrow>
+     </m:math> <link target-id="Figure_01_03_002"/> shows <m:math>
+      <m:mrow>
+       <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+<m:mn>−1</m:mn></m:mrow>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.</m:mn></m:mrow>
+     </m:math> At<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>the graph shows <m:math>
+      <m:mrow>
+       <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mn>2</m:mn>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.</m:mn></m:mrow>
+     </m:math>
+     </para><figure id="Figure_01_03_002" class="small">
+     <media id="fs-id1165137387448" alt="Graph of a parabola with a line from points (-1, 4) and (2, 1) to show the changes for g(t) and t.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_01_03_002.jpg"/>
+     </media>
+    </figure>
+
+     <para id="fs-id1165137591169">The horizontal change<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext></m:mrow>
+</m:math>is shown by the red arrow, and the vertical change <m:math>
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> is shown by the turquoise arrow. The average rate of change is shown by the slope of the orange line segment. The output changes by –3 while the input changes by 3, giving an average rate of change of</para><equation id="fs-id1165137414241" class="unnumbered"><label/><m:math display="block">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mo>−</m:mo><m:mn>1</m:mn></m:mrow>
+          <m:mo>)</m:mo></m:mrow></m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>3</m:mn></m:mrow>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mn>−1</m:mn></m:mrow>
+     </m:math>
+     </equation></solution>
+    <commentary id="fs-id1165137582316">
+     <title>Analysis	</title>
+     <para id="fs-id1165135538482">Note that the order we choose is very important. If, for example, we use<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mfrac>
+        <m:mrow>
+         <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo>−</m:mo><m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>1</m:mn>
+         </m:msub>
+        </m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo>−</m:mo><m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msub>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>we will not get the correct answer. Decide which point will be 1 and which point will be 2, and keep the coordinates fixed as<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>
+and<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo><m:msub>
+     <m:mi>y</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+
+     </para></commentary>
+   </exercise>
+  </example>
+
+  <example id="Example_01_03_03">
+   <exercise id="fs-id1165135536188">
+    <problem id="fs-id1165137835656">
+     <title>Computing Average Rate of Change from a Table</title>
+     <para id="fs-id1165135515898">After picking up a friend who lives 10 miles away and leaving on a trip, Anna records her distance from home over time. The values are shown in <link target-id="Table_01_03_02"/>. Find her average speed over the first 6 hours.</para><table id="Table_01_03_02" summary="Two rows and nine columns. The first row is labeled, “t (hours)”, and the second row is labeled, “D(t) (miles)”. Reading the rows as ordered pairs, we have: (0, 10), (1, 55), (2, 90), (3, 153), (4, 214), (5, 240), (6, 292), and (7, 300).">
+<tgroup cols="9"><colspec colnum="1" colname="c1"/>
+       <colspec colnum="2" colname="c2" colwidth="50"/>
+       <colspec colnum="3" colname="c3" colwidth="50"/>
+       <colspec colnum="4" colname="c4" colwidth="50"/>
+       <colspec colnum="5" colname="c5" colwidth="50"/>
+       <colspec colnum="6" colname="c6" colwidth="50"/>
+       <colspec colnum="7" colname="c7" colwidth="50"/>
+       <colspec colnum="8" colname="c8" colwidth="50"/>
+       <colspec colnum="9" colname="c9" colwidth="50"/>
+       <tbody>
+        <row>
+         <entry align="center"><emphasis><emphasis effect="italics">t</emphasis> (hours)</emphasis></entry>
+         <entry align="center">0</entry>
+         <entry align="center">1</entry>
+         <entry align="center">2</entry>
+         <entry align="center">3</entry>
+         <entry align="center">4</entry>
+         <entry align="center">5</entry>
+         <entry align="center">6</entry>
+         <entry align="center">7</entry>
+        </row>
+
+
+        <row>
+         <entry align="center"><emphasis><emphasis effect="italics">D</emphasis>(<emphasis effect="italics">t</emphasis>) (miles)</emphasis></entry>
+         <entry align="center">10</entry>
+         <entry align="center">55</entry>
+         <entry align="center">90</entry>
+         <entry align="center">153</entry>
+         <entry align="center">214</entry>
+         <entry align="center">240</entry>
+         <entry align="center">292</entry>
+         <entry align="center">300</entry>
+        </row>
+       </tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></problem>
+    <solution id="fs-id1165137934383">
+     <para id="fs-id1165137891478">Here, the average speed is the average rate of change. She traveled 282 miles in 6 hours.</para><equation id="fs-id1165137789030" class="unnumbered"><label/><m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr rowalign="center">
+    <m:mtd columnalign="right" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>292</m:mn><m:mo>−</m:mo><m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>6</m:mn><m:mo>−</m:mo><m:mn>0</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>282</m:mn>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr rowalign="center">
+    <m:mtd rowalign="center"/>
+    <m:mtd rowalign="center">
+     <m:mo>=</m:mo>
+    </m:mtd>
+    <m:mtd columnalign="left" rowalign="center">
+     <m:mrow>
+      <m:mn>47</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1165135400200">The average speed is 47 miles per hour.</para>
+    </solution>
+    <commentary id="fs-id1165137651998">
+     <title>Analysis </title>
+     <para id="fs-id1165137731074">Because the speed is not constant, the average speed depends on the interval chosen. For the interval [2,3], the average speed is 63 miles per hour.</para></commentary>
+   </exercise>
+  </example>
+
+  <example id="Example_01_03_06">
+   <exercise id="fs-id1165135174952">
+    <problem id="fs-id1165135174954">
+     <title>Finding an Average Rate of Change as an Expression</title>
+     <para id="fs-id1165135155397">Find the average rate of change of <m:math>
+      <m:mrow>
+       <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>t</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+         <m:mi>t</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+       <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+     </m:math> on the interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> The answer will be an expression involving <m:math>
+      <m:mrow>
+       <m:mi>a</m:mi></m:mrow>
+     </m:math> in simplest form.
+
+     </para></problem>
+    <solution id="fs-id1165137418911">
+     <para id="fs-id1165137418913">We use the average rate of change formula.<newline/></para>
+<equation id="fs-id1165134198703" class="unnumbered"><label/><m:math display="block">
+    <m:mrow>
+        <m:mtable>
+            <m:mtr rowalign="center">
+                <m:mtd columnalign="right" rowalign="center">
+                    <m:mrow>
+                        <m:mtext>Average rate of change</m:mtext>
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd rowalign="center">
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mfrac>
+                            <m:mrow>
+                                <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                                <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>0</m:mn>
+                            </m:mrow>
+                        </m:mfrac>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mtext>Evaluate</m:mtext><m:mo>.</m:mo>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+                <m:mtd rowalign="center"/>
+                <m:mtd rowalign="center">
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mfrac>
+                            <m:mrow>
+                                <m:mo>(</m:mo><m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mn>2</m:mn>
+                                </m:msup>
+                                <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>−</m:mo><m:mo>(</m:mo><m:msup>
+                                    <m:mn>0</m:mn>
+                                    <m:mn>2</m:mn>
+                                </m:msup>
+                                <m:mo>+</m:mo><m:mn>3</m:mn><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                                <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>0</m:mn>
+                            </m:mrow>
+                        </m:mfrac>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mtext>Simplify</m:mtext><m:mo>.</m:mo>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+                <m:mtd rowalign="center"/>
+                <m:mtd rowalign="center">
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mfrac>
+                            <m:mrow>
+                                <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mn>2</m:mn>
+                                </m:msup>
+                                <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mi>a</m:mi>
+                        </m:mfrac>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mtext>Simplify and factor</m:mtext><m:mo>.</m:mo>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+                <m:mtd rowalign="center"/>
+                <m:mtd rowalign="center">
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mfrac>
+                            <m:mrow>
+                                <m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mi>a</m:mi>
+                        </m:mfrac>
+
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mtext>Divide by the common factor </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo>
+                    </m:mrow>
+                </m:mtd>
+            </m:mtr>
+            <m:mtr rowalign="center">
+                <m:mtd rowalign="center"/>
+                <m:mtd rowalign="center">
+                    <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left" rowalign="center">
+                    <m:mrow>
+                        <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+                    </m:mrow>
+                </m:mtd>
+                <m:mtd rowalign="center"/>
+            </m:mtr>
+
+        </m:mtable>
+    </m:mrow>
+</m:math>
+
+</equation><para id="fs-id1165133316469">This result tells us the average rate of change in terms of<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>a</m:mi><m:mtext> </m:mtext></m:mrow>
+     </m:math>between<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>and any other point<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>For example, on the interval<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">]</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext></m:mrow>
+     </m:math>the average rate of change would be<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>8.</m:mn></m:mrow>
+     </m:math>
+     </para>
+    </solution>
+   </exercise>
+  </example>
+
+  <example id="eip-997"><exercise id="ti_01_03_03"><problem id="fs-id1165134149845"><para id="fs-id1165134149846">Find the average rate of change of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math> on the interval<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">]</m:mo><m:mtext> </m:mtext>
+ </m:mrow>
+</m:math>in simplest forms in terms <newline/>of<m:math>
+ <m:mrow>
+  <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+    </para></problem>
+    <solution id="fs-id1165133065696"><para id="fs-id1165133065698"><m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mtext> </m:mtext></m:mrow>
+    </m:math>
+    </para></solution>
+   </exercise></example><note id="eip-366"><label>Media</label>
+   <para id="fs-id1165135708038">Access this online resource for additional instruction and practice with rates of change.</para>
+   <list id="fs-id1165135708041"><item><link url="http://openstax.org/l/aroc">Average Rate of Change</link></item>
+   </list></note>
+ 
+</section><section id="fs-id1167836539487" class="key-concepts"><title>Key Concepts</title><list id="eip-466"><item><emphasis effect="bold">Parallel Lines</emphasis>
+<list id="fs-id1167834219344" list-type="bulleted" bullet-style="bullet">
+<item>Parallel lines are lines in the same plane that do not intersect.<newline/>
+Parallel lines have the same slope and different <emphasis effect="italics">y</emphasis>-intercepts.<newline/>
+If <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the slopes of two parallel lines then <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math><newline/>
+Parallel vertical lines have different <emphasis effect="italics">x</emphasis>-intercepts.</item></list></item>
+<item><emphasis effect="bold">Perpendicular Lines</emphasis>
+<list id="fs-id1167834094814" list-type="bulleted" bullet-style="bullet">
+<item>Perpendicular lines are lines in the same plane that form a right angle.</item>
+<item>If <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> are the slopes of two perpendicular lines, then:<newline/>
+their slopes are negative reciprocals of each other, <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math><newline/>
+the product of their slopes is <m:math><m:mrow><m:mn>−1</m:mn><m:mo>,</m:mo></m:mrow></m:math><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>·</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>A vertical line and a horizontal line are always perpendicular to each other.</item></list></item><item><emphasis effect="bold">How to find an equation of a line parallel to a given line.</emphasis>
+<list id="fs-id1167836325992" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the parallel line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form: <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form</item>
+</list></item>
+<item><emphasis effect="bold">How to find an equation of a line perpendicular to a given line.</emphasis>
+<list id="fs-id1167836287222" list-type="enumerated" number-style="arabic" class="stepwise">
+<item>Find the slope of the given line.</item>
+<item>Find the slope of the perpendicular line.</item>
+<item>Identify the point.</item>
+<item>Substitute the values into the point-slope form, <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item>Write the equation in slope-intercept form.</item>
+</list>
+</item></list><table id="eip-187" summary="**" class="unnumbered unstyled">
+<tgroup cols="3"><colspec colnum="1" align="left" colname="c1"/>
+<colspec colnum="2" align="left" colname="c2"/>
+<tbody>
+<row>
+<entry>Average rate of change</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>y</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>Δ</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msub>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msub>
+       <m:mi>x</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo><m:msub>
+     <m:mi>x</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><list id="fs-id1167833290521" list-type="bulleted" bullet-style="bullet"><item>A rate of change relates a change in an output quantity to a change in an input quantity. The average rate of change is determined using only the beginning and ending data. See <link target-id="Example_01_03_01"/>.</item>
+   <item>Identifying points that mark the interval on a graph can be used to find the average rate of change. See <link target-id="Example_01_03_02"/>.</item>
+   <item>Comparing pairs of input and output values in a table can also be used to find the average rate of change. See <link target-id="Example_01_03_03"/>.</item>
+   <item>An average rate of change can also be computed by determining the function values at the endpoints of an interval described by a formula. See <link target-id="Example_01_03_04"/> and <link target-id="Example_01_03_05"/>.</item>
+   <item>The average rate of change can sometimes be determined as an expression. See <link target-id="Example_01_03_06"/>.</item></list></section><section id="fs-id1167836706806" class="section-exercises">
+<section id="fs-id1167829589591" class="practice-perfect">
+<title>Practice Makes Perfect</title>
+<para id="eip-406"><emphasis effect="bold">Use Slopes to Identify Parallel and Perpendicular Lines</emphasis> In the following exercises, use slopes and <emphasis effect="italics">y</emphasis>-intercepts to determine if the lines are parallel, perpendicular, or neither.</para><exercise id="eip-903"><problem id="fs-id1167834252181">
+<para id="fs-id1167834252183"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mspace width="1em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167826798763">
+<para id="fs-id1167826798765">parallel</para></solution>
+</exercise><exercise id="eip-173"><problem id="fs-id1167831921169">
+<para id="fs-id1167831921172"><m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mspace width="1em"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167831871848">
+<para id="fs-id1167831238927">neither</para></solution>
+</exercise><exercise id="eip-337"><problem id="fs-id1167834429876">
+<para id="fs-id1167834429879"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mspace width="1em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167835215820">
+<para id="fs-id1167835215823">perpendicular</para></solution>
+</exercise><exercise id="eip-429"><problem id="fs-id1167832153518">
+<para id="fs-id1167832153520"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>;</m:mo><m:mspace width="1em"/><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167831913266">
+<para id="fs-id1167831913268">neither</para></solution>
+</exercise><exercise id="eip-275"><problem id="fs-id1167832056374">
+<para id="fs-id1167835354326"><m:math><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mspace width="1em"/><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></para></problem>
+<solution id="fs-id1167831896686">
+<para id="fs-id1167831896688">perpendicular</para></solution>
+</exercise><para id="fs-id1167836756855"><emphasis effect="bold">Find an Equation of a Line Parallel to a Given Line</emphasis></para>
+<para id="fs-id1167836738196">In the following exercises, find an equation of a line parallel to the given line and contains the given point. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167836567374">
+<problem id="fs-id1167829893821">
+<para id="fs-id1167829893823">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167832945777">
+<para id="fs-id1167833272217"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836787998">
+<problem id="fs-id1167829810536">
+<para id="fs-id1167829810538">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833382488">
+<para id="fs-id1167833382490"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833019832">
+<problem id="fs-id1167833019834">
+<para id="fs-id1167836717185">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833058199">
+<para id="fs-id1167829624480"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836391229">
+<problem id="fs-id1167836391231">
+<para id="fs-id1167829619310">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836609836">
+<para id="fs-id1167836609838"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1167829621585"><emphasis effect="bold">Find an Equation of a Line Perpendicular to a Given Line</emphasis></para>
+<para id="fs-id1167836526732">In the following exercises, find an equation of a line perpendicular to the given line and contains the given point. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829752070">
+<problem id="fs-id1167833361655">
+<para id="fs-id1167833361658">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047531">
+<para id="fs-id1167836417222"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836701461">
+<problem id="fs-id1167836732331">
+<para id="fs-id1167836732333">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836312930">
+<para id="fs-id1167829744039"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836518806">
+<problem id="fs-id1167836518808">
+<para id="fs-id1167824735838">line <m:math><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836439631">
+<para id="fs-id1167836567424"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167830059063">
+<problem id="fs-id1167830059065">
+<para id="fs-id1167822966262">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833361699">
+<para id="fs-id1167833361701"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836729396">
+<problem id="fs-id1167836729398">
+<para id="fs-id1167826077209">line <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833059151">
+<para id="fs-id1167833082323"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836538674">
+<problem id="fs-id1167836538676">
+<para id="fs-id1167836538678">line <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math><newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833008898">
+<para id="fs-id1167833008900"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829807550">
+<problem id="fs-id1167829807552">
+<para id="fs-id1167836611143">line <emphasis effect="italics">y</emphasis>-axis,<newline/>point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836598022">
+<para id="fs-id1167836598024"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<para id="fs-id1171791101176"><emphasis effect="bold">Mixed Practice</emphasis></para>
+<para id="fs-id1167832977157">In the following exercises, find the equation of each line. Write the equation in slope-intercept form.</para>
+<exercise id="fs-id1167829879476">
+<problem id="fs-id1167829879478">
+<para id="fs-id1167829879480">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836728415">
+<para id="fs-id1167836728417"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829624584">
+<problem id="fs-id1167833061186">
+<para id="fs-id1167833061188"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833061247">
+<para id="fs-id1167833061249"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836533232">
+<problem id="fs-id1167836533234">
+<para id="fs-id1167833338169">Parallel to the line <m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>−3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833047237">
+<para id="fs-id1167833047239"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167836714016">
+<problem id="fs-id1167836714018">
+<para id="fs-id1167829849933"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> containing point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167829696829">
+<para id="fs-id1167829696832"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833128553">
+<problem id="fs-id1167833128555">
+<para id="fs-id1167833128557">Perpendicular to the line <m:math><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167836596745">
+<para id="fs-id1167836596747"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167829931362">
+<problem id="fs-id1167832951124">
+<para id="fs-id1167832951126">Containing the points <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−3</m:mn><m:mo>,</m:mo><m:mn>−4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>−5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833366682">
+<para id="fs-id1167833366684"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167833407736">
+<problem id="fs-id1167836673451">
+<para id="fs-id1167836673453">Perpendicular to the line <m:math><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo></m:mrow></m:math> point <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167833345909">
+<para id="fs-id1167833345912"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
+</solution>
+</exercise><para id="eip-108"><title>Rates of Change</title>For the following exercises, find the average rate of change of each function on the interval specified for real numbers <m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>b</m:mi><m:mtext> </m:mtext></m:mrow>
+   </m:math>or<m:math>
+    <m:mrow>
+     <m:mtext> </m:mtext><m:mi>h</m:mi></m:mrow>
+   </m:math> in simplest form.
+</para><exercise id="eip-76"><problem id="fs-id1165134486781">
+     <para id="fs-id1165134486783"><m:math>
+      <m:mrow>
+       <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+       <m:mo>−</m:mo><m:mn>7</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>on<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow>
+     </m:math>
+   </para>
+    </problem>
+   <solution id="fs-id1165137527521">
+    <para id="fs-id1165137527523"><m:math>
+     <m:mrow>
+      <m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+       <m:mo>)</m:mo></m:mrow></m:mrow>
+    </m:math>
+    </para>
+   </solution></exercise><exercise id="eip-159"><problem id="fs-id1165137579500">
+     <para id="fs-id1165137579502"><m:math>
+      <m:mrow>
+       <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+       <m:mo>+</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>on<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo stretchy="false">]</m:mo></m:mrow>
+     </m:math>
+     </para>
+    </problem>
+    <solution id="fs-id1165134495237">
+     <para id="fs-id1165134495239"><m:math>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>h</m:mi></m:mrow>
+     </m:math>
+     </para>
+    </solution>
+   </exercise><para id="eip-211">For the following exercises, find the average rate of change of each function on the interval specified.</para><exercise id="eip-701"><problem id="fs-id1165137851209">
+     <para id="fs-id1165137851212"><m:math>
+      <m:mrow>
+       <m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+       <m:mtext> </m:mtext></m:mrow>
+     </m:math>on<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>−2</m:mn><m:mo>,</m:mo><m:mtext>4</m:mtext><m:mo stretchy="false">]</m:mo></m:mrow>
+     </m:math>
+     </para></problem>
+   <solution id="fs-id1165134384568">
+    <para id="fs-id1165134384570">-4</para>
+   </solution>
+   </exercise><exercise id="eip-480"><problem id="fs-id1165135453188">
+     <para id="fs-id1165135453190"><m:math>
+      <m:mrow>
+       <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>3</m:mn>
+        </m:msup>
+       <m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext></m:mrow>
+     </m:math>on<m:math>
+      <m:mrow>
+       <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mtext>3</m:mtext><m:mo stretchy="false">]</m:mo></m:mrow>
+     </m:math>
+     </para></problem>
+   <solution id="fs-id1165131911953">
+    <para id="fs-id1165131911955">27</para>
+   </solution>
+   </exercise><exercise id="eip-20"><problem id="fs-id1165135317476">
+    <para id="fs-id1165135317478"><m:math>
+     <m:mrow>
+      <m:mi>p</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mi>t</m:mi>
+       <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:msup>
+            <m:mi>t</m:mi>
+            <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo>−</m:mo><m:mn>4</m:mn></m:mrow>
+          <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+           <m:mo>)</m:mo></m:mrow></m:mrow>
+        <m:mrow>
+         <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn></m:mrow>
+       </m:mfrac>
+      <m:mtext> </m:mtext></m:mrow>
+    </m:math>on<m:math>
+     <m:mrow>
+      <m:mtext> </m:mtext><m:mo stretchy="false">[</m:mo><m:mn>−3</m:mn><m:mo>,</m:mo><m:mtext>1</m:mtext><m:mo stretchy="false">]</m:mo></m:mrow>
+    </m:math>
+    </para></problem>
+   <solution id="fs-id1165135208852">
+    <para id="fs-id1165135208854">–0.167</para>
+   </solution>
+  </exercise></section>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1165133052921">
+   <term>average rate of change</term>
+   <meaning id="fs-id1165133052926">the difference in the output values of a function found for two values of the input divided by the difference between the inputs</meaning>
+  </definition>
+<definition id="fs-id1167827966908">
+<term>parallel lines</term><meaning id="fs-id1167834376927">Parallel lines are lines in the same plane that do not intersect.</meaning></definition>
+<definition id="fs-id1167834376931">
+<term>perpendicular lines</term><meaning id="fs-id1167835418836">Perpendicular lines are lines in the same plane that form a right angle.</meaning></definition>
+<definition id="fs-id1165135412050"><term>rate of change</term>
+   <meaning id="fs-id1165135412054">the change of an output quantity relative to the change of the input quantity</meaning></definition>
+</glossary>
+</document>
