@@ -1870,7 +1870,7 @@ A pair of binomials that each have the same first term and the same last term, b
    <m:mrow>
     <m:mn>3</m:mn><m:mi>w</m:mi><m:mmultiscripts>
      <m:mo>−</m:mo>
-     <m:mprescripts/>
+     <m:none/><m:none/><m:mprescripts/>
      <m:none/>
      <m:mn>2</m:mn>
     </m:mmultiscripts>
